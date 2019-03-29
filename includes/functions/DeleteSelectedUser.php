@@ -1,100 +1,274 @@
 <?php
 
-/**
- _  \_/ |\ | /¯¯\ \  / /\    |¯¯) |_¯ \  / /¯¯\ |  |   |´¯|¯` | /¯¯\ |\ |5
- ¯  /¯\ | \| \__/  \/ /--\   |¯¯\ |__  \/  \__/ |__ \_/   |   | \__/ | \|Core.
- * @author: Copyright (C) 2011 by Brayan Narvaez (Prinick) developer of xNova Revolution
- * @author web: http://www.bnarvaez.com
- * @link: http://www.xnovarev.com
-
- * @package 2Moons
- * @author Slaver <slaver7@gmail.com>
- * @copyright 2009 Lucky <douglas@crockford.com> (XGProyecto)
- * @copyright 2011 Slaver <slaver7@gmail.com> (Fork/2Moons)
- * @license http://www.gnu.org/licenses/gpl.html GNU GPLv3 License
- * @version 1.3 (2011-01-21)
- * @link http://code.google.com/p/2moons/
-
- * Please do not remove the credits
-*/
-
 function DeleteSelectedUser($UserID)
 {
-	global $db ,$CONF;
-	
-	if(ROOT_USER == $UserId)
-			return false;
-	
-	$TheUser = $db->uniquequery("SELECT universe, ally_id FROM ".USERS." WHERE `id` = '".$UserID."';");
-	$SQL 	 = "";
-	
-	if ($TheUser['ally_id'] != 0 )
-	{
-		$TheAlly =  $db->uniquequery("SELECT ally_members FROM ".ALLIANCE." WHERE `id` = '".$TheUser['ally_id']."';");
-		$TheAlly['ally_members'] -= 1;
+    global $_MemCache, $_GameConfig;
 
-		if ($TheAlly['ally_members'] > 0)
-		{
-			$SQL .= "UPDATE ".ALLIANCE." SET `ally_members` = '".$TheAlly['ally_members']."' WHERE `id` = '".$TheUser['ally_id']."';";
-		}
-		else
-		{
-			$SQL .= "DELETE FROM ".ALLIANCE." WHERE `id` = '" . $TheUser['ally_id'] . "';";
-			$SQL .= "DELETE FROM ".STATPOINTS." WHERE `stat_type` = '2' AND `id_owner` = '".$TheUser['ally_id']."';";
-		}
-	}
+    $Now = time();
 
-	$SQL .= "DELETE FROM ".BUDDY." WHERE `owner` = '".$UserID."' OR `sender` = '".$UserID."';";
-	$SQL .= "DELETE FROM ".FLEETS." WHERE `fleet_owner` = '".$UserID."';";
-	$SQL .= "DELETE FROM ".MESSAGES." WHERE `message_owner` = '".$UserID."' OR `message_sender` = '".$UserID."';";
-	$SQL .= "DELETE FROM ".NOTES." WHERE `owner` = '".$UserID."';";
-	$SQL .= "DELETE FROM ".PLANETS." WHERE `id_owner` = '".$UserID."';";
-	$SQL .= "DELETE FROM ".USERS." WHERE `id` = '".$UserID."';";
-	$SQL .= "DELETE FROM ".STATPOINTS." WHERE `stat_type` = '1' AND `id_owner` = '".$UserID."';";
-	$db->multi_query($SQL);
-	
-	$SQL	= $db->query("SELECT fleet_id FROM ".FLEETS." WHERE `fleet_target_owner` = '".$UserID."';");
-	while($FleetID = $db->fetch_array($SQL)) {
-		SendFleetBack($UserID, $FleetID);
-	}
-	update_config(array('users_amount' => $CONF['users_amount'] - 1), $TheUser['universe']);
-}
+    // Prepare Queries
+    $UsersImplode            = implode(',', $UserID);
+    $Query_GetUsers_Limit    = count($UserID);
+    $Query_GetUsers_Fields    = array
+    (
+        'u' => array
+        (
+            'id', 'username', 'password', 'email', 'email_2', 'user_lastip', 'ip_at_reg', 'register_time', 'onlinetime', 'user_agent',
+            'ally_id', 'multiIP_DeclarationID',
+        ),
+        'a' => array
+        (
+            'ally_owner', 'ally_ChatRoom_ID'
+        ),
+    );
+    foreach($Query_GetUsers_Fields as $Prefix => $Fields)
+    {
+        foreach($Fields as $Key => $Value)
+        {
+            if(is_string($Key))
+            {
+                $Temp[] = "`{$Prefix}`.`{$Key}` AS `{$Value}`";
+            }
+            else
+            {
+                $Temp[] = "`{$Prefix}`.`{$Value}`";
+            }
+        }
+    }
+    $Query_GetUsers_Fields = implode(', ', $Temp);
+    $Query_GetUsers                    .= "SELECT {$Query_GetUsers_Fields} FROM `{{table}}` AS `u` ";
+    $Query_GetUsers                    .= "LEFT JOIN `{{prefix}}alliance` AS `a` ON `u`.`ally_id` = `a`.`id` ";
+    $Query_GetUsers                    .= "WHERE `u`.`id` IN ({$UsersImplode}) LIMIT {$Query_GetUsers_Limit};";
 
-function SendFleetBack($CurrentUser, $FleetID)
-{
-	global $db;	
+    $Query_GetPlanets                = "SELECT `id` FROM {{table}} WHERE `id_owner` IN ({$UsersImplode}) AND `planet_type` = 1;";
+    $Query_GetDeclarations            = "SELECT `id`, `users` FROM {{table}} WHERE `id` IN (%s) LIMIT %s;";
 
-	$FleetRow = $db->uniquequery("SELECT `start_time`, `fleet_mission`, `fleet_group`, `fleet_owner`, `fleet_mess` FROM ".FLEETS." WHERE `fleet_id` = '". $FleetID ."';");
-	if ($FleetRow['fleet_owner'] != $CurrentUser || $FleetRow['fleet_mess'] == 1)
-		return;
-		
-	$where		= 'fleet_id';
+    $Query_DeletePlanets            = "DELETE FROM {{table}} WHERE `id_owner` IN ({$UsersImplode});";
+    $Query_DeleteGalaxyData            = "DELETE FROM {{table}} WHERE `id_planet` IN (%s) LIMIT %s;";
+    $Query_DeleteFleets                = "DELETE FROM {{table}} WHERE `fleet_owner` IN ({$UsersImplode});";
+    $Query_DeleteMessages            = "DELETE FROM {{table}} WHERE `id_owner` IN ({$UsersImplode}) OR `id_sender` IN ({$UsersImplode});";
+    $Query_DeleteStats                = "DELETE FROM {{table}} WHERE `stat_type` = 1 AND `id_owner` IN ({$UsersImplode}) LIMIT {$Query_GetUsers_Limit};";
+    $Query_DeleteRecords            = "DELETE FROM {{table}} WHERE `id_owner` IN ({$UsersImplode});";
+    $Query_DeleteAchievements        = "DELETE FROM {{table}} WHERE `A_UserID` IN ({$UsersImplode}) LIMIT {$Query_GetUsers_Limit};";
+    $Query_DeleteNotes                = "DELETE FROM {{table}} WHERE `owner` IN ({$UsersImplode});";
+    $Query_DeleteFleetShortcuts        = "DELETE FROM {{table}} WHERE `id_owner` IN ({$UsersImplode});";
+    $Query_DeleteBuddyLinks            = "DELETE FROM {{table}} WHERE `sender` IN ({$UsersImplode}) OR `owner` IN ({$UsersImplode});";
+    $Query_DeleteChatMessages        = "DELETE FROM {{table}} WHERE `UID` IN ({$UsersImplode});";
+    $Query_DeleteUsers                = "DELETE FROM {{table}} WHERE `id` IN ({$UsersImplode}) LIMIT {$Query_GetUsers_Limit};";
+    $Query_DeleteAllys                = "DELETE FROM {{table}} WHERE `id` IN (%s) LIMIT %s;";
+    $Query_DeleteAllyPacts            = "DELETE FROM {{table}} WHERE `AllyID_Sender` IN (%s) OR `AllyID_Owner` IN (%s);";
+    $Query_DeleteAllyInvites        = "DELETE FROM {{table}} WHERE %s;";
+    $Query_DeleteAllyStats            = "DELETE FROM {{table}} WHERE `stat_type` = 2 AND `id_owner` IN (%s) LIMIT %s;";
+    $Query_DeleteAllyChatRooms        = "DELETE FROM {{table}} WHERE `ID` IN (%s) LIMIT %s;";
+    $Query_DeleteAllyChatMessages    = "DELETE FROM {{table}} WHERE `RID` IN (%s);";
+    $Query_DeleteAllyChatOnline        = "DELETE FROM {{table}} WHERE `RID` IN (%s);";
 
-	if($FleetRow['fleet_mission'] == 1 && $FleetRow['fleet_group'] > 0)
-	{
-		$Aks = $db->uniquequery("SELECT teilnehmer FROM ".AKS." WHERE id = '". $FleetRow['fleet_group'] ."';");
+    $Query_UpdateUsersCount            = "UPDATE {{table}} SET `config_value` = `config_value` - {$Query_GetUsers_Limit} WHERE `config_name` = 'users_amount' LIMIT 1;";
+    $Query_UpdateAllyUsers            = "UPDATE {{table}} SET `ally_id` = 0, `ally_register_time` = 0, `ally_rank_id` = 0, `ally_request` = 0, `ally_request_text` = '' WHERE `ally_id` IN (%s) OR `ally_request` IN (%s);";
+    $Query_UpdateAllyData            = "INSERT INTO {{table}} (`id`, `ally_members`) VALUES %s ON DUPLICATE KEY UPDATE `ally_members` = `ally_members` - VALUES(`ally_members`);";
+    $Query_UpdateDeclarationsStatus    = "UPDATE {{table}} SET `status` = -2 WHERE `id` IN (%s) LIMIT %s;";
+    $Query_UpdateDeclarationsUsers    = "UPDATE {{table}} SET `multi_validated` = 0 WHERE `id` IN (%s) LIMIT %s;";
+    $Query_UpdateDeclarationsContent= "INSERT INTO {{table}} (`id`, `users`) VALUES %s ON DUPLICATE KEY UPDATE `users` = VALUES(`users`);";
 
-		if($Aks['teilnehmer'] == $FleetRow['fleet_owner'])
-		{
-			$db->query("DELETE FROM ".AKS." WHERE id ='". $FleetRow['fleet_group'] ."';");
-			$FleetID	= $FleetRow['fleet_group'];
-			$where		= 'fleet_group';
-		}
-	}
-	
-	$db->query("UPDATE ".FLEETS." SET `fleet_group` = '0', `start_time` = '".TIMESTAMP."', `fleet_end_stay` = '".TIMESTAMP."', `fleet_end_time` = '".((TIMESTAMP - $FleetRow['start_time']) + TIMESTAMP)."', `fleet_mess` = '1' WHERE `".$where."` = '".$FleetID."';");
-}
+    $Query_InsertData                .= "INSERT INTO {{table}} (`id`, `username`, `password`, `email`, `email2`, `last_ip`, `reg_ip`, `register_time`, `last_online`, `user_agent`, `delete_time`) VALUES ";
 
-function DeleteSelectedPlanet ($ID)
-{
-	global $db;
+    // Delete all data
+    $Result_GetUsers = doquery($Query_GetUsers, 'users');
+    if($Result_GetUsers->num_rows > 0)
+    {
+        // --- Save necessary UserData
+        $SaveData = array();
+        $AllysToUpdate = array();
+        $AllysToDelete = array();
+        $GetDeclataions = array();
+        $UsersInDeclarations = array();
+        while($Data = $Result_GetUsers->fetch_assoc())
+        {
+            $SaveData[] = $Data;
+            if($Data['ally_id'] > 0)
+            {
+                if($Data['id'] == $Data['ally_owner'])
+                {
+                    $AllysToDelete[] = $Data['ally_id'];
+                    if($Data['ally_ChatRoom_ID'] > 0)
+                    {
+                        $DeleteChatRoomsInfo[] = $Data['ally_ChatRoom_ID'];
+                    }
+                    unset($AllysToUpdate[$Data['ally_id']]);
+                }
+                else
+                {
+                    $AllysToUpdate[$Data['ally_id']] += 1;
+                }
+            }
+            if($Data['multiIP_DeclarationID'] > 0)
+            {
+                if(!in_array($Data['multiIP_DeclarationID'], $GetDeclataions))
+                {
+                    $GetDeclataions[] = $Data['multiIP_DeclarationID'];
+                }
+                $UsersInDeclarations[$Data['multiIP_DeclarationID']][] = $Data['id'];
+            }
+        }
 
-	$QueryPlanet = $db->uniquequery("SELECT universe,galaxy,planet,system,planet_type FROM ".PLANETS." WHERE id = '".$ID."';");
+        // --- Delete Planets
+        $GalaxyImplode = array();
+        $Result_GetPlanets = doquery($Query_GetPlanets, 'planets');
+        while($Data = $Result_GetPlanets->fetch_assoc())
+        {
+            $GalaxyImplode[] = $Data['id'];
+        }
+        if(!empty($GalaxyImplode))
+        {
+            $GalaxyLimit = count($GalaxyImplode);
+            $GalaxyImplode = implode(',', $GalaxyImplode);
+            doquery($Query_DeletePlanets, 'planets');
+            doquery(sprintf($Query_DeleteGalaxyData, $GalaxyImplode, $GalaxyLimit), 'galaxy');
+        }
 
-	if ($QueryPlanet['planet_type'] == '3')
-		$db->multi_query("DELETE FROM ".PLANETS." WHERE id = '".$ID."';UPDATE ".PLANETS." SET id_luna = '0' WHERE id_luna = '".$ID."';");
-	else
-		$db->query("DELETE FROM ".PLANETS." WHERE universe = '".$QueryPlanet['universe']."' AND galaxy = '".$QueryPlanet['galaxy']."' AND system = '".$QueryPlanet['system']."' AND planet = '".$QueryPlanet['planet']."';");
+        // --- Handle Allys Update or Deletion
+        $Query_DeleteAllyInvites_Where = array();
+        $Query_DeleteAllyInvites_Where[] = "`OwnerID` IN ({$UsersImplode})";
+        $Query_DeleteAllyInvites_Where[] = "`SenderID` IN ({$UsersImplode})";
+        if(!empty($AllysToDelete))
+        {
+            $AllysToDelete_Count = count($AllysToDelete);
+            $AllysToDelete = implode(',', $AllysToDelete);
+            doquery(sprintf($Query_DeleteAllys, $AllysToDelete, $AllysToDelete_Count), 'alliance');
+            doquery(sprintf($Query_DeleteAllyPacts, $AllysToDelete, $AllysToDelete), 'ally_pacts');
+            doquery(sprintf($Query_UpdateAllyUsers, $AllysToDelete, $AllysToDelete), 'users');
+            doquery(sprintf($Query_DeleteAllyStats, $AllysToDelete, $AllysToDelete_Count), 'statpoints');
+            $Query_DeleteAllyInvites_Where[] = "`AllyID` IN ({$AllysToDelete})";
+        }
+        if(!empty($AllysToUpdate))
+        {
+            $AllysToUpdate_Values = array();
+            foreach($AllysToUpdate as $AllyID => $AllyCount)
+            {
+                $AllysToUpdate_Values[] = "({$AllyID}, {$AllyCount})";
+            }
+            doquery(sprintf($Query_UpdateAllyData, implode(',', $AllysToUpdate_Values)), 'alliance');
+        }
+        if(!empty($Query_DeleteAllyInvites_Where))
+        {
+            doquery(sprintf($Query_DeleteAllyInvites, implode(' OR ', $Query_DeleteAllyInvites_Where)), 'ally_invites');
+        }
+
+        // --- Handle AllyChat Deletion
+        if(!empty($DeleteChatRoomsInfo))
+        {
+            $DleeteChatRooms_Count = count($DeleteChatRoomsInfo);
+            $DeleteChatRooms = implode(',', $DeleteChatRoomsInfo);
+            doquery(sprintf($Query_DeleteAllyChatRooms, $DeleteChatRooms, $DleeteChatRooms_Count), 'chat_rooms');
+            doquery(sprintf($Query_DeleteAllyChatMessages, $DeleteChatRooms), 'chat_messages');
+            doquery(sprintf($Query_DeleteAllyChatOnline, $DeleteChatRooms), 'chat_online');
+        }
+
+        // --- Handle Fleets (first, retread all, then delete - this will prevent ACS failures)
+        FleetControl_Retreat("`fleet_owner` IN ({$UsersImplode}) OR `fleet_target_owner` IN ({$UsersImplode})", true);
+        doquery($Query_DeleteFleets, 'fleets');
+
+        // --- Handle MultiDeclarations
+        if(!empty($GetDeclataions))
+        {
+            $UsersToUpdate = array();
+            $DeclarationsToUpdate_Status = array();
+            $DeclarationsToUpdate_Content = array();
+
+            $GetDeclataions_Count = count($GetDeclataions);
+            $GetDeclataions = implode(',', $GetDeclataions);
+            $Result_GetDeclarations = doquery(sprintf($Query_GetDeclarations, $GetDeclataions, $GetDeclataions_Count), 'declarations');
+            if($Result_GetDeclarations->num_rows > 0)
+            {
+                while($Data = $Result_GetDeclarations->fetch_assoc())
+                {
+                    $Data['users'] = explode(',', $Data['users']);
+                    $Data['thisUsers'] = [];
+                    foreach($Data['users'] as $ThisUser)
+                    {
+                        $ThisUser = str_replace('|', '', $ThisUser);
+                        if($ThisUser > 0)
+                        {
+                            $Data['thisUsers'][$ThisUser] = $ThisUser;
+                            if(empty($Data['thisOwner']))
+                            {
+                                $Data['thisOwner'] = $ThisUser;
+                            }
+                        }
+                    }
+                    foreach($UsersInDeclarations[$Data['id']] as $ThisUser)
+                    {
+                        unset($Data['thisUsers'][$ThisUser]);
+                    }
+                    $ThisUsersCount = count($Data['thisUsers']);
+                    if($ThisUsersCount <= 1 OR in_array($Data['thisOwner'], $UsersInDeclarations[$Data['id']]))
+                    {
+                        $DeclarationsToUpdate_Status[] = $Data['id'];
+                        if($ThisUsersCount > 0)
+                        {
+                            $UsersToUpdate = array_merge($UsersToUpdate, $Data['thisUsers']);
+                            $Message = array();
+                            $Message['msg_id'] = '079';
+                            $Message['args'] = array();
+                            $Message = json_encode($Message);
+                            Cache_Message($Data['thisUsers'], 0, $Now, 70, '007', '020', $Message);
+                        }
+                    }
+                    else
+                    {
+                        $DeclarationsToUpdate_Content[$Data['id']] = $Data['thisUsers'];
+                    }
+                }
+
+                if(!empty($DeclarationsToUpdate_Status))
+                {
+                    doquery(sprintf($Query_UpdateDeclarationsStatus, implode(',', $DeclarationsToUpdate_Status), count($DeclarationsToUpdate_Status)), 'declarations');
+                }
+                if(!empty($UsersToUpdate))
+                {
+                    doquery(sprintf($Query_UpdateDeclarationsUsers, implode(',', $UsersToUpdate), count($UsersToUpdate)), 'users');
+                }
+                if(!empty($DeclarationsToUpdate_Content))
+                {
+                    $Query_UpdateDeclarationsContent_Array = array();
+                    foreach($DeclarationsToUpdate_Content as $ThisID => $ThisUsers)
+                    {
+                        foreach($ThisUsers as &$Value)
+                        {
+                            $Value = "|{$Value}|";
+                        }
+                        $ThisUsers = implode(',', $ThisUsers);
+                        $Query_UpdateDeclarationsContent_Array[] = "({$ThisID}, '{$ThisUsers}')";
+                    }
+                    doquery(sprintf($Query_UpdateDeclarationsContent, implode(',', $Query_UpdateDeclarationsContent_Array)), 'declarations');
+                }
+            }
+        }
+
+        // --- Rest of Deleting
+        doquery($Query_DeleteMessages, 'messages');
+        doquery($Query_DeleteStats, 'statpoints');
+        doquery($Query_DeleteRecords, 'records');
+        doquery($Query_DeleteAchievements, 'achievements_stats');
+        doquery($Query_DeleteNotes, 'notes');
+        doquery($Query_DeleteFleetShortcuts, 'fleet_shortcuts');
+        doquery($Query_DeleteBuddyLinks, 'buddy');
+        doquery($Query_DeleteChatMessages, 'chat_messages');
+        doquery($Query_DeleteUsers, 'users');
+
+        // --- Do necessary Updates
+        doquery($Query_UpdateUsersCount, 'config');
+        $_GameConfig['users_amount'] -= $Query_GetUsers_Limit;
+        $_MemCache->GameConfig = $_GameConfig;
+
+        // --- Save some historical Data
+        foreach($SaveData as $Data)
+        {
+            $Query_InsertData_Array[] = "({$Data['id']}, '{$Data['username']}', '{$Data['password']}', '{$Data['email']}', '{$Data['email_2']}', '{$Data['user_lastip']}', '{$Data['ip_at_reg']}', {$Data['register_time']}, {$Data['onlinetime']}, '{$Data['user_agent']}', {$Now})";
+        }
+        $Query_InsertData .= implode(',', $Query_InsertData_Array);
+        doquery($Query_InsertData, 'deleted_users');
+    }
 }
 
 ?>
