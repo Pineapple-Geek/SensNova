@@ -1,8 +1,8 @@
 <?php
 
 /**
- _  \_/ |\ | /¯¯\ \  / /\    |¯¯) |_¯ \  / /¯¯\ |  |   |´¯|¯` | /¯¯\ |\ |5
- ¯  /¯\ | \| \__/  \/ /--\   |¯¯\ |__  \/  \__/ |__ \_/   |   | \__/ | \|Core.
+ _  \_/ |\ | /ï¿½ï¿½\ \  / /\    |ï¿½ï¿½) |_ï¿½ \  / /ï¿½ï¿½\ |  |   |ï¿½ï¿½|ï¿½` | /ï¿½ï¿½\ |\ |5
+ ï¿½  /ï¿½\ | \| \__/  \/ /--\   |ï¿½ï¿½\ |__  \/  \__/ |__ \_/   |   | \__/ | \|Core.
  * @author: Copyright (C) 2011 by Brayan Narvaez (Prinick) developer of xNova Revolution
  * @author web: http://www.bnarvaez.com
  * @link: http://www.xnovarev.com
@@ -49,7 +49,7 @@ $nextpage = $Page + 1;
 $template = new template();
 $template->assign_vars(array(
 	'lang'			=> $LANG->GetUser(),
-	'title'			=> 'Instalador &bull; xNovaOne',
+	'title'			=> 'xNovaOne &bull; installer',
 	'intro_instal'	=> $LNG['intro_instal'],
 	'menu_intro'	=> $LNG['menu_intro'],
 	'menu_install'	=> $LNG['menu_install'],

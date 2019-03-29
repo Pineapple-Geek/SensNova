@@ -1,8 +1,8 @@
 <?php
 
 /**
- _  \_/ |\ | /¯¯\ \  / /\    |¯¯) |_¯ \  / /¯¯\ |  |   |´¯|¯` | /¯¯\ |\ |5
- ¯  /¯\ | \| \__/  \/ /--\   |¯¯\ |__  \/  \__/ |__ \_/   |   | \__/ | \|Core.
+ _  \_/ |\ | /ï¿½ï¿½\ \  / /\    |ï¿½ï¿½) |_ï¿½ \  / /ï¿½ï¿½\ |  |   |ï¿½ï¿½|ï¿½` | /ï¿½ï¿½\ |\ |5
+ ï¿½  /ï¿½\ | \| \__/  \/ /--\   |ï¿½ï¿½\ |__  \/  \__/ |__ \_/   |   | \__/ | \|Core.
  * @author: Copyright (C) 2011 by Brayan Narvaez (Prinick) developer of xNova Revolution
  * @author web: http://www.bnarvaez.com
  * @link: http://www.xnovarev.com
@@ -56,7 +56,7 @@ class ShowAlliancePage
 			$StatsData 					= $db->uniquequery("SELECT SUM(wons) as wons, SUM(loos) as loos, SUM(draws) as draws, SUM(kbmetal) as kbmetal, SUM(kbcrystal) as kbcrystal, SUM(kbnorio) as kbnorio, SUM(lostunits) as lostunits, SUM(desunits) as desunits FROM ".USERS." WHERE ally_id='" . $ally['id'] . "';");
 
 				if($USER['raza'] == 0) {
-	$skin_raza = "gultra";
+	$skin_raza = "sens_skin";
 		} elseif ($USER['raza'] == 1) {
 	$skin_raza = "voltra";
 	} 
@@ -202,7 +202,7 @@ class ShowAlliancePage
 								$template->message(sprintf($LNG['al_created'], $atag),"?page=alliance", 3);
 							} else {
 									if($USER['raza'] == 0) {
-	$skin_raza = "gultra";
+	$skin_raza = "sens_skin";
 		} elseif ($USER['raza'] == 1) {
 	$skin_raza = "voltra";
 	} 
@@ -242,7 +242,7 @@ class ShowAlliancePage
 							}
 							
 								if($USER['raza'] == 0) {
-	$skin_raza = "gultra";
+	$skin_raza = "sens_skin";
 		} elseif ($USER['raza'] == 1) {
 	$skin_raza = "voltra";
 	} 
@@ -289,7 +289,7 @@ class ShowAlliancePage
 									$template->message($LNG['al_request_confirmation_message'], "?page=alliance");
 								} else {
 										if($USER['raza'] == 0) {
-	$skin_raza = "gultra";
+	$skin_raza = "sens_skin";
 		} elseif ($USER['raza'] == 1) {
 	$skin_raza = "voltra";
 	} 
@@ -330,7 +330,7 @@ class ShowAlliancePage
 							else
 							{								
 									if($USER['raza'] == 0) {
-	$skin_raza = "gultra";
+	$skin_raza = "sens_skin";
 		} elseif ($USER['raza'] == 1) {
 	$skin_raza = "voltra";
 	} 
@@ -348,7 +348,7 @@ class ShowAlliancePage
 						else
 						{
 								if($USER['raza'] == 0) {
-	$skin_raza = "gultra";
+	$skin_raza = "sens_skin";
 		} elseif ($USER['raza'] == 1) {
 	$skin_raza = "voltra";
 	} 
@@ -467,7 +467,7 @@ class ShowAlliancePage
 							$db->query("UPDATE ".ALLIANCE." SET `ally_members`='".count($Memberlist)."' WHERE `id`='".$ally['id']."';");				
 						
 							if($USER['raza'] == 0) {
-	$skin_raza = "gultra";
+	$skin_raza = "sens_skin";
 		} elseif ($USER['raza'] == 1) {
 	$skin_raza = "voltra";
 	} 
@@ -529,7 +529,7 @@ class ShowAlliancePage
 						}
 						
 							if($USER['raza'] == 0) {
-	$skin_raza = "gultra";
+	$skin_raza = "sens_skin";
 		} elseif ($USER['raza'] == 1) {
 	$skin_raza = "voltra";
 	} 
@@ -630,7 +630,7 @@ class ShowAlliancePage
 								}
 
 									if($USER['raza'] == 0) {
-	$skin_raza = "gultra";
+	$skin_raza = "sens_skin";
 		} elseif ($USER['raza'] == 1) {
 	$skin_raza = "voltra";
 	} 
@@ -758,7 +758,7 @@ class ShowAlliancePage
 								(count($Memberlist) != $ally['ally_members']) ? $db->query("UPDATE ".ALLIANCE." SET `ally_members`='".count($Memberlist)."' WHERE `id`='".$ally['id']."';") : '';
 								
 									if($USER['raza'] == 0) {
-	$skin_raza = "gultra";
+	$skin_raza = "sens_skin";
 		} elseif ($USER['raza'] == 1) {
 	$skin_raza = "voltra";
 	} 								
@@ -887,7 +887,7 @@ class ShowAlliancePage
 									break;
 									default:
 											if($USER['raza'] == 0) {
-	$skin_raza = "gultra";
+	$skin_raza = "sens_skin";
 		} elseif ($USER['raza'] == 1) {
 	$skin_raza = "voltra";
 	} 
@@ -947,7 +947,7 @@ class ShowAlliancePage
 								}
 							
 								if($USER['raza'] == 0) {
-	$skin_raza = "gultra";
+	$skin_raza = "sens_skin";
 		} elseif ($USER['raza'] == 1) {
 	$skin_raza = "voltra";
 	} 
@@ -975,7 +975,7 @@ class ShowAlliancePage
 								(!empty($name)) ? $db->query("UPDATE ".ALLIANCE." SET `ally_tag` = '". $db->sql_escape($name) ."' WHERE `id` = '". $USER['ally_id'] ."';") : '';
 									
 								if($USER['raza'] == 0) {
-	$skin_raza = "gultra";
+	$skin_raza = "sens_skin";
 		} elseif ($USER['raza'] == 1) {
 	$skin_raza = "voltra";
 	} 
@@ -994,7 +994,7 @@ class ShowAlliancePage
 								(!empty($name)) ? $db->multi_query("UPDATE ".ALLIANCE." SET `ally_name` = '". $db->sql_escape($name) ."' WHERE `id` = '". $USER['ally_id'] ."';UPDATE ".USERS." SET `ally_name` = '". $db->sql_escape($name) ."' WHERE `ally_id` = '". $ally['id'] ."';") : '';
 					
 									if($USER['raza'] == 0) {
-	$skin_raza = "gultra";
+	$skin_raza = "sens_skin";
 		} elseif ($USER['raza'] == 1) {
 	$skin_raza = "voltra";
 	} 							
@@ -1033,7 +1033,7 @@ class ShowAlliancePage
 									}
 						
 							if($USER['raza'] == 0) {
-	$skin_raza = "gultra";
+	$skin_raza = "sens_skin";
 		} elseif ($USER['raza'] == 1) {
 	$skin_raza = "voltra";
 	} 				
@@ -1101,7 +1101,7 @@ class ShowAlliancePage
 								}
 
 									if($USER['raza'] == 0) {
-	$skin_raza = "gultra";
+	$skin_raza = "sens_skin";
 		} elseif ($USER['raza'] == 1) {
 	$skin_raza = "voltra";
 	} 							
@@ -1161,7 +1161,7 @@ class ShowAlliancePage
 							$range = $LNG['al_new_member_rank_text'];
 
 						if($USER['raza'] == 0) {
-	$skin_raza = "gultra";
+	$skin_raza = "sens_skin";
 		} elseif ($USER['raza'] == 1) {
 	$skin_raza = "voltra";
 	} 

@@ -1,8 +1,8 @@
 <?php
 
 /**
- _  \_/ |\ | /¯¯\ \  / /\    |¯¯) |_¯ \  / /¯¯\ |  |   |´¯|¯` | /¯¯\ |\ |5
- ¯  /¯\ | \| \__/  \/ /--\   |¯¯\ |__  \/  \__/ |__ \_/   |   | \__/ | \|Core.
+ _  \_/ |\ | /ï¿½ï¿½\ \  / /\    |ï¿½ï¿½) |_ï¿½ \  / /ï¿½ï¿½\ |  |   |ï¿½ï¿½|ï¿½` | /ï¿½ï¿½\ |\ |5
+ ï¿½  /ï¿½\ | \| \__/  \/ /--\   |ï¿½ï¿½\ |__  \/  \__/ |__ \_/   |   | \__/ | \|Core.
  * @author: Copyright (C) 2011 by Brayan Narvaez (Prinick) developer of xNova Revolution
  * @author web: http://www.bnarvaez.com
  * @link: http://www.xnovarev.com
@@ -55,7 +55,7 @@ function ShowOverviewPage()
 	$Buildtime	= 0;
 	
 		if($USER['raza'] == 0) {
-		$skin_raza = "gultra";
+		$skin_raza = "sens_skin";
 		$img_raza = "styles/theme/gultra/imagenes/gultra.png";
 		} elseif ($USER['raza'] == 1) {
 		$skin_raza = "voltra";

@@ -2,7 +2,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html lang="es">
 <head>
-<link rel="stylesheet" type="text/css" href="./styles/theme/gultra/cpanel.css" />
+<link rel="stylesheet" type="text/css" href="./styles/theme/sens_skin/cpanel.css" />
 <link rel="icon" href="./favicon.ico" />
 <title>{$title}</title>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
