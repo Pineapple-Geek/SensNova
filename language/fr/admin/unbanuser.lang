@@ -1,16 +1,16 @@
-<?php
+<? Php
 
-$_Lang['Page_Title'] = 'Odbanowywanie';
+$_Lang ['Page_Title'] = 'Unban';
 
-$_Lang['Form_UserInput'] = 'Gracze do odbanowania<br/>(Oddziel przecinkami)<br/>(ID podawaj w nawiasach [])';
-$_Lang['Form_Other'] = 'Inne opcje';
-$_Lang['Form_RemoveVacation'] = 'Zdejmij Urlop';
-$_Lang['Form_Unban'] = 'Odbanuj';
+$_Lang ['Form_UserInput'] = 'Désactiver les joueurs <br/> (Séparer par des virgules) <br/> (Identifiant entre parenthèses [])';
+$_Lang ['Form_Other'] = 'Autres options';
+$_Lang ['Form_RemoveVacation'] = 'Prenez votre congé';
+$_Lang ['Form_Unban'] = 'Unban';
 
-$_Lang['Msg_Unban1OK'] = 'Gracz %s został odbanowany!';
-$_Lang['Msg_UnbanMOK'] = 'Gracze %s zostali odbanowani!';
-$_Lang['Error_NoOne2Unban'] = 'Nie znaleziono graczy do odbanowania!';
-$_Lang['Error_BadSearch'] = 'Niepoprawne dane wyszukiwania!';
-$_Lang['Error_EmptySearch'] = 'Nie podano graczy do wyszukania!';
+$_Lang ['Msg_Unban1OK'] = 'Le joueur% sa été libéré!';
+$_Lang ['Msg_UnbanMOK'] = 'Les joueurs% s sont non autorisés!';
+$_Lang ['Error_NoOne2Unban'] = 'Aucun joueur trouvé pour unbaning!';
+$_Lang ['Error_BadSearch'] = 'Données de recherche incorrectes!';
+$_Lang ['Error_EmptySearch'] = 'Aucun joueur à rechercher n'a été trouvé!';
 
 ?>

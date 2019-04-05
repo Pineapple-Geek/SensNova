@@ -1,124 +1,124 @@
-<?php
+<? Php
 
-$_Lang['UserDevScanner_Title']               = 'Skanowanie rozwoju Gracza';
+$_Lang ['UserDevScanner_Title'] = 'Analyse du développement du lecteur';
 
-$_Lang['Table_Header']                       = 'Skanowanie Gracza';
-$_Lang['Table_Form_UID']                     = 'Podaj ID Gracza';
-$_Lang['Table_Form_Username']                = 'lub Nazwę Gracza';
-$_Lang['Table_Form_Submit']                  = 'Skanuj!';
+$_Lang ['Table_Header'] = 'Analyse du lecteur';
+$_Lang ['Table_Form_UID'] = 'Entrer l’ID du joueur';
+$_Lang ['Table_Form_Username'] = 'ou nom du joueur';
+$_Lang ['Table_Form_Submit'] = 'Scan!';
 
-$_Lang['Error_UserNoExist']                  = 'Taki Gracz nie istnieje!';
-$_Lang['Error_BadPost']                      = 'Nie podano ani ID ani Nazwy Gracza!';
+$_Lang ['Error_UserNoExist'] = 'Un tel joueur n'existe pas!';
+$_Lang ['Error_BadPost'] = 'Aucun identifiant ou nom de joueur n’a été donné!';
 
-$_Lang['Table2_Header']                      = 'Wynik Skanowania Rozwoju gracza';
-$_Lang['Table2_GoBack']                      = 'Powrót';
-$_Lang['Table2_CollExp']                     = 'Rozwiń/Zwiń';
-$_Lang['Table2_Username']                    = 'Nazwa Gracza';
-$_Lang['Table2_UID']                         = 'ID Gracza';
+$_Lang ['Table2_Header'] = 'Résultat de l'analyse du développement du lecteur';
+$_Lang ['Table2_GoBack'] = 'Retour';
+$_Lang ['Table2_CollExp'] = 'Développer / Réduire';
+$_Lang ['Table2_Username'] = 'Nom du joueur';
+$_Lang ['Table2_UID'] = 'ID du joueur';
 
-$_Lang['Table2_ScanedLogs']                  = 'Ilość zeskanowanych Logów';
-$_Lang['Table2_ScanTime']                    = 'Czas skanowania';
-$_Lang['Table2_DumpDate']                    = 'Data zrzutu';
-$_Lang['Table2_DateDifference']              = 'Różnica czasu';
+$_Lang ['Table2_ScanedLogs'] = 'Quantité de journaux scannés';
+$_Lang ['Table2_ScanTime'] = 'Temps d'analyse ";
+$_Lang ['Table2_DumpDate'] = 'Date de vidage';
+$_Lang ['Table2_DateDifference'] = 'Décalage horaire';
 
-$_Lang['Table2_SummaryResult']               = 'Podsumowanie';
-$_Lang['Table2_FoundFatals']                 = 'Fatalne błędy';
-$_Lang['Table2_FoundWarnings']               = 'Ostrzeżenia';
-$_Lang['Table2_FoundNotices']                = 'Powiadomienia';
+$_Lang ['Table2_SummaryResult'] = 'Résumé';
+$_Lang ['Table2_FoundFatals'] = 'Erreurs fatales';
+$_Lang ['Table2_FoundWarnings'] = 'Avertissements';
+$_Lang ['Table2_FoundNotices'] = 'Notifications';
 
-$_Lang['Table2_OccurrenceIndex']             = 'Index';
-$_Lang['Table2_OccurrenceText']              = 'Rodzaj';
-$_Lang['Table2_LogID']                       = 'LogID';
-$_Lang['Table2_OccurrenceData']              = 'Dane';
+$_Lang ['Table2_OccurrenceIndex'] = 'Index';
+$_Lang ['Table2_OccurrenceText'] = 'Type';
+$_Lang ['Table2_LogID'] = 'LogID';
+$_Lang ['Table2_OccurrenceData'] = 'Données';
 
-$_Lang['Scripts'] = array
-    (
-        1 => 'SetNextQueueElementOnTop',
-        2 => 'CancelBuildingFromQueue',
-        3 => 'CheckPlanetBuildingQueue',
-        4 => 'ResearchBuildingPage',
-        5 => 'HandleTechnologieBuild',
-        6 => 'FleetBuildingPage',
-        7 => 'DefensesBuildingPage',
-        8 => 'PlanetResourceUpdate',
-        9 => 'galaxyfleet',
-        10 => 'fleet3',
-        11 => 'sendmissiles',
-        12 => 'MissionCaseAttack',
-        13 => 'MissionCaseGroupAttack',
-        14 => 'MissionCaseColonisation',
-        15 => 'MissionCaseDestruction',
-        16 => 'MissionCaseMIP',
-        17 => 'MissionCaseRecycling',
-        18 => 'MissionCaseSpy',
-        19 => 'MissionCaseTransport',
-        20 => '-',
-        21 => 'RestoreFleetToPlanet',
-        22 => 'resources',
-        23 => 'merchant',
-        24 => 'disassembler',
-    );
-    
+$_Lang ['Scripts'] = array
+    (
+        1 => 'SetNextQueueElementOnTop',
+        2 => 'CancelBuildingFromQueue',
+        3 => 'CheckPlanetBuildingQueue',
+        4 => 'ResearchBuildingPage',
+        5 => 'HandleTechnologieBuild',
+        6 => 'FleetBuildingPage',
+        7 => 'DefensesBuildingPage',
+        8 => 'PlanetResourceUpdate',
+        9 => 'galaxyfleet',
+        10 => 'flotte3',
+        11 => 'sendmissiles',
+        12 => 'MissionCaseAttack',
+        13 => 'MissionCaseGroupAttack',
+        14 => 'MissionCaseColonisation',
+        15 => 'MissionCaseDestruction',
+        16 => 'MissionCaseMIP',
+        17 => 'MissionCaseRecycling',
+        18 => 'MissionCaseSpy',
+        19 => 'MissionCaseTransport',
+        20 => '-',
+        21 => 'RestoreFleetToPlanet',
+        22 => 'ressources',
+        23 => 'marchand',
+        $_Lang => 'désassembleur',
+    )
+
 $_Lang['FoundSummarys'] = array
     (
-        '000' => array('Txt1' => 'Wszystko jest w porządku...', 'Txt2' => 'Wykryto następujące Konflikty:'),
+        '000' => array('Txt1' => 'Tout va bien...', 'Txt2' => 'Les conflits suivants ont été détectés:'),
         '001' => array
             (
-                'Txt' => 'Niedobór Elementu',
+                'Txt' => 'Pénurie d'éléments',
                 'GenerateDataList' => false,
-                'Eval' => 'Planeta: {$Data[\'PlanetID\']}<br/>Nazwa Elementu: {$_Lang[\'tech\'][$Data[\'ElementID\']]}<br/>Wyliczony wynik: ".prettyNumber($Data[\'Data\'][0])."<br/>Aktualna ilość: ".prettyNumber($Data[\'Data\'][1])."<br/>Procent: ".sprintf(\'%0.2f\', $Data[\'Data\'][2] * 100)."%'
+                'Eval' => 'Planète : {$Data[\'PlanetID\']}<br/>Nom de l'élément: {$_Lang[\'tech\'][$Data[\'ElementID\']]}<br/>Résultat calculé : ".prettyNumber($Data[\'Data\'][0])."<br/>Aktualna ilość: ".prettyNumber($Data[\'Data\'][1])."<br/>Procent: ".sprintf(\'%0.2f\', $Data[\'Data\'][2] * 100)."%'
             ),
         '002' => array
             (
-                'Txt' => 'Nadmiar Elementu',
+                'Txt' => 'Excédent d'élément',
                 'GenerateDataList' => false,
-                'Eval' => 'Planeta: {$Data[\'PlanetID\']}<br/>Nazwa Elementu: {$_Lang[\'tech\'][$Data[\'ElementID\']]}<br/>Wyliczony wynik: ".prettyNumber($Data[\'Data\'][0])."<br/>Aktualna ilość: ".prettyNumber($Data[\'Data\'][1])."<br/>Procent: ".sprintf(\'%0.2f\', $Data[\'Data\'][2] * 100)."%'
+                'Eval' => 'Planète : {$Data[\'PlanetID\']}<br/>Nom de l'élément: {$_Lang[\'tech\'][$Data[\'ElementID\']]}<br/>Résultat calculé : ".prettyNumber($Data[\'Data\'][0])."<br/>Aktualna ilość: ".prettyNumber($Data[\'Data\'][1])."<br/>Procent: ".sprintf(\'%0.2f\', $Data[\'Data\'][2] * 100)."%'
             ),
         '003' => array
             (
-                'Txt' => 'Niedobór Surowca',
+                'Txt' => 'Pénurie de matière première',
                 'GenerateDataList' => false,
-                'Eval' => 'Planeta: {$Data[\'PlanetID\']}<br/>Surowiec: {$Data[\'ElementID\']}<br/>Wyliczony wynik: ".prettyNumber($Data[\'Data\'][0])."<br/>Aktualna ilość: ".prettyNumber($Data[\'Data\'][1])."<br/>Procent: ".sprintf(\'%0.2f\', $Data[\'Data\'][2] * 100)."%'
+                'Eval' => 'Planète : {$Data[\'PlanetID\']}<br/>Surowiec: {$Data[\'ElementID\']}<br/>Wyliczony wynik: ".prettyNumber($Data[\'Data\'][0])."<br/>Aktualna ilość: ".prettyNumber($Data[\'Data\'][1])."<br/>Procent: ".sprintf(\'%0.2f\', $Data[\'Data\'][2] * 100)."%'
             ),
         '004' => array
             (
-                'Txt' => 'Nadmiar Surowca',
+                'Txt' => 'Surplus',
                 'GenerateDataList' => false,
-                'Eval' => 'Planeta: {$Data[\'PlanetID\']}<br/>Surowiec: {$Data[\'ElementID\']}<br/>Wyliczony wynik: ".prettyNumber($Data[\'Data\'][0])."<br/>Aktualna ilość: ".prettyNumber($Data[\'Data\'][1])."<br/>Procent: ".sprintf(\'%0.2f\', $Data[\'Data\'][2] * 100)."%'
+                'Eval' => 'Planète : {$Data[\'PlanetID\']}<br/>Surowiec: {$Data[\'ElementID\']}<br/>Wyliczony wynik: ".prettyNumber($Data[\'Data\'][0])."<br/>Aktualna ilość: ".prettyNumber($Data[\'Data\'][1])."<br/>Procent: ".sprintf(\'%0.2f\', $Data[\'Data\'][2] * 100)."%'
             ),
         '005' => array
             (
-                'Txt' => 'Ogólny niedobór Surowca',
+                'Txt' => 'Pénurie générale de matières premières',
                 'GenerateDataList' => false,
                 'Eval' => 'Surowiec: {$Data[\'ElementID\']}<br/>Wyliczony wynik: ".prettyNumber($Data[\'Data\'][0])."<br/>Aktualna ilość: ".prettyNumber($Data[\'Data\'][1])."<br/>Procent: ".sprintf(\'%0.2f\', $Data[\'Data\'][2] * 100)."%'
             ),
         '006' => array
             (
-                'Txt' => 'Ogólny nadmiar Surowca',
+                'Txt' => 'Overall Surplus Surplus',
                 'GenerateDataList' => false,
                 'Eval' => 'Surowiec: {$Data[\'ElementID\']}<br/>Wyliczony wynik: ".prettyNumber($Data[\'Data\'][0])."<br/>Aktualna ilość: ".prettyNumber($Data[\'Data\'][1])."<br/>Procent: ".sprintf(\'%0.2f\', $Data[\'Data\'][2] * 100)."%'
             ),
         '007' => array
             (
-                'Txt' => 'Ogólny niedobór Elementu',
+                'Txt' => 'Pénurie générale d'élément',
                 'GenerateDataList' => false,
                 'Eval' => 'Nazwa Elementu: {$_Lang[\'tech\'][$Data[\'ElementID\']]}<br/>Wyliczony wynik: ".prettyNumber($Data[\'Data\'][0])."<br/>Aktualna ilość: ".prettyNumber($Data[\'Data\'][1])."<br/>Procent: ".sprintf(\'%0.2f\', $Data[\'Data\'][2] * 100)."%'
             ),
         '008' => array
             (
-                'Txt' => 'Ogólny nadmiar Elementu',
+                'Txt' => 'Excès général de l'élément',
                 'GenerateDataList' => false,
                 'Eval' => 'Nazwa Elementu: {$_Lang[\'tech\'][$Data[\'ElementID\']]}<br/>Wyliczony wynik: ".prettyNumber($Data[\'Data\'][0])."<br/>Aktualna ilość: ".prettyNumber($Data[\'Data\'][1])."<br/>Procent: ".sprintf(\'%0.2f\', $Data[\'Data\'][2] * 100)."%'
             ),
         '009' => array
             (
-                'Txt' => 'Poziom Technologii za niski',
+                'Txt' => 'Niveau de technologie trop bas',
                 'GenerateDataList' => false,
                 'Eval' => 'Nazwa Technologii: {$_Lang[\'tech\'][$Data[\'ElementID\']]}<br/>Wyliczony poziom: ".prettyNumber($Data[\'Data\'][0])."<br/>Aktualny poziom: ".prettyNumber($Data[\'Data\'][1])."'
             ),
         '010' => array
             (
-                'Txt' => 'Poziom Technologii za wysoki',
+                'Txt' => 'Niveau de technologie trop élevé',
                 'GenerateDataList' => false,
                 'Eval' => 'Nazwa Technologii: {$_Lang[\'tech\'][$Data[\'ElementID\']]}<br/>Wyliczony poziom: ".prettyNumber($Data[\'Data\'][0])."<br/>Aktualny poziom: ".prettyNumber($Data[\'Data\'][1])."'
             ),
@@ -128,28 +128,28 @@ $_Lang['FoundFatals'] = array
     (
         '001' => array
             (
-                'Txt' => 'Miejsce nie rozpoznane',
+                'Txt' => 'Lieu non reconnu',
                 'GenerateDataList' => false,
-                'Eval' => 'Podany Indentyfikator miejsca: <u>{$Data[\'Data\'][0]}</u>'
+                'Eval' => 'Lieu spécifié : <u>{$Data[\'Data\'][0]}</u>'
             ),
     );
 $_Lang['FoundWarnings'] = array
     (
         '001' => array
             (
-                'Txt' => 'Ujemna ilość surowców',
+                'Txt' => 'Quantité négative de matières premières',
                 'GenerateDataList' => false,
                 'Eval' => 'Data Loga: ".prettyDate(\'d m Y - H:i:s\', $Data[\'Date\'], 1)."<br/>Planeta (Skrypt): {$Data[\'PlanetID\']} ({$_Lang[\'Scripts\'][$Data[\'Place\']]})<br/>Element i Kod: {$Data[\'ElementID\']} / {$Data[\'Code\']}<br/>Metal: ".prettyNumber($Data[\'Data\'][0])."<br/>Kryształ: ".prettyNumber($Data[\'Data\'][1])."<br/>Deuter: ".prettyNumber($Data[\'Data\'][2])."'
             ),
         '002' => array
             (
-                'Txt' => 'Brak ID Planety',
+                'Txt' => 'Pas d'ID de la planète',
                 'GenerateDataList' => false,
                 'Eval' => 'Skrypt: {$_Lang[\'Scripts\'][$Data[\'Place\']]}'
             ),
         '003' => array
             (
-                'Txt' => 'Ujemna ilość statków/obrony',
+                'Txt' => 'Negative number of ships / defense',
                 'GenerateDataList' => true,
                 'DataListEvalCode' => '{$_Lang[\'tech\'][$DataID]}: ".prettyNumber($DataVal)."',
                 'DataListGlue' => '<br/>',
@@ -162,19 +162,19 @@ $_Lang['FoundNotices'] = array
             (
                 'Txt' => 'Drobne odchylenie Metalu',
                 'GenerateDataList' => false,
-                'Eval' => 'Planeta: {$Data[\'PlanetID\']}<br/>Procent: ".sprintf(\'%0.2f\', $Data[\'Data\'][0] * 100)."%<br/>Różnica: ".prettyNumber($Data[\'Data\'][1])."'
+                'Eval' => 'Planète : {$Data[\'PlanetID\']}<br/>Procent: ".sprintf(\'%0.2f\', $Data[\'Data\'][0] * 100)."%<br/>Różnica: ".prettyNumber($Data[\'Data\'][1])."'
             ),
         '002' => array
             (
                 'Txt' => 'Drobne odchylenie Kryształu',
                 'GenerateDataList' => false,
-                'Eval' => 'Planeta: {$Data[\'PlanetID\']}<br/>Procent: ".sprintf(\'%0.2f\', $Data[\'Data\'][0] * 100)."%<br/>Różnica: ".prettyNumber($Data[\'Data\'][1])."'
+                'Eval' => 'Planète : {$Data[\'PlanetID\']}<br/>Procent: ".sprintf(\'%0.2f\', $Data[\'Data\'][0] * 100)."%<br/>Różnica: ".prettyNumber($Data[\'Data\'][1])."'
             ),
         '003' => array
             (
                 'Txt' => 'Drobne odchylenie Deuteru',
                 'GenerateDataList' => false,
-                'Eval' => 'Planeta: {$Data[\'PlanetID\']}<br/>Procent: ".sprintf(\'%0.2f\', $Data[\'Data\'][0] * 100)."%<br/>Różnica: ".prettyNumber($Data[\'Data\'][1])."'
+                'Eval' => 'Planète : {$Data[\'PlanetID\']}<br/>Procent: ".sprintf(\'%0.2f\', $Data[\'Data\'][0] * 100)."%<br/>Różnica: ".prettyNumber($Data[\'Data\'][1])."'
             ),
         '004' => array
             (
@@ -196,10 +196,10 @@ $_Lang['FoundNotices'] = array
             ),
     );
 
-$_Lang['Critical_NoDump']                    = 'Brak dostępnego zrzutu dla tego Gracza!';
-$_Lang['Critical_EmptyScanLog']              = 'Dziennik Skanowania jest pusty!';
-$_Lang['Critical_EmptyBreakErrorVar']        = 'Brak przyczyny przerwania Skanowania!';
+$_Lang ['Critical_NoDump'] = 'Aucune capture d’écran disponible pour ce lecteur!';
+$_Lang ['Critical_EmptyScanLog'] = 'Le journal de numérisation est vide!';
+$_Lang ['Critical_EmptyBreakErrorVar'] = 'Aucune raison pour arrêter l'analyse!';
 
-$_Lang['Notice_NoLogs']                      = 'Brak logów tego Gracza (wygląda na to, że nic nie robił)';
+$_Lang ['Notice_NoLogs'] = 'Il n’existe aucun journal de ce joueur (il semble qu’il n’ait rien fait)';
 
 ?>

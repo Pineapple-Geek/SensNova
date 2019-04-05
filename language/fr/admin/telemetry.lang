@@ -1,39 +1,39 @@
-<?php
+<? Php
 
-$_Lang['Page_Title'] = 'Telemetria';
+$_Lang ['Page_Title'] = 'Télémétrie';
 
-$_Lang['Tele_Header_Overview'] = 'Podgląd miejsc';
+$_Lang ['Tele_Header_Overview'] = 'Prévisualisation des lieux';
 
-$_Lang['Tele_Headers_ID'] = 'ID';
-$_Lang['Tele_Headers_Place'] = 'Strona';
-$_Lang['Tele_Headers_HasPost'] = 'Dane POST';
-$_Lang['Tele_Headers_DataPoints'] = 'Punkty danych';
+$_Lang ['Tele_Headers_ID'] = 'ID';
+$_Lang ['Tele_Headers_Place'] = 'Page';
+$_Lang ['Tele_Headers_HasPost'] = 'Données POST';
+$_Lang ['Tele_Headers_DataPoints'] = 'Points de données';
 
-$_Lang['Tele_Filters_Where'] = 'WHERE';
-$_Lang['Tele_Filters_Order'] = 'ORDER';
-$_Lang['Tele_Filters_Limit'] = 'LIMIT';
-$_Lang['Tele_Filters_Submit'] = 'Filtruj';
-$_Lang['Tele_Filters_SkipJumps'] = 'Pomiń duże skoki';
-$_Lang['Tele_Filters_SkipJumps_Diff'] = 'Minimalna różnica';
+$_Lang ['Tele_Filters_Where'] = 'WHERE';
+$_Lang ['Tele_Filters_Order'] = 'ORDER';
+$_Lang ['Tele_Filters_Limit'] = 'LIMIT';
+$_Lang ['Tele_Filters_Submit'] = 'Filtre';
+$_Lang ['Tele_Filters_SkipJumps'] = 'Ignorer les gros sauts';
+$_Lang ['Tele_Filters_SkipJumps_Diff'] = 'Différence minimale';
 
-$_Lang['Tele_HasPost']['0'] = array('color' => 'red', 'txt' => 'Nie');
-$_Lang['Tele_HasPost']['1'] = array('color' => 'lime', 'txt' => 'Tak');
+$_Lang ['Tele_HasPost'] ['0'] = array ('color' => 'red', 'txt' => 'No');
+$_Lang ['Tele_HasPost'] ['1'] = array ('color' => 'lime', 'txt' => 'Oui');
 
-$_Lang['Tele_Msg_NoPlaces'] = 'Brak zebranych Danych!';
-$_Lang['Tele_Msg_NoDataPoints'] = 'Brak punktów Danych!';
-$_Lang['Tele_Msg_BadPID'] = 'Podano niepoprawne ID miejsca!';
-$_Lang['Tele_UsernameEmpty'] = 'Brak nazwy gracza';
+$_Lang ['Tele_Msg_NoPlaces'] = 'Aucune donnée collectée!';
+$_Lang ['Tele_Msg_NoDataPoints'] = 'Aucun point de données!';
+$_Lang ['Tele_Msg_BadPID'] = 'Identifiant de lieu non valide entré!';
+$_Lang ['Tele_UsernameEmpty'] = 'Pas de nom de joueur';
 
-$_Lang['Tele_NameTranslation__t'] = 'Cały skrypt';
-$_Lang['Tele_NameTranslation__c'] = 'common.php';
-$_Lang['Tele_NameTranslation__c_maininc'] = 'common.php - main includes';
-$_Lang['Tele_NameTranslation__f0'] = 'Inicjacja flot';
-$_Lang['Tele_NameTranslation__f1'] = 'Przeliczanie flot';
-$_Lang['Tele_NameTranslation__d'] = 'Finalizacja';
+$_Lang ['Tele_NameTranslation__t'] = 'Tout le script';
+$_Lang ['Tele_NameTranslation__c'] = 'common.php';
+$_Lang ['Tele_NameTranslation__c_maininc'] = 'common.php - main includes';
+$_Lang ['Tele_NameTranslation__f0'] = 'Lancement de la flotte';
+$_Lang ['Tele_NameTranslation__f1'] = 'Conversion des flottes';
+$_Lang ['Tele_NameTranslation__d'] = 'Finalisation';
 
-$_Lang['Tele_Legend_Avg'] = 'Śr. %s ms.';
+$_Lang ['Tele_Legend_Avg'] = 'Avg. % s ms. ';
 
-$_Lang['Tele_TimeUnits'] = 'ms';
-$_Lang['Tele_ToolTipText'] = "\'Wynik: \'+RunResult+\'ms<br/>Pomiar: \'+ModeName+\'<br/>Gracz: <a target=\\\"_blank\\\" href=\\\"browse_actionlogs.php?uid=\'+UserID+\'&amp;date=\'+OtherDate+\'\\\">\'+Username+\'</a><br/>Czas pomiaru: \'+FullDate+\'\'";
+$_Lang ['Tele_TimeUnits'] = 'ms';
+$_Lang ['Tele_ToolTipText'] = "\ 'Résultat: \' + RunResult + \ 'ms <br/> Mesure: \' + Nom du mode + \ '<br/> Lecteur: <a target = \\\" _ vierge \\\ "href = \\\" browse_actionlogs.php? uid = \ '+ ID utilisateur + \' & amp; date = \ '+ OtherDate + \' \\\ "> \ '+ Nom d'utilisateur + \' </a> <br/> Heure de mesure : \ '+ FullDate + \' \ '";
 
 ?>

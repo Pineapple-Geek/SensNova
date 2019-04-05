@@ -1,54 +1,54 @@
-<?php
+<? Php
 
-$_Lang['mlst_title']       = "Lista wiadomości";
-$_Lang['mlst_mess_del']    = "Wiadomości skasowane";
-$_Lang['mlst_hdr_page']    = "Strona";
-$_Lang['mlst_hdr_userID']  = 'ID Gracza/Sojuszu';
-$_Lang['mlst_hdr_msgID']   = 'ID Wiadomości';
-$_Lang['mlst_hdr_filter']  = 'Filtruj';
-$_Lang['mlst_hdr_title']   = " ) wiadomość z :";
-$_Lang['mlst_hdr_id']      = "ID";
-$_Lang['mlst_hdr_type']    = "Typ";
-$_Lang['mlst_hdr_time']    = "Data";
-$_Lang['mlst_hdr_from']    = "Od";
-$_Lang['mlst_hdr_to']      = "Do";
-$_Lang['mlst_hdr_status']  = 'Status';
-$_Lang['mlst_hdr_text']    = "Treść";
-$_Lang['mlst_hdr_action']  = "Zazn.";
-$_Lang['mlst_del_mess']    = "Usuń";
-$_Lang['mlst_bt_setread']  = 'Ustaw jako przeczytane';
-$_Lang['mlst_bt_setnotread'] = 'Ustaw jako nieprzeczytane';
-$_Lang['mlst_bt_delselsoft'] = 'Usuń Zaznaczone (Miękkie)';
-$_Lang['mlst_bt_delsel']   = "Usuń Zaznaczone (Twarde)";
-$_Lang['mlst_bt_deldate']  = "Usuń od podanego czasu";
-$_Lang['mlst_hdr_delfrom'] = "Usuń począwszy od";
-$_Lang['mlst_mess_typ__0'] = "Raporty szpiegowskie";
-$_Lang['mlst_mess_typ__1'] = "Wiadomości od graczy";
-$_Lang['mlst_mess_typ__2'] = "Wiadomości z sojuszu";
-$_Lang['mlst_mess_typ__3'] = "Raporty wojenne";
-$_Lang['mlst_mess_typ__4'] = "Raporty eksploatacji";
-$_Lang['mlst_mess_typ__5'] = "Raporty od floty";
-$_Lang['mlst_mess_typ_15'] = "Raporty z ekspedycji";
-$_Lang['mlst_mess_typ_50'] = "Raporty z budowy";
-$_Lang['mlst_mess_typ_70'] = "Wiadomości Systemowe";
-$_Lang['mlst_mess_typ_80'] = "Wiadomości od Administracji";
-$_Lang['mlst_mess_typ_100']= "Wszystkie wiadomości";
+$_Lang ['mlst_title'] = "Liste des messages";
+$_Lang ['mlst_mess_del'] = "Messages supprimés";
+$_Lang ['mlst_hdr_page'] = "Page";
+$_Lang ['mlst_hdr_userID'] = 'Identifiant / Alliance du joueur';
+$_Lang ['mlst_hdr_msgID'] = 'Messages d’identité';
+$_Lang ['mlst_hdr_filter'] = 'Filtre';
+$_Lang ['mlst_hdr_title'] = ") message de:";
+$_Lang ['mlst_hdr_id'] = 'ID';
+$_Lang ['mlst_hdr_type'] = "Type";
+$_Lang ['mlst_hdr_time'] = "Données";
+$_Lang ['mlst_hdr_from'] = "De";
+$_Lang ['mlst_hdr_to'] = "Vers";
+$_Lang ['mlst_hdr_status'] = 'Statut';
+$_Lang ['mlst_hdr_text'] = 'Contenu';
+$_Lang ['mlst_hdr_action'] = "Marque";
+$_Lang ['mlst_del_mess'] = "Supprimer";
+$_Lang ['mlst_bt_setread'] = 'Défini comme lu';
+$_Lang ['mlst_bt_setnotread'] = 'Défini comme non lu';
+$_Lang ['mlst_bt_delselsoft'] = 'Supprimer la sélection (souple)';
+$_Lang ['mlst_bt_delsel'] = "Supprimer la sélection (difficile)";
+$_Lang ['mlst_bt_deldate'] = "Supprimer de l'heure donnée";
+$_Lang ['mlst_hdr_delfrom'] = "Supprimer à partir de";
+$_Lang ['mlst_mess_typ__0'] = "Rapports d'espionnage";
+$_Lang ['mlst_mess_typ__1'] = "Messages des joueurs";
+$_Lang ['mlst_mess_typ__2'] = 'Nouvelles de l'alliance';
+$_Lang ['mlst_mess_typ__3'] = "Rapports de guerre";
+$_Lang ['mlst_mess_typ__4'] = "Rapports sur les opérations";
+$_Lang ['mlst_mess_typ__5'] = "Rapports de flotte";
+$_Lang ['mlst_mess_typ_15'] = "Rapports d'expédition";
+$_Lang ['mlst_mess_typ_50'] = "Rapports de construction";
+$_Lang ['mlst_mess_typ_70'] = 'Nouvelles du système';
+$_Lang ['mlst_mess_typ_80'] = "Messages de l'administration";
+$_Lang ['mlst_mess_typ_100'] = "Tous les messages";
 
-$_Lang['Status_Unread']      = 'Nieprzeczytana';
-$_Lang['Status_Read']        = 'Przeczytana';
-$_Lang['Status_Undeleted']   = 'Nieusunięta';
-$_Lang['Status_Deleted']     = 'Usunięta';
+$_Lang ['Status_Unread'] = 'Non lu';
+$_Lang ['Status_Read'] = 'Lire';
+$_Lang ['Status_Undeleted'] = 'Non enlevé';
+$_Lang ['Status_Deleted'] = 'Supprimé';
 
-$_Lang['tip_Deleted']        = 'Usunięta';
-$_Lang['tip_Read']           = 'Przeczytana';
-$_Lang['tip_Copy']			= 'Kopia';
+$_Lang ['tip_Deleted'] = 'Supprimé';
+$_Lang ['tip_Read'] = 'Lire';
+$_Lang ['tip_Copy'] = 'Copier';
 
-$_Lang['Err_CopyNotFound']	= '<b class="red">Oryginał tej wiadomości nie istnieje!</b>';
+$_Lang ['Err_CopyNotFound'] = '<b class = "red"> L'original de ce message n'existe pas! </ B>';
 
-$_Lang['YouCannotSeeThisMsg'] = '<b class="red">Brak uprawnień do przeglądania tej wiadomości!</b>';
-$_Lang['Error_NoMsgFound']   = 'Nie znaleziono żadnych Wiadomości!';
-$_Lang['Form_ResetFilters']  = 'Resetuj Filtry';
+$_Lang ['YouCannotSeeThisMsg'] = '<b class = "red"> Pas d’autorisation pour voir ce message! </ B>';
+$_Lang ['Error_NoMsgFound'] = 'Aucun message trouvé!';
+$_Lang ['Form_ResetFilters'] = 'Réinitialiser les filtres';
 
-$_Lang['Pages_of'] = 'z';
+$_Lang ['Pages_of'] = 'z';
 
 ?>

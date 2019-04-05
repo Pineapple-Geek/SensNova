@@ -1,6 +1,6 @@
-<?php
+<? Php
 
-$_Lang['MassMessage_Success'] = 'Wiadomość masowa została wysłana do %s użytkowników!';
-$_Lang['MassMessage_NoSufficientData'] = 'Nie podano wszystkich danych!';
+$_Lang ['MassMessage_Success'] = 'Un message de masse a été envoyé aux utilisateurs de% s!';
+$_Lang ['MassMessage_NoSufficientData'] = 'Aucune donnée entrée!';
 
 ?>

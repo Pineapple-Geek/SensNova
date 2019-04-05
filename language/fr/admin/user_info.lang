@@ -1,128 +1,128 @@
-<?php
+<? Php
 
-$_Lang['PageTitle']          = 'Podgląd gracza';
+$_Lang ['PageTitle'] = 'Aperçu du lecteur';
 
 // Menu
-$_Lang['GeneralOverview']    = 'Podgląd ogólny';
-$_Lang['Statistics']         = 'Statystyki';
-$_Lang['PlanetsInfo']        = 'Dane Planet';
-$_Lang['FleetControl']       = 'Ruchy Flot';
+$_Lang ['GeneralOverview'] = 'Vue générale';
+$_Lang ['Statistics'] = 'Statistiques';
+$_Lang ['PlanetsInfo'] = 'Données de la planète';
+$_Lang ['FleetControl'] = 'Mouvements de flotte';
 
-// General Overview
-$_Lang['Nickname']           = 'Login';
-$_Lang['EMail']              = 'Aktywny EMail';
-$_Lang['EMail2']             = 'Drugi EMail (?)';
-$_Lang['LastIP']             = 'Ostatni Adres IP';
-$_Lang['RegisterIP']         = 'Adres IP z Rejestracji';
-$_Lang['LastActivity']       = 'Ostatnia aktywność';
-$_Lang['Browser']            = 'Przeglądarka';
-$_Lang['Screen']             = 'Ekran';
-$_Lang['RegisterInfo']       = 'Rejestracja';
-$_Lang['Vacations']          = 'Tryb Urlopu';
-$_Lang['Ban']                = 'Status Bana';
-$_Lang['Delete']             = 'Status Kasacji Konta';
-$_Lang['OldNick']            = 'Stary Nick';
-$_Lang['InvitedBy']			= 'Polecony przez';
-$_Lang['DarkEnergy']         = 'Ciemna Energia';
-$_Lang['ProTime']            = 'Konto Pro';
-$_Lang['GeoTime']            = 'Geolog';
-$_Lang['EngTime']            = 'Mechanik';
-$_Lang['AdmTime']            = 'Admirał';
-$_Lang['TecTime']            = 'Technokrata';
-$_Lang['JamTime']            = 'Systemy zagłuszające';
-$_Lang['AdditionalPlanets']  = 'Dodatkowe planety';
-$_Lang['Ally']               = 'Sojusz';
-$_Lang['AccountActive']      = 'Konto aktywne?';
-$_Lang['DisableIPCheck']     = 'Anty-IPChange aktywne?';
-$_Lang['MotherPlanet']       = 'Planeta Matka';
-$_Lang['MotherPlanet_ID']    = 'ID';
+// Vue d'ensemble
+$_Lang ['Nickname'] = 'Connexion';
+$_Lang ['EMail'] = 'Email actif';
+$_Lang ['EMail2'] = 'Deuxième email (?)';
+$_Lang ['LastIP'] = 'Dernière adresse IP';
+$_Lang ['RegisterIP'] = 'Adresse IP de l'enregistrement';
+$_Lang ['LastActivity'] = 'Dernière activité';
+$_Lang ['Browser'] = 'Navigateur';
+$_Lang ['Screen'] = 'Screen';
+$_Lang ['RegisterInfo'] = 'Enregistrement';
+$_Lang ['Vacations'] = 'Quitter le mode';
+$_Lang ['Ban'] = 'Statut d'interdiction';
+$_Lang ['Delete'] = 'Statut du compte erroné';
+$_Lang ['OldNick'] = 'Vieux Nick';
+$_Lang ['InvitedBy'] = 'Recommandé par';
+$_Lang ['DarkEnergy'] = 'Énergie noire';
+$_Lang ['ProTime'] = 'Compte Pro';
+$_Lang ['GeoTime'] = 'Géologue';
+$_Lang ['EngTime'] = 'Mécanicien';
+$_Lang ['AdmTime'] = 'Amiral';
+$_Lang ['TecTime'] = 'Technocrat';
+$_Lang ['JamTime'] = 'Systèmes d’amortissement';
+$_Lang ['AdditionalPlanets'] = 'Planètes supplémentaires';
+$_Lang ['Ally'] = 'Alliance';
+$_Lang ['AccountActive'] = 'Compte actif?';
+$_Lang ['DisableIPCheck'] = 'Anti-IPChange activé?';
+$_Lang ['MotherPlanet'] = 'Mère mère';
+$_Lang ['MotherPlanet_ID'] = 'ID';
 
 
-$_Lang['Active']             = 'Aktywny';
-$_Lang['Inactive']           = 'Nieaktywny';
-$_Lang['Delete_Time']        = 'Usunięcie za';
-$_Lang['WillExpire']         = 'Wygaśnie za ';
-$_Lang['Expired']            = 'Wygasł';
-$_Lang['Expired2']           = 'Wygasło';
-$_Lang['NeverBought']        = 'Nigdy nie zakupiono';
-$_Lang['Request']            = 'Podanie';
-$_Lang['Ally_owner']         = 'Właściciel';
-$_Lang['_yes']               = 'Tak';
-$_Lang['_no']                = 'Nie';
-$_Lang['Male']               = 'Mężczyzna';
-$_Lang['Famale']             = 'Kobieta';
-$_Lang['Undefined']          = 'Niezdefiniowano';
-$_Lang['NoLogin']            = 'Brak logowania!'; 
-$_Lang['ActivationCode']     = 'Kod';
-$_Lang['CookieBanActive']    = 'Aktywny Ban na Ciasteczka!';
-$_Lang['NotInvited']			= '-';
-$_Lang['InviterDeleted']		= '<b class="red">Konto Usunięte</b>';
+$_Lang ['Active'] = 'Actif';
+$_Lang ['Inactive'] = 'Inactif';
+$_Lang ['Delete_Time'] = 'Supprimer après';
+$_Lang ['WillExpire'] = 'Expire after';
+$_Lang ['Expired'] = 'Expired';
+$_Lang ['Expired2'] = 'Expired';
+$_Lang ['NeverBought'] = 'Jamais acheté';
+$_Lang ['Request'] = 'Application';
+$_Lang ['Ally_owner'] = 'Propriétaire';
+$_Lang ['_ yes'] = 'Oui';
+$_Lang ['_ no'] = 'Non';
+$_Lang ['Male'] = 'Homme';
+$_Lang ['Famale'] = 'Femme';
+$_Lang ['Undefined'] = 'Non défini';
+$_Lang ['NoLogin'] = 'Pas de login!';
+$_Lang ['ActivationCode'] = 'Code';
+$_Lang ['CookieBanActive'] = 'Interdiction active des cookies!';
+$_Lang ['NotInvited'] = '-';
+$_Lang ['InviterDeleted'] = '<b class = "red"> Compte supprimé </ b>';
 
-$_Lang['ShowOnline']         = 'Pokaż graczy Online';
-$_Lang['SearchByIP']         = 'Szukaj graczy o takim IP';
-$_Lang['SearchByAlly']       = 'Pokaż graczy z tego Sojuszu';
-$_Lang['InActivationProc']   = 'W procesie aktywacji';
-$_Lang['GoToGalaxy']         = 'Idź do Podglądu Galaktyki';
-$_Lang['ShowLogs']           = 'Pokaż wszystkie Logi';
+$_Lang ['ShowOnline'] = 'Afficher les joueurs en ligne';
+$_Lang ['SearchByIP'] = 'Rechercher des joueurs avec cette adresse IP';
+$_Lang ['SearchByAlly'] = 'Afficher les joueurs de cette alliance';
+$_Lang ['InActivationProc'] = 'Dans le processus d’activation';
+$_Lang ['GoToGalaxy'] = 'Accéder à la prévisualisation galactique';
+$_Lang ['ShowLogs'] = 'Afficher tous les journaux';
 
-$_Lang['Delete_Time_onNextRecalc'] = 'Usunięcie przy następnym przeliczeniu...';
+$_Lang ['Delete_Time_onNextRecalc'] = 'Supprimer lors de la prochaine conversion ...';
 
-// Statistics
+// Statistiques
 
-$_Lang['NoStatsAvailable']   = 'Przepraszamy, ale Statystyki tego gracza są obecnie niedostępne!';
+$_Lang ['NoStatsAvailable'] = 'Désolé, les statistiques du joueur ne sont pas disponibles pour le moment!';
 
-$_Lang['General']            = 'Punkty';
-$_Lang['Fleet']              = 'Flota';
-$_Lang['Buildings']          = 'Budynki';
-$_Lang['Defence']            = 'Obrona';
-$_Lang['Research']           = 'Badania';
+$_Lang ['General'] = 'Points';
+$_Lang ['Fleet'] = 'Fleet';
+$_Lang ['Buildings'] = 'Bâtiments';
+$_Lang ['Defense'] = 'Defense';
+$_Lang ['Research'] = 'Research';
 
-$_Lang['Pos']                = 'Pozycja';
-$_Lang['Change']             = 'Zmiana pozycji';
-$_Lang['DayChange']          = 'Dzienna zmiana pozycji';
-$_Lang['Points']             = 'Punkty';
-$_Lang['GeneralPointsPercent']= 'Procent z całości punktów';
+$_Lang ['Pos'] = 'Position';
+$_Lang ['Change'] = 'Changer de position';
+$_Lang ['DayChange'] = 'Changement de position quotidien';
+$_Lang ['Points'] = 'Points';
+$_Lang ['GeneralPointsPercent'] = 'Pourcentage du total des points';
 
-// Fleet Control
+// Contrôle de la flotte
 
-$_Lang['NoFleetsInFlight']   = 'Brak ruchów flot <u>od</u> lub <u>do</u> tego gracza!';
+$_Lang ['NoFleetsInFlight'] = 'Aucune flotte ne se déplace <u> de </ u> ou <u> à </ u> ce joueur!';
 
-$_Lang['Fleet_ID']           = 'ID';
-$_Lang['Fleet_Owner']        = 'Właściciel';
-$_Lang['Fleet_Mission']      = 'Misja';
-$_Lang['Fleet_Array']        = 'Statki';
-$_Lang['Fleet_Cargo']        = 'Ładunek';
-$_Lang['Fleet_Start']        = 'Start floty';
-$_Lang['Fleet_End']          = 'Cel i czas dotarcia';
-$_Lang['Fleet_End_owner']    = 'Właściciel celu';
-$_Lang['Fleet_Start_time']   = 'Wylot';
-$_Lang['Fleet_Calc_time']    = 'Dotarcie do celu';
-$_Lang['Fleet_Back_time']    = 'Powrót';
+$_Lang ['Fleet_ID'] = 'ID';
+$_Lang ['Fleet_Owner'] = 'Propriétaire';
+$_Lang ['Fleet_Mission'] = 'Mission';
+$_Lang ['Fleet_Array'] = 'Les navires';
+$_Lang ['Fleet_Cargo'] = 'Cargo';
+$_Lang ['Fleet_Start'] = 'Début de flotte';
+$_Lang ['Fleet_End'] = 'Objectif et heure d'arrivée';
+$_Lang ['Fleet_End_owner'] = 'Propriétaire cible';
+$_Lang ['Fleet_Start_time'] = 'Sortant';
+$_Lang ['Fleet_Calc_time'] = 'Atteindre la cible';
+$_Lang ['Fleet_Back_time'] = 'Retour';
 
-$_Lang['No_cargo']           = 'Brak';
-$_Lang['See_cargo']          = 'Zobacz';
+$_Lang ['No_cargo'] = 'Aucun';
+$_Lang ['See_cargo'] = 'Voir';
 
-$_Lang['Planet_sign']        = 'P';
-$_Lang['Debris_sign']        = 'D';
-$_Lang['Moon_sign']          = 'K';
-$_Lang['Main_ACS_Fleet']     = 'Główna flota związku';
-$_Lang['Coming_back']        = 'Powrót';
-$_Lang['TargetAchieved']     = 'Cel osiągnięty';
-$_Lang['FleetCameBack']      = 'Misja zakończona';
-$_Lang['Not_calculated']     = 'Nie obliczona!';
+$_Lang ['Planet_sign'] = 'P';
+$_Lang ['Debris_sign'] = 'D';
+$_Lang ['Moon_sign'] = 'K';
+$_Lang ['Main_ACS_Fleet'] = 'La flotte de relations principale';
+$_Lang ['Coming_back'] = 'Retour';
+$_Lang ['TargetAchieved'] = 'Objectif atteint';
+$_Lang ['FleetCameBack'] = 'Mission terminée';
+$_Lang ['Not_calculated'] = 'Non calculé!';
 
-$_Lang['Start_from_planet']  = 'Start z Planety';
-$_Lang['Start_from_moon']    = 'Start z Księżyca';
-$_Lang['Target_is_planet']   = 'Cel to Planeta';
-$_Lang['Target_is_moon']     = 'Cel to Księżyc';
-$_Lang['Target_is_debris']   = 'Cel to Pole Zniszczeń';
+$_Lang ['Start_from_planet'] = 'Partir de la planète';
+$_Lang ['Start_from_moon'] = 'Partir de la lune';
+$_Lang ['Target_is_planet'] = 'L'objectif est une planète';
+$_Lang ['Target_is_moon'] = 'L’objectif est la lune';
+$_Lang ['Target_is_debris'] = 'L’objectif est le champ de destruction'
 
-// Errors
-$_Lang['Error_NoUID_NoName'] = 'Musisz podać Identyfikator lub nick Gracza!';
-$_Lang['Error_BadUID']       = 'Podaj prawidłowy Identyfikator Gracza!';
-$_Lang['Error_BadName']      = 'Podaj prawidłowy Nick Gracza!';
-$_Lang['Error_NotFound_UID'] = 'Gracz o podanym ID nie istnieje!';
-$_Lang['Error_NotFound_Name']= 'Gracz o podanym nicku nie istnieje!';
-$_Lang['Error_NoEnoughAccess']= 'Przepraszamy, ale nie masz odpowiedniego poziomu dostępu, by przeglądać dane o tym użytkowniku!';
+// Erreurs
+$_Lang ['Error_NoUID_NoName'] = 'Vous devez entrer l'ID ou le pseudo du joueur!';
+$_Lang ['Error_BadUID'] = 'Entrez le bon identifiant de joueur!';
+$_Lang ['Error_BadName'] = 'Entrez le nom du joueur correct!';
+$_Lang ['Error_NotFound_UID'] = 'Le joueur avec l'ID donné n'existe pas!';
+$_Lang ['Error_NotFound_Name'] = 'Le joueur portant le pseudo n'existe pas!';
+$_Lang ['Error_NoEnoughAccess'] = 'Désolé, mais vous n’avez pas le bon niveau d’accès pour voir les données de cet utilisateur!';
 
 ?>
