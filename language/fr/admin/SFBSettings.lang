@@ -1,0 +1,95 @@
+<? Php
+
+$_Lang ['SFB_Title'] = 'Gestion des verrous de fonds';
+
+$_Lang ['SFB_Header_Active'] = 'Bloc actif de blocs';
+$_Lang ['SFB_Header_Log'] = 'Journal de verrouillage';
+$_Lang ['SFB_Header_Adding'] = 'Ajout d'un nouveau verrou';
+
+$_Lang ['SFB_Action_AddBlockade'] = 'Ajouter un nouveau verrou';
+$_Lang ['SFB_Action_Edit'] = 'Modifier';
+$_Lang ['SFB_Action_Cancel'] = 'Abort';
+
+$_Lang ['SFB_ActiveList_NoElements'] = 'Pas de verrou actif';
+$_Lang ['SFB_InActiveList_NoElements'] = 'Aucune entrée dans le journal';
+
+$_Lang ['SFB_Headers_ID'] = 'ID';
+$_Lang ['SFB_Headers_Admin'] = 'Fondateur';
+$_Lang ['SFB_Headers_Type'] = 'Type';
+$_Lang ['SFB_Headers_Missions'] = 'Missions';
+$_Lang ['SFB_Headers_StartTime'] = 'Début';
+$_Lang ['SFB_Headers_EndTime'] = 'Termination';
+$_Lang ['SFB_Headers_AdditionalData'] = 'Additional';
+$_Lang ['SFB_Headers_Reason'] = 'Raison';
+$_Lang ['SFB_Headers_Actions'] = 'Actions';
+
+$_Lang ['SFB_Labels_Type'] = 'Type de bloc';
+$_Lang ['SFB_Labels_Missions'] = 'Missions bloquées';
+$_Lang ['SFB_Labels_StartTime'] = 'Date de début';
+$_Lang ['SFB_Labels_EndTime'] = 'Date de fin';
+$_Lang ['SFB_Labels_PostEndTime'] = 'Protection de fin de protection';
+$_Lang ['SFB_Labels_ElementID'] = 'ID de verrouillage';
+$_Lang ['SFB_Labels_DontBlockIfIdle'] = 'Ne pas bloquer inactif';
+$_Lang ['SFB_Labels_Reason'] = 'Reason';
+$_Lang ['SFB_Labels_SubmitAdd'] = 'Ajouter un verrou';
+$_Lang ['SFB_Labels_SubmitEdit'] = 'Enregistrer les modifications';
+$_Lang ['SFB_Labels_CancelChanges'] = 'Annuler';
+
+$_Lang ['SFB_LabelsData_Type_1'] = 'Global';
+$_Lang ['SFB_LabelsData_Type_2'] = 'On Player';
+$_Lang ['SFB_LabelsData_Type_3'] = 'Sur la planète';
+$_Lang ['SFB_LabelsData_Mission_All'] = 'Tous';
+$_Lang ['SFB_LabelsData_Mission_Military'] = 'Agressif';
+$_Lang ['SFB_LabelsData_Mission_Civil'] = 'Civil';
+$_Lang ['SFB_LabelsData_PostEndTime_Zero'] = 'Aucun';
+$_Lang ['SFB_LabelsData_PostEndTime_1Day'] = '$_Lang heures ';
+
+$_Lang ['SFB_Types_1'] = '<b class = "red"> Global </ b>';
+$_Lang ['SFB_Types_2'] = '<b class = "orange"> Par joueur </ b>';
+$_Lang ['SFB_Types_3'] = '<b class = "orange"> Planète na </ b>';
+
+$_Lang ['SFB_Mission__1'] = 'Assaut';
+$_Lang ['SFB_Mission__2'] = 'Lien de parenté';
+$_Lang ['SFB_Mission__3'] = 'Transport';
+$_Lang ['SFB_Mission__4'] = 'Stationing';
+$_Lang ['SFB_Mission__5'] = 'Stop';
+$_Lang ['SFB_Mission__6'] = 'Espionnage';
+$_Lang ['SFB_Mission__7'] = 'Colonisation';
+$_Lang ['SFB_Mission__8'] = 'Récupérer les restes';
+$_Lang ['SFB_Mission__9'] = 'Détruire';
+$_Lang ['SFB_Mission__10'] = 'Attaque à la roquette';
+$_Lang ['SFB_Mission__15'] = 'Expédition';
+$_Lang ['SFB_Mission_Aggresive'] = '<b class = "orange"> Agressif </ b>';
+$_Lang ['SFB_Mission_Civil'] = '<b class = "lightblue"> Civil </ b>';
+$_Lang ['SFB_Mission_All'] = '<b class = "red"> Tous </ b>';
+
+$_Lang ['SFB_Additional_DontBlockIfIdle'] = 'Ne pas bloquer les utilisateurs indélicats';
+
+$_Lang ['SFB_EndIn'] = 'En retard';
+
+$_Lang ['SFB_Help_PostEndTime'] = 'Fin de la protection FreeStep';
+$_Lang ['SFB_Help_EndTime'] = 'Fin du bloc';
+$_Lang ['SFB_Confirm_Cancel'] = 'Êtes-vous sûr de vouloir arrêter ce verrouillage?';
+
+$_Lang ['SFB_Response_CancelOK'] = 'Le verrou a été interrompu!';
+$_Lang ['SFB_Response_CancelInactive'] = 'Ce bloc n'est plus actif!';
+$_Lang ['SFB_Response_CancelNoExist'] = 'Ce verrou n'existe pas!';
+$_Lang ['SFB_Response_CancelBadID'] = 'Identifiant de verrou non valide spécifié!';
+
+$_Lang ['SFB_Response_AddOK'] = 'Un nouveau verrou a été ajouté!';
+$_Lang ['SFB_Response_AddEndTimeBad'] = 'L'heure de fin de verrouillage spécifiée doit être une date ultérieure!';
+$_Lang ['SFB_Response_AddNoMissions'] = 'Aucune mission valide n'a été spécifiée pour le blocage!';
+$_Lang ['SFB_Response_AddBadStart'] = 'La date de début ne peut pas être postérieure à la date de fin!';
+$_Lang ['SFB_Response_AddBadType'] = 'Type de verrou invalide spécifié!';
+$_Lang ['SFB_Response_AddElementIDNoExists'] = 'L'ID à bloquer n'existe pas!';
+$_Lang ['SFB_Response_AddBadElementID'] = 'ID de verrou non valide spécifié!';
+
+$_Lang ['SFB_Response_EditOK'] = 'Les modifications ont été enregistrées!';
+$_Lang ['SFB_Response_EditPostEndTimeBad'] = 'La fin de la protection de la préservation ne peut pas être antérieure à la valeur précédente!';
+$_Lang ['SFB_Response_EditEndTimeBad'] = 'Le verrouillage de la date de fin ne peut pas être antérieur à la valeur précédente!';
+$_Lang ['SFB_Response_EditNoMissions'] = 'Aucune mission valide n'a été spécifiée pour le blocage!';
+$_Lang ['SFB_Response_EditOldRow'] = 'Ce verrou ne peut plus être modifié!';
+$_Lang ['SFB_Response_EditRowNoExists'] = 'Ce verrou n'existe pas!';
+$_Lang ['SFB_Response_EditBadID'] = 'Identifiant invalide entré!';
+
+?>

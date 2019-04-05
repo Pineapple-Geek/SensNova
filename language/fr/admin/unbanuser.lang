@@ -1,0 +1,16 @@
+<? Php
+
+$_Lang ['Page_Title'] = 'Unban';
+
+$_Lang ['Form_UserInput'] = 'Désactiver les joueurs <br/> (Séparer par des virgules) <br/> (Identifiant entre parenthèses [])';
+$_Lang ['Form_Other'] = 'Autres options';
+$_Lang ['Form_RemoveVacation'] = 'Prenez votre congé';
+$_Lang ['Form_Unban'] = 'Unban';
+
+$_Lang ['Msg_Unban1OK'] = 'Le joueur% sa été libéré!';
+$_Lang ['Msg_UnbanMOK'] = 'Les joueurs% s sont non autorisés!';
+$_Lang ['Error_NoOne2Unban'] = 'Aucun joueur trouvé pour unbaning!';
+$_Lang ['Error_BadSearch'] = 'Données de recherche incorrectes!';
+$_Lang ['Error_EmptySearch'] = 'Aucun joueur à rechercher n'a été trouvé!';
+
+?>

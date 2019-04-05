@@ -1,0 +1,104 @@
+<? Php
+
+$_Lang ['Userlist_Title'] = "Liste des joueurs";
+$_Lang ['Userlist_ID'] = 'ID';
+$_Lang ['Userlist_Username'] = 'Player';
+$_Lang ['Userlist_Email'] = "Adresse e-mail";
+$_Lang ['Userlist_IP'] = 'Adresse IP';
+$_Lang ['Userlist_RegIP'] = 'Enregistrement IP';
+$_Lang ['Userlist_Browser'] = 'Navigateur';
+$_Lang ['Userlist_Screen'] = 'Écran';
+$_Lang ['Userlist_Submit'] = 'Recherche de joueurs';
+$_Lang ['Userlist_NoUsersFound'] = 'Aucun joueur trouvé!';
+$_Lang ['Userlist_ConfirmDelete'] = 'Êtes-vous sûr de vouloir supprimer ce joueur?';
+
+$_Lang ['SearchUserTip'] = 'Pour utiliser <b> la recherche multiple </ b> (rechercher plusieurs valeurs à la fois), séparez chaque phrase par <b> | </ b> (barre verticale)';
+$_Lang ['SelectAllVisible'] = '<b> Tout sélectionner </ b>';
+$_Lang ['SelectAllFiltered'] = '<b> Sélectionnez tous les filtres correspondants </ b>';
+$_Lang ['EMails'] = 'Adresse e-mail';
+$_Lang ['IPs'] = 'Adresses IP';
+
+$_Lang ['mEmail'] = 'Courriel actif';
+$_Lang ['xEmail'] = 'Adresse email modifiée (dans le processus d'activation)';
+$_Lang ['_ même'] = '<b class = "lime"> Pas de changement </ b>';
+$_Lang ['_ notsame'] = '<b class = "orange"> Modifications en cours </ b>';
+
+$_Lang ['Lookup'] = 'Recherche';
+$_Lang ['LoopupInfo'] = 'Plus d’informations sur l’IP sélectionné';
+$_Lang ['LastIPLook'] = 'Dernière adresse IP';
+$_Lang ['RegIPLook'] = 'Enregistrement IP';
+$_Lang ['lastIP'] = 'Dernière adresse IP';
+$_Lang ['regIP'] = 'Adresse IP de l'enregistrement';
+$_Lang ['_ NoIP'] = 'Pas d’IP';
+
+$_Lang ['UserOnVacation'] = 'Le joueur est en vacances';
+$_Lang ['UserIsBanned'] = 'Le joueur est banni jusqu \' à ';
+$_Lang ['UserNotActivated'] = 'Le joueur n’a pas activé le compte';
+$_Lang ['UserIsOnDeletion'] = 'Compte en mode suppression';
+$_Lang ['UserDeleteIn'] = 'Suppression de compte';
+$_Lang ['DeleteInNextCalc'] = 'prochaine conversion';
+$_Lang ['UserActivationLink'] = 'Lien d'activation';
+
+$_Lang ['UserInfo'] = 'Aperçu complet';
+$_Lang ['UserPM'] = 'Écrire un message';
+$_Lang ['UserDelete'] = 'Supprimer le lecteur';
+$_Lang ['UserUnban'] = 'Annuler';
+$_Lang ['UserBan'] = 'Interdiction';
+$_Lang ['ShowActionLogs'] = 'Afficher les journaux';
+
+$_Lang ['ResetFilters'] = 'Réinitialiser les filtres';
+$_Lang ['ToggleFilters'] = 'Afficher / masquer les options de filtrage';
+$_Lang ['ShowPerPage'] = 'Joueurs par page';
+$_Lang ['StrictSearch'] = 'Correspondance complète';
+$_Lang ['AnyIP'] = 'Rechercher dans toute la base de données IP';
+$_Lang ['StrictSearchInfo'] = '<b> Correspondance complète </ b> signifie que vous rechercherez les résultats avec <b> exactement </ b> les mêmes valeurs que celles entrées.';
+$_Lang ['AnyIPInfo'] = '<b> La recherche dans toute la base de données IP </ b> recherche toutes les connexions depuis l’IP spécifiée, pas seulement la dernière connexion.';
+$_Lang ['SearchByName'] = 'Nom du joueur';
+$_Lang ['SearchByUserID'] = 'ID du joueur';
+$_Lang ['SearchByAlly'] = 'Les joueurs de l’Alliance';
+$_Lang ['SearchByAllyID'] = 'Joueurs de l’Alliance pour ID';
+$_Lang ['SearchByIP'] = 'Joueurs avec IP';
+
+$_Lang ['Last_Activity'] = 'Dernière activité';
+$_Lang ['Register_time'] = 'Enregistrement';
+
+$_Lang ['Ally_name'] = 'Alliance';
+$_Lang ['ItsAllyOwner'] = 'Propriétaire de l’Alliance';
+$_Lang ['AllyRequested'] = 'Une candidature soumise pour cette alliance';
+
+$_Lang ['OnlineSearch'] = 'Joueurs en ligne';
+$_Lang ['OnVacationSearch'] = 'Joueurs en vacances';
+$_Lang ['NoSort'] = 'Désactiver le tri';
+$_Lang ['IsBannedSearch'] = 'Joueurs interdits';
+$_Lang ['IsAISearch'] = 'Le joueur est Bot';
+$_Lang ['IsDeletingSearch'] = 'Suppression de compte';
+$_Lang ['IsActiveSearch'] = 'Compte actif';
+$_Lang ['IsInAllySearch'] = 'En alliance';
+$_Lang ['AllySearchType'] = 'Rechercher dans';
+$_Lang ['AllyInRequest'] = 'Inclure les applications';
+
+$_Lang ['PlayerIsBanned'] = 'Le joueur est banni!';
+$_Lang ['PlayerIsOnVacations'] = 'Le joueur est en vacances';
+
+$_Lang ['_ Yes'] = 'Oui';
+$_Lang ['_No'] = 'Non';
+$_Lang ['_Noms'] = 'Noms';
+$_Lang ['_ Tags'] = 'Tags';
+
+$_Lang ['UserStats'] = 'Statistiques';
+$_Lang ['ShowUserMessages'] = 'Messages du joueur';
+
+$_Lang ['FoundUsers_Count'] = 'Nombre de joueurs trouvés:% s';
+$_Lang ['Filtering_Time'] = 'Filtrage:% s p.';
+$_Lang ['Loading_Time'] = 'Téléchargement:% s p.';
+
+$_Lang ['MassAction'] ['Selections'] = 'Selection';
+$_Lang ["MassAction"] ["Ban"] = "Ban";
+$_Lang ['MassAction'] ['Unban'] = 'Unban';
+
+$_Lang ['UserFilter_NoGoodStrings'] = 'La fonction de filtrage a rejeté toutes les valeurs données!';
+
+$_Lang ['ThisData_NoAccess'] = '<span style = "couleur: rouge; bordure-bas: 1px en pointillé blanc;" class = "usrReg" title = "Vous n'êtes pas autorisé à afficher ce contenu!"> NoAccess </ span> ';
+
+
+?>

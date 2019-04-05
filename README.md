@@ -34,7 +34,7 @@ OGame-clone browser based game engine.
 
 1. Setup a webserver capable of running PHP scripts.
     - ``php.ini`` file should have ``E_NOTICE`` reporting disabled, eg.:
-        - ``error_reporting = E_ALL & ~E_NOTICE & ~E_STRICT``
+        - ``error_reporting = E_ALL & ~E_NOTICE & ~E_STRICT & ~E_DEPRECATED``
     - PHP needs to have write permissions to these files / directories:
         - ``config.php``
             - (one-off, installation purposes)

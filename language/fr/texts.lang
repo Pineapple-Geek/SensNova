@@ -1,0 +1,10 @@
+<?php
+
+$_Lang['Texts']				= array();
+
+$_Lang ['Error_TextNoExist'] = 'Ce texte n’existe pas !';
+$_Lang ['Error_BadID'] = 'Données incorrectes !!!';
+$_Lang ['PageTitle'] = 'Article:';
+$_Lang ['PageTitleError'] = 'Articles';
+
+?>

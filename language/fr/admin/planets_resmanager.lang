@@ -1,0 +1,26 @@
+<?php
+
+$_Lang ['PageTitle'] = 'Gestion de la planète';
+
+$_Lang ['Table_PlanetID'] = 'Identifiant Planète / Lune';
+$_Lang ['Table_Tabs_1'] = 'Matières premières';
+$_Lang ['Table_Tabs_2'] = 'Bâtiments';
+$_Lang ['Table_Tabs_3'] = 'Flotte';
+$_Lang ['Table_Tabs_4'] = 'Défense';
+$_Lang ['Table_CMD_Add'] = 'Ajouter';
+$_Lang ['Table_CMD_Set'] = 'Défini';
+$_Lang ['Table_CMD_Substract'] = 'Soustraire';
+$_Lang ['Table_Submit'] = 'Exécuter';
+
+$_Lang ['MsgBox_UpdateOK_Planet'] = 'Planète';
+$_Lang ['MsgBox_UpdateOK_Moon'] = 'Moon';
+$_Lang ['MsgBox_UpdateOK'] = '% s'% s '[% s:% s:% s] [#% s] (Lecteur: <a href = "user_info.php? Uid =% s" target = " _blank ">% s [#% s] </a>) a été correctement mis à jour (champs mis à jour:% s)! ';
+$_Lang ['MsgBox_UpdateNotAffected'] = '% s'% s '[% s:% s:% s] [#% s] (Lecteur: <a href = "user_info.php? Uid =% s" target = " _blank ">% s [#% s] </a>) n'a pas besoin de mise à jour ... ';
+$_Lang ['MsgBox_BadInput'] = 'Les données saisies sont incorrectes!';
+$_Lang ['MsgBox_PlanetDoesntExist'] = 'Une telle planète / lune n'existe pas!';
+$_Lang ['MsgBox_EmptyInput'] = 'Il n'y a pas de champs à mettre à jour!';
+$_Lang ['MsgBox_BadTabID'] = 'Identificateur de type de champ incorrect!';
+$_Lang ['MsgBox_BadCMD'] = 'Aucun type d'action valide n'a été sélectionné!';
+$_Lang ['MsgBox_BadPlanetID'] = 'Identifiant incorrect!';
+
+?>

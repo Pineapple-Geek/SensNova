@@ -1,0 +1,25 @@
+<?php
+
+$_Lang ['Page_Title'] = 'Interdiction';
+
+$_Lang ['Form_UserInput'] = 'Les joueurs doivent raccourcir Bana <br/> (Séparer par des virgules) <br/> (Identifiez-vous entre parenthèses [])';
+$_Lang ['Form_Option'] = 'Option de raccourcissement';
+$_Lang ['Form_OptDate'] = 'Jusqu'à la date donnée';
+$_Lang ['Form_OptTimeSpan'] = 'O temps fourni';
+$_Lang ['Form_PickDate'] = 'Choisir la date';
+$_Lang ['Form_Days'] = 'Jours';
+$_Lang ['Form_Hours'] = 'Heures';
+$_Lang ['Form_Minutes'] = 'Minutes';
+$_Lang ['Form_Seconds'] = 'Seconds';
+$_Lang ['Form_Unban'] = 'Raccourcir';
+
+$_Lang ['Msg_Update1OK'] = 'L’interdiction du joueur% s a été raccourcie!';
+$_Lang ['Msg_UpdateMOK'] = 'Les chauves-souris des joueurs% s ont été tronquées!';
+$_Lang ['Error_NoOne2Update'] = 'Aucun joueur trouvé qui pourrait raccourcir les Bans!';
+$_Lang ['Error_BadSearch'] = 'Données de recherche incorrectes!';
+$_Lang ['Error_EmptySearch'] = 'Aucun joueur à rechercher n'a été trouvé!';
+$_Lang ['Error_BadType'] = 'Type de troncature incorrect!';
+$_Lang ['Error_BadNewEndTime'] = 'La nouvelle interdiction des données ne peut pas être plus ancienne que le moment présent!';
+$_Lang ['Error_BadPeriod'] = 'Une heure incorrecte a été entrée pour raccourcir les interdictions!';
+
+?>

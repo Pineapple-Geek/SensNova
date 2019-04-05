@@ -1,0 +1,15 @@
+<?php
+
+$_Lang ['ban_title'] = 'Joueurs bannis';
+$_Lang ['ban_name'] = 'Player';
+$_Lang ['ban_reason'] = 'Raison';
+$_Lang ['ban_from'] = 'Accordé';
+$_Lang ['ban_to'] = 'Expire';
+$_Lang ['ban_by'] = 'Accordé par';
+$_Lang ['NoBannedPPL'] = 'Aucun joueur interdit!';
+$_Lang ['CountOfBannedPPL'] = 'Nombre de joueurs interdits';
+$_Lang ['Reason_NotSpecified'] = '<b class = "red"> Non rendu public </ b>';
+
+$_Lang ['ban_bysys'] = 'Système';
+
+?>

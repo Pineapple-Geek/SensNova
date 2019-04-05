@@ -1,0 +1,54 @@
+<? Php
+
+$_Lang ['mlst_title'] = "Liste des messages";
+$_Lang ['mlst_mess_del'] = "Messages supprimés";
+$_Lang ['mlst_hdr_page'] = "Page";
+$_Lang ['mlst_hdr_userID'] = 'Identifiant / Alliance du joueur';
+$_Lang ['mlst_hdr_msgID'] = 'Messages d’identité';
+$_Lang ['mlst_hdr_filter'] = 'Filtre';
+$_Lang ['mlst_hdr_title'] = ") message de:";
+$_Lang ['mlst_hdr_id'] = 'ID';
+$_Lang ['mlst_hdr_type'] = "Type";
+$_Lang ['mlst_hdr_time'] = "Données";
+$_Lang ['mlst_hdr_from'] = "De";
+$_Lang ['mlst_hdr_to'] = "Vers";
+$_Lang ['mlst_hdr_status'] = 'Statut';
+$_Lang ['mlst_hdr_text'] = 'Contenu';
+$_Lang ['mlst_hdr_action'] = "Marque";
+$_Lang ['mlst_del_mess'] = "Supprimer";
+$_Lang ['mlst_bt_setread'] = 'Défini comme lu';
+$_Lang ['mlst_bt_setnotread'] = 'Défini comme non lu';
+$_Lang ['mlst_bt_delselsoft'] = 'Supprimer la sélection (souple)';
+$_Lang ['mlst_bt_delsel'] = "Supprimer la sélection (difficile)";
+$_Lang ['mlst_bt_deldate'] = "Supprimer de l'heure donnée";
+$_Lang ['mlst_hdr_delfrom'] = "Supprimer à partir de";
+$_Lang ['mlst_mess_typ__0'] = "Rapports d'espionnage";
+$_Lang ['mlst_mess_typ__1'] = "Messages des joueurs";
+$_Lang ['mlst_mess_typ__2'] = 'Nouvelles de l'alliance';
+$_Lang ['mlst_mess_typ__3'] = "Rapports de guerre";
+$_Lang ['mlst_mess_typ__4'] = "Rapports sur les opérations";
+$_Lang ['mlst_mess_typ__5'] = "Rapports de flotte";
+$_Lang ['mlst_mess_typ_15'] = "Rapports d'expédition";
+$_Lang ['mlst_mess_typ_50'] = "Rapports de construction";
+$_Lang ['mlst_mess_typ_70'] = 'Nouvelles du système';
+$_Lang ['mlst_mess_typ_80'] = "Messages de l'administration";
+$_Lang ['mlst_mess_typ_100'] = "Tous les messages";
+
+$_Lang ['Status_Unread'] = 'Non lu';
+$_Lang ['Status_Read'] = 'Lire';
+$_Lang ['Status_Undeleted'] = 'Non enlevé';
+$_Lang ['Status_Deleted'] = 'Supprimé';
+
+$_Lang ['tip_Deleted'] = 'Supprimé';
+$_Lang ['tip_Read'] = 'Lire';
+$_Lang ['tip_Copy'] = 'Copier';
+
+$_Lang ['Err_CopyNotFound'] = '<b class = "red"> L'original de ce message n'existe pas! </ B>';
+
+$_Lang ['YouCannotSeeThisMsg'] = '<b class = "red"> Pas d’autorisation pour voir ce message! </ B>';
+$_Lang ['Error_NoMsgFound'] = 'Aucun message trouvé!';
+$_Lang ['Form_ResetFilters'] = 'Réinitialiser les filtres';
+
+$_Lang ['Pages_of'] = 'z';
+
+?>

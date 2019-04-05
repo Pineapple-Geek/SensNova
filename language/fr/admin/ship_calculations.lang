@@ -1,0 +1,28 @@
+<? Php
+
+$_Lang ['Page_Title'] = 'Comparer les navires';
+
+$_Lang ['Selector_Title'] = 'Sélectionnez les navires dans la liste';
+$_Lang ['Selector_MainShip'] = 'Navire principal';
+$_Lang ['Selector_SecondShip'] = 'Expédier - Cible';
+$_Lang ['Selector_Send'] = 'Comparer';
+$_Lang ['Table_SelectShip'] = 'Sélectionnez le navire avec lequel vous souhaitez comparer les autres unités ...';
+$_Lang ['Table_BadShip'] = 'Cette unité n’existe pas! Choisissez le bon ... ';
+
+$_Lang ['Headers_ID'] = 'ID';
+$_Lang ['Headers_Name'] = 'Nom';
+$_Lang ['Headers_MetalRatio'] = 'Métal';
+$_Lang ['Headers_CrystalRatio'] = 'Crystal';
+$_Lang ['Headers_DeuteriumRatio'] = 'Deuter';
+$_Lang ['Headers_TotalPriceRatio'] = 'Prix';
+$_Lang ['Headers_ForceRatio'] = 'Puissance';
+$_Lang ['Headers_ShieldRatio'] = 'Bouclier';
+$_Lang ['Headers_HullRatio'] = 'Armure';
+$_Lang ['Headers_StorageRatio'] = 'Charge utile';
+$_Lang ['Headers_SpeedRatio'] = 'Vitesse';
+$_Lang ['Headers_FuelRatio'] = 'Carburant';
+$_Lang ['Headers_DestroyInSingleShot'] = 'Performance';
+$_Lang ['Headers_RapidFireValue'] = 'SD';
+$_Lang ['Headers_CompareProfitability'] = 'Comparaison coût-efficacité';
+
+?>

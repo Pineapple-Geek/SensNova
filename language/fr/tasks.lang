@@ -1,0 +1,1298 @@
+<?php
+
+$_Lang ['PageTitle'] = 'Tâches et réalisations';
+
+$_Lang ['Tabs_ActiveTasks'] = 'Tâches actuelles';
+$_Lang ['Tabs_TasksLog'] = 'Journal de travail';
+$_Lang ['Tabs_Achievements'] = 'Réalisations';
+
+$_Lang ['Tab01_CatSel_TabTitle'] = 'Aperçu du travail';
+$_Lang ['Tab01_CatSel_CatRewards'] = 'Des récompenses pour avoir complété la catégorie entière';
+$_Lang ['Tab01_CatSel_Task'] = 'Tâche';
+$_Lang ['Tab01_CatSel_TaskDone'] = 'Exécuté';
+$_Lang ['Tab01_CatSel_TaskNotDone'] = 'Non exécuté';
+$_Lang ['Tab01_CatSel_TaskLocked'] = 'Déverrouillé';
+$_Lang ['Tab01_CatSel_JobsToDo'] = 'Tâches à exécuter';
+$_Lang ['Tab01_CatSel_FirstToDo'] = 'Pour déverrouiller, faites';
+$_Lang ['Tab01_CatSel_DoCategory'] = 'Toutes les catégories';
+$_Lang ['Tab01_CatSel_DoTask'] = 'Tâche';
+$_Lang ['Tab01_CatSel_Reward'] = 'Récompense pour avoir terminé la tâche';
+$_Lang ['Tab01_CatSel_SkipInfo'] = '<b class = \'% s \ '>% s </ b>';
+$_Lang ['Tab01_CatSel_SkipBoth'] = 'Vous obtiendrez des récompenses pour avoir terminé les tâches et la catégorie entière';
+$_Lang ['Tab01_CatSel_SkipTaskOnly'] = 'Vous ne recevrez de récompenses que pour l’achèvement des tâches <br/> - Aucun prix pour la fin de la catégorie';
+$_Lang ['Tab01_CatSel_SkipCatOnly'] = 'Vous ne recevrez de récompenses que si vous avez terminé la catégorie entière <br/> - Aucun prix pour des tâches individuelles';
+$_Lang ['Tab01_CatSel_SkipNone'] = 'Cela débloquera uniquement les autres tâches <br/> - Vous ne recevrez aucun prix ";
+$_Lang ['Tab01_CatSel_DoSkip'] = 'Ignorer cette catégorie';
+$_Lang ['Tab01_CatSel_SkipConfirm'] = 'Êtes-vous sûr de vouloir ignorer cette catégorie?';
+
+$_Lang ['Tab01_CatList_TabTitle'] = 'Liste des catégories de tâches à exécuter';
+$_Lang ['Tab01_CatList_Info'] = 'Voici une liste de toutes les tâches (divisées en catégories) que vous pouvez actuellement effectuer. <br/> Cliquez sur l’une des catégories pour afficher son aperçu et vérifier le statut de tâches spécifiques. <br/> Si vous souhaitez revoir toutes les tâches que vous avez déjà effectuées, accédez à l'onglet "Journal des tâches". <br/> <b class = "lime"> Toutes les récompenses de quête sont attribuées à Planet Mother </ b> ';
+$_Lang ['Tab01_CatList_Done'] = 'Pris';
+$_Lang ['Tab01_CatList_NoCats'] = 'Aucune tâche possible à faire!';
+$_Lang ['Tab01_CatList_AllCatsMade'] = 'Vous avez terminé toutes les tâches!';
+$_Lang ['Tab01_CatList_NoCatsMade'] = 'Vous n'avez pas encore terminé les catégories de tâches!';
+
+$_Lang ['Tab01_CatListDone_TabTitle'] = 'Liste des catégories de tâches complétées';
+$_Lang ['Tab01_CatListDone_Info'] = 'Vous trouverez ci-dessous une liste de toutes les catégories de tâches déjà terminées. <br/> Cliquez sur l’une des catégories pour voir son aperçu et voir ce que vous avez dû faire ou les récompenses que vous avez reçues.';
+
+$_Lang['TasksCats'] = array
+(
+1 => 'Introduction',
+2 => 'Militaire',
+3 => 'Économie',
+4 => 'Développement scientifique',
+5 => 'Support allié',
+6 => 'Universum Support',
+);
+$_Lang['TasksCatRewards'] = array
+(
+	1 => array('Géologue gratuit pendant 3 jours'),
+);
+
+$_Lang['Tasks'] = array
+(
+	// Introduction
+	1 => array
+	(
+		'name' => 'Basic Supply',
+		'img' => 'gebaeude / 1.gif',
+		'desc' => 'L’expansion de base de l’infrastructure planétaire fournit les ressources nécessaires pour continuer à jouer. <b> Le métal </ b> et le <b> Cristal </ b> sont les principales matières premières disponibles dans le jeu. Grâce à cela, vous développerez votre Empire avec de nouveaux bâtiments ou de nouvelles flottes. Il est également nécessaire d'extraire de <b> l'énergie </ b> fournie par les centrales électriques concernées et leurs substituts plus petits. ',
+		'récompenses' => '10 000 unités de métal et de cristal'
+	),
+	2 => array
+	(
+		'name' => 'Troisième matière première',
+		'img' => 'gebaeude / 3.gif',
+		'desc' => '<b> Deutérium </ b> est une ressource très importante dans le jeu. Il permet l'expansion de l'infrastructure de Planet, le développement de la recherche, la création de la flotte et de certains systèmes de défense. Si votre empire doit prospérer, vous devez lui fournir la bonne quantité de cette ressource. <b> Deuter </ b> est également utilisé comme <b> carburant </ b> pour engin spatial en raison de ses valeurs énergétiques. ',
+		'récompenses' => '5 000 unités Deuter'
+	),
+	3 => array
+	(
+		'name' => 'Défense nécessaire',
+		'img' => 'gebaeude / 401.gif',
+		'desc' => 'L'aspect principal du jeu est le combat avec d'autres joueurs. Pour éviter tout ratissage facile de vos planètes, essayez d’étendre de temps en temps la défense de votre planète. Vous aurez besoin de <b> Robot Factory </ b> et de <b> Stocznia </ b> pour la construction de navires et de systèmes de défense. Dans les phases ultérieures du jeu, des réalisations technologiques appropriées seront également nécessaires. ',
+		'récompenses' => '5 000 lance-roquettes'
+	),
+	4 => array
+	(
+		'name' => 'Nouvelle expansion de Planet',
+		'img' => 'gebaeude / 22.gif',
+		'desc' => 'Chaque planète dispose d’un espace limité pour stocker les matières premières. Lorsqu'il n'y a pas assez d'espace sur la planète, la <b> production de matière première </ b> est arrêtée. L'extension des <b> Stockages </ b> et des <b> Stockages </ b> empêche cela. Rappelez-vous cependant que les matières premières livrées par vos navires ne seront pas perdues! ',
+		'récompenses' => '50 000 unités Metal, Crystal et 20 000 unités Deuter '
+	),
+	5 => array
+	(
+	'name' => 'Research Development',
+	'img' => 'gebaeude / 31.gif',
+	'desc' => '<b> Le laboratoire de recherche </ b> est un bâtiment qui permet le développement de technologies vous permettant de construire de nouveaux types de navires avec de meilleurs paramètres et d’accroître leurs capacités. L’un des types de recherche les plus importants est la <b> technologie informatique </ b> (augmentation du nombre maximal de Flot en déplacement) et la <b> technologie des disques durs </ b>. Vous trouverez des informations sur les <b> Spécifications techniques </ b> dans l'onglet <b> de <a href="techtree.php" class="orange"> Technologie </a> "</ b> dans le menu Jeux. ',
+	'récompenses' => '5 000 unités de cristal et de deutérium'
+	),
+	6 => array
+	(
+	'name' => 'First Ships',
+	'img' => 'gebaeude / 202.gif',
+	'desc' => 'Grâce aux navires, vous pouvez transporter des ressources entre vos colonies et attaquer et piller vos ennemis. Les navires tels que les <b> transporteurs </ b> ne sont pas adaptés au combat. Si vous avez une flotte ennemie sur la planète, soutenez-la avec d'autres unités militaires (par exemple, <b> des chasseurs légers </ b> qui prennent feu et < b> Navires de guerre </ b> pouvant causer des dommages importants à un adversaire) ',
+	'récompenses' => '500 petits transporteurs et combattants légers'
+	),
+	7 => array
+	(
+	'name' => 'Colonials Planetary',
+	'img' => 'gebaeude / 208.gif',
+	'desc' => 'Développer <b> Cologne </ b> est extrêmement important. Grâce à eux, il est beaucoup plus facile d'augmenter l'augmentation de la matière première lorsque les mines de la matière sur la planète mère nécessitent des fonds importants pour la construction. Il est beaucoup plus facile et plus efficace de développer deux mines de faible niveau qu'une autre à forte expansion (jusqu'à ce que ces niveaux soient égalisés). Les plus abondantes des planètes Deuter se trouvent dans les dernières positions les plus froides du <b> système solaire </ b>, et les plus grandes planètes se trouvent en 14ème position. ',
+	'récompenses' => '2 navires de colonisation'
+	),
+	8 => array
+	(
+	'name' => 'Additional Energy Sources',
+	'img' => 'gebaeude / 212.gif',
+	'desc' => 'Les <b> satellites solaires </ b> sont une très bonne source d’énergie fréquemment utilisée au cours des dernières étapes du jeu. Ils sont beaucoup moins chers que le développement de la centrale électrique et fournissent plus d’énergie. Malheureusement, vous devez tenir compte du fait qu'ils peuvent être détruits lors d'une bataille sur l'orbite de la planète. Par conséquent, il ne faut pas abandonner le développement de la centrale électrique, même à de faibles niveaux. ',
+	'récompenses' => '200 satellites solaires'
+	),
+	9 => array
+	(
+	'name' => 'Warfare',
+	'img' => 'gebaeude / 210.gif',
+	'desc' => 'La première étape dans la collecte des ressources des autres joueurs consiste à <b> espionner </ b> leurs planètes à l'aide de <b> Sond Szpiegowskich </ b>. Aux bons niveaux ou quantités technologiques de sondes, il vous fournit des informations précieuses sur l’état de la planète ennemie (cependant, elle peut être détruite pendant les missions!). Avant l’attaque, utilisez le <b> Walk Simulator </ b> pour vérifier la rentabilité de l’attaque. N'oubliez pas qu'en l'absence de flotte et de défense sur la planète, vous pouvez <b> ramasser les matières premières </ b> même avec <b> Transporteurs </ b>! ',
+	'récompenses' => '500 Spy Pros, 20 Cruisers'
+	),
+	10 => array
+	(
+	'name' => 'Nettoyage des champs de destruction',
+	'img' => 'gebaeude / 209.gif',
+	'desc' => 'Après chaque bataille sur les orbites des planètes, des <b> champs de destruction </ b> sont créés. Ils sont constitués de parties de navires détruits lors des combats. Il s’agit d’un <b> profit supplémentaire </ b> des batailles menées. Vous devez donc collecter des chutes pour les retraiter. Pour collecter les débris (désignés par les <b> lecteurs de débris </ b>), <b> recycleurs </ b> 'sont utilisés,
+	'récompenses' => '200 recycleurs'
+	),
+	11 => array
+	(
+	'name' => 'Relations de joueurs',
+	'img' => 'officiers / 602.jpg',
+	'desc' => '<b> Les alliances </ b> sont des associations de joueurs qui se déclarent mutuellement solidaires à la fois de Militran et de Handlowa. Votre présence dans l'Alliance augmente vos chances dans le jeu et peut accélérer votre développement. Une autre fonctionnalité "sociale" du jeu est <b> BuddyLista </ b> - une liste de personnes amicales dans le jeu. Ajouter quelqu'un à BuddyList vous permet de vérifier son statut En ligne et vous permet, comme l'Alliance, de <b> Attaques courantes </ b> (attaques de conformité, appelées ACS). ',
+	'rewards' => '10 Warships '
+	),
+	12 => array
+	(
+	'name' => 'Fleet Protection',
+	'img' => 'gebaeude / 219.gif',
+	'desc' => 'Ce jeu fonctionne 24 heures sur 24, même si vous n'êtes pas connecté. Par conséquent, une action importante pour les propriétaires de Flot est de le faire. <b> FleetSave (FS) </ b> avant de vous déconnecter - il s’agit de vols de flotte longs et lents, afin que vos ennemis ne puissent pas détruire votre flotte. Navires spéciaux: les <b> navettes </ b> servent à ralentir les flottes. L’un des meilleurs types de FS consiste à envoyer des navires entre <b> vos Lunes </ b> avec la mission <b> Station </ b>. En envoyant une flotte de la planète ou sur la planète, cela sera visible sur <b> Faland Sensors </ b> (il s'agit d'un bâtiment spécial disponible pour les détenteurs de la lune). ',
+	'récompenses' => '150 000 unités de métal, cristal et deutérium'
+	),
+	13 => array
+	(
+	'name' => 'Development of computerization',
+	'img' => 'gebaeude / 15.gif',
+	'desc' => 'Au fur et à mesure que votre empire se développe, l'expansion des bâtiments ou celle de la flotte s'allongent en raison de l'avancement des travaux sur les nouvelles constructions. Un élément très important sur chaque planète est la Nanite Factory, qui accélère considérablement la construction de bâtiments et le chantier naval. Pour chaque niveau de l'usine, le temps de construction est réduit de moitié, quel que soit le niveau d'avancement des travaux. ',
+	'récompenses' => '2.000.000 unités de métal, 1.000.000 de cristal et 200.000 de deutérium'
+	),
+	14 => array
+	(
+	'name' => 'Basics of Fleet Hunt',
+	'img' => 'gebaeude / 214.gif',
+	'desc' => 'Falanga Sensors est un outil extrêmement utile dans le soi-disant "Capturer des flottes", cependant, cela devient inutile lorsque l'ennemi envoie ses flottes entre les lunes. À la recherche de flottes pour tirer des Deathstars utiles, qui, grâce à leurs énormes gravitons, peuvent détruire toute la lune. Après destruction, toutes les flottes partant de la Lune donnée seront redirigées vers les Planètes, qui redeviendront visibles pour Falanga. ',
+	'récompenses' => '10 étoiles de la mort '
+	),
+	15 => array
+	(
+	'name' => 'Transport interplanétaire',
+	'img' => 'gebaeude / 217.gif',
+	'desc' => 'Mega Transporters couronne le travail des ingénieurs pour améliorer les échanges commerciaux entre les colonies. Dans les empires développés, ils constituent l'unité de base du transport des matières premières dans le système planétaire impérial. ',
+	'récompenses' => '50 Mega Transporters '
+	),
+	16 => array
+	(
+	'name' => 'Expansion coloniale',
+	'img' => 'gebaeude / 208.gif',
+	'desc' => 'Du point de vue économique, une expansion supplémentaire dans l’espace est extrêmement importante. Chaque planète supplémentaire constitue une source supplémentaire de revenus réguliers pour votre Empire. Plus tôt cette expansion se produit, plus vite vous pourrez dépasser vos rivaux ou rattraper vos concurrents existants. ',
+	'récompenses' => '200 Mega Transporters'
+	),
+	17 => array
+	(
+	'name' => 'Raw colonialism',
+	'img' => 'gebaeude / 2.gif',
+	'desc' => 'La création de nouvelles colonies ne peut pas oublier le développement de leur infrastructure planétaire. Cela vaut la peine d’investir dans d’autres niveaux de mines et d’extracteurs pour développer l’activité minière dans tout l’empire. Un facteur important est le développement uniforme de toutes les colonies, ce qui permet d'accroître l'efficacité de l'extraction. ',
+	'récompenses' => '5 000 000 d'unités de métal et de cristal, 2 000 000 d'unités de Deuter'
+	),
+	18 => array
+	(
+	'name' => 'Satellites naturels',
+	'img' => 'gebaeude / 41.gif',
+	'desc' => 'La Lune est le seul endroit où vous pouvez construire des structures telles que Téléporteur ou Falanga Sensors. En outre, il crée les conditions idéales pour fabriquer Fleet Savów et protéger vos exploits contre les tirs hostiles. Les lunes sont formées après les batailles sur l’orbite de la planète, il est donc préférable de demander à vos amis de l’alliance de Moonmaking - briser une petite flotte qui, avec un peu de chance, va nous créer une lune. ',
+	'récompenses' => '4 000 000 d'unités de métal et de deutérium, 8 000 000 d'unités de cristal'
+	),
+	19 => array
+	(
+	'name' => 'Sécuriser la flotte',
+	'img' => 'planeten / mond.jpg',
+	'desc' => 'L’une des meilleures méthodes de Fleet Saving consiste à envoyer une flotte de sa propre lune à l’autre avec la mission stationnée. Grâce à l'utilisation de lunes, notre flotte est invisible à la Phalange des capteurs. En cas de destruction de la lune, nous disposons d'une plus grande marge de manœuvre. ',
+	'récompenses' => '10 000 000 unités Deuter'
+	),
+	// Military
+	20 => array
+	(
+	'name' => 'Power of gravitrons I',
+	'img' => 'gebaeude / 214.gif',
+	'desc' => '',
+	'récompenses' => '1 000 000 000 d'unités Deuter'
+	),
+	21 => array
+	(
+	'name' => 'Power of gravitrons II',
+	'img' => 'gebaeude / 214.gif',
+	'desc' => '',
+	'récompenses' => '3 000 000 000 d'unités Deuter'
+	),
+	22 => array
+	(
+	'name' => 'Power of gravitrons III',
+	'img' => 'gebaeude / 214.gif',
+	'desc' => '',
+	'récompenses' => '10 000 000 000 unités Deuter'
+	),
+	23 => array
+	(
+	'name' => 'La gravité perfide I',
+	'img' => 'gebaeude / 199.gif',
+	'desc' => '',
+	'récompenses' => '5 000 000 000 d'unités Deuter'
+	),
+	24 => array
+	(
+	'name' => 'La gravité perfide II',
+	'img' => 'gebaeude / 199.gif',
+	'desc' => '',
+	'récompenses' => '10 000 000 000 unités Deuter'
+	),
+	25 => array
+	(
+	'name' => 'La gravité perfide III',
+	'img' => 'gebaeude / 199.gif',
+	'desc' => '',
+	'récompenses' => '20, 000.000.000 unités Deuter '
+	),
+	26 => array
+	(
+	'name' => 'Entertainment attractif',
+	'img' => 'planeten / mond.jpg',
+	'desc' => '',
+	'récompenses' => '25 000 000 000 unités Deuter'
+	),
+	27 => array
+	(
+	'nom' => 'déchirure totale',
+	'img' => 'planeten / mond.jpg',
+	'desc' => '',
+	'récompenses' => '25 000 000 000 unités Deuter'
+	),
+	28 => array
+	(
+	'name' => 'Le seigneur des gravitons',
+	'img' => 'planeten / mond.jpg',
+	'desc' => '',
+	'récompenses' => '100 000 000 000 d'unités Deuter'
+	),
+	29 => array
+	(
+	'name' => 'Créateur orbital I',
+	'img' => 'planeten / mond.jpg',
+	'desc' => '',
+	'récompenses' => '20, 000.000.000 unités Deuter '
+	),
+	30 => array
+	(
+	'name' => 'Orbital creator II',
+	'img' => 'planeten / mond.jpg',
+	'desc' => '',
+	'récompenses' => '50, 000,000,000 unités Deuter '
+	),
+	31 => array
+	(
+	'name' => 'Orbital creator III',
+	'img' => 'planeten / mond.jpg',
+	'desc' => '',
+	'récompenses' => '100 000 000 000 d'unités Deuter'
+	),
+	32 => array
+	(
+		'name' => 'Pożeracz mięsa I',
+		'img' => 'gebaeude/204.gif',
+		'desc' => '',
+		'rewards' => '1.000.000.000 jednostek Deuteru'
+	),
+	33 => array
+	(
+		'name' => 'Pożeracz mięsa II',
+		'img' => 'gebaeude/204.gif',
+		'desc' => '',
+		'rewards' => '10.000.000.000 jednostek Deuteru'
+	),
+	34 => array
+	(
+		'name' => 'Pożeracz mięsa III',
+		'img' => 'gebaeude/204.gif',
+		'desc' => '',
+		'rewards' => '50.000.000.000 jednostek Deuteru'
+	),
+	35 => array
+	(
+		'name' => 'Przewaga taktyczna I',
+		'img' => 'gebaeude/215.gif',
+		'desc' => '',
+		'rewards' => '500.000.000 jednostek Kryształu'
+	),
+	36 => array
+	(
+		'name' => 'Przewaga taktyczna II',
+		'img' => 'gebaeude/215.gif',
+		'desc' => '',
+		'rewards' => '15.000.000.000 jednostek Kryształu'
+	),
+	37 => array
+	(
+		'name' => 'Przewaga taktyczna III',
+		'img' => 'gebaeude/215.gif',
+		'desc' => '',
+		'rewards' => '50.000.000.000 jednostek Kryształu'
+	),
+	38 => array
+	(
+		'name' => 'Siła Związku I',
+		'img' => 'gebaeude/213.gif',
+		'desc' => '',
+		'rewards' => '1.000.000.000 jednostek Kryształu'
+	),
+	39 => array
+	(
+		'name' => 'Siła Związku II',
+		'img' => 'gebaeude/213.gif',
+		'desc' => '',
+		'rewards' => '50.000.000.000 jednostek Kryształu'
+	),
+	40 => array
+	(
+		'name' => 'Siła Związku III',
+		'img' => 'gebaeude/213.gif',
+		'desc' => '',
+		'rewards' => '150.000.000.000 jednostek Kryształu'
+	),
+	41 => array
+	(
+		'name' => 'Po trupach do celu I',
+		'img' => 'gebaeude/205.gif',
+		'desc' => '',
+		'rewards' => '30.000.000 jednostek Deuteru'
+	),
+	42 => array
+	(
+		'name' => 'Po trupach do celu II',
+		'img' => 'gebaeude/205.gif',
+		'desc' => '',
+		'rewards' => '100.000.000 jednostek Deuteru'
+	),
+	43 => array
+	(
+		'name' => 'Po trupach do celu III',
+		'img' => 'gebaeude/205.gif',
+		'desc' => '',
+		'rewards' => '300.000.000 jednostek Deuteru'
+	),
+	44 => array
+	(
+		'name' => 'Po trupach do celu IV',
+		'img' => 'gebaeude/205.gif',
+		'desc' => '',
+		'rewards' => '1.000.000.000 jednostek Deuteru'
+	),
+	45 => array
+	(
+		'name' => 'Po trupach do celu V',
+		'img' => 'gebaeude/205.gif',
+		'desc' => '',
+		'rewards' => '3.000.000.000 jednostek Deuteru'
+	),
+	46 => array
+	(
+		'name' => 'Ciężki orzech do zgryzienia I',
+		'img' => 'gebaeude/206.gif',
+		'desc' => '',
+		'rewards' => '4.000.000.000 jednostek Deuteru'
+	),
+	47 => array
+	(
+		'name' => 'Ciężki orzech do zgryzienia II',
+		'img' => 'gebaeude/206.gif',
+		'desc' => '',
+		'rewards' => '16.000.000.000 jednostek Deuteru'
+	),
+	48 => array
+	(
+		'name' => 'Ciężki orzech do zgryzienia III',
+		'img' => 'gebaeude/206.gif',
+		'desc' => '',
+		'rewards' => '40.000.000.000 jednostek Deuteru'
+	),
+	49 => array
+	(
+		'name' => 'Metaliczna miazga I',
+		'img' => 'gebaeude/218.gif',
+		'desc' => '',
+		'rewards' => '10.000.000.000 jednostek Deuteru'
+	),
+	50 => array
+	(
+		'name' => 'Metaliczna miazga II',
+		'img' => 'gebaeude/218.gif',
+		'desc' => '',
+		'rewards' => '40.000.000.000 jednostek Deuteru'
+	),
+	51 => array
+	(
+		'name' => 'Metaliczna miazga III',
+		'img' => 'gebaeude/218.gif',
+		'desc' => '',
+		'rewards' => '100.000.000.000 jednostek Deuteru'
+	),
+	52 => array
+	(
+		'name' => 'Masowe potyczki I',
+		'img' => 'gebaeude/218.gif',
+		'desc' => '',
+		'rewards' => '15.000.000.000 jednostek Deuteru'
+	),
+	53 => array
+	(
+		'name' => 'Masowe potyczki II',
+		'img' => 'gebaeude/218.gif',
+		'desc' => '',
+		'rewards' => '50.000.000.000 jednostek Deuteru'
+	),
+	54 => array
+	(
+		'name' => 'Masowe potyczki III',
+		'img' => 'gebaeude/218.gif',
+		'desc' => '',
+		'rewards' => '125.000.000.000 jednostek Deuteru'
+	),
+	55 => array
+	(
+		'name' => 'Grupa wyburzająca',
+		'img' => 'gebaeude/218.gif',
+		'desc' => '',
+		'rewards' => '500.000.000.000 jednostek Deuteru'
+	),
+	56 => array
+	(
+		'name' => 'Nieustraszona blokada',
+		'img' => 'gebaeude/223.gif',
+		'desc' => '',
+		'rewards' => '4.000.000.000 jednostek Deuteru'
+	),
+	57 => array
+	(
+		'name' => 'Dziel i rządź',
+		'img' => 'gebaeude/224.gif',
+		'desc' => '',
+		'rewards' => '1.000.000.000.000 jednostek Deuteru'
+	),
+	58 => array
+	(
+		'name' => 'Czyszczenie środowiska',
+		'img' => 'gebaeude/209.gif',
+		'desc' => '',
+		'rewards' => '500.000.000.000 jednostek Metalu i Kryształu'
+	),
+	59 => array
+	(
+		'name' => 'Zbiórka plonów I',
+		'img' => 'gebaeude/217.gif',
+		'desc' => '',
+		'rewards' => '5.000.000.000 jednostek Deuteru'
+	),
+	60 => array
+	(
+		'name' => 'Zbiórka plonów II',
+		'img' => 'gebaeude/217.gif',
+		'desc' => '',
+		'rewards' => '20.000.000.000 jednostek Deuteru'
+	),
+	61 => array
+	(
+		'name' => 'Zbiórka plonów III',
+		'img' => 'gebaeude/217.gif',
+		'desc' => '',
+		'rewards' => '40.000.000.000 jednostek Deuteru'
+	),
+	62 => array
+	(
+		'name' => 'Poświęcenie ku zwycięstwu I',
+		'img' => 'gebaeude/204.gif',
+		'desc' => '',
+		'rewards' => '90.000.000.000 jednostek Metalu oraz 30.000.000.000 jednostek Kryształu'
+	),
+	63 => array
+	(
+		'name' => 'Poświęcenie ku zwycięstwu II',
+		'img' => 'gebaeude/205.gif',
+		'desc' => '',
+		'rewards' => '1.000.000.000.000 jednostek Metalu oraz 350.000.000.000 jednostek Kryształu'
+	),
+	// Economy
+	64 => array
+	(
+		'name' => 'Rozwój gospodarki I',
+		'img' => 'gebaeude/1.gif',
+		'desc' => '',
+		'rewards' => '25.000.000 jednostek Metalu i 10.000.000 jednostek Kryształu'
+	),
+	65 => array
+	(
+		'name' => 'Rozwój gospodarki II',
+		'img' => 'gebaeude/2.gif',
+		'desc' => '',
+		'rewards' => '2.000.000.000 jednostek Metalu i 850.000.000 jednostek Kryształu'
+	),
+	66 => array
+	(
+		'name' => 'Rozwój gospodarki III',
+		'img' => 'gebaeude/3.gif',
+		'desc' => '',
+		'rewards' => '60.000.000.000 jednostek Metalu i 28.000.000.000 jednostek Kryształu'
+	),
+	67 => array
+	(
+		'name' => 'Potęga Gospodarcza',
+		'img' => 'gebaeude/3.gif',
+		'desc' => '',
+		'rewards' => '120.000.000.000 jednostek Metalu i 60.000.000.000 jednostek Kryształu'
+	),
+	68 => array
+	(
+		'name' => 'Wzrost gospodarczy',
+		'img' => 'gebaeude/2.gif',
+		'desc' => '',
+		'rewards' => '75.000.000.000 jednostek Metalu, 50.000.000.000 jednostek Kryształu i 37.000.000.000 jednostek Deuteru'
+	),
+	69 => array
+	(
+		'name' => 'Logistyka przechowywania',
+		'img' => 'gebaeude/23.gif',
+		'desc' => '',
+		'rewards' => '100.000.000 jednostek Metalu i 50.000.000 jednostek Kryształu'
+	),
+	70 => array
+	(
+		'name' => 'Zaawansowany Terraforming',
+		'img' => 'gebaeude/33.gif',
+		'desc' => '',
+		'rewards' => '200.000.000 jednostek Kryształu i 400.000.000 jednostek Deuteru'
+	),
+	71 => array
+	(
+		'name' => 'Chłodne paliwo',
+		'img' => 'gebaeude/3.gif',
+		'desc' => '',
+		'rewards' => '75.000.000.000 jednostek Deuteru'
+	),
+	// Scientific Development
+	72 => array
+	(
+		'name' => 'Rozwój uzbrojenia I',
+		'img' => 'gebaeude/109.gif',
+		'desc' => '',
+		'rewards' => '2.000.000.000 jednostek Kryształu'
+	),
+	73 => array
+	(
+		'name' => 'Rozwój uzbrojenia II',
+		'img' => 'gebaeude/109.gif',
+		'desc' => '',
+		'rewards' => '64.000.000.000 jednostek Kryształu'
+	),
+	74 => array
+	(
+		'name' => 'Rozwój tarcz I',
+		'img' => 'gebaeude/110.gif',
+		'desc' => '',
+		'rewards' => '5.000.000.000 jednostek Kryształu'
+	),
+	75 => array
+	(
+		'name' => 'Rozwój tarcz II',
+		'img' => 'gebaeude/110.gif',
+		'desc' => '',
+		'rewards' => '160.000.000.000 jednostek Kryształu'
+	),
+	76 => array
+	(
+		'name' => 'Rozwój opancerzenia I',
+		'img' => 'gebaeude/111.gif',
+		'desc' => '',
+		'rewards' => '10.000.000.000 jednostek Metalu'
+	),
+	77 => array
+	(
+		'name' => 'Rozwój opancerzenia II',
+		'img' => 'gebaeude/111.gif',
+		'desc' => '',
+		'rewards' => '320.000.000.000 jednostek Metalu'
+	),
+	78 => array
+	(
+		'name' => 'Rozwój laserów I',
+		'img' => 'gebaeude/120.gif',
+		'desc' => '',
+		'rewards' => '1.000.000.000 jednostek Metalu'
+	),
+	79 => array
+	(
+		'name' => 'Rozwój laserów II',
+		'img' => 'gebaeude/120.gif',
+		'desc' => '',
+		'rewards' => '30.000.000.000 jednostek Metalu'
+	),
+	80 => array
+	(
+		'name' => 'Rozwój laserów III',
+		'img' => 'gebaeude/120.gif',
+		'desc' => '',
+		'rewards' => '300.000.000.000 jednostek Metalu'
+	),
+	81 => array
+	(
+		'name' => 'Rozwój dział jonowych I',
+		'img' => 'gebaeude/121.gif',
+		'desc' => '',
+		'rewards' => '50.000.000 jednostek Deuteru'
+	),
+	82 => array
+	(
+		'name' => 'Rozwój dział jonowych II',
+		'img' => 'gebaeude/121.gif',
+		'desc' => '',
+		'rewards' => '1.500.000.000 jednostek Deuteru'
+	),
+	83 => array
+	(
+		'name' => 'Rozwój dział jonowych III',
+		'img' => 'gebaeude/121.gif',
+		'desc' => '',
+		'rewards' => '15.000.000.000 jednostek Deuteru'
+	),
+	84 => array
+	(
+		'name' => 'Rozwój miotaczy plazmowych I',
+		'img' => 'gebaeude/122.gif',
+		'desc' => '',
+		'rewards' => '500.000.000 jednostek Kryształu'
+	),
+	85 => array
+	(
+		'name' => 'Rozwój miotaczy plazmowych II',
+		'img' => 'gebaeude/122.gif',
+		'desc' => '',
+		'rewards' => '15.000.000.000 jednostek Kryształu'
+	),
+	86 => array
+	(
+		'name' => 'Rozwój miotaczy plazmowych III',
+		'img' => 'gebaeude/122.gif',
+		'desc' => '',
+		'rewards' => '150.000.000.000 jednostek Kryształu'
+	),
+	87 => array
+	(
+		'name' => 'Imperialna Siatka Badawcza',
+		'img' => 'gebaeude/123.gif',
+		'desc' => '',
+		'rewards' => '50.000.000 jednostek Kryształu'
+	),
+	88 => array
+	(
+		'name' => 'Galaktyczne Centrum Nauk',
+		'img' => 'gebaeude/31.gif',
+		'desc' => '',
+		'rewards' => '1.000.000.000 jednostek Kryształu i Deuteru'
+	),
+	89 => array
+	(
+		'name' => 'Technokracja I',
+		'img' => 'gebaeude/108.gif',
+		'desc' => '',
+		'rewards' => '5.000.000 jednostek Deuteru'
+	),
+	90 => array
+	(
+		'name' => 'Technokracja II',
+		'img' => 'gebaeude/108.gif',
+		'desc' => '',
+		'rewards' => '10.000.000 jednostek Deuteru'
+	),
+	91 => array
+	(
+		'name' => 'Technokracja III',
+		'img' => 'gebaeude/108.gif',
+		'desc' => '',
+		'rewards' => '50.000.000 jednostek Deuteru'
+	),
+	92 => array
+	(
+		'name' => 'Technokracja IV',
+		'img' => 'gebaeude/108.gif',
+		'desc' => '',
+		'rewards' => '200.000.000 jednostek Deuteru'
+	),
+	93 => array
+	(
+		'name' => 'Technokracja V',
+		'img' => 'gebaeude/108.gif',
+		'desc' => '',
+		'rewards' => '500.000.000 jednostek Deuteru'
+	),
+	// Allied support
+	94 => array
+	(
+		'name' => 'Demolka w słusznej sprawie I',
+		'img' => 'planeten/mond.jpg',
+		'desc' => '',
+		'rewards' => '2.500.000 jednostek Deuteru'
+	),
+	95 => array
+	(
+		'name' => 'Demolka w słusznej sprawie II',
+		'img' => 'planeten/mond.jpg',
+		'desc' => '',
+		'rewards' => '7.500.000 jednostek Deuteru'
+	),
+	96 => array
+	(
+		'name' => 'Demolka w słusznej sprawie III',
+		'img' => 'planeten/mond.jpg',
+		'desc' => '',
+		'rewards' => '15.000.000 jednostek Deuteru'
+	),
+	97 => array
+	(
+		'name' => 'Demolka w słusznej sprawie IV',
+		'img' => 'planeten/mond.jpg',
+		'desc' => '',
+		'rewards' => '30.000.000 jednostek Deuteru'
+	),
+	98 => array
+	(
+		'name' => 'Demolka w słusznej sprawie V',
+		'img' => 'planeten/mond.jpg',
+		'desc' => '',
+		'rewards' => '50.000.000 jednostek Deuteru'
+	),
+	99 => array
+	(
+		'name' => 'Lider Grupy I',
+		'img' => 'gebaeude/218.gif',
+		'desc' => '',
+		'rewards' => '10.000.000 jednostek Deuteru'
+	),
+	100 => array
+	(
+		'name' => 'Lider Grupy II',
+		'img' => 'gebaeude/218.gif',
+		'desc' => '',
+		'rewards' => '10.000.000 jednostek Deuteru'
+	),
+	101 => array
+	(
+		'name' => 'Lider Grupy III',
+		'img' => 'gebaeude/218.gif',
+		'desc' => '',
+		'rewards' => '10.000.000 jednostek Deuteru'
+	),
+	// Universum support
+	102 => array
+	(
+		'name' => 'Sieć Znajomości I',
+		'img' => 'img/proacc.jpg',
+		'desc' => '',
+		'rewards' => '25 jednostek Ciemnej Energii'
+	),
+	103 => array
+	(
+		'name' => 'Sieć Znajomości II',
+		'img' => 'img/proacc.jpg',
+		'desc' => '',
+		'rewards' => '25 jednostek Ciemnej Energii'
+	),
+	104 => array
+	(
+		'name' => 'Sieć Znajomości III',
+		'img' => 'img/proacc.jpg',
+		'desc' => '',
+		'rewards' => '50 jednostek Ciemnej Energii'
+	),
+	105 => array
+	(
+		'name' => 'Łowca Głów I',
+		'img' => 'img/proacc.jpg',
+		'desc' => '',
+		'rewards' => '10 jednostek Ciemnej Energii'
+	),
+	106 => array
+	(
+		'name' => 'Łowca Głów II',
+		'img' => 'img/proacc.jpg',
+		'desc' => '',
+		'rewards' => '25 jednostek Ciemnej Energii'
+	),
+	107 => array
+	(
+		'name' => 'Łowca Głów III',
+		'img' => 'img/proacc.jpg',
+		'desc' => '',
+		'rewards' => '50 jednostek Ciemnej Energii'
+	),
+);
+
+$_Lang['TasksJobs'] = array
+(
+	// Introduction
+	1 => array
+	(
+		'Rozbuduj [tech=1]Kopalnię Metalu[/tech] na Poziom 8',
+		'Rozbuduj [tech=2]Kopalnię Kryształu[/tech] na Poziom 8',
+		'Rozbuduj [tech=4]Elektrownię Słoneczną[/tech] na Poziom 10'
+	),
+	2 => array
+	(
+		'Rozbuduj [tech=3]Ekstraktor Deuteru[/tech] na Poziom 8'
+	),
+	3 => array
+	(
+		'Rozbuduj [tech=14]Fabrykę Robotów[/tech] na Poziom 2',
+		'Rozbuduj [tech=21]Stocznię[/tech] na Poziom 1',
+		'Wybuduj 5.000 [tech=401]Wyrzutni Rakiet[/tech]'
+	),
+	4 => array
+	(
+		'Rozbuduj [tech=22]Magazyn Metalu[/tech] na Poziom 5',
+		'Rozbuduj [tech=23]Magazyn Kryształu[/tech] na Poziom 5',
+		'Rozbuduj [tech=24]Zbiornik Deuteru[/tech] na Poziom 5'
+	),
+	5 => array
+	(
+		'Rozbuduj [tech=31]Laboratorium Badawcze[/tech] na Poziom 1',
+		'Opracuj [tech=108]Technologię Komputerową[/tech] na Poziom 2',
+		'Opracuj [tech=113]Technologię Energetyczną[/tech] na Poziom 2'
+	),
+	6 => array
+	(
+		'Rozbuduj [tech=21]Stocznię[/tech] na Poziom 2',
+		'Opracuj [tech=115]Napęd Spalinowy[/tech] na Poziom 2',
+		'Skonstruuj 500 [tech=202]Małych Transporterów[/tech]'
+	),
+	7 => array
+	(
+		'Odblokuj i Skonstruuj [tech=208]Statek Kolonizacyjny[/tech]',
+		'Załóż nową Kolonię na innej Planecie'
+	),
+	8 => array
+	(
+		'Skonstruuj 200 [tech=212]Satelit Słonecznych[/tech]'
+	),
+	9 => array
+	(
+		'Odblokuj i Skonstruuj 100 [tech=210]Sond Szpiegowskich[/tech]',
+		'Przeszpieguj dowolną Wrogą Planetę',
+		'Przeprowadź Symulację w Symulatorze Walk'
+	),
+	10 => array
+	(
+		'Odblokuj i Skonstruuj 100 [tech=209]Recyklerów[/tech]',
+		'Zbierz dowolne Pole Zniszczeń'
+	),
+	11 => array
+	(
+		'Załóż lub Dołącz do Sojuszu, bądź Zaproś kogoś do BuddyListy'
+	),
+	12 => array
+	(
+		'Odblokuj i Skonstruuj 1 [tech=219]Wahadłowiec[/tech]',
+		'<b>(Zalecane)</b> Zapoznaj się z poradnikiem o <b>FleetSave-ach</b>'
+	),
+	13 => array
+	(
+		'Opracuj [tech=108]Technologię komputerową[/tech] na Poziom 10',
+		'Wybuduj [tech=15]Fabrykę Nanitów[/tech] na 3 dowolnych Koloniach'
+	),
+	14 => array
+	(
+		'Skonstruuj 1 [tech=214]Gwiazdę Śmierci[/tech]',
+		'Zniszcz dowolny Księżyc'
+	),
+	15 => array
+	(
+		'Skonstruuj 50 [tech=217]Mega Transporterów[/tech]'
+	),
+	16 => array
+	(
+		'Skolonizuj łącznie 10 Planet (9 Kolonii + Planeta Matka)'
+	),
+	17 => array
+	(
+		'Rozbuduj [tech=1]Kopalnie metalu[/tech] na Poziom 20 na dowolnych 5 Planetach',
+		'Rozbuduj [tech=2]Kopalnie kryształu[/tech] na Poziom 20 na dowolnych 5 Planetach',
+		'Rozbuduj [tech=3]Ekstraktor deuteru[/tech] na Poziom 20 na dowolnych 5 Planetach'
+	),
+	18 => array
+	(
+		'Wybuduj [tech=41]Stację Księżycową[/tech] na Poziom 1'
+	),
+	19 => array
+	(
+		'Wykonaj FleetSave dowolnej Floty. Wyślij Flotę z jednego Księżyca na drugi z misją Stacjonuj. Flota musi lecieć co najmniej 6 godzin.'
+	),
+	// Military
+	20 => array
+	(
+		'Zniszcz 50 dowolnych Księżyców'
+	),
+	21 => array
+	(
+		'Zniszcz 150 dowolnych Księżyców'
+	),
+	22 => array
+	(
+		'Zniszcz 500 dowolnych Księżyców'
+	),
+	23 => array
+	(
+		'Zniszcz 50 dowolnych Księżyców nie tracąc przy tym swojej floty<br/>(zniszczenie Księżyca nie może zniszczyć floty)'
+	),
+	24 => array
+	(
+		'Zniszcz 100 dowolnych Księżyców nie tracąc przy tym swojej floty<br/>(zniszczenie Księżyca nie może zniszczyć floty)'
+	),
+	25 => array
+	(
+		'Zniszcz 200 dowolnych Księżyców nie tracąc przy tym swojej floty<br/>(zniszczenie Księżyca nie może zniszczyć floty)'
+	),
+	26 => array
+	(
+		'Zniszcz 50 Księżyców o średnicy co najmniej 8.000 km. nie tracąc przy tym swojej floty<br/>(zniszczenie Księżyca nie może zniszczyć floty)'
+	),
+	27 => array
+	(
+		'Zniszcz 25 Księżyców o średnicy co najmniej 9.000 km.'
+	),
+	28 => array
+	(
+		'Zniszcz 5 Księżyców o średnicy co najmniej 9.900 km.'
+	),
+	29 => array
+	(
+		'Stwórz 100 Księżyców o dowolnej średnicy, w dowolnych walkach'
+	),
+	30 => array
+	(
+		'Stwórz 250 Księżyców o dowolnej średnicy, w dowolnych walkach'
+	),
+	31 => array
+	(
+		'Stwórz 500 Księżyców o dowolnej średnicy, w dowolnych walkach'
+	),
+	32 => array
+	(
+		'Zniszcz łącznie 100.000.000 wrogich, militarnych jednostek (flota i obrona)'
+	),
+	33 => array
+	(
+		'Zniszcz łącznie 1.000.000.000 wrogich, militarnych jednostek (flota i obrona)'
+	),
+	34 => array
+	(
+		'Zniszcz łącznie 5.000.000.000 wrogich, militarnych jednostek (flota i obrona)'
+	),
+	35 => array
+	(
+		'Zniszcz wrogą flotę (w walce Solo) wartą co najmniej 10.000.000 punktów Statystyk, zaś wartość twojej floty to maksymalnie 60% wartości floty wroga'
+	),
+	36 => array
+	(
+		'Zniszcz wrogą flotę (w walce Solo) wartą co najmniej 300.000.000 punktów Statystyk, zaś wartość twojej floty to maksymalnie 50% wartości floty wroga'
+	),
+	37 => array
+	(
+		'Zniszcz wrogą flotę (w walce Solo) wartą co najmniej 1.000.000.000 punktów Statystyk, zaś wartość twojej floty to maksymalnie 40% wartości floty wroga'
+	),
+	38 => array
+	(
+		'Zniszcz 3 wrogie floty (w walce w Związku) wartą co najmniej 10.000.000 punktów Statystyk, zaś wartość twoich flot to maksymalnie 35% wartości floty wroga'
+	),
+	39 => array
+	(
+		'Zniszcz 3 wrogie floty (w walce w Związku) wartą co najmniej 500.000.000 punktów Statystyk, zaś wartość twoich flot to maksymalnie 30% wartości floty wroga'
+	),
+	40 => array
+	(
+		'Zniszcz 3 wrogie floty (w walce w Związku) wartą co najmniej 1.500.000.000 punktów Statystyk, zaś wartość twoich flot to maksymalnie 25% wartości floty wroga'
+	),
+	41 => array
+	(
+		'Zwycięż 1.000 dowolnych Walk'
+	),
+	42 => array
+	(
+		'Zwycięż 5.000 dowolnych Walk'
+	),
+	43 => array
+	(
+		'Zwycięż 10.000 dowolnych Walk'
+	),
+	44 => array
+	(
+		'Zwycięż 25.000 dowolnych Walk'
+	),
+	45 => array
+	(
+		'Zwycięż 50.000 dowolnych Walk'
+	),
+	46 => array
+	(
+		'Wygraj lub zremisuj 25 Walk Solo, w których szczątki z Obrońcy wytworzyły co najmniej 100.000% szansy Księżyca'
+	),
+	47 => array
+	(
+		'Wygraj lub zremisuj 50 Walk Solo, w których szczątki z Obrońcy wytworzyły co najmniej 100.000% szansy Księżyca'
+	),
+	48 => array
+	(
+		'Wygraj lub zremisuj 100 Walk Solo, w których szczątki z Obrońcy wytworzyły co najmniej 100.000% szansy Księżyca'
+	),
+	49 => array
+	(
+		'Wygraj lub zremisuj 15 Walk Solo, w których szczątki z Obrońcy wytworzyły co najmniej 500.000% szansy Księżyca'
+	),
+	50 => array
+	(
+		'Wygraj lub zremisuj 30 Walk Solo, w których szczątki z Obrońcy wytworzyły co najmniej 500.000% szansy Księżyca'
+	),
+	51 => array
+	(
+		'Wygraj lub zremisuj 50 Walk Solo, w których szczątki z Obrońcy wytworzyły co najmniej 500.000% szansy Księżyca'
+	),
+	52 => array
+	(
+		'Wygraj lub zremisuj 15 dowolnych Walk, w których szczątki z Obrońcy wytworzyły co najmniej 1.000.000% szansy Księżyca'
+	),
+	53 => array
+	(
+		'Wygraj lub zremisuj 30 dowolnych Walk, w których szczątki z Obrońcy wytworzyły co najmniej 1.000.000% szansy Księżyca'
+	),
+	54 => array
+	(
+		'Wygraj lub zremisuj 50 dowolnych Walk, w których szczątki z Obrońcy wytworzyły co najmniej 1.000.000% szansy Księżyca'
+	),
+	55 => array
+	(
+		'Wygraj lub zremisuj 5 Walk z Związku, w których szczątki z Obrońcy wytworzyły co najmniej 5.000.000% szansy Księżyca'
+	),
+	56 => array
+	(
+		'Zablokuj Niszczenie własnego Księżyca przez wrogą flotę, w której leci co najmniej 1.000 Gwiazd Śmierci<br/>(Wrogie Gwiazdy Śmierci nie mogą wystrzelić Grawitronów)'
+	),
+	57 => array
+	(
+		'Uzyskaj łączną sumę progów procentowych ze wszystkich wygranych i zremisowanych Walk Solo równą 50.000.000%<br/>'
+	),
+	58 => array
+	(
+		'Zbierz łącznie 30.000.000.000.000 jednostek Metalu z Pól Zniszczeń<br/>',
+		'Zbierz łącznie 15.000.000.000.000 jednostek Kryształu z Pól Zniszczeń<br/>',
+	),
+	59 => array
+	(
+		'Zbierz łącznie 100.000.000.000 jednostek Metalu z atakowanych Planet i Księżyców<br/>',
+		'Zbierz łącznie 100.000.000.000 jednostek Kryształu z atakowanych Planet i Księżyców<br/>',
+		'Zbierz łącznie 100.000.000.000 jednostek Deuteru z atakowanych Planet i Księżyców<br/>',
+	),
+	60 => array
+	(
+		'Zbierz łącznie 500.000.000.000 jednostek Metalu z atakowanych Planet i Księżyców<br/>',
+		'Zbierz łącznie 500.000.000.000 jednostek Kryształu z atakowanych Planet i Księżyców<br/>',
+		'Zbierz łącznie 500.000.000.000 jednostek Deuteru z atakowanych Planet i Księżyców<br/>',
+	),
+	61 => array
+	(
+		'Zbierz łącznie 1.000.000.000.000 jednostek Metalu z atakowanych Planet i Księżyców<br/>',
+		'Zbierz łącznie 1.000.000.000.000 jednostek Kryształu z atakowanych Planet i Księżyców<br/>',
+		'Zbierz łącznie 1.000.000.000.000 jednostek Deuteru z atakowanych Planet i Księżyców<br/>',
+	),
+	62 => array
+	(
+		'Wybuduj łącznie 1.000.000.000 [tech=204]Lekkich[/tech] lub [tech=205]Ciężkich Myśliwców[/tech]'
+	),
+	63 => array
+	(
+		'Wybuduj łącznie 10.000.000.000 [tech=204]Lekkich[/tech] lub [tech=205]Ciężkich Myśliwców[/tech]'
+	),
+	// Economy
+	64 => array
+	(
+		'Rozbuduj [tech=1]Kopalnie Metalu[/tech] na poziom 30 na 10 planetach',
+		'Rozbuduj [tech=2]Kopalnie Kryształu[/tech] na poziom 30 na 10 planetach',
+		'Rozbuduj [tech=3]Ekstraktor Deuteru[/tech] na poziom 30 na 10 planetach',
+	),
+	65 => array
+	(
+		'Rozbuduj [tech=1]Kopalnie Metalu[/tech] na poziom 40 na 10 planetach',
+		'Rozbuduj [tech=2]Kopalnie Kryształu[/tech] na poziom 40 na 10 planetach',
+		'Rozbuduj [tech=3]Ekstraktor Deuteru[/tech] na poziom 40 na 10 planetach',
+	),
+	66 => array
+	(
+		'Rozbuduj [tech=1]Kopalnie Metalu[/tech] na poziom 50 na 5 planetach',
+		'Rozbuduj [tech=2]Kopalnie Kryształu[/tech] na poziom 50 na 5 planetach',
+		'Rozbuduj [tech=3]Ekstraktor Deuteru[/tech] na poziom 50 na 5 planetach',
+	),
+	67 => array
+	(
+		'Rozbuduj [tech=1]Kopalnie Metalu[/tech] na poziom 50 na 10 planetach',
+		'Rozbuduj [tech=2]Kopalnie Kryształu[/tech] na poziom 50 na 10 planetach',
+		'Rozbuduj [tech=3]Ekstraktor Deuteru[/tech] na poziom 50 na 10 planetach',
+	),
+	68 => array
+	(
+		'Osiągnij wydobycie Metalu na poziomie 45.000.000/h na dowolnej planecie (wydobycie liczone bez Geologa)',
+		'Osiągnij wydobycie Kryształu na poziomie 30.000.000/h na dowolnej planecie (wydobycie liczone bez Geologa)',
+		'Osiągnij wydobycie Deuteru na poziomie 22.000.000/h na dowolnej planecie (wydobycie liczone bez Geologa)',
+	),
+	69 => array
+	(
+		'Rozbuduj [tech=22]Magazyn Metalu[/tech] na poziom 25 na 5 planetach',
+		'Rozbuduj [tech=23]Magazyn Kryształu[/tech] na poziom 25 na 5 planetach',
+		'Rozbuduj [tech=24]Zbiornik Deuteru[/tech] na poziom 25 na 5 planetach',
+	),
+	70 => array
+	(
+		'Przy pomocy [tech=33]Terraformera[/tech] osiągnij łącznie 700 pól pod zabudowę na dowolnej planecie'
+	),
+	71 => array
+	(
+		'Osiągnij wydobycie Deuteru na poziomie 200.000.000/h łącznie na wszystkich planetach<br/>(wydobycie liczone bez Geologa)'
+	),
+	// Scientific Development
+	72 => array
+	(
+		'Opracuj [tech=109]Technologię Bojową[/tech] na poziom 25'
+	),
+	73 => array
+	(
+		'Opracuj [tech=109]Technologię Bojową[/tech] na poziom 30'
+	),
+	74 => array
+	(
+		'Opracuj [tech=110]Technologię Ochronną[/tech] na poziom 25'
+	),
+	75 => array
+	(
+		'Opracuj [tech=110]Technologię Ochronną[/tech] na poziom 30'
+	),
+	76 => array
+	(
+		'Opracuj [tech=111]Opancerzenie[/tech] na poziom 25'
+	),
+	77 => array
+	(
+		'Opracuj [tech=111]Opancerzenie[/tech] na poziom 30'
+	),
+	78 => array
+	(
+		'Opracuj [tech=120]Technologię Laserową[/tech] na poziom 25'
+	),
+	79 => array
+	(
+		'Opracuj [tech=120]Technologię Laserową[/tech] na poziom 30'
+	),
+	80 => array
+	(
+		'Opracuj [tech=120]Technologię Laserową[/tech] na poziom 33'
+	),
+	81 => array
+	(
+		'Opracuj [tech=121]Technologię Jonową[/tech] na poziom 20'
+	),
+	82 => array
+	(
+		'Opracuj [tech=121]Technologię Jonową[/tech] na poziom 25'
+	),
+	83 => array
+	(
+		'Opracuj [tech=121]Technologię Jonową[/tech] na poziom 28'
+	),
+	84 => array
+	(
+		'Opracuj [tech=122]Technologię Plazmową[/tech] na poziom 20'
+	),
+	85 => array
+	(
+		'Opracuj [tech=122]Technologię Plazmową[/tech] na poziom 25'
+	),
+	86 => array
+	(
+		'Opracuj [tech=122]Technologię Plazmową[/tech] na poziom 28'
+	),
+	87 => array
+	(
+		'Opracuj [tech=123]Międzygalaktyczna Sieć Badań Naukowych[/tech] na poziom 9'
+	),
+	88 => array
+	(
+		'Rozbuduj [tech=31]Laboratorium Badawcze[/tech] na poziom 22 na 10 planetach'
+	),
+	89 => array
+	(
+		'Osiągnij 5.000.000 punktów statystyk za Badania'
+	),
+	90 => array
+	(
+		'Osiągnij 10.000.000 punktów statystyk za Badania'
+	),
+	91 => array
+	(
+		'Osiągnij 50.000.000 punktów statystyk za Badania'
+	),
+	92 => array
+	(
+		'Osiągnij 200.000.000 punktów statystyk za Badania'
+	),
+	93 => array
+	(
+		'Osiągnij 500.000.000 punktów statystyk za Badania'
+	),
+	// Allied support
+	94 => array
+	(
+		'Stwórz 5 dowolnych Księżyców swoim sojusznikom'
+	),
+	95 => array
+	(
+		'Stwórz 20 dowolnych Księżyców swoim sojusznikom'
+	),
+	96 => array
+	(
+		'Stwórz 50 dowolnych Księżyców swoim sojusznikom'
+	),
+	97 => array
+	(
+		'Stwórz 125 dowolnych Księżyców swoim sojusznikom'
+	),
+	98 => array
+	(
+		'Stwórz 250 dowolnych Księżyców swoim sojusznikom'
+	),
+	99 => array
+	(
+		'Wygraj lub zremisuj 25 Walk z Związku (będąc jego Liderem), w których szczątki z Obrońcy wytworzyły co najmniej 10.000% szansy Księżyca'
+	),
+	100 => array
+	(
+		'Wygraj lub zremisuj 50 Walk z Związku (będąc jego Liderem), w których szczątki z Obrońcy wytworzyły co najmniej 10.000% szansy Księżyca'
+	),
+	101 => array
+	(
+		'Wygraj lub zremisuj 150 Walk z Związku (będąc jego Liderem), w których szczątki z Obrońcy wytworzyły co najmniej 10.000% szansy Księżyca'
+	),
+	// Universum support
+	102 => array
+	(
+		'Ściągnij do gry 10 nowych graczy'
+	),
+	103 => array
+	(
+		'Ściągnij do gry 20 nowych graczy'
+	),
+	104 => array
+	(
+		'Ściągnij do gry 40 nowych graczy'
+	),
+	105 => array
+	(
+		'Ściągnij do gry gracza, który zakupi za jednym razem przynajmniej 40 jednostek Ciemnej Energii<br/>(Promocje nie są brane pod uwagę)'
+	),
+	106 => array
+	(
+		'Ściągnij do gry 5 graczy, którzy kupią dowolną ilość Ciemnej Energii'
+	),
+	107 => array
+	(
+		'Ściągnij do gry graczy, którzy łącznie zakupią 400 jednostek Ciemnej Energii<br/>(Promocje nie są brane pod uwagę)'
+	),
+);
+
+$_Lang['Msg_CatNoExist'] = 'Taka kategoria nie istnieje!';
+$_Lang['Msg_CatDone'] = 'Wykonane zadania są dostępne w Dzienniku Zadań!';
+$_Lang['Msg_CatNotDone'] = 'Nie wykonałeś jeszcze tej kategorii!';
+$_Lang['Msg_CatNotAvailable'] = 'Nie odblokowałeś jeszcze tej kategorii!';
+$_Lang['Msg_CantSkipUnSkippable'] = 'Nie możesz pominąć tej kategorii!';
+$_Lang['Msg_CantSkipDone'] = 'Ta kategoria zadań jest już wykonana!';
+$_Lang['Msg_Skiped'] = 'Kategoria <i>"%s"</i> została pominięta!';
+
+$_Lang['Tab_Prev'] = 'Poprzednie zadanie';
+$_Lang['Tab_Next'] = 'Następne zadanie';
+
+?>

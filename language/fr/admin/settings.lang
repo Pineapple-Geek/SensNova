@@ -1,0 +1,50 @@
+<? Php
+
+$_Lang ['Header_FleetBlock'] = 'Verrouillage de la flotte';
+
+$_Lang ['Body_Title'] = 'Configuration du serveur';
+$_Lang ['Body_GameSettings'] = 'Paramètres du jeu';
+
+$_Lang ['Body_Save'] = 'Enregistrer';
+
+$_Lang ['Headers_EnforceConfigReload'] = 'Gérer le cache de configuration';
+$_Lang ['Headers_EnforceConfigReload_Button'] = 'Forcer le rechargement de la configuration du serveur';
+$_Lang ['Headers_EngineVersion'] = 'Version du moteur';
+$_Lang ['Headers_EngineBuild'] = 'Construire le moteur';
+$_Lang ['Headers_CloseServer'] = 'Fermer le serveur';
+$_Lang ['Headers_CloseServerReason'] = 'Raison de la fermeture';
+$_Lang ['Headers_EnforceRulesAccept'] = 'Forcer l’acceptation du règlement';
+$_Lang ['Headers_EnforceRulesLastChange'] = 'Dernier changement dans la réglementation';
+$_Lang ['Headers_Telemetry'] = 'Activer la télémétrie';
+$_Lang ['Headers_BBCode'] = 'Activer le BBCode dans les messages';
+$_Lang ['Headers_OverviewAdminInfoEnabled'] = 'Aperçu - Afficher les informations du conseil';
+$_Lang ['Headers_OverviewAdminInfoText'] = 'Aperçu - Texte d'information du conseil';
+$_Lang ['Headers_OverviewBottomBannersEnabled'] = 'Aperçu - Afficher les annonces en bas';
+$_Lang ['Headers_OverviewBottomBannersText'] = 'Aperçu - Contenu de l'annonce situé au bas de la page';
+$_Lang ['Headers_BannedIPs'] = 'Liaisons d’adresses IP';
+$_Lang ['Headers_BannedMailDomains'] = 'Domaines de messagerie interdits (SpamBox)';
+
+$_Lang ['Headers_Game_GameSpeed'] = 'Vitesse de jeu';
+$_Lang ['Headers_Game_ResourceSpeed'] = 'Taux d’extraction';
+$_Lang ['Headers_Game_FleetSpeed'] = 'Vitesse de la flotte';
+$_Lang ['Headers_Game_DebrisFleet'] = 'Rebuts de la flotte';
+$_Lang ['Headers_Game_DebrisDefence'] = 'Scrap from Defence';
+$_Lang ['Headers_Game_DebrisDefenceMissile'] = 'Scrap from Defence (attaque de missile)';
+$_Lang ['Headers_Game_ResearchOnLabBuild'] = 'Bloquer la recherche pendant l’extension';
+$_Lang ['Headers_Game_StatPoints'] = 'Conversion des matières premières en points';
+$_Lang ['Headers_Game_InitialFields'] = 'Nombre initial de champs';
+$_Lang ['Headers_Game_BasicIncome_Metal'] = 'Extraction de métaux de base';
+$_Lang ['Headers_Game_BasicIncome_Crystal'] = 'Extraction Crystal standard';
+$_Lang ['Headers_Game_BasicIncome_Deuterium'] = 'Extraction de base de deutérium';
+$_Lang ['Headers_Game_BasicIncome_Energy'] = 'Production d'énergie primaire';
+
+$_Lang ['Labels_DefaultOption'] = 'Par défaut';
+
+$_Lang ['JS_ConfirmNeeded'] = 'Les paramètres importants du serveur ont été modifiés. Voulez-vous vraiment enregistrer les modifications?';
+
+$_Lang ['Messages_NoUpdateMade'] = 'Aucune modification n'a été apportée!';
+$_Lang ['Messages_UpdateSuccess'] = 'Valeurs% s mises à jour!';
+$_Lang ['Messages_NothingToUpdate'] = 'Les mises à jour et les données incorrectes ne sont pas nécessaires!';
+$_Lang ['Messages_ConfigCacheReloaded'] = 'Configuration du serveur de cache surchargée!';
+
+?>

@@ -1,0 +1,22 @@
+<?php
+
+$_Lang ['TextFirst'] = 'Vous venez de jouer';
+$_Lang ['OneTask'] = 'tâche';
+$_Lang ['MoreTasks'] = 'tâches';
+$_Lang ['TextSecond'] = 'de la catégorie';
+
+$_Lang ['CatLink'] = '"<i> <a href="tasks.php?%s" style="color: black;">% s </a> </ i>"';
+
+$_Lang ['Hide'] = 'Masquer la notification';
+
+$_Lang ['Names'] = tableau
+(
+1 => 'Introduction',
+2 => 'Militaria',
+3 => 'Économie et économie',
+4 => 'Développement scientifique',
+5 => 'Support allié',
+6 => 'Universum Support',
+);
+ 
+?>
