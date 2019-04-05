@@ -1,17 +1,17 @@
 <?php
 
-$_Lang['sys_attack_title'] = 'Następujące floty uczestniczyły w bitwie z dnia %s';
+$_Lang['sys_attack_title'] = "Następujące floty uczestniczyły w bitwie z dnia %s";
 
-$_Lang['Conv_att_user']      = 'Agresor [color=red][b]%s[/b][/color] %s [%s:%s:%s]';
-$_Lang['Conv_tech']          = 'Broń: xXx% | Tarcza: xXx% | Opancerzenie: xXx%';
-$_Lang['Conv_fleet']         = '[b]Flota:[/b]';
-$_Lang['Conv_defense']       = '[b]Obrona:[/b]';
-$_Lang['Conv_def_user']      = 'Obrońca [color=green][b]%s[/b][/color] %s [%s:%s:%s]';
-$_Lang['Conv_def_abandoned_1'] = 'Opuszczonej Planety';
-$_Lang['Conv_def_abandoned_3'] = 'Opuszczonego Księżyca';
+$_Lang['Conv_att_user']      = "Agresor [color=red][b]%s[/b][/color] %s [%s:%s:%s]";
+$_Lang['Conv_tech']          = "Broń: xXx% | Tarcza: xXx% | Opancerzenie: xXx%";
+$_Lang['Conv_fleet']         = "[b]Flota:[/b]";
+$_Lang['Conv_defense']       = "[b]Obrona:[/b]";
+$_Lang['Conv_def_user']      = "Obrońca [color=green][b]%s[/b][/color] %s [%s:%s:%s]";
+$_Lang['Conv_def_abandoned_1'] = "Opuszczonej Planety";
+$_Lang['Conv_def_abandoned_3'] = "Opuszczonego Księżyca";
 
-$_Lang['Conv_in_next_round'] = '[i][b]W następnej rundzie[/b]...[/i]';
-$_Lang['Conv_after_x_rounds']= '[i][b]Po %s rundach[/b]...[/i]';
+$_Lang['Conv_in_next_round'] = "[i][b]W następnej rundzie[/b]...[/i]";
+$_Lang['Conv_after_x_rounds']= '[i][b]Po %s rundach[/b]...[/i]";
 
 $_Lang['Conv_atk_lostUnits'] = "Agresor stracił [b]%s[/b] surowców ([b]%s%%[/b] wszystkich strat)";
 $_Lang['Conv_def_lostUnits'] = "Obrońca stracił [b]%s[/b] surowców ([b]%s%%[/b] wszystkich strat)";
@@ -22,14 +22,14 @@ $_Lang['Conv_moon_reg']      = "Prawdopodobieństwo powstania księżyca wynosi:
 $_Lang['Conv_moon_high']     = "Prawdopodobieństwo powstania księżyca wynosi: [b]%s[/b]%% ([b][size=medium][color=orange]%s[/color][/size][/b]%%)";
 $_Lang['Conv_moonbuild']     = "[b]Utworzył się księżyc na orbicie tej planety![/b]";
 
-$_Lang['Conv_battleonMoon'] = '[b]Bitwa odbyła się na Księżycu[/b]';
+$_Lang['Conv_battleonMoon'] = "[b]Bitwa odbyła się na Księżycu[/b]";
 
-$_Lang['Conv_generated_by']  = 'Wygenerowano przez [url=https://github.com/mdziekon/UniEngine][b]LiteConverter[/b][/url] (ver. [b]1.2.1.1[/b])';
+$_Lang['Conv_generated_by']  = "Wygenerowano przez [url=https://github.com/mdziekon/UniEngine][b]LiteConverter[/b][/url] (ver. [b]1.2.1.1[/b])";
 
-$_Lang['Set_ColorTheme']     = 'Schemat Kolorów Raportu';
+$_Lang['Set_ColorTheme']     = "Schemat Kolorów Raportu";
 
-$_Lang['Set_ColorTheme_1']   = 'Jasny';
-$_Lang['Set_ColorTheme_2']   = 'Ciemny';
+$_Lang['Set_ColorTheme_1']   = "Jasny";
+$_Lang['Set_ColorTheme_2']   = "Ciemny";
 
 $_Lang['Conv_Colors']        = array
     (

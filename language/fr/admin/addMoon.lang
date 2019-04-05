@@ -1,14 +1,14 @@
 <?php
 
-$_Lang['AddMoon_Title'] = 'Ajouter une lune';
-$_Lang['AddMoon_PlanetID'] = 'ID planète';
-$_Lang['AddMoon_Name'] = 'Nom (vide - par défaut)';
-$_Lang['AddMoon_Diameter'] = 'Diamètre (puste - losowa)';
-$_Lang['AddMoon_Submit'] = 'Stwórz';
-$_Lang['AddMoon_Success'] = 'Księżyc został stworzony';
-$_Lang['AddMoon_Fail_NoPlanet'] = 'Taka planeta nie istnieje!';
-$_Lang['AddMoon_Fail_MoonExists'] = 'Ta planeta ma już księżyc!';
-$_Lang['AddMoon_Fail_NameBadSigns'] = 'System nie może zaakceptować takiej nazwy!';
-$_Lang['AddMoon_Fail_BadID'] = 'Niepoprawne ID planety!';
+$_Lang['AddMoon_Title'] = "Ajouter une lune";
+$_Lang['AddMoon_PlanetID'] = "ID planète";
+$_Lang['AddMoon_Name'] = "Nom (vide - par défaut)";
+$_Lang['AddMoon_Diameter'] = "Diamètre (puste - losowa)";
+$_Lang['AddMoon_Submit'] = "Stwórz";
+$_Lang['AddMoon_Success'] = "Księżyc został stworzony";
+$_Lang['AddMoon_Fail_NoPlanet'] = "Taka planeta nie istnieje!";
+$_Lang['AddMoon_Fail_MoonExists'] = "Ta planeta ma już księżyc!";
+$_Lang['AddMoon_Fail_NameBadSigns'] = "System nie może zaakceptować takiej nazwy!";
+$_Lang['AddMoon_Fail_BadID'] = "Niepoprawne ID planety!";
 
 ?>

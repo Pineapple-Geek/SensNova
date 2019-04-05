@@ -1,45 +1,45 @@
 <? Php
 
-$_Lang ['logout'] = 'Déconnexion';
-$_Lang ['player'] = 'Player';
-$_Lang ['friends'] = 'Friends';
-$_Lang ['options'] = 'Paramètres';
-$_Lang ['stats'] = 'Statistiques';
-$_Lang ['search'] = 'Recherche';
-$_Lang ['notes'] = 'Notes';
-$_Lang ['rules'] = 'Réglementation';
-$_Lang ['contact'] = 'Contact';
-$_Lang ['chat'] = 'Chat';
-$_Lang ['admin_cp'] = '<b style = "color: lime;"> AdminPanel </ b>';
-$_Lang ['go_cp'] = '<b style = "color: lime;"> Panneau GO </ b>';
-$_Lang ['sgo_cp'] = '<b style = "color: lime;"> Panneau SGO </ b>';
-$_Lang ['forum'] = 'Forum';
-$_Lang ['banned'] = 'Banni';
-$_Lang ['ReportLink'] = 'Système de reporting';
-$_Lang ['Polls'] = 'Polls';
+$_Lang ['logout'] = "Déconnexion";
+$_Lang ['player'] = "Player";
+$_Lang ['friends'] = "Friends";
+$_Lang ['options'] = "Paramètres";
+$_Lang ['stats'] = "Statistiques";
+$_Lang ['search'] = "Recherche";
+$_Lang ['notes'] = "Notes";
+$_Lang ['rules'] = "Réglementation";
+$_Lang ['contact'] = "Contact";
+$_Lang ['chat'] = "Chat";
+$_Lang ['admin_cp'] = "<b style = "color: lime;"> AdminPanel </ b>";
+$_Lang ['go_cp'] = "<b style = "color: lime;"> Panneau GO </ b>";
+$_Lang ['sgo_cp'] = "<b style = "color: lime;"> Panneau SGO </ b>";
+$_Lang ['forum'] = "Forum";
+$_Lang ['banned'] = "Banni";
+$_Lang ['ReportLink'] = "Système de reporting";
+$_Lang ['Polls'] = "Polls";
 
-$_Lang ['ServerTimeTxt'] = 'Heure actuelle du serveur';
+$_Lang ['ServerTimeTxt'] = "Heure actuelle du serveur";
 
-$_Lang ['ChatTitle'] = 'Discuter avec les joueurs';
-$_Lang ['FriendsTitle'] = 'Liste de vos amis';
-$_Lang ['NotesTitle'] = 'Vos notes';
-$_Lang ['StatsTitle'] = 'Tableau de statistiques';
-$_Lang ['SearchTitle'] = 'Moteur de recherche universel';
-$_Lang ['RulesTitle'] = 'Règles du serveur';
-$_Lang ['ContactTitle'] = 'Contact avec la gestion du serveur';
-$_Lang ['OptionsTitle'] = 'Les paramètres de votre compte';
-$_Lang ['LogoutTitle'] = 'Déconnexion';
-$_Lang ['AdminLinkTitle'] = 'Panneau de l'administrateur';
-$_Lang ['GOLinkTitle'] = 'Panneau de jeu de l'opérateur';
-$_Lang ['SGOLinkTitle'] = 'Panneau de l \' opérateur de super jeu ';
-$_Lang ['ForumTitle'] = 'Forum officiel du jeu';
-$_Lang ['BannedTitle'] = 'Liste des joueurs interdits';
-$_Lang ['PollsTitle'] = 'Soutenez le développement du serveur en répondant aux sondages de l \' Administration! ';
-$_Lang ['ReportTitle'] = 'Signaler la faute d’un joueur ou un bogue dans le jeu!';
+$_Lang ['ChatTitle'] = "Discuter avec les joueurs";
+$_Lang ['FriendsTitle'] = "Liste de vos amis";
+$_Lang ['NotesTitle'] = "Vos notes";
+$_Lang ['StatsTitle'] = "Tableau de statistiques";
+$_Lang ['SearchTitle'] = "Moteur de recherche universel";
+$_Lang ['RulesTitle'] = "Règles du serveur";
+$_Lang ['ContactTitle'] = "Contact avec la gestion du serveur";
+$_Lang ['OptionsTitle'] = "Les paramètres de votre compte";
+$_Lang ['LogoutTitle'] = "Déconnexion";
+$_Lang ['AdminLinkTitle'] = "Panneau de l'administrateur";
+$_Lang ['GOLinkTitle'] = "Panneau de jeu de l'opérateur";
+$_Lang ['SGOLinkTitle'] = "Panneau de l \' opérateur de super jeu ";
+$_Lang ['ForumTitle'] = "Forum officiel du jeu";
+$_Lang ['BannedTitle'] = "Liste des joueurs interdits";
+$_Lang ['PollsTitle'] = "Soutenez le développement du serveur en répondant aux sondages de l \' Administration! ";
+$_Lang ['ReportTitle'] = "Signaler la faute d’un joueur ou un bogue dans le jeu!";
 
-$_Lang ['Pro'] = 'Compte Pro';
-$_Lang ['ProTitle'] = 'Vérifiez la durée de votre compte Pro et des informations supplémentaires';
-$_Lang ['Free'] = 'Compte gratuit';
-$_Lang ['FreeTitle'] = 'Vérifiez pourquoi vous devriez acheter un compte Pro!';
+$_Lang ['Pro'] = "Compte Pro";
+$_Lang ['ProTitle'] = "Vérifiez la durée de votre compte Pro et des informations supplémentaires";
+$_Lang ['Free'] = "Compte gratuit";
+$_Lang ['FreeTitle'] = "Vérifiez pourquoi vous devriez acheter un compte Pro!";
 
 ?>

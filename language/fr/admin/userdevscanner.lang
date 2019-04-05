@@ -1,35 +1,35 @@
 <? Php
 
-$_Lang ['UserDevScanner_Title'] = 'Analyse du développement du lecteur';
+$_Lang ['UserDevScanner_Title'] = "Analyse du développement du lecteur";
 
-$_Lang ['Table_Header'] = 'Analyse du lecteur';
-$_Lang ['Table_Form_UID'] = 'Entrer l’ID du joueur';
-$_Lang ['Table_Form_Username'] = 'ou nom du joueur';
-$_Lang ['Table_Form_Submit'] = 'Scan!';
+$_Lang ['Table_Header'] = "Analyse du lecteur";
+$_Lang ['Table_Form_UID'] = "Entrer l’ID du joueur";
+$_Lang ['Table_Form_Username'] = "ou nom du joueur";
+$_Lang ['Table_Form_Submit'] = "Scan!";
 
-$_Lang ['Error_UserNoExist'] = 'Un tel joueur n'existe pas!';
-$_Lang ['Error_BadPost'] = 'Aucun identifiant ou nom de joueur n’a été donné!';
+$_Lang ['Error_UserNoExist'] = "Un tel joueur n'existe pas!";
+$_Lang ['Error_BadPost'] = "Aucun identifiant ou nom de joueur n’a été donné!";
 
-$_Lang ['Table2_Header'] = 'Résultat de l'analyse du développement du lecteur';
-$_Lang ['Table2_GoBack'] = 'Retour';
-$_Lang ['Table2_CollExp'] = 'Développer / Réduire';
-$_Lang ['Table2_Username'] = 'Nom du joueur';
-$_Lang ['Table2_UID'] = 'ID du joueur';
+$_Lang ['Table2_Header'] = "Résultat de l'analyse du développement du lecteur";
+$_Lang ['Table2_GoBack'] = "Retour";
+$_Lang ['Table2_CollExp'] = "Développer / Réduire";
+$_Lang ['Table2_Username'] = "Nom du joueur";
+$_Lang ['Table2_UID'] = "ID du joueur";
 
-$_Lang ['Table2_ScanedLogs'] = 'Quantité de journaux scannés';
-$_Lang ['Table2_ScanTime'] = 'Temps d'analyse ";
-$_Lang ['Table2_DumpDate'] = 'Date de vidage';
-$_Lang ['Table2_DateDifference'] = 'Décalage horaire';
+$_Lang ['Table2_ScanedLogs'] = "Quantité de journaux scannés";
+$_Lang ['Table2_ScanTime'] = "Temps d'analyse ";
+$_Lang ['Table2_DumpDate'] = "Date de vidage";
+$_Lang ['Table2_DateDifference'] = "Décalage horaire";
 
-$_Lang ['Table2_SummaryResult'] = 'Résumé';
-$_Lang ['Table2_FoundFatals'] = 'Erreurs fatales';
-$_Lang ['Table2_FoundWarnings'] = 'Avertissements';
-$_Lang ['Table2_FoundNotices'] = 'Notifications';
+$_Lang ['Table2_SummaryResult'] = "Résumé";
+$_Lang ['Table2_FoundFatals'] = "Erreurs fatales";
+$_Lang ['Table2_FoundWarnings'] = "Avertissements";
+$_Lang ['Table2_FoundNotices'] = "Notifications";
 
-$_Lang ['Table2_OccurrenceIndex'] = 'Index';
-$_Lang ['Table2_OccurrenceText'] = 'Type';
-$_Lang ['Table2_LogID'] = 'LogID';
-$_Lang ['Table2_OccurrenceData'] = 'Données';
+$_Lang ['Table2_OccurrenceIndex'] = "Index";
+$_Lang ['Table2_OccurrenceText'] = "Type";
+$_Lang ['Table2_LogID'] = "LogID";
+$_Lang ['Table2_OccurrenceData'] = "Données";
 
 $_Lang ['Scripts'] = array
     (
@@ -196,10 +196,10 @@ $_Lang['FoundNotices'] = array
             ),
     );
 
-$_Lang ['Critical_NoDump'] = 'Aucune capture d’écran disponible pour ce lecteur!';
-$_Lang ['Critical_EmptyScanLog'] = 'Le journal de numérisation est vide!';
-$_Lang ['Critical_EmptyBreakErrorVar'] = 'Aucune raison pour arrêter l'analyse!';
+$_Lang ['Critical_NoDump'] = "Aucune capture d’écran disponible pour ce lecteur!";
+$_Lang ['Critical_EmptyScanLog'] = "Le journal de numérisation est vide!";
+$_Lang ['Critical_EmptyBreakErrorVar'] = "Aucune raison pour arrêter l'analyse!";
 
-$_Lang ['Notice_NoLogs'] = 'Il n’existe aucun journal de ce joueur (il semble qu’il n’ait rien fait)';
+$_Lang ['Notice_NoLogs'] = "Il n’existe aucun journal de ce joueur (il semble qu’il n’ait rien fait)";
 
 ?>

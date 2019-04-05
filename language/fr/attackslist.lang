@@ -1,24 +1,24 @@
 <?php
 
-$_Lang ['Bash_Title'] = 'Liste des attaques du jour';
+$_Lang ['Bash_Title'] = "Liste des attaques du jour";
 
-$_Lang ['Bash_Desc'] = 'Le tableau ci-dessous présente la liste de vos attaques en cours contre les autres joueurs soumis aux règles Bash (réglementations: <a href="rules.php#rule_3_6" target="_blank" class="orange"> 3.6 Bash </a>). Toutes les attaques sont comptées à partir de minuit (00:00). <br/> N'oubliez pas qu'après le franchissement du seuil Bash, le joueur lésé peut porter plainte contre vous ... ';
+$_Lang ['Bash_Desc'] = "Le tableau ci-dessous présente la liste de vos attaques en cours contre les autres joueurs soumis aux règles Bash (réglementations: <a href="rules.php#rule_3_6" target="_blank" class="orange"> 3.6 Bash </a>). Toutes les attaques sont comptées à partir de minuit (00:00). <br/> N'oubliez pas qu'après le franchissement du seuil Bash, le joueur lésé peut porter plainte contre vous ... ";
 
-$_Lang ['Bash_Header'] = 'Liste des attaques';
+$_Lang ['Bash_Header'] = "Liste des attaques";
 
-$_Lang ['Bash_NoAttacksToday'] = 'Aucune attaque soumise à la règle Bashu';
+$_Lang ['Bash_NoAttacksToday'] = "Aucune attaque soumise à la règle Bashu";
 
-$_Lang ['Bash_Username'] = 'Joueur / Planète';
-$_Lang ['Bash_BashCount'] = 'Nombre d'attaques';
-$_Lang ['Bash_Status'] = 'Statut';
-$_Lang ['Bash_CordPlanet'] = 'Planète';
-$_Lang ['Bash_CordMoon'] = 'Moon';
+$_Lang ['Bash_Username'] = "Joueur / Planète";
+$_Lang ['Bash_BashCount'] = "Nombre d'attaques";
+$_Lang ['Bash_Status'] = "Statut";
+$_Lang ['Bash_CordPlanet'] = "Planète";
+$_Lang ['Bash_CordMoon'] = "Moon";
 
-$_Lang ['Bash_StatusOKLeft'] = 'Le nombre d'attaques restant:% s';
-$_Lang ['Bash_Status0Left'] = 'Limite atteinte';
-$_Lang ['Bash_StatusExceededUser'] = 'La limite des attaques par joueur est dépassée!';
-$_Lang ['Bash_StatusExceededPlanet'] = 'La limite des attaques sur% s est dépassée!';
-$_Lang ['Bash_Exceeded_Planet'] = 'planète';
-$_Lang ['Bash_Exceeded_Moon'] = 'moon';
+$_Lang ['Bash_StatusOKLeft'] = "Le nombre d'attaques restant:% s";
+$_Lang ['Bash_Status0Left'] = "Limite atteinte";
+$_Lang ['Bash_StatusExceededUser'] = "La limite des attaques par joueur est dépassée!";
+$_Lang ['Bash_StatusExceededPlanet'] = "La limite des attaques sur% s est dépassée!";
+$_Lang ['Bash_Exceeded_Planet'] = "planète";
+$_Lang ['Bash_Exceeded_Moon'] = "moon";
 
 ?>

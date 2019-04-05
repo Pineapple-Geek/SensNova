@@ -1,6 +1,6 @@
 <?php
 
-$_Lang['BattleReport_AttackerNormal'] = '';
+$_Lang['BattleReport_AttackerNormal'] = "";
 $_Lang['BattleReport_AttackerNormal'] .= "<center><a href=\"#\" onclick=\"f('battlereport.php?id=%s', ''); return false;\"><span style=\"color: %s\">{$_Lang['sys_mess_attack_report']} [%s:%s:%s] [%s]</span></a><br/><br/>";
 $_Lang['BattleReport_AttackerNormal'] .= "<span class=\"red\">{$_Lang['sys_perte_attaquant']}: %s</span> <b>|</b> <span class=\"lime\">{$_Lang['sys_perte_defenseur']}: %s</span><br/>";
 $_Lang['BattleReport_AttackerNormal'] .= "<b>[{$_Lang['sys_gain']}]</b> {$_Lang['Metal']}: <b style=\"color: #adaead;\">%s</b> <b>|</b> {$_Lang['Crystal']}: <b style=\"color: #ef51ef;\">%s</b> <b>|</b> {$_Lang['Deuterium']}: <b style=\"color: #f77542;\">%s</b><br/>";

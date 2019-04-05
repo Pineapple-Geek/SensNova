@@ -1,12 +1,12 @@
 <? Php
 
-$_Lang ['PageTitle'] = 'Ajout de ProxyIP à la base';
+$_Lang ['PageTitle'] = "Ajout de ProxyIP à la base";
 
-$_Lang ['Table_List'] = 'Adresses IP <br/> (séparées par des virgules)';
-$_Lang ['Table_Submit'] = 'Ajouter';
+$_Lang ['Table_List'] = "Adresses IP <br/> (séparées par des virgules)";
+$_Lang ['Table_Submit'] = "Ajouter";
 
-$_Lang ['MsgBox_Success'] = 'Les adresses IP ont été enregistrées correctement (% s)!';
-$_Lang ['MsgBox_AllBad'] = 'Toutes les adresses spécifiées sont incorrectes!';
-$_Lang ['MsgBox_ListEmpty'] = 'La liste est vide!';
+$_Lang ['MsgBox_Success'] = "Les adresses IP ont été enregistrées correctement (% s)!";
+$_Lang ['MsgBox_AllBad'] = "Toutes les adresses spécifiées sont incorrectes!";
+$_Lang ['MsgBox_ListEmpty'] = "La liste est vide!";
 
 ?>

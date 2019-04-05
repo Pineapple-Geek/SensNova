@@ -1,10 +1,10 @@
 <?php
 
-$_Lang['DarkEnergyStatusIs']     = 'Ilość jednostek Ciemnej Energii na twoim koncie';
-$_Lang['BuyMoreDE']              = 'Dokup Ciemną Energię!';
+$_Lang['DarkEnergyStatusIs']     = "Ilość jednostek Ciemnej Energii na twoim koncie";
+$_Lang['BuyMoreDE']              = "Dokup Ciemną Energię!";
 
-$_Lang['officers']       = 'Oficerowie';
-$_Lang['description']    = 'Oficerowie to Elita wśród doradców galaktycznych. Dzięki ich umiejętnościom i doświadczeniu, twoje Imperium rozrasta się o wiele szybciej.<br/>Możesz zatrudnić każdego z nich, pod warunkiem, że sowicie ich wynagrodzisz.';
+$_Lang['officers']       = "Oficerowie";
+$_Lang['description']    = "Oficerowie to Elita wśród doradców galaktycznych. Dzięki ich umiejętnościom i doświadczeniu, twoje Imperium rozrasta się o wiele szybciej.<br/>Możesz zatrudnić każdego z nich, pod warunkiem, że sowicie ich wynagrodzisz.";
 
 $_Lang['OfficersArr'] = array
     (
@@ -71,27 +71,27 @@ $_Lang['OfficersArr'] = array
 			),
     );
 
-$_Lang['Buy']        = 'Jeśli potrzebujesz zatrudnić lub przedłużyć zatrudnienie oficera, udaj się do';
-$_Lang['BuyTitle']   = 'Sklepu';
+$_Lang['Buy']        = "Jeśli potrzebujesz zatrudnić lub przedłużyć zatrudnienie oficera, udaj się do";
+$_Lang['BuyTitle']   = "Sklepu";
 
-$_Lang['RentState']  = 'Status zatrudnienia';
-$_Lang['RentEnded']  = 'Zatrudnienie zakończyło się';
-$_Lang['RentTill']   = 'Zatrudniony do';
-$_Lang['NeverRented']= 'Nigdy nie zatrudniono';
-$_Lang['TransactionsLeft'] = 'Pozostała ilość transakcji:';
+$_Lang['RentState']  = "Status zatrudnienia";
+$_Lang['RentEnded']  = "Zatrudnienie zakończyło się";
+$_Lang['RentTill']   = "Zatrudniony do";
+$_Lang['NeverRented']= 'Nigdy nie zatrudniono";
+$_Lang['TransactionsLeft'] = "Pozostała ilość transakcji:";
 
-$_Lang['Benefits']   = 'Korzyści';
+$_Lang['Benefits']   = "Korzyści";
 
-$_Lang['FirstRent']  = 'Zatrudnij na %s %s!';
-$_Lang['RentPlus']	= 'Zatrudnij na dodatkowe %s %s!';
-$_Lang['RentAgain']  = 'Zatrudnij ponownie na %s %s!';
-$_Lang['RenewRent']  = 'Przedłuż czas zatrudnienia o %s %s!';
-$_Lang['RentForTransactions'] = 'transakcji';
-$_Lang['Cost']       = 'Koszt';
-$_Lang['DEUnits']    = 'j. Ciemnej Energii';
-$_Lang['AreYouSure'] = 'Czy jesteś pewien?';
+$_Lang['FirstRent']  = "Zatrudnij na %s %s!";
+$_Lang['RentPlus']	= 'Zatrudnij na dodatkowe %s %s!";
+$_Lang['RentAgain']  = "Zatrudnij ponownie na %s %s!";
+$_Lang['RenewRent']  = "Przedłuż czas zatrudnienia o %s %s!";
+$_Lang['RentForTransactions'] = "transakcji";
+$_Lang['Cost']       = "Koszt";
+$_Lang['DEUnits']    = "j. Ciemnej Energii";
+$_Lang['AreYouSure'] = "Czy jesteś pewien?";
 
-$_Lang['_day']       = 'dzień';
-$_Lang['_days']      = 'dni';
+$_Lang['_day']       = "dzień";
+$_Lang['_days']      = "dni";
 
 ?>

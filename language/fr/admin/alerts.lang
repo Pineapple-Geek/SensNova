@@ -1,27 +1,27 @@
 <?php
 
-$_Lang['PageTitle']			= 'Alerty Systemowe';
+$_Lang['PageTitle']			= 'Alerty Systemowe";
 
 // Body and headers
-$_Lang['Alerts_List']		= 'Lista Alertów Systemowych';
-$_Lang['Alert_ID']			= 'ID';
-$_Lang['Alert_Origin']		= 'Wysłano';
-$_Lang['Alert_Date']			= 'Data';
-$_Lang['Alert_Sender']		= 'Pochodzenie';
-$_Lang['Alert_Type']			= 'Typ';
-$_Lang['Alert_Importance']	= 'Waga';
-$_Lang['Alert_User']			= 'Gracz';
-$_Lang['Alert_Data']			= 'Treść';
-$_Lang['Alert_Status']		= 'Status';
-$_Lang['Alert_Actions']		= 'Akcje';
+$_Lang['Alerts_List']		= 'Lista Alertów Systemowych";
+$_Lang['Alert_ID']			= 'ID";
+$_Lang['Alert_Origin']		= 'Wysłano";
+$_Lang['Alert_Date']			= 'Data";
+$_Lang['Alert_Sender']		= 'Pochodzenie";
+$_Lang['Alert_Type']			= 'Typ";
+$_Lang['Alert_Importance']	= 'Waga";
+$_Lang['Alert_User']			= 'Gracz";
+$_Lang['Alert_Data']			= 'Treść";
+$_Lang['Alert_Status']		= 'Status";
+$_Lang['Alert_Actions']		= 'Akcje";
 
-$_Lang['PerPage']			= 'Na stronę';
-$_Lang['Pages']				= 'Strony';
-$_Lang['Prev']				= '&#171;';
-$_Lang['Next']				= '&#187;';
+$_Lang['PerPage']			= 'Na stronę";
+$_Lang['Pages']				= 'Strony";
+$_Lang['Prev']				= '&#171;";
+$_Lang['Next']				= '&#187;";
 
-$_Lang['DeletedUser']		= 'Gracz usunięty';
-$_Lang['DeletedUser2']		= 'Usunięty Gracz';
+$_Lang['DeletedUser']		= 'Gracz usunięty";
+$_Lang['DeletedUser2']		= 'Usunięty Gracz";
 
 // Senders
 $_Lang['Senders'] = array
@@ -110,25 +110,25 @@ $_Lang['AlertCodes_Texts'] = array
 );
 
 // Commands
-$_Lang['Cmd_Deleteall']				= 'Usuń wszystkie';
-$_Lang['CMD_Delete_Title']			= 'Usuń wybrany Alert';
-$_Lang['CMD_Show_Users_Title']		= 'Pokaż wszystkich graczy powiązanych z tym Alertem';
-$_Lang['CMD_Show_MainUsers_Title']	= 'Pokaż głównych graczy powiązanych z tym Alertem';
-$_Lang['CMD_GoToFiltersList']		= 'Pokaż Listę Filtrów';
+$_Lang['Cmd_Deleteall']				= 'Usuń wszystkie";
+$_Lang['CMD_Delete_Title']			= 'Usuń wybrany Alert";
+$_Lang['CMD_Show_Users_Title']		= 'Pokaż wszystkich graczy powiązanych z tym Alertem";
+$_Lang['CMD_Show_MainUsers_Title']	= 'Pokaż głównych graczy powiązanych z tym Alertem";
+$_Lang['CMD_GoToFiltersList']		= 'Pokaż Listę Filtrów";
 
-$_Lang['CMD_DelAll']					= 'Czy jesteś pewien, że chcesz usunąć wszystkie Alerty Systemowe?';
+$_Lang['CMD_DelAll']					= 'Czy jesteś pewien, że chcesz usunąć wszystkie Alerty Systemowe?";
 
 // Informations
-$_Lang['Alert_deleted']				= 'Alert usunięty!';
-$_Lang['Alert_no_status_given']		= 'Nie podano Statusu do zmiany!';
-$_Lang['Alert_same_status']			= 'Status pozostał bez zmian!';
-$_Lang['Alert_status_changed']		= 'Status Alertu zmieniony na <u>%s</u>!';
-$_Lang['Alert_status_noexist']		= 'Taki Status nie istnieje!';
-$_Lang['Alert_noexist']				= 'Alert o podanym ID nie istnieje!';
-$_Lang['No_id_given']				= 'Nie podano poprawnego ID!';
-$_Lang['No_Alerts']					= 'Brak Alertów!';
-$_Lang['No_Alerts_ThisPage']			= 'Brak Alertów na tej stronie!';
-$_Lang['Alert_Truncated']			= 'Wyczyszczono tabelę Alertów!';
-$_Lang['NotFound']					= 'Brak';
+$_Lang['Alert_deleted']				= 'Alert usunięty!";
+$_Lang['Alert_no_status_given']		= 'Nie podano Statusu do zmiany!";
+$_Lang['Alert_same_status']			= 'Status pozostał bez zmian!";
+$_Lang['Alert_status_changed']		= 'Status Alertu zmieniony na <u>%s</u>!";
+$_Lang['Alert_status_noexist']		= 'Taki Status nie istnieje!";
+$_Lang['Alert_noexist']				= 'Alert o podanym ID nie istnieje!";
+$_Lang['No_id_given']				= 'Nie podano poprawnego ID!";
+$_Lang['No_Alerts']					= 'Brak Alertów!";
+$_Lang['No_Alerts_ThisPage']			= 'Brak Alertów na tej stronie!";
+$_Lang['Alert_Truncated']			= 'Wyczyszczono tabelę Alertów!";
+$_Lang['NotFound']					= 'Brak";
 
 ?>

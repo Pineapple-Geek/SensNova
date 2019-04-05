@@ -1,21 +1,21 @@
 <? Php
 
-$_Lang ['PageTitle'] = 'Gestion de la technologie du joueur';
+$_Lang ['PageTitle'] = "Gestion de la technologie du joueur";
 
-$_Lang ['Table_UserID'] = 'ID du joueur';
-$_Lang ['Table_Tabs_1'] = 'Technologies';
-$_Lang ['Table_CMD_Add'] = 'Ajouter';
-$_Lang ['Table_CMD_Set'] = 'Défini';
-$_Lang ['Table_CMD_Substract'] = 'Soustraire';
-$_Lang ['Table_Submit'] = 'Exécuter';
+$_Lang ['Table_UserID'] = "ID du joueur";
+$_Lang ['Table_Tabs_1'] = "Technologies";
+$_Lang ['Table_CMD_Add'] = "Ajouter";
+$_Lang ['Table_CMD_Set'] = "Défini";
+$_Lang ['Table_CMD_Substract'] = "Soustraire";
+$_Lang ['Table_Submit'] = "Exécuter";
 
-$_Lang ['MsgBox_UpdateOK'] = 'Les données du joueur <a href="user_info.php?uid=%s" target="_blank">% s [#% s] </a> ont été mises à jour correctement (champs mis à jour:% s) «;
-$_Lang ['MsgBox_UpdateNotAffected'] = 'Les données du joueur <a href="user_info.php?uid=%s" target="_blank">% s [#% s] </a> n'ont pas besoin d'être mises à jour ...';
-$_Lang ['MsgBox_BadInput'] = 'Les données saisies sont incorrectes!';
-$_Lang ['MsgBox_PlanetDoesntExist'] = 'Un tel joueur n'existe pas!';
-$_Lang ['MsgBox_EmptyInput'] = 'Il n'y a pas de champs à mettre à jour!';
-$_Lang ['MsgBox_BadTabID'] = 'Identificateur de type de champ incorrect!';
-$_Lang ['MsgBox_BadCMD'] = 'Aucun type d'action valide n'a été sélectionné!';
-$_Lang ['MsgBox_BadUserID'] = 'Identifiant incorrect!';
+$_Lang ['MsgBox_UpdateOK'] = "Les données du joueur <a href="user_info.php?uid=%s" target="_blank">% s [#% s] </a> ont été mises à jour correctement (champs mis à jour:% s) «;
+$_Lang ['MsgBox_UpdateNotAffected'] = "Les données du joueur <a href="user_info.php?uid=%s" target="_blank">% s [#% s] </a> n'ont pas besoin d'être mises à jour ...";
+$_Lang ['MsgBox_BadInput'] = "Les données saisies sont incorrectes!";
+$_Lang ['MsgBox_PlanetDoesntExist'] = "Un tel joueur n'existe pas!";
+$_Lang ['MsgBox_EmptyInput'] = "Il n'y a pas de champs à mettre à jour!";
+$_Lang ['MsgBox_BadTabID'] = "Identificateur de type de champ incorrect!";
+$_Lang ['MsgBox_BadCMD'] = "Aucun type d'action valide n'a été sélectionné!";
+$_Lang ['MsgBox_BadUserID'] = "Identifiant incorrect!";
 
 ?>

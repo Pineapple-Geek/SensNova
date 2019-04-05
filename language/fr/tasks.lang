@@ -1,39 +1,39 @@
 <?php
 
-$_Lang ['PageTitle'] = 'Tâches et réalisations';
+$_Lang ['PageTitle'] = "Tâches et réalisations";
 
-$_Lang ['Tabs_ActiveTasks'] = 'Tâches actuelles';
-$_Lang ['Tabs_TasksLog'] = 'Journal de travail';
-$_Lang ['Tabs_Achievements'] = 'Réalisations';
+$_Lang ['Tabs_ActiveTasks'] = "Tâches actuelles";
+$_Lang ['Tabs_TasksLog'] = "Journal de travail";
+$_Lang ['Tabs_Achievements'] = "Réalisations";
 
-$_Lang ['Tab01_CatSel_TabTitle'] = 'Aperçu du travail';
-$_Lang ['Tab01_CatSel_CatRewards'] = 'Des récompenses pour avoir complété la catégorie entière';
-$_Lang ['Tab01_CatSel_Task'] = 'Tâche';
-$_Lang ['Tab01_CatSel_TaskDone'] = 'Exécuté';
-$_Lang ['Tab01_CatSel_TaskNotDone'] = 'Non exécuté';
-$_Lang ['Tab01_CatSel_TaskLocked'] = 'Déverrouillé';
-$_Lang ['Tab01_CatSel_JobsToDo'] = 'Tâches à exécuter';
-$_Lang ['Tab01_CatSel_FirstToDo'] = 'Pour déverrouiller, faites';
-$_Lang ['Tab01_CatSel_DoCategory'] = 'Toutes les catégories';
-$_Lang ['Tab01_CatSel_DoTask'] = 'Tâche';
-$_Lang ['Tab01_CatSel_Reward'] = 'Récompense pour avoir terminé la tâche';
-$_Lang ['Tab01_CatSel_SkipInfo'] = '<b class = \'% s \ '>% s </ b>';
-$_Lang ['Tab01_CatSel_SkipBoth'] = 'Vous obtiendrez des récompenses pour avoir terminé les tâches et la catégorie entière';
-$_Lang ['Tab01_CatSel_SkipTaskOnly'] = 'Vous ne recevrez de récompenses que pour l’achèvement des tâches <br/> - Aucun prix pour la fin de la catégorie';
-$_Lang ['Tab01_CatSel_SkipCatOnly'] = 'Vous ne recevrez de récompenses que si vous avez terminé la catégorie entière <br/> - Aucun prix pour des tâches individuelles';
-$_Lang ['Tab01_CatSel_SkipNone'] = 'Cela débloquera uniquement les autres tâches <br/> - Vous ne recevrez aucun prix ";
-$_Lang ['Tab01_CatSel_DoSkip'] = 'Ignorer cette catégorie';
-$_Lang ['Tab01_CatSel_SkipConfirm'] = 'Êtes-vous sûr de vouloir ignorer cette catégorie?';
+$_Lang ['Tab01_CatSel_TabTitle'] = "Aperçu du travail";
+$_Lang ['Tab01_CatSel_CatRewards'] = "Des récompenses pour avoir complété la catégorie entière";
+$_Lang ['Tab01_CatSel_Task'] = "Tâche";
+$_Lang ['Tab01_CatSel_TaskDone'] = "Exécuté";
+$_Lang ['Tab01_CatSel_TaskNotDone'] = "Non exécuté";
+$_Lang ['Tab01_CatSel_TaskLocked'] = "Déverrouillé";
+$_Lang ['Tab01_CatSel_JobsToDo'] = "Tâches à exécuter";
+$_Lang ['Tab01_CatSel_FirstToDo'] = "Pour déverrouiller, faites";
+$_Lang ['Tab01_CatSel_DoCategory'] = "Toutes les catégories";
+$_Lang ['Tab01_CatSel_DoTask'] = "Tâche";
+$_Lang ['Tab01_CatSel_Reward'] = "Récompense pour avoir terminé la tâche";
+$_Lang ['Tab01_CatSel_SkipInfo'] = "<b class = \'% s \ '>% s </ b>";
+$_Lang ['Tab01_CatSel_SkipBoth'] = "Vous obtiendrez des récompenses pour avoir terminé les tâches et la catégorie entière";
+$_Lang ['Tab01_CatSel_SkipTaskOnly'] = "Vous ne recevrez de récompenses que pour l’achèvement des tâches <br/> - Aucun prix pour la fin de la catégorie";
+$_Lang ['Tab01_CatSel_SkipCatOnly'] = "Vous ne recevrez de récompenses que si vous avez terminé la catégorie entière <br/> - Aucun prix pour des tâches individuelles";
+$_Lang ['Tab01_CatSel_SkipNone'] = "Cela débloquera uniquement les autres tâches <br/> - Vous ne recevrez aucun prix ";
+$_Lang ['Tab01_CatSel_DoSkip'] = "Ignorer cette catégorie";
+$_Lang ['Tab01_CatSel_SkipConfirm'] = "Êtes-vous sûr de vouloir ignorer cette catégorie?";
 
-$_Lang ['Tab01_CatList_TabTitle'] = 'Liste des catégories de tâches à exécuter';
-$_Lang ['Tab01_CatList_Info'] = 'Voici une liste de toutes les tâches (divisées en catégories) que vous pouvez actuellement effectuer. <br/> Cliquez sur l’une des catégories pour afficher son aperçu et vérifier le statut de tâches spécifiques. <br/> Si vous souhaitez revoir toutes les tâches que vous avez déjà effectuées, accédez à l'onglet "Journal des tâches". <br/> <b class = "lime"> Toutes les récompenses de quête sont attribuées à Planet Mother </ b> ';
-$_Lang ['Tab01_CatList_Done'] = 'Pris';
-$_Lang ['Tab01_CatList_NoCats'] = 'Aucune tâche possible à faire!';
-$_Lang ['Tab01_CatList_AllCatsMade'] = 'Vous avez terminé toutes les tâches!';
-$_Lang ['Tab01_CatList_NoCatsMade'] = 'Vous n'avez pas encore terminé les catégories de tâches!';
+$_Lang ['Tab01_CatList_TabTitle'] = "Liste des catégories de tâches à exécuter";
+$_Lang ['Tab01_CatList_Info'] = "Voici une liste de toutes les tâches (divisées en catégories) que vous pouvez actuellement effectuer. <br/> Cliquez sur l’une des catégories pour afficher son aperçu et vérifier le statut de tâches spécifiques. <br/> Si vous souhaitez revoir toutes les tâches que vous avez déjà effectuées, accédez à l'onglet "Journal des tâches". <br/> <b class = "lime"> Toutes les récompenses de quête sont attribuées à Planet Mother </ b> ";
+$_Lang ['Tab01_CatList_Done'] = "Pris";
+$_Lang ['Tab01_CatList_NoCats'] = "Aucune tâche possible à faire!";
+$_Lang ['Tab01_CatList_AllCatsMade'] = "Vous avez terminé toutes les tâches!";
+$_Lang ['Tab01_CatList_NoCatsMade'] = "Vous n'avez pas encore terminé les catégories de tâches!";
 
-$_Lang ['Tab01_CatListDone_TabTitle'] = 'Liste des catégories de tâches complétées';
-$_Lang ['Tab01_CatListDone_Info'] = 'Vous trouverez ci-dessous une liste de toutes les catégories de tâches déjà terminées. <br/> Cliquez sur l’une des catégories pour voir son aperçu et voir ce que vous avez dû faire ou les récompenses que vous avez reçues.';
+$_Lang ['Tab01_CatListDone_TabTitle'] = "Liste des catégories de tâches complétées";
+$_Lang ['Tab01_CatListDone_Info'] = "Vous trouverez ci-dessous une liste de toutes les catégories de tâches déjà terminées. <br/> Cliquez sur l’une des catégories pour voir son aperçu et voir ce que vous avez dû faire ou les récompenses que vous avez reçues.";
 
 $_Lang['TasksCats'] = array
 (
@@ -1284,15 +1284,15 @@ $_Lang['TasksJobs'] = array
 	),
 );
 
-$_Lang['Msg_CatNoExist'] = 'Taka kategoria nie istnieje!';
-$_Lang['Msg_CatDone'] = 'Wykonane zadania są dostępne w Dzienniku Zadań!';
-$_Lang['Msg_CatNotDone'] = 'Nie wykonałeś jeszcze tej kategorii!';
-$_Lang['Msg_CatNotAvailable'] = 'Nie odblokowałeś jeszcze tej kategorii!';
-$_Lang['Msg_CantSkipUnSkippable'] = 'Nie możesz pominąć tej kategorii!';
-$_Lang['Msg_CantSkipDone'] = 'Ta kategoria zadań jest już wykonana!';
-$_Lang['Msg_Skiped'] = 'Kategoria <i>"%s"</i> została pominięta!';
+$_Lang['Msg_CatNoExist'] = "Taka kategoria nie istnieje!";
+$_Lang['Msg_CatDone'] = "Wykonane zadania są dostępne w Dzienniku Zadań!";
+$_Lang['Msg_CatNotDone'] = "Nie wykonałeś jeszcze tej kategorii!";
+$_Lang['Msg_CatNotAvailable'] = "Nie odblokowałeś jeszcze tej kategorii!";
+$_Lang['Msg_CantSkipUnSkippable'] = "Nie możesz pominąć tej kategorii!";
+$_Lang['Msg_CantSkipDone'] = "Ta kategoria zadań jest już wykonana!";
+$_Lang['Msg_Skiped'] = "Kategoria <i>"%s"</i> została pominięta!";
 
-$_Lang['Tab_Prev'] = 'Poprzednie zadanie';
-$_Lang['Tab_Next'] = 'Następne zadanie';
+$_Lang['Tab_Prev'] = "Poprzednie zadanie";
+$_Lang['Tab_Next'] = "Następne zadanie";
 
 ?>

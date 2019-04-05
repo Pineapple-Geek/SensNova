@@ -1,63 +1,63 @@
 <?php
 
-$_Lang['Title'] = 'Sklep';
+$_Lang['Title'] = "Sklep";
 
-$_Lang['DarkEnergyStatusIs']     = 'Ilość jednostek Ciemnej Energii na twoim koncie';
+$_Lang['DarkEnergyStatusIs']     = "Ilość jednostek Ciemnej Energii na twoim koncie";
 
-$_Lang['BuyDarkEnergy']          = 'Kup Ciemną Energię';
-$_Lang['BuyItems']               = 'Wykorzystaj Ciemną Energię';
-$_Lang['FreePremiumItems']       = 'Darmowy Towar';
+$_Lang['BuyDarkEnergy']          = "Kup Ciemną Energię";
+$_Lang['BuyItems']               = "Wykorzystaj Ciemną Energię";
+$_Lang['FreePremiumItems']       = "Darmowy Towar";
 
-$_Lang['NoJavaScript_Warning']   = 'Uwaga! System wykrył, że nie posiadasz lub masz wyłączoną obsługę JavaScript!<br/>Do poprawnego wyświetlania wygamana jest włączona i nie blokowana (np. przez NoScript) obsługa JavaScript!';
+$_Lang['NoJavaScript_Warning']   = "Uwaga! System wykrył, że nie posiadasz lub masz wyłączoną obsługę JavaScript!<br/>Do poprawnego wyświetlania wygamana jest włączona i nie blokowana (np. przez NoScript) obsługa JavaScript!";
 
 $_Lang['SelectShopkeeper']       = "Przejdź do: <a href=\"#darkenergy\" title=\"Potrzebujesz zakupić trochę Ciemnej Energii? Dobrze trafiłeś!\">Handlarz Ciemnej Energii</a> | <a href=\"#shop\" title=\"Masz spory zapas Ciemnej Energii i nie wiesz jak ją spożytkować? To idealne miejsce dla Ciebie!\">Magazyny przemytników</a>";
 
 // DarkEnergy Form
 
-$_Lang['DarkEnergyMerchant']     = 'Witam w moich skromnych progach! A więc potrzebujesz trochę Ciemnej Energii?<br/>Nie martw się! Mam jej jeszcze trochę, na pewno Ci wystarczy.';
+$_Lang['DarkEnergyMerchant']     = "Witam w moich skromnych progach! A więc potrzebujesz trochę Ciemnej Energii?<br/>Nie martw się! Mam jej jeszcze trochę, na pewno Ci wystarczy.";
 
-$_Lang['SMS_TAB_1']              = '5 jednostek Ciemnej Energii';
-$_Lang['SMS_TAB_2']              = '15 jednostek Ciemnej Energii';
-$_Lang['SMS_TAB_3']              = '25 jednostek Ciemnej Energii';
-$_Lang['SMS_TAB_4']              = '45 jednostek Ciemnej Energii';
+$_Lang['SMS_TAB_1']              = "5 jednostek Ciemnej Energii";
+$_Lang['SMS_TAB_2']              = "15 jednostek Ciemnej Energii";
+$_Lang['SMS_TAB_3']              = "25 jednostek Ciemnej Energii";
+$_Lang['SMS_TAB_4']              = "45 jednostek Ciemnej Energii";
 
-$_Lang['SMS_TEXT_1']             = '<h3><u>Aby zakupić <b class="red">5</b> jednostek Ciemnej Energii</u></h3>Wyślij SMS o treści <span class="smsCode">xxx</span> na numer <span class="smsCode">xxx</span><br/>Koszt brutto SMSa to xxx z VAT';
-$_Lang['SMS_TEXT_2']             = '<h3><u>Aby zakupić <b class="red">15</b> jednostek Ciemnej Energii</u></h3>Wyślij SMS o treści <span class="smsCode">xxx</span> na numer <span class="smsCode">xxx</span><br/>Koszt brutto SMSa to xxx z VAT';
-$_Lang['SMS_TEXT_3']             = '<h3><u>Aby zakupić <b class="red">25</b> jednostek Ciemnej Energii</u></h3>Wyślij SMS o treści <span class="smsCode">xxx</span> na numer <span class="smsCode">xxx</span><br/>Koszt brutto SMSa to xxx z VAT';
-$_Lang['SMS_TEXT_4']             = '<h3><u>Aby zakupić <b class="red">45</b> jednostek Ciemnej Energii</u></h3>Wyślij SMS o treści <span class="smsCode">xxx</span> na numer <span class="smsCode">xxx</span><br/>Koszt brutto SMSa to xxx z VAT';
+$_Lang['SMS_TEXT_1']             = "<h3><u>Aby zakupić <b class="red">5</b> jednostek Ciemnej Energii</u></h3>Wyślij SMS o treści <span class="smsCode">xxx</span> na numer <span class="smsCode">xxx</span><br/>Koszt brutto SMSa to xxx z VAT";
+$_Lang['SMS_TEXT_2']             = "<h3><u>Aby zakupić <b class="red">15</b> jednostek Ciemnej Energii</u></h3>Wyślij SMS o treści <span class="smsCode">xxx</span> na numer <span class="smsCode">xxx</span><br/>Koszt brutto SMSa to xxx z VAT";
+$_Lang['SMS_TEXT_3']             = "<h3><u>Aby zakupić <b class="red">25</b> jednostek Ciemnej Energii</u></h3>Wyślij SMS o treści <span class="smsCode">xxx</span> na numer <span class="smsCode">xxx</span><br/>Koszt brutto SMSa to xxx z VAT";
+$_Lang['SMS_TEXT_4']             = "<h3><u>Aby zakupić <b class="red">45</b> jednostek Ciemnej Energii</u></h3>Wyślij SMS o treści <span class="smsCode">xxx</span> na numer <span class="smsCode">xxx</span><br/>Koszt brutto SMSa to xxx z VAT";
 
-$_Lang['SMS_InputCode']          = '<h3><u>Wprowadź otrzymany kod</u><br/>aby doładować <b class="deForm01">5 jednostek</b><b class="deForm02">15 jednostek</b><b class="deForm03">25 jednostek</b><b class="deForm04">45 jednostek</b> Ciemnej Energii</h3>';
-$_Lang['_Buy5Units']             = '5 jednostek';
-$_Lang['_Buy15Units']            = '15 jednostek';
-$_Lang['_Buy25Units']            = '25 jednostek';
-$_Lang['_Buy45Units']            = '45 jednostek';
+$_Lang['SMS_InputCode']          = "<h3><u>Wprowadź otrzymany kod</u><br/>aby doładować <b class="deForm01">5 jednostek</b><b class="deForm02">15 jednostek</b><b class="deForm03">25 jednostek</b><b class="deForm04">45 jednostek</b> Ciemnej Energii</h3>";
+$_Lang['_Buy5Units']             = "5 jednostek";
+$_Lang['_Buy15Units']            = "15 jednostek";
+$_Lang['_Buy25Units']            = "25 jednostek";
+$_Lang['_Buy45Units']            = "45 jednostek";
 
-$_Lang['SMS_Accept']             = 'Akceptuj!';
+$_Lang['SMS_Accept']             = "Akceptuj!";
 
-$_Lang['DarkEnergySMSInfo']      = 'W SMSie zwrotnym otrzymujesz jednorazowy kod, który należy wpisać powyżej.';
-$_Lang['DarkEnergyTitle']        = 'Handlarz Ciemnej Energii';
+$_Lang['DarkEnergySMSInfo']      = "W SMSie zwrotnym otrzymujesz jednorazowy kod, który należy wpisać powyżej.";
+$_Lang['DarkEnergyTitle']        = "Handlarz Ciemnej Energii";
 
-$_Lang['ErrorBadOption']         = 'Niepoprawnie wybrana opcja!';
-$_Lang['ErrorWrongCode']         = 'Wprowadzony kod jest niepoprawny lub skończyła się jego ważność.';
-$_Lang['ErrorCodeShouldBe8CharsLong']    = 'Zwróć uwagę, że kod powinien składać się z 8 znaków!';
-$_Lang['ErrorUnknown']           = 'Wystąpił błąd: ';    
-$_Lang['ErrorSQL']               = 'Wystąpił błąd zapytania!';
-$_Lang['ErrorNoCode']            = 'Nie podano kodu!';
-$_Lang['AddSuccess']             = 'Do twojego konta dodano <i>%s</i> Ciemnej Energii!'; 
-$_Lang['_Added5DEUnits']         = '5 jednostek';
-$_Lang['_Added15DEUnits']        = '15 jednostek';
-$_Lang['_Added25DEUnits']        = '25 jednostek';
-$_Lang['_Added45DEUnits']        = '45 jednostek';
-$_Lang['_Added10DEUnits']        = '10 jednostek';
-$_Lang['_Added30DEUnits']        = '30 jednostek';
-$_Lang['_Added50DEUnits']        = '50 jednostek';
-$_Lang['_Added90DEUnits']        = '90 jednostek';
+$_Lang['ErrorBadOption']         = "Niepoprawnie wybrana opcja!";
+$_Lang['ErrorWrongCode']         = "Wprowadzony kod jest niepoprawny lub skończyła się jego ważność.";
+$_Lang['ErrorCodeShouldBe8CharsLong']    = "Zwróć uwagę, że kod powinien składać się z 8 znaków!";
+$_Lang['ErrorUnknown']           = "Wystąpił błąd: ";
+$_Lang['ErrorSQL']               = "Wystąpił błąd zapytania!";
+$_Lang['ErrorNoCode']            = "Nie podano kodu!";
+$_Lang['AddSuccess']             = "Do twojego konta dodano <i>%s</i> Ciemnej Energii!";
+$_Lang['_Added5DEUnits']         = "5 jednostek";
+$_Lang['_Added15DEUnits']        = "15 jednostek";
+$_Lang['_Added25DEUnits']        = "25 jednostek";
+$_Lang['_Added45DEUnits']        = "45 jednostek";
+$_Lang['_Added10DEUnits']        = "10 jednostek";
+$_Lang['_Added30DEUnits']        = "30 jednostek";
+$_Lang['_Added50DEUnits']        = "50 jednostek";
+$_Lang['_Added90DEUnits']        = "90 jednostek";
 
 $_Lang['ErrorNoItemIDGiven']         = "Nie podałeś przedmiotu, który chcesz zakupić!";  
 $_Lang['ErrorTooMuchItemIDGiven']    = "Możesz kupić tylko jeden przedmiot za jednym razem!"; 
 $_Lang['ErrorCurrentlyNothinkToSell']= "Przepraszamy, ale w tym momencie nie można nic kupić u Przemytników!";
 $_Lang['ErrorBadIDGiven']            = "Nie mamy takiego przedmiotu na składzie!";
-$_Lang['ErrorNotBuyable']            = 'Ten przedmiot nie jest na sprzedaż!';
+$_Lang['ErrorNotBuyable']            = "Ten przedmiot nie jest na sprzedaż!";
 $_Lang['ErrorNoEnoughDE']            = "Nie masz odpowiedniej ilości Ciemnej Energii!";
 $_Lang['ErrorConfigError']           = "Wystąpił błąd systemu nr. 0001 - proszę zgłosić to Administracji!";
 $_Lang['ErrorNoQuery']               = "Wystąpił błąd systemu nr. 0002 - proszę zgłosić to Administracji!";
@@ -81,10 +81,10 @@ $_Lang['TechnocratAdd']              = "Wynająłeś Technokratę!";
 $_Lang['TechnocratExt']              = "Przedłużyłeś czas wynajęcia Technokraty!";
 $_Lang['PlanetBought']               = "Kupiłeś możliwość kolonizacji dodatkowej planety!<br/>Możesz dokupić jeszcze %s!";
 $_Lang['PlanetBoughtLast']           = "Kupiłeś możliwość kolonizacji dodatkowej planety!<br/><b style=\"color: red;\">Kupiono maksymalną ilość slotów do kolonizacji dodatkowych planet!</b>";
-$_Lang['TraderUsesBought']			= 'Zatrudniłeś Handlowca do wykonania %s transakcji u Handlarza!';
+$_Lang['TraderUsesBought']			= 'Zatrudniłeś Handlowca do wykonania %s transakcji u Handlarza!";
 
-$_Lang['PlanetSlots_left'][0]        = '2 sloty';
-$_Lang['PlanetSlots_left'][1]        = '1 slot';
+$_Lang['PlanetSlots_left'][0]        = "2 sloty";
+$_Lang['PlanetSlots_left'][1]        = "1 slot";
 
 $_Lang['ShopTitle']            = "Magazyny przemytników"; 
 $_Lang['ShopText']             = "Przemytnicy to niezbyt przyjaźni ludzie. Prowadząc życie poza prawem i z kilkoma listami gończymi na karku też pewnie byłbyś taki jak oni.<br/>Jeśli już potrzebujesz skorzystać z ich oferty, lepiej zrób to szybko i bez żadnych przekrętów.";
@@ -99,17 +99,17 @@ $_Lang['AreYouSure']           = "Jesteś pewien?";
 $_Lang['NoItemsOnStock']       = "Aktualnie brak ofert!";
 
 // Free Stuff
-$_Lang['FreeText']                   = 'W tym miejscu możesz przejrzeć wszystkie przyznane Ci Darmowe Towary, które możesz wykorzystać w dowolnym momencie gry.<br/>Pamiętaj jednak, że nie ma możliwości zatrzymania użycia żadnego z nich po akceptacji!';
+$_Lang['FreeText']                   = "W tym miejscu możesz przejrzeć wszystkie przyznane Ci Darmowe Towary, które możesz wykorzystać w dowolnym momencie gry.<br/>Pamiętaj jednak, że nie ma możliwości zatrzymania użycia żadnego z nich po akceptacji!";
 
-$_Lang['FreeItemName']               = 'Nazwa Towaru';
-$_Lang['FreeItemGivenBy']            = 'Otrzymane od';
-$_Lang['FreeItemUse']                = 'Użyj';
-$_Lang['FreeDuration']               = 'Czas trwania';
+$_Lang['FreeItemName']               = "Nazwa Towaru";
+$_Lang['FreeItemGivenBy']            = "Otrzymane od";
+$_Lang['FreeItemUse']                = "Użyj";
+$_Lang['FreeDuration']               = "Czas trwania";
 
-$_Lang['Free_GivenBySys']            = 'System';
-$_Lang['Free_NoFreeItems']           = 'Brak Darmowych Towarów dla twojego konta.<br/>Bierz udział w rożnych konkursach i akcjach w grze - jeśli otrzymasz nagrodę, wyląduje ona właśnie tutaj';
-$_Lang['Free_BadIDGiven']            = 'Podano nieprawidłowe dane!';
-$_Lang['Free_BadItemGiven']          = 'Podano nieprawidłowy Identyfikator Towaru!';
+$_Lang['Free_GivenBySys']            = "System";
+$_Lang['Free_NoFreeItems']           = "Brak Darmowych Towarów dla twojego konta.<br/>Bierz udział w rożnych konkursach i akcjach w grze - jeśli otrzymasz nagrodę, wyląduje ona właśnie tutaj";
+$_Lang['Free_BadIDGiven']            = "Podano nieprawidłowe dane!";
+$_Lang['Free_BadItemGiven']          = "Podano nieprawidłowy Identyfikator Towaru!";
 
 $_Lang['shop_items'] = 
     array(
