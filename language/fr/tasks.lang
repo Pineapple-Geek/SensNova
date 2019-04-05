@@ -1,52 +1,52 @@
 <?php
 
-$_Lang['PageTitle']					= 'Zadania i Osiągnięcia';
+$_Lang ['PageTitle'] = 'Tâches et réalisations';
 
-$_Lang['Tabs_ActiveTasks']			= 'Aktualne zadania';
-$_Lang['Tabs_TasksLog']				= 'Dziennik zadań';
-$_Lang['Tabs_Achievements']			= 'Osiągnięcia';
+$_Lang ['Tabs_ActiveTasks'] = 'Tâches actuelles';
+$_Lang ['Tabs_TasksLog'] = 'Journal de travail';
+$_Lang ['Tabs_Achievements'] = 'Réalisations';
 
-$_Lang['Tab01_CatSel_TabTitle']		= 'Podgląd Zadań';
-$_Lang['Tab01_CatSel_CatRewards']	= 'Nagrody za ukończenie całej Kategorii';
-$_Lang['Tab01_CatSel_Task']			= 'Zadanie';
-$_Lang['Tab01_CatSel_TaskDone']		= 'Wykonane';
-$_Lang['Tab01_CatSel_TaskNotDone']	= 'Niewykonane';
-$_Lang['Tab01_CatSel_TaskLocked']	= 'Nieodblokowane';
-$_Lang['Tab01_CatSel_JobsToDo']		= 'Zadania do wykonania';
-$_Lang['Tab01_CatSel_FirstToDo']		= 'Aby odblokować wykonaj';
-$_Lang['Tab01_CatSel_DoCategory']	= 'Całą Kategorię';
-$_Lang['Tab01_CatSel_DoTask']		= 'Zadanie';
-$_Lang['Tab01_CatSel_Reward']		= 'Nagroda za wykonanie Zadania';
-$_Lang['Tab01_CatSel_SkipInfo']		= '<b class=\'%s\'>%s</b>';
-$_Lang['Tab01_CatSel_SkipBoth']		= 'Dostaniesz nagrody za ukończenie Zadań oraz całej Kategorii';
-$_Lang['Tab01_CatSel_SkipTaskOnly']	= 'Dostaniesz nagrody tylko za ukończenie Zadań<br/> - Bez nagród za skończenie Kategorii';
-$_Lang['Tab01_CatSel_SkipCatOnly']	= 'Dostaniesz nagrody tylko za ukończenie całej Kategorii<br/> - Bez nagród za poszczególne Zadania';
-$_Lang['Tab01_CatSel_SkipNone']		= 'Spowoduje jedynie odblokowanie dalszych Zadań<br/> - Nie dostaniesz żadnych nagród';
-$_Lang['Tab01_CatSel_DoSkip']		= 'Pomiń tą Kategorię';
-$_Lang['Tab01_CatSel_SkipConfirm']	= 'Czy jesteś pewien, że chcesz pominąć tą Kategorię?';
+$_Lang ['Tab01_CatSel_TabTitle'] = 'Aperçu du travail';
+$_Lang ['Tab01_CatSel_CatRewards'] = 'Des récompenses pour avoir complété la catégorie entière';
+$_Lang ['Tab01_CatSel_Task'] = 'Tâche';
+$_Lang ['Tab01_CatSel_TaskDone'] = 'Exécuté';
+$_Lang ['Tab01_CatSel_TaskNotDone'] = 'Non exécuté';
+$_Lang ['Tab01_CatSel_TaskLocked'] = 'Déverrouillé';
+$_Lang ['Tab01_CatSel_JobsToDo'] = 'Tâches à exécuter';
+$_Lang ['Tab01_CatSel_FirstToDo'] = 'Pour déverrouiller, faites';
+$_Lang ['Tab01_CatSel_DoCategory'] = 'Toutes les catégories';
+$_Lang ['Tab01_CatSel_DoTask'] = 'Tâche';
+$_Lang ['Tab01_CatSel_Reward'] = 'Récompense pour avoir terminé la tâche';
+$_Lang ['Tab01_CatSel_SkipInfo'] = '<b class = \'% s \ '>% s </ b>';
+$_Lang ['Tab01_CatSel_SkipBoth'] = 'Vous obtiendrez des récompenses pour avoir terminé les tâches et la catégorie entière';
+$_Lang ['Tab01_CatSel_SkipTaskOnly'] = 'Vous ne recevrez de récompenses que pour l’achèvement des tâches <br/> - Aucun prix pour la fin de la catégorie';
+$_Lang ['Tab01_CatSel_SkipCatOnly'] = 'Vous ne recevrez de récompenses que si vous avez terminé la catégorie entière <br/> - Aucun prix pour des tâches individuelles';
+$_Lang ['Tab01_CatSel_SkipNone'] = 'Cela débloquera uniquement les autres tâches <br/> - Vous ne recevrez aucun prix ";
+$_Lang ['Tab01_CatSel_DoSkip'] = 'Ignorer cette catégorie';
+$_Lang ['Tab01_CatSel_SkipConfirm'] = 'Êtes-vous sûr de vouloir ignorer cette catégorie?';
 
-$_Lang['Tab01_CatList_TabTitle']		= 'Lista Kategorii Zadań do wykonania';
-$_Lang['Tab01_CatList_Info']			= 'Poniżej wyświetlona jest lista wszystkich zadań (podzielonych na kategorie), które aktualnie możesz wykonywać.<br/>Kliknij na jedną z Kategorii aby przejść do jej podglądu i sprawdzić status konkretnych zadań.<br/>Jeśli chcesz przejrzeć wszystkie wykonane już zadania, przejdź do zakładki "Dziennik zadań".<br/><b class="lime">Wszystkie nagrody za zadania są przyznawane na Planetę Matkę</b>';
-$_Lang['Tab01_CatList_Done']			= 'Wykonano';
-$_Lang['Tab01_CatList_NoCats']		= 'Brak Zadań możliwych do wykonania!';
-$_Lang['Tab01_CatList_AllCatsMade']	= 'Wykonałeś już wszystkie zadania!';
-$_Lang['Tab01_CatList_NoCatsMade']	= 'Nie skończyłeś jeszcze żadnych kategorii zadań!';
+$_Lang ['Tab01_CatList_TabTitle'] = 'Liste des catégories de tâches à exécuter';
+$_Lang ['Tab01_CatList_Info'] = 'Voici une liste de toutes les tâches (divisées en catégories) que vous pouvez actuellement effectuer. <br/> Cliquez sur l’une des catégories pour afficher son aperçu et vérifier le statut de tâches spécifiques. <br/> Si vous souhaitez revoir toutes les tâches que vous avez déjà effectuées, accédez à l'onglet "Journal des tâches". <br/> <b class = "lime"> Toutes les récompenses de quête sont attribuées à Planet Mother </ b> ';
+$_Lang ['Tab01_CatList_Done'] = 'Pris';
+$_Lang ['Tab01_CatList_NoCats'] = 'Aucune tâche possible à faire!';
+$_Lang ['Tab01_CatList_AllCatsMade'] = 'Vous avez terminé toutes les tâches!';
+$_Lang ['Tab01_CatList_NoCatsMade'] = 'Vous n'avez pas encore terminé les catégories de tâches!';
 
-$_Lang['Tab01_CatListDone_TabTitle'] = 'Lista wykonanych Kategorii Zadań';
-$_Lang['Tab01_CatListDone_Info']		= 'Poniżej wyświetlona jest lista wszystkich kategorii zadań, które zostały już ukończone.<br/>Kliknij na jedną z Kategorii aby przejść do jej podglądu i sprawdzić co musiałeś wykonać lub jakie otrzymałeś nagrody.';
+$_Lang ['Tab01_CatListDone_TabTitle'] = 'Liste des catégories de tâches complétées';
+$_Lang ['Tab01_CatListDone_Info'] = 'Vous trouverez ci-dessous une liste de toutes les catégories de tâches déjà terminées. <br/> Cliquez sur l’une des catégories pour voir son aperçu et voir ce que vous avez dû faire ou les récompenses que vous avez reçues.';
 
 $_Lang['TasksCats'] = array
 (
-	1 => 'Wprowadzenie',
-	2 => 'Militaria',
-	3 => 'Ekonomia i Gospodarka',
-	4 => 'Rozwój naukowy',
-	5 => 'Wsparcie sojusznicze',
-	6 => 'Wsparcie Universum',
+1 => 'Introduction',
+2 => 'Militaire',
+3 => 'Économie',
+4 => 'Développement scientifique',
+5 => 'Support allié',
+6 => 'Universum Support',
 );
 $_Lang['TasksCatRewards'] = array
 (
-	1 => array('Darmowy Geolog na 3 dni'),
+	1 => array('Géologue gratuit pendant 3 jours'),
 );
 
 $_Lang['Tasks'] = array
@@ -54,221 +54,221 @@ $_Lang['Tasks'] = array
 	// Introduction
 	1 => array
 	(
-		'name' => 'Zaopatrzenie Podstawowe',
-		'img' => 'gebaeude/1.gif',
-		'desc' => 'Podstawowa rozbudowa infrastruktury planetarnej dostarcza niezbędnych surowców do dalszej gry. <b>Metal</b> i <b>Kryształ</b> to główne surowce dostępne w grze, dzięki którym rozbudujesz swoje Imperium o nowe budynki czy floty. Do wydobycia potrzebna jest również <b>Energia</b>, którą dostarczają odpowiednie Elektrownie i ich mniejsze zamienniki.',
-		'rewards' => '10.000 jednostek Metalu i Kryształu'
+		'name' => 'Basic Supply',
+		'img' => 'gebaeude / 1.gif',
+		'desc' => 'L’expansion de base de l’infrastructure planétaire fournit les ressources nécessaires pour continuer à jouer. <b> Le métal </ b> et le <b> Cristal </ b> sont les principales matières premières disponibles dans le jeu. Grâce à cela, vous développerez votre Empire avec de nouveaux bâtiments ou de nouvelles flottes. Il est également nécessaire d'extraire de <b> l'énergie </ b> fournie par les centrales électriques concernées et leurs substituts plus petits. ',
+		'récompenses' => '10 000 unités de métal et de cristal'
 	),
 	2 => array
 	(
-		'name' => 'Trzeci surowiec',
-		'img' => 'gebaeude/3.gif',
-		'desc' => '<b>Deuter</b> to bardzo ważny surowiec w grze. Umożliwia on rozbudowę infrastruktury Planet, rozwijanie Badań, tworzenie Floty oraz niektórych Systemów Obronnych. Jeśli twoje Imperium ma się dobrze rozwijać, musisz dostarczać mu odpowiednie ilości tego surowca. <b>Deuter</b> ze względu na swoje wartości energetyczne, stosowany jest również jako <b>Paliwo</b> dla statków kosmicznych.',
-		'rewards' => '5.000 jednostek Deuteru'
+		'name' => 'Troisième matière première',
+		'img' => 'gebaeude / 3.gif',
+		'desc' => '<b> Deutérium </ b> est une ressource très importante dans le jeu. Il permet l'expansion de l'infrastructure de Planet, le développement de la recherche, la création de la flotte et de certains systèmes de défense. Si votre empire doit prospérer, vous devez lui fournir la bonne quantité de cette ressource. <b> Deuter </ b> est également utilisé comme <b> carburant </ b> pour engin spatial en raison de ses valeurs énergétiques. ',
+		'récompenses' => '5 000 unités Deuter'
 	),
 	3 => array
 	(
-		'name' => 'Niezbędna Obrona',
-		'img' => 'gebaeude/401.gif',
-		'desc' => 'Głównym aspektem gry jest walka z innymi graczami. Aby uniemożliwić łatwe grabienie swoich planet, staraj się co jakiś czas rozbudowywać Obronę swoich Planet. Zarówno do budowy Statków jak i Systemów Obronnych potrzebna jest <b>Fabryka Robotów</b> oraz <b>Stocznia</b>. W późniejszych etapach gry wymagane będą również odpowiednie Osiągnięcia Technologiczne.',
-		'rewards' => '5.000 Wyrzutni Rakiet'
+		'name' => 'Défense nécessaire',
+		'img' => 'gebaeude / 401.gif',
+		'desc' => 'L'aspect principal du jeu est le combat avec d'autres joueurs. Pour éviter tout ratissage facile de vos planètes, essayez d’étendre de temps en temps la défense de votre planète. Vous aurez besoin de <b> Robot Factory </ b> et de <b> Stocznia </ b> pour la construction de navires et de systèmes de défense. Dans les phases ultérieures du jeu, des réalisations technologiques appropriées seront également nécessaires. ',
+		'récompenses' => '5 000 lance-roquettes'
 	),
 	4 => array
 	(
-		'name' => 'Dalsza rozbudowa Planet',
-		'img' => 'gebaeude/22.gif',
-		'desc' => 'Każda z Planet ma ograniczone miejsce do przechowywania surowców. Gdy nie ma wystarczającej ilości miejsca na Planecie, <b>Produkcja surowców</b> jest zatrzymywana. Rozbudowywanie <b>Magazynów</b> i <b>Zbiorników</b> zapobiega takim sytuacjom. Pamiętaj jednak, że Surowce dostarczane przez twoje Statki nie będą tracone!',
-		'rewards' => '50.000 jednostek Metalu, Kryształu i 20.000 jednostek Deuteru'
+		'name' => 'Nouvelle expansion de Planet',
+		'img' => 'gebaeude / 22.gif',
+		'desc' => 'Chaque planète dispose d’un espace limité pour stocker les matières premières. Lorsqu'il n'y a pas assez d'espace sur la planète, la <b> production de matière première </ b> est arrêtée. L'extension des <b> Stockages </ b> et des <b> Stockages </ b> empêche cela. Rappelez-vous cependant que les matières premières livrées par vos navires ne seront pas perdues! ',
+		'récompenses' => '50 000 unités Metal, Crystal et 20 000 unités Deuter '
 	),
 	5 => array
 	(
-		'name' => 'Rozwój Badań',
-		'img' => 'gebaeude/31.gif',
-		'desc' => '<b>Laboratorium Badawcze</b> to budynek umożliwiający rozwój Technologii, które umożliwiają Ci konstruowanie nowych typów statków o lepszych parametrach oraz zwiększanie ich możliwości. Jednym z najważniejszych typów Badań są <b>Technologia Komputerowa</b> (zwiększająca maksymalną liczbę Flot w ruchu) oraz <b>Technologie Napędowe</b>. Informacje na temat <b>Wymagań technicznych</b> znajdziesz w Zakładce <b>"<a href="techtree.php" class="orange">Technologia</a>"</b> w Menu Gry.',
-		'rewards' => '25.000 jednostek Kryształu i Deuteru'
+	'name' => 'Research Development',
+	'img' => 'gebaeude / 31.gif',
+	'desc' => '<b> Le laboratoire de recherche </ b> est un bâtiment qui permet le développement de technologies vous permettant de construire de nouveaux types de navires avec de meilleurs paramètres et d’accroître leurs capacités. L’un des types de recherche les plus importants est la <b> technologie informatique </ b> (augmentation du nombre maximal de Flot en déplacement) et la <b> technologie des disques durs </ b>. Vous trouverez des informations sur les <b> Spécifications techniques </ b> dans l'onglet <b> de <a href="techtree.php" class="orange"> Technologie </a> "</ b> dans le menu Jeux. ',
+	'récompenses' => '5 000 unités de cristal et de deutérium'
 	),
 	6 => array
 	(
-		'name' => 'Pierwsze Statki',
-		'img' => 'gebaeude/202.gif',
-		'desc' => 'Dzięki statkom możesz transportować surowce między swoimi koloniami oraz napadać i grabić swoich wrogów. Statki takie jak <b>Transportery</b> nie nadają się do walki, dlatego w przypadku obecności wrogiej floty na Planecie należy wpierać je innymi militarnymi jednostkami (np. <b>Lekkimi Myśliwcami</b> które przyjmują na siebie ogień oraz <b>Okrętami Wojennymi</b>, które mogą wyrządzić spore szkody przeciwnikowi)',
-		'rewards' => 'Po 500 Małych Transporterów i Lekkich Myśliwców'
+	'name' => 'First Ships',
+	'img' => 'gebaeude / 202.gif',
+	'desc' => 'Grâce aux navires, vous pouvez transporter des ressources entre vos colonies et attaquer et piller vos ennemis. Les navires tels que les <b> transporteurs </ b> ne sont pas adaptés au combat. Si vous avez une flotte ennemie sur la planète, soutenez-la avec d'autres unités militaires (par exemple, <b> des chasseurs légers </ b> qui prennent feu et < b> Navires de guerre </ b> pouvant causer des dommages importants à un adversaire) ',
+	'récompenses' => '500 petits transporteurs et combattants légers'
 	),
 	7 => array
 	(
-		'name' => 'Kolonie Planetarne',
-		'img' => 'gebaeude/208.gif',
-		'desc' => 'Rozwój <b>Kolonii</b> jest niezwykle ważny. Dzięki nim o wiele łatwiej zwiększyć przyrost surowców, gdy Kopalnie na Planecie Matce wymagają dużych ilości środków do budowy. O wiele łatwiej i wydajniej jest rozwijać dwie Kopalnie o niskim poziomie, niż jedną o wysokim poziomie rozbudowy (do czasu zrównania tych poziomów). Najbardziej zasobne w Deuter Planety znajdują się na ostatnich, najzimniejszych pozycjach <b>Układu Słonecznego</b>, zaś największe Planety możesz trafić na 14-stej pozycji.',
-		'rewards' => '2 Statki Kolonizacyjne'
+	'name' => 'Colonials Planetary',
+	'img' => 'gebaeude / 208.gif',
+	'desc' => 'Développer <b> Cologne </ b> est extrêmement important. Grâce à eux, il est beaucoup plus facile d'augmenter l'augmentation de la matière première lorsque les mines de la matière sur la planète mère nécessitent des fonds importants pour la construction. Il est beaucoup plus facile et plus efficace de développer deux mines de faible niveau qu'une autre à forte expansion (jusqu'à ce que ces niveaux soient égalisés). Les plus abondantes des planètes Deuter se trouvent dans les dernières positions les plus froides du <b> système solaire </ b>, et les plus grandes planètes se trouvent en 14ème position. ',
+	'récompenses' => '2 navires de colonisation'
 	),
 	8 => array
 	(
-		'name' => 'Dodatkowe źródła Energii',
-		'img' => 'gebaeude/212.gif',
-		'desc' => 'Bardzo dobrym i często wykorzystywanym źródłem Energii w późniejszych etapach gry są <b>Satelity Słoneczne</b>. Są o wiele tańsze niż rozbudowa Elektrowni i dostarczają większej ilości Energii. Niestety, trzeba liczyć sie z faktem, że mogą one zostać zniszczone podczas bitwy na orbicie Planety. Dlatego nie należy porzucać rozwoju Elektrowni, chociażby na niskie poziomy.',
-		'rewards' => '200 Satelit Słonecznych'
+	'name' => 'Additional Energy Sources',
+	'img' => 'gebaeude / 212.gif',
+	'desc' => 'Les <b> satellites solaires </ b> sont une très bonne source d’énergie fréquemment utilisée au cours des dernières étapes du jeu. Ils sont beaucoup moins chers que le développement de la centrale électrique et fournissent plus d’énergie. Malheureusement, vous devez tenir compte du fait qu'ils peuvent être détruits lors d'une bataille sur l'orbite de la planète. Par conséquent, il ne faut pas abandonner le développement de la centrale électrique, même à de faibles niveaux. ',
+	'récompenses' => '200 satellites solaires'
 	),
 	9 => array
 	(
-		'name' => 'Działania Wojenne',
-		'img' => 'gebaeude/210.gif',
-		'desc' => 'Pierwszym krokiem do grabienia surowców od innych graczy jest <b>Szpiegowanie</b> ich planet za pomocą <b>Sond Szpiegowskich</b>. Przy odpowiednich poziomach Technologicznych lub ilościach Sond dostarcza Ci to cennych informacji o stanie planety wroga (jednakże mogą zostać zniszczone podczas misji!). Przed atakiem warto skorzystać z <b>Symulatora Walk</b>, by sprawdzić opłacalność ataku. Pamiętaj, że w przypadku braku jakiejkolwiek floty i obrony na planecie możesz <b>grabić surowce</b> nawet samymi <b>Transporterami</b>!',
-		'rewards' => '500 Sond Szpiegowskich, 20 Krążowników'
+	'name' => 'Warfare',
+	'img' => 'gebaeude / 210.gif',
+	'desc' => 'La première étape dans la collecte des ressources des autres joueurs consiste à <b> espionner </ b> leurs planètes à l'aide de <b> Sond Szpiegowskich </ b>. Aux bons niveaux ou quantités technologiques de sondes, il vous fournit des informations précieuses sur l’état de la planète ennemie (cependant, elle peut être détruite pendant les missions!). Avant l’attaque, utilisez le <b> Walk Simulator </ b> pour vérifier la rentabilité de l’attaque. N'oubliez pas qu'en l'absence de flotte et de défense sur la planète, vous pouvez <b> ramasser les matières premières </ b> même avec <b> Transporteurs </ b>! ',
+	'récompenses' => '500 Spy Pros, 20 Cruisers'
 	),
 	10 => array
 	(
-		'name' => 'Sprzątanie Pól Zniszczeń',
-		'img' => 'gebaeude/209.gif',
-		'desc' => 'Po każdej bitwie na orbitach planet powstają <b>Pola Zniszczeń</b>, które składają się z części ze zniszczonych statków podczas walk. Jest to <b>dodatkowy zysk</b> z przeprowadzanych bitew, dlatego warto zbierać złom do ponownego przetworzenia. Do zbierania szczątków (nazywanych przez graczy <b>Debrisem</b>) służą <b>Recyklery</b>',
-		'rewards' => '200 Recyklerów'
+	'name' => 'Nettoyage des champs de destruction',
+	'img' => 'gebaeude / 209.gif',
+	'desc' => 'Après chaque bataille sur les orbites des planètes, des <b> champs de destruction </ b> sont créés. Ils sont constitués de parties de navires détruits lors des combats. Il s’agit d’un <b> profit supplémentaire </ b> des batailles menées. Vous devez donc collecter des chutes pour les retraiter. Pour collecter les débris (désignés par les <b> lecteurs de débris </ b>), <b> recycleurs </ b> 'sont utilisés,
+	'récompenses' => '200 recycleurs'
 	),
 	11 => array
 	(
-		'name' => 'Związki Graczy',
-		'img' => 'officiers/602.jpg',
-		'desc' => '<b>Sojusze</b> to zrzeszenia graczy, którzy deklarują wzajemną pomoc zarówno Militraną jak i Handlową. Twoja obecność w Sojuszu zwiększa twoje szanse w grze i może przyspieszyć twój rozwój. Inną funkcją "społecznościową" w grze jest <b>BuddyLista</b> - lista zaprzyjaźniowych osób w grze. Dodanie kogoś do BuddyListy pozwala na sprawdzenie jego statusu Online oraz umożliwia Ci, podobnie jak Sojusz, <b>wspólne Ataki</b> (Ataki związków, nazywane ACS).',
-		'rewards' => '10 Okrętów Wojennych'
+	'name' => 'Relations de joueurs',
+	'img' => 'officiers / 602.jpg',
+	'desc' => '<b> Les alliances </ b> sont des associations de joueurs qui se déclarent mutuellement solidaires à la fois de Militran et de Handlowa. Votre présence dans l'Alliance augmente vos chances dans le jeu et peut accélérer votre développement. Une autre fonctionnalité "sociale" du jeu est <b> BuddyLista </ b> - une liste de personnes amicales dans le jeu. Ajouter quelqu'un à BuddyList vous permet de vérifier son statut En ligne et vous permet, comme l'Alliance, de <b> Attaques courantes </ b> (attaques de conformité, appelées ACS). ',
+	'rewards' => '10 Warships '
 	),
 	12 => array
 	(
-		'name' => 'Ochrona Floty',
-		'img' => 'gebaeude/219.gif',
-		'desc' => 'Ta gra działa 24h na dobę, nawet wtedy gdy nie jesteś zalogowany. Dlatego ważnym działaniem dla posiadaczy Flot jest robienie tzw. <b>FleetSave (FS)</b> przed wylogowaniem - są to długie i powolne loty flot, dzięki czemu twoi Wrogowie nie mogą zniszczyć twojej Floty. Do spowalniania flot służą specjalne Statki - <b>Wahadłowce</b>. Jednym z najlepszych rodzajów FSów jest wysyłanie statków pomiędzy <b>swoimi Księżycami</b> z misją <b>Stacjonuj</b>. Wysyłając Flotę z Planety lub na Planetę będzie ona widoczna na <b>Falandze Czujników</b> (to specjalna budowla dostępna dla posiadaczy księżyców).',
-		'rewards' => '150.000 jednostek Metalu, Kryształu i Deuteru'
+	'name' => 'Fleet Protection',
+	'img' => 'gebaeude / 219.gif',
+	'desc' => 'Ce jeu fonctionne 24 heures sur 24, même si vous n'êtes pas connecté. Par conséquent, une action importante pour les propriétaires de Flot est de le faire. <b> FleetSave (FS) </ b> avant de vous déconnecter - il s’agit de vols de flotte longs et lents, afin que vos ennemis ne puissent pas détruire votre flotte. Navires spéciaux: les <b> navettes </ b> servent à ralentir les flottes. L’un des meilleurs types de FS consiste à envoyer des navires entre <b> vos Lunes </ b> avec la mission <b> Station </ b>. En envoyant une flotte de la planète ou sur la planète, cela sera visible sur <b> Faland Sensors </ b> (il s'agit d'un bâtiment spécial disponible pour les détenteurs de la lune). ',
+	'récompenses' => '150 000 unités de métal, cristal et deutérium'
 	),
 	13 => array
 	(
-		'name' => 'Rozwój komputeryzacji',
-		'img' => 'gebaeude/15.gif',
-		'desc' => 'W miarę rozwoju twojego Imperium, rozbudowa budynków czy powiększanie floty staje się coraz dłuższe ze względu na zaawansowanie prac nad nowymi konstrukcjami. Bardzo ważnym elementem na każdej planecie jest Fabryka Nanitów, która znacznie przyspiesza konstrukcję budynków i przyspiesza Stocznię. Na każdy poziom Fabryki, czas budowy skraca się o połowę, niezależnie od stopnia zaawansowania prac.',
-		'rewards' => '2.000.000 jednostek Metalu, 1.000.000 Kryształu i 200.000 Deuteru'
+	'name' => 'Development of computerization',
+	'img' => 'gebaeude / 15.gif',
+	'desc' => 'Au fur et à mesure que votre empire se développe, l'expansion des bâtiments ou celle de la flotte s'allongent en raison de l'avancement des travaux sur les nouvelles constructions. Un élément très important sur chaque planète est la Nanite Factory, qui accélère considérablement la construction de bâtiments et le chantier naval. Pour chaque niveau de l'usine, le temps de construction est réduit de moitié, quel que soit le niveau d'avancement des travaux. ',
+	'récompenses' => '2.000.000 unités de métal, 1.000.000 de cristal et 200.000 de deutérium'
 	),
 	14 => array
 	(
-		'name' => 'Podstawy polowania na Floty',
-		'img' => 'gebaeude/214.gif',
-		'desc' => 'Falanga Czujników to niezwykle pomocne narzędzie w tzw. „łapaniu flot”, jednak staje sie ona bezużyteczna, gdy wróg wysyła swe floty między Księżycami. W poszukiwaniu flot do ustrzelenia przydatne są Gwiazdy Śmierci, które dzięki swym ogromnym działom Grawitronowym są w stanie zniszczyć cały Księżyc. Po zniszczeniu, wszystkie floty lecące z danego Księżyca zostaną przekierowane na Planety, przez co staną się ponownie widoczne dla Falangi.',
-		'rewards' => '10 Gwiazd Śmierci'
+	'name' => 'Basics of Fleet Hunt',
+	'img' => 'gebaeude / 214.gif',
+	'desc' => 'Falanga Sensors est un outil extrêmement utile dans le soi-disant "Capturer des flottes", cependant, cela devient inutile lorsque l'ennemi envoie ses flottes entre les lunes. À la recherche de flottes pour tirer des Deathstars utiles, qui, grâce à leurs énormes gravitons, peuvent détruire toute la lune. Après destruction, toutes les flottes partant de la Lune donnée seront redirigées vers les Planètes, qui redeviendront visibles pour Falanga. ',
+	'récompenses' => '10 étoiles de la mort '
 	),
 	15 => array
 	(
-		'name' => 'Transport międzyplanetarny',
-		'img' => 'gebaeude/217.gif',
-		'desc' => 'Mega Transportery to ukoronowanie prac inżynierów nad usprawnianiem wymiany handlowej między koloniami. W rozbudowanych imperiach stanowią one podstawową jednostkę do transportu surowców wewnątrz imperialnego systemu planetarnego.',
-		'rewards' => '50 Mega Transporterów'
+	'name' => 'Transport interplanétaire',
+	'img' => 'gebaeude / 217.gif',
+	'desc' => 'Mega Transporters couronne le travail des ingénieurs pour améliorer les échanges commerciaux entre les colonies. Dans les empires développés, ils constituent l'unité de base du transport des matières premières dans le système planétaire impérial. ',
+	'récompenses' => '50 Mega Transporters '
 	),
 	16 => array
 	(
-		'name' => 'Ekspansja Kolonialna',
-		'img' => 'gebaeude/208.gif',
-		'desc' => 'Dalsza ekspansja w głąb kosmosu jest niezwykle ważna z Ekonomicznego punktu widzenia. Każda dodatkowa planeta to dodatkowe źródło stałych przychodów dla twojego Imperium. Im szybciej ta ekspansja nastąpi, tym szybciej będziesz mógł wyprzedzić swoich rywali, bądź doścignąć już istniejących konkurentów.',
-		'rewards' => '200 Mega Transporterów'
+	'name' => 'Expansion coloniale',
+	'img' => 'gebaeude / 208.gif',
+	'desc' => 'Du point de vue économique, une expansion supplémentaire dans l’espace est extrêmement importante. Chaque planète supplémentaire constitue une source supplémentaire de revenus réguliers pour votre Empire. Plus tôt cette expansion se produit, plus vite vous pourrez dépasser vos rivaux ou rattraper vos concurrents existants. ',
+	'récompenses' => '200 Mega Transporters'
 	),
 	17 => array
 	(
-		'name' => 'Kolonializm surowcowy',
-		'img' => 'gebaeude/2.gif',
-		'desc' => 'Tworząc nowe kolonie nie można zapominać o rozwoju ich infrastruktury planetarnej. Warto inwestować w kolejne poziomy kopalni i ekstraktorów, by zwiększać wydobycie dla całego imperium. Ważnym czynnikiem jest równomierny rozwój wszystkich koloni, który pozwala zwiększyć wydajność wydobycia.',
-		'rewards' => '5.000.000 jednostek Metalu i Kryształu, 2.000.000 jednostek Deuteru'
+	'name' => 'Raw colonialism',
+	'img' => 'gebaeude / 2.gif',
+	'desc' => 'La création de nouvelles colonies ne peut pas oublier le développement de leur infrastructure planétaire. Cela vaut la peine d’investir dans d’autres niveaux de mines et d’extracteurs pour développer l’activité minière dans tout l’empire. Un facteur important est le développement uniforme de toutes les colonies, ce qui permet d'accroître l'efficacité de l'extraction. ',
+	'récompenses' => '5 000 000 d'unités de métal et de cristal, 2 000 000 d'unités de Deuter'
 	),
 	18 => array
 	(
-		'name' => 'Naturalne satelity',
-		'img' => 'gebaeude/41.gif',
-		'desc' => 'Księżyc to jedyne miejsce, gdzie można wybudować takie struktury jak Teleporter czy Falanga Czujników. Dodatkowo, stwarza on idealne warunki do robienia Fleet Savów i ochrony swoich osiągnięć przed wrogim ostrzałem. Księżyce powstają po walkach na orbicie planety, dlatego najlepiej jak najszybciej poprosić znajomych z sojuszu o tzw. Moonmaking - czyli rozbicie małej floty, która przy odrobinie szczęścia utworzy nam księżyc.',
-		'rewards' => '4.000.000 jednostek Metalu i Deuteru, 8.000.000 jednostek Kryształu'
+	'name' => 'Satellites naturels',
+	'img' => 'gebaeude / 41.gif',
+	'desc' => 'La Lune est le seul endroit où vous pouvez construire des structures telles que Téléporteur ou Falanga Sensors. En outre, il crée les conditions idéales pour fabriquer Fleet Savów et protéger vos exploits contre les tirs hostiles. Les lunes sont formées après les batailles sur l’orbite de la planète, il est donc préférable de demander à vos amis de l’alliance de Moonmaking - briser une petite flotte qui, avec un peu de chance, va nous créer une lune. ',
+	'récompenses' => '4 000 000 d'unités de métal et de deutérium, 8 000 000 d'unités de cristal'
 	),
 	19 => array
 	(
-		'name' => 'Zabezpieczanie Flot',
-		'img' => 'planeten/mond.jpg',
-		'desc' => 'Jedną z najlepszych metod Fleet Savingu jest wysyłanie floty z jednego własnego księżyca na drugi z misją Stacjonuj. Dzięki użyciu księżyców nasza flota jest niewidoczna dla Falangi Czujników, w przypadku zniszczenia księżyca mamy zaś większe możliwości manewru.',
-		'rewards' => '10.000.000 jednostek Deuteru'
+	'name' => 'Sécuriser la flotte',
+	'img' => 'planeten / mond.jpg',
+	'desc' => 'L’une des meilleures méthodes de Fleet Saving consiste à envoyer une flotte de sa propre lune à l’autre avec la mission stationnée. Grâce à l'utilisation de lunes, notre flotte est invisible à la Phalange des capteurs. En cas de destruction de la lune, nous disposons d'une plus grande marge de manœuvre. ',
+	'récompenses' => '10 000 000 unités Deuter'
 	),
 	// Military
 	20 => array
 	(
-		'name' => 'Potęga grawitronów I',
-		'img' => 'gebaeude/214.gif',
-		'desc' => '',
-		'rewards' => '1.000.000.000 jednostek Deuteru'
+	'name' => 'Power of gravitrons I',
+	'img' => 'gebaeude / 214.gif',
+	'desc' => '',
+	'récompenses' => '1 000 000 000 d'unités Deuter'
 	),
 	21 => array
 	(
-		'name' => 'Potęga grawitronów II',
-		'img' => 'gebaeude/214.gif',
-		'desc' => '',
-		'rewards' => '3.000.000.000 jednostek Deuteru'
+	'name' => 'Power of gravitrons II',
+	'img' => 'gebaeude / 214.gif',
+	'desc' => '',
+	'récompenses' => '3 000 000 000 d'unités Deuter'
 	),
 	22 => array
 	(
-		'name' => 'Potęga grawitronów III',
-		'img' => 'gebaeude/214.gif',
-		'desc' => '',
-		'rewards' => '10.000.000.000 jednostek Deuteru'
+	'name' => 'Power of gravitrons III',
+	'img' => 'gebaeude / 214.gif',
+	'desc' => '',
+	'récompenses' => '10 000 000 000 unités Deuter'
 	),
 	23 => array
 	(
-		'name' => 'Zdradziecka grawitacja I',
-		'img' => 'gebaeude/199.gif',
-		'desc' => '',
-		'rewards' => '5.000.000.000 jednostek Deuteru'
+	'name' => 'La gravité perfide I',
+	'img' => 'gebaeude / 199.gif',
+	'desc' => '',
+	'récompenses' => '5 000 000 000 d'unités Deuter'
 	),
 	24 => array
 	(
-		'name' => 'Zdradziecka grawitacja II',
-		'img' => 'gebaeude/199.gif',
-		'desc' => '',
-		'rewards' => '10.000.000.000 jednostek Deuteru'
+	'name' => 'La gravité perfide II',
+	'img' => 'gebaeude / 199.gif',
+	'desc' => '',
+	'récompenses' => '10 000 000 000 unités Deuter'
 	),
 	25 => array
 	(
-		'name' => 'Zdradziecka grawitacja III',
-		'img' => 'gebaeude/199.gif',
-		'desc' => '',
-		'rewards' => '20.000.000.000 jednostek Deuteru'
+	'name' => 'La gravité perfide III',
+	'img' => 'gebaeude / 199.gif',
+	'desc' => '',
+	'récompenses' => '20, 000.000.000 unités Deuter '
 	),
 	26 => array
 	(
-		'name' => 'Grawitacyjna rozrywka',
-		'img' => 'planeten/mond.jpg',
-		'desc' => '',
-		'rewards' => '25.000.000.000 jednostek Deuteru'
+	'name' => 'Entertainment attractif',
+	'img' => 'planeten / mond.jpg',
+	'desc' => '',
+	'récompenses' => '25 000 000 000 unités Deuter'
 	),
 	27 => array
 	(
-		'name' => 'Totalne rozerwanie',
-		'img' => 'planeten/mond.jpg',
-		'desc' => '',
-		'rewards' => '25.000.000.000 jednostek Deuteru'
+	'nom' => 'déchirure totale',
+	'img' => 'planeten / mond.jpg',
+	'desc' => '',
+	'récompenses' => '25 000 000 000 unités Deuter'
 	),
 	28 => array
 	(
-		'name' => 'Władca grawitronów',
-		'img' => 'planeten/mond.jpg',
-		'desc' => '',
-		'rewards' => '100.000.000.000 jednostek Deuteru'
+	'name' => 'Le seigneur des gravitons',
+	'img' => 'planeten / mond.jpg',
+	'desc' => '',
+	'récompenses' => '100 000 000 000 d'unités Deuter'
 	),
 	29 => array
 	(
-		'name' => 'Orbitalny twórca I',
-		'img' => 'planeten/mond.jpg',
-		'desc' => '',
-		'rewards' => '20.000.000.000 jednostek Deuteru'
+	'name' => 'Créateur orbital I',
+	'img' => 'planeten / mond.jpg',
+	'desc' => '',
+	'récompenses' => '20, 000.000.000 unités Deuter '
 	),
 	30 => array
 	(
-		'name' => 'Orbitalny twórca II',
-		'img' => 'planeten/mond.jpg',
-		'desc' => '',
-		'rewards' => '50.000.000.000 jednostek Deuteru'
+	'name' => 'Orbital creator II',
+	'img' => 'planeten / mond.jpg',
+	'desc' => '',
+	'récompenses' => '50, 000,000,000 unités Deuter '
 	),
 	31 => array
 	(
-		'name' => 'Orbitalny twórca III',
-		'img' => 'planeten/mond.jpg',
-		'desc' => '',
-		'rewards' => '100.000.000.000 jednostek Deuteru'
+	'name' => 'Orbital creator III',
+	'img' => 'planeten / mond.jpg',
+	'desc' => '',
+	'récompenses' => '100 000 000 000 d'unités Deuter'
 	),
 	32 => array
 	(

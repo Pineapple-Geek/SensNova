@@ -1,21 +1,21 @@
 <?php
 
-$_Lang['Ban_Header']                 = 'Informacja Systemowa';
-$_Lang['Ban_AccBanned']              = 'Twoje konto zostało Zbanowane!';
-$_Lang['Ban_StartTime']              = 'Data przyznania';
-$_Lang['Ban_EndTime']                = 'Data wygaśnięcia';
-$_Lang['Ban_Reason']                 = 'Powód';
-$_Lang['Ban_Giver']                  = 'Przyznany przez';
-$_Lang['Ban_AdditionalInfo']         = 'Jeśli masz jakieś wątpliwości lub pytania skontaktuj się z Administracją (<a href="contact.php"><u>Kontakt</u></a>) lub napisz odwołanie na <a href="redirect.php?id=3"><u>Forum</u></a>';
-$_Lang['Ban_Logout']                 = 'Wyloguj';   
+$_Lang['Ban_Header']                 = 'Informations système';
+$_Lang['Ban_AccBanned']              = 'Votre compte a été banni!';
+$_Lang['Ban_StartTime']              = 'Date d'octroi';
+$_Lang['Ban_EndTime']                = 'expiration date';
+$_Lang['Ban_Reason']                 = 'motif';
+$_Lang['Ban_Giver']                  = 'Accordé par';
+$_Lang['Ban_AdditionalInfo']         = 'Si vous avez des doutes ou des questions, veuillez contacter l’administration (<a href="contact.php"><u>Contact</u></a>) ou écrire un appel sur <a href="redirect.php?id=3"><u>Forum</u></a>';
+$_Lang['Ban_Logout']                 = 'Déconnexion';
 $_Lang['ban_bysys']                  = 'System';
-$_Lang['Ban_WithVacation']           = '<b style="color: #87CEEB">Ban został przyznany z Urlopem (z możliwością ręcznego zdjęcia)</b>';
-$_Lang['Ban_WithoutVacation']        = '<b class="red">Ban został przyznany bez Urlopu!</b>';
-$_Lang['Ban_RetreatedAll']           = 'Zawrócono wszystkie twoje Floty i Floty lecące na twoje współrzędne.';
-$_Lang['Ban_RetreatedOwn']           = 'Zawrócono tylko twoje Floty.';
-$_Lang['Ban_RetreatedOthers']        = 'Zawrócono tylko Floty lecące na twoje współrzedne.';
-$_Lang['Ban_RetreatedNone']          = '<b class="red">Nie zawrócono żadnych Flot!</b>';
-$_Lang['Ban_Reason_NotSpecified']	= '<b class="orange">Prosimy o kontakt z Administracją, w celu pozyskania dalszych szczegółów</b>';
+$_Lang['Ban_WithVacation']           = '<b style="color: #87CEEB">L'interdiction a été accordée avec un jour férié (avec la possibilité d'un retrait manuel)</b>';
+$_Lang['Ban_WithoutVacation']        = '<b class="red">L'interdiction a été accordée sans permission!</b>';
+$_Lang['Ban_RetreatedAll']           = 'Vous avez renvoyé toutes vos flottes et les flottes volant à vos coordonnées.';
+$_Lang['Ban_RetreatedOwn']           = 'Seules vos flottes ont été restituées.';
+$_Lang['Ban_RetreatedOthers']        = 'Seules les flottes se rendant à vos coordonnées ont été renvoyées.';
+$_Lang['Ban_RetreatedNone']          = '<b class="red">Aucune flotte n'est revenue !</b>';
+$_Lang['Ban_Reason_NotSpecified']	= '<b class="orange">Veuillez contacter l'administration pour obtenir plus de détails.</b>';
 $_Lang['_timer']						= 'Za';
 
 $_Lang['Chrono_Day1']                        = 'dzień';

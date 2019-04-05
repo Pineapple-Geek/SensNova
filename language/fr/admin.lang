@@ -1,21 +1,21 @@
 <?php
   
-$_Lang['No_Data']                    = 'Brak danych';
-$_Lang['No_id_given'] = 'Wpis o podanym ID nie istnieje!';
+$_Lang ['No_Data'] = 'Pas de données';
+$_Lang ['No_id_given'] = 'L’entrée avec l’ID donné n’existe pas!';
 
-$_Lang['InfiniteVacation']           = 'Wieczny Urlop';
-$_Lang['Ban_Expired']                = 'Ban wygasł';
-$_Lang['Ban_TimeLeft']               = 'Pozostało';
-$_Lang['Ban_expired']                = 'Ban wygasł!';
+$_Lang ['InfiniteVacation'] = 'Vacances éternelles';
+$_Lang ['Ban_Expired'] = 'Le ban a expiré';
+$_Lang ['Ban_TimeLeft'] = 'Gauche';
+$_Lang ['Ban_expired'] = 'Le ban a expiré!';
 
-$_Lang['_ago']                       = 'temu';
-$_Lang['_in']                        = 'za';
-$_Lang['_day']                       = 'dzień';
-$_Lang['_days']                      = 'dni';
-$_Lang['_today']                     = 'Dziś';
-$_Lang['_yesterday']                 = 'Wczoraj';
-$_Lang['_Since']                     = 'Od';
-$_Lang['_Untill']                    = 'Do';
-$_Lang['_Duration']                  = 'Czas trwania';
+$_Lang ['il y a']] = 'il y a';
+$_Lang ['_ in'] = 'pour';
+$_Lang ['_ jour'] = 'jour';
+$_Lang ['_ jours'] = 'jours';
+$_Lang ['_ today'] = 'Aujourd'hui';
+$_Lang ['_ hier'] = 'Hier';
+$_Lang ['_ Since'] = 'De';
+$_Lang ['_ Untill'] = 'Do';
+$_Lang ['_ Duration'] = 'Durée';
 
 ?>

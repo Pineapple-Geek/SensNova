@@ -1,22 +1,22 @@
 <?php
 
-$_Lang['TextFirst']		= 'Przed chwilą wykonałeś';
-$_Lang['OneTask']		= 'zadanie';
-$_Lang['MoreTasks']		= 'zadania';
-$_Lang['TextSecond']		= 'z kategorii';
+$_Lang ['TextFirst'] = 'Vous venez de jouer';
+$_Lang ['OneTask'] = 'tâche';
+$_Lang ['MoreTasks'] = 'tâches';
+$_Lang ['TextSecond'] = 'de la catégorie';
 
-$_Lang['CatLink']		= '"<i><a href="tasks.php?%s" style="color: black;">%s</a></i>"';
+$_Lang ['CatLink'] = '"<i> <a href="tasks.php?%s" style="color: black;">% s </a> </ i>"';
 
-$_Lang['Hide']			= 'Ukryj powiadomienie';
+$_Lang ['Hide'] = 'Masquer la notification';
 
-$_Lang['Names']			= array
+$_Lang ['Names'] = tableau
 (
-	1 => 'Wprowadzenie',
-	2 => 'Militaria',
-	3 => 'Ekonomia i Gospodarka',
-	4 => 'Rozwój naukowy',
-	5 => 'Wsparcie sojusznicze',
-	6 => 'Wsparcie Universum',
+1 => 'Introduction',
+2 => 'Militaria',
+3 => 'Économie et économie',
+4 => 'Développement scientifique',
+5 => 'Support allié',
+6 => 'Universum Support',
 );
  
 ?>
