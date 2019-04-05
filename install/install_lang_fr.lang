@@ -2,7 +2,7 @@
 
 $_Lang ['PageTitle'] = "Installateur du moteur UniEngine";
 
-$_Lang ['Install_Info'] = "Bienvenue sur le formulaire d'installation d'UniEngine! <br/> <br/> Puisque vous voyez ce message, cela signifie que les paramètres de votre serveur PHP sont conformes à la configuration requise. <br/> <br/> Vous trouverez ci-dessous plusieurs zones de texte et options de sélection que vous pouvez utiliser pour configurer votre serveur et créer un compte administrateur dans le jeu. <br/> <br/> Veuillez lire attentivement toutes les informations sur chaque champ afin de terminer le processus d'installation sans aucun problème. < br /> <b style = "color: orange;"> (*) - champ obligatoire </ b> ";
+$_Lang ['Install_Info'] = "Bienvenue sur le formulaire d'installation d'UniEngine! <br/> <br/> Puisque vous voyez ce message, cela signifie que les paramètres de votre serveur PHP sont conformes à la configuration requise. <br/> <br/> Vous trouverez ci-dessous plusieurs zones de texte et options de sélection que vous pouvez utiliser pour configurer votre serveur et créer un compte administrateur dans le jeu. <br/> <br/> Veuillez lire attentivement toutes les informations sur chaque champ afin de terminer le processus d'installation sans aucun problème. < br /> <b style = 'color: orange;'> (*) - champ obligatoire </ b> ";
 
 $_Lang ['Header_DBConfig'] = "Paramètres de base de données (écrivez dans' config.php '/' config.localhost.php ')";
 $_Lang ['Header_Constants'] = "Paramètres de serveur fixes (écriture dans le fichier' includes / constants.php ')";
@@ -49,7 +49,7 @@ $_Lang ['Label_Uni_NoobProtectionBasicLimitMultiplier'] = "Facteur de protection
 $_Lang ['Label_Uni_NoobProtectionRemove'] = "Suppression de la protection du joueur (points)";
 $_Lang ['Label_Uni_NoobProtectionIdleDays'] = "Image de protection des lecteurs inactifs (nombre de jours)";
 $_Lang ['Label_Uni_NoobProtectionFirstLogin'] = "Temps de protection du compte après la première connexion (secondes)";
-$_Lang ['Label_Uni_AntiFarm_Enabled'] = "Activer la protection contre les "batteries" excessives "";
+$_Lang ['Label_Uni_AntiFarm_Enabled'] = "Activer la protection contre les batteries excessives";
 $_Lang ['Label_Uni_AntiFarm_Ratio'] = "Ratio de protection de l'agriculture";
 $_Lang ['Label_Uni_AntiFarm_TotalCount'] = "Nombre maximal d'attaques par joueur";
 $_Lang ['Label_Uni_AntiFarm_PlanetCount'] = "Nombre maximal d'attaques sur chacune des planètes du joueur";
@@ -62,11 +62,11 @@ $_Lang ['Tip_DBHost'] = "L'adresse (IP ou hôte) du serveur MySQL sur lequel les
 $_Lang ['Tip_DBUser'] = "Le nom de l'utilisateur existant sur le serveur MySQL. L'utilisateur doit disposer des autorisations appropriées pour effectuer les opérations sur la base indiquée ci-dessous (autorisations requises: CREATE TABLE, SELECT, MISE À JOUR, INSERT, SUPPRIMER, OPTIMISER TABLE) ";
 $_Lang ['Tip_DBPass'] = "Mot de passe de connexion pour le nom d'utilisateur du serveur MySQL indiqué";
 $_Lang ['Tip_DBName'] = "Le nom de la base de données existante sur le serveur MySQL. Auparavant, l'utilisateur donné devait disposer des autorisations appropriées pour effectuer des opérations sur cette base de données. ";
-$_Lang ['Tip_DBPrefix'] = "Préfixe pour les tables de moteur de jeu à créer dans la base de données spécifiée. <br/> Le champ peut rester vide, mais ceci n’est pas recommandé. Si rien ne vous vient à l’esprit, nous vous suggérons de saisir au moins "uni1". ";
-$_Lang ['Tip_Const_UniID'] = "Code d'identification de cet univers. <br/> Cette valeur est requise pour le bon fonctionnement du système Cache basé sur le module <a href = "http://php.net/manual/fr/book.apc .php "target =" _ blank "> APC </a> sur le serveur PHP. Chaque univers <b style = "color: red;"> DOIT </ b> avoir un ID distinct. <br/> Cette valeur peut être laissée en blanc uniquement si votre serveur ne dispose pas du module <a href = "http: // php .net / manual / fr / book.apc.php "target =" _ blank "> APC </a>. ";
+$_Lang ['Tip_DBPrefix'] = "Préfixe pour les tables de moteur de jeu à créer dans la base de données spécifiée. <br/> Le champ peut rester vide, mais ceci n’est pas recommandé. Si rien ne vous vient à l’esprit, nous vous suggérons de saisir au moins 'uni1'. ";
+$_Lang ['Tip_Const_UniID'] = "Code d'identification de cet univers. <br/> Cette valeur est requise pour le bon fonctionnement du système Cache basé sur le module <a href = 'http://php.net/manual/fr/book.apc .php ' target =' _ blank '> APC </a> sur le serveur PHP. Chaque univers <b style = 'color: red;'> DOIT </ b> avoir un ID distinct. <br/> Cette valeur peut être laissée en blanc uniquement si votre serveur ne dispose pas du module <a href = 'http: // php .net / manual / fr / book.apc.php 'target ="" _ blank '> APC </a>. ";
 $_Lang ['Tip_Const_Domain'] = "Le domaine principal du serveur sur lequel le jeu sera exécuté. <br/> (par exemple, mojagra.pl)";
-$_Lang ['Tip_Const_Subdomain'] = "Le sous-domaine sur lequel le jeu Universum sera installé. <br/> Si tous les universa seront exécutés sur un domaine racine commun, laissez cette valeur vide. <br/> (par exemple, si Universum est exécuté sur domaine "uni1.mojagra.pl", entrez uniquement "uni1") ";
-$_Lang ['Tip_Const_ReCaptcha_Enable'] = "Le système <a href="http://www.google.com/recaptcha" target="_blank"> ReCaptcha </a> facilite la lutte de base contre SpamBots en ajoutant un simple code Captcha au formulaire. Enregistrements. <br/> Un compte <a href="http://www.google.com/recaptcha" target="_blank"> ReCaptcha </a> valide est nécessaire à son bon fonctionnement et fournit les clés publique et privée que vous avez reçues. configuration du compte. ";
+$_Lang ['Tip_Const_Subdomain'] = "Le sous-domaine sur lequel le jeu Universum sera installé. <br/> Si tous les universa seront exécutés sur un domaine racine commun, laissez cette valeur vide. <br/> (par exemple, si Universum est exécuté sur domaine 'uni1.mojagra.pl', entrez uniquement 'uni1') ";
+$_Lang ['Tip_Const_ReCaptcha_Enable'] = "Le système <a href='http://www.google.com/recaptcha' target='_blank'> ReCaptcha </a> facilite la lutte de base contre SpamBots en ajoutant un simple code Captcha au formulaire. Enregistrements. <br/> Un compte <a href='http://www.google.com/recaptcha' target='_blank'> ReCaptcha </a> valide est nécessaire à son bon fonctionnement et fournit les clés publique et privée que vous avez reçues. configuration du compte. ";
 $_Lang ['Tip_Const_ReCaptcha_ServerIP_as_Hostname'] = "Lors de la configuration du serveur sur la machine locale, il peut être nécessaire d’identifier le serveur par son adresse IP. Sur le serveur de production, cette option devrait être DISABLED. ";
 $_Lang ['Tip_Const_ReCaptcha_Public'] = "Clé publique ReCaptcha reçue lors de la configuration du compte. Si vous n'utilisez pas le système ReCaptcha, laissez ce champ vide. ";
 $_Lang ['Tip_Const_ReCaptcha_Public'] = "Clé privée ReCaptca reçue lors de la création du compte. Si vous n'utilisez pas le système ReCaptcha, laissez ce champ vide. ";
@@ -74,93 +74,63 @@ $_Lang ['Tip_Admin_Username'] = "Le nom de l'utilisateur via lequel l \' adminis
 $_Lang ['Tip_Admin_Password'] = "Mot de passe qui sera attribué au compte administrateur";
 $_Lang ['Tip_Admin_Email'] = "Adresse email du compte administrateur";
 $_Lang ['Tip_Uni_GameName'] = "Nom du jeu ou universum installé";
-$_Lang ['Tip_Uni_GameSpeed'] = "Facteur de vitesse de jeu correspondant, entre autres, à la vitesse de construction des bâtiments, des navires et des levés effectués. <br/> La valeur' ​​1 'désigne la valeur de base comme sur les universaux OGame standard. <br/> (Vous pouvez entrer des chiffres décimal) « ;
+$_Lang ['Tip_Uni_GameSpeed'] = "Facteur de vitesse de jeu correspondant, entre autres, à la vitesse de construction des bâtiments, des navires et des levés effectués. <br/> La valeur' ​​1 'désigne la valeur de base comme sur les universaux OGame standard. <br/> (Vous pouvez entrer des chiffres décimal)";
 $_Lang ['Tip_Uni_FleetSpeed'] = "Coefficient de taux de la flotte responsable de l'accélération de leurs vols. <br/> La valeur' ​​1 'correspond à la valeur de base, identique à celle des universels OGame standard. <br/> (vous pouvez entrer des nombres décimaux)";
 $_Lang ['Tip_Uni_ResourceSpeed'] = "Coefficient de production de matières premières sur les planètes. <br/> La valeur' ​​1 'signifie la valeur de base comme sur les universaux OGame standard. <br/> (Vous ne pouvez pas entrer de nombres décimaux)";
 $_Lang ['Tip_Uni_MotherFields'] = "Nombre de champs à utiliser par chaque nouvelle planète du nouveau joueur enregistré";
 $_Lang ['Tip_Uni_FleetDebris'] = "Le pourcentage de matières premières du coût du navire à partir duquel le champ de dégât sera créé après le combat. <br/> Les valeurs sont données de 0 à 100";
 $_Lang ['Tip_Uni_DefenseDebris'] = "Montant en pourcentage des bases de coûts du système de défense à partir desquelles le champ de dégâts sera créé après le combat. <br/> Les valeurs sont données de 0 à 100";
 $_Lang ['Tip_Uni_MissileDebris'] = "Pourcentage de ressources du coût des systèmes de défense à partir duquel le champ de dommage sera créé après l’attaque de missile interplanétaire. <br/> Les valeurs sont données de 0 à 100";
-$_Lang ['Tip_Uni_MailActivationNeeded'] = "Cette option vous permet de bloquer le compte du joueur jusqu'à ce qu'il l'active via un lien d'activation envoyé par e-mail. <br/> Ceci vous permet de vérifier l'exactitude de la boîte aux lettres et de faire fonctionner un peu le SpamBot. <br/> Pour que cette fonction fonctionne, une fonction mail () efficace ou une connexion correcte au serveur SMTP est requise (vous pouvez le faire dans le fichier "includes / constants.php" après l'installation). ";
+$_Lang ['Tip_Uni_MailActivationNeeded'] = "Cette option vous permet de bloquer le compte du joueur jusqu'à ce qu'il l'active via un lien d'activation envoyé par e-mail. <br/> Ceci vous permet de vérifier l'exactitude de la boîte aux lettres et de faire fonctionner un peu le SpamBot. <br/> Pour que cette fonction fonctionne, une fonction mail () efficace ou une connexion correcte au serveur SMTP est requise (vous pouvez le faire dans le fichier 'includes / constants.php' après l'installation). ";
 $_Lang ['Tip_Uni_TelemetryEnable'] = "La télémétrie est un système de moteur de jeu chargé de collecter des données sur l'heure de la génération de la page. Les données sont collectées chaque fois qu'une page de jeu est lancée par le joueur. <br/> Remarque! Si vous ne savez toujours pas à quoi ce système est destiné, ou si vous savez que vous n'utiliserez pas les données collectées, nous vous recommandons de désactiver ce module (afin qu'il ne gêne pas la base de données). ";
 
 
-$_Lang['Tip_Uni_AutoToolPass_StatBuilder'] = "Podane tutaj hasło będzie wymagane do uruchomienia Automatycznego Generatora Statystyk (plik "admin/autostatbuilter.php") bez logowania do konta użytkownika (np. poprzez demona Cron).";
-$_Lang['Tip_Uni_AutoToolPass_GarbageCollector'] = "Podane tutaj hasło będzie wymagane do uruchomienia Automatycznego Odśmiecania Systemu (plik "admin/cron_GarbageCollector.php") bez logowania do konta użytkownika (np. poprzez demona Cron).";
-$_Lang['Tip_Uni_AutoToolPass_GZipLog'] = "Podane tutaj hasło będzie wymagane do uruchomienia Automatycznego Pakowania AccessLogów (plik "admin/autogziplogs.php") bez logowania do konta użytkownika (np. poprzez demona Cron).";
-$_Lang['Tip_Uni_NoobProtectionEnable'] = "System odpowiadający za ochronę słabszych graczy przed atakami starszych, bardziej rozwiniętych graczy.<br/>(wpis "noobprotection" w tabeli "game_config")";
-$_Lang['Tip_Uni_NoobProtectionBasicTimeLimit'] = "Podstawowy próg ochrony graczy. Póki gracz nie przekroczy tego progu, nikt nie może go atakować (ale działa to też w drugą stronę).<br/>(wpis "noobprotectiontime" w tabeli "game_config")";
-$_Lang['Tip_Uni_NoobProtectionBasicLimitMultiplier'] = "Współczynnik punktów między graczami, który określa, czy walka może się odbyć. Jeśli atakowany gracz ma X razy mniej punktów lub X razy więcej punktów niż podana wartość, atak nie może się odbyć.<br/>(wpis "noobprotectionmulti" w tabeli "game_config")";
-$_Lang['Tip_Uni_NoobProtectionRemove'] = "Próg, powyżej którego ochrona jest całkowicie zdejmowana. Oznacza to, że nie obowiązują już zasady związane ze współczynnikiem punktów, więc każdy gracz może atakować innych graczy, o ile oczywiście obydwoje przekraczają ten próg.<br/>(wpis "no_noob_protect" w tabeli "game_config")";
-$_Lang['Tip_Uni_NoobProtectionIdleDays'] = "Po ilu dniach nieaktywności konta system ma ignorowac ochronę gracza?<br/>Jeśli gracz wróci do gry, licznik ten jest resetowany dla tego konta.<br/>(wpis "no_idle_protect" w tabeli "game_config")";
-$_Lang['Tip_Uni_NoobProtectionFirstLogin'] = "Czas, przez który konto gracza ma być całkowicie chronione od czasu pierwszego zalogowania na konto.<br/>Ta wartość jest niezależna od poprzednich wartości (i jest ona nadrzędna).<br/>(wpis "Protection_NewPlayerTime" w tabeli "game_config")";
-$_Lang['Tip_Uni_AntiFarm_Enabled'] = "Czy włączyć system ochrony przed nadmienym "farmingiem"? System ten blokuje możliwość ataków na danego gracza po przekroczeniu pewnych progów.<br/>System zlicza ataki od godziny 00:00 do 23:59:59.<br/>(wpis "Protection_AntiFarmEnabled" w tabeli "game_config")";
-$_Lang['Tip_Uni_AntiFarm_Ratio'] = "Przy jakim współczynniku punktowym (agresor X razy słabszy/silniejszy) system ma się uaktywniać?<br/>(wpis "Protection_AntiFarmRate" w tabeli "game_config")";
-$_Lang['Tip_Uni_AntiFarm_TotalCount'] = "Po ilu atakach na gracza system ma całkowicie blokować możliwość dalszego ataku?<br/>(wpis "Protection_AntiFarmCountTotal" w tabeli "game_config")";
-$_Lang['Tip_Uni_AntiFarm_PlanetCount'] = "Po ilu atakach na daną planetę/księżyc system ma blokować możliwość dalszego ataku na tą planetę/księżyc (dla każdej planety/księżyca istnieje osobny licznik).<br/>(wpis "Protection_AntiFarmCountPlanet" w tabeli "game_config")";
-$_Lang['Tip_Uni_AntiBash_Enabled'] = "Czy włączyć system ochrony przed bashowaniem? System działa podobnie do systemu AntyFarmingu, jednak ten nieco inaczej liczy, które ataki są brane pod uwagę.<br/>(wpis "Protection_BashLimitEnabled" w tabeli "game_config")";
-$_Lang['Tip_Uni_AntiBash_Interval'] = "Z przed ilu sekund system ma brać pod uwage ataki na gracza (np. z przed godziny oznacza, że tylko ataki wykonane w ciągu ostatniej godziny mogą zablokować możliwość ataku).<br/>(wpis "Protection_BashLimitInterval" w tabeli "game_config")";
-$_Lang['Tip_Uni_AntiBash_TotalCount'] = "Po ilu atakach na gracza system ma całkowicie blokować możliwość dalszego ataku?<br/>(wpis "Protection_BashLimitCountTotal" w tabeli "game_config")";
-$_Lang['Tip_Uni_AntiBash_PlanetCount'] = "Po ilu atakach na daną planetę/księżyc system ma blokować możliwość dalszego ataku na tą planetę/księżyc (dla każdej planety/księżyca istnieje osobny licznik).<br/>(wpis "Protection_BashLimitCountPlanet" w tabeli "game_config")";
+$_Lang['Tip_Uni_AutoToolPass_StatBuilder'] = "Podane tutaj hasło będzie wymagane do uruchomienia Automatycznego Generatora Statystyk (plik 'admin/autostatbuilter.php') bez logowania do konta użytkownika (np. poprzez demona Cron).";
+$_Lang['Tip_Uni_AutoToolPass_GarbageCollector'] = "Podane tutaj hasło będzie wymagane do uruchomienia Automatycznego Odśmiecania Systemu (plik 'admin/cron_GarbageCollector.php') bez logowania do konta użytkownika (np. poprzez demona Cron).";
+$_Lang['Tip_Uni_AutoToolPass_GZipLog'] = "Podane tutaj hasło będzie wymagane do uruchomienia Automatycznego Pakowania AccessLogów (plik 'admin/autogziplogs.php') bez logowania do konta użytkownika (np. poprzez demona Cron).";
+$_Lang['Tip_Uni_NoobProtectionEnable'] = "System odpowiadający za ochronę słabszych graczy przed atakami starszych, bardziej rozwiniętych graczy.<br/>(wpis 'noobprotection' w tabeli 'game_config')";
+$_Lang['Tip_Uni_NoobProtectionBasicTimeLimit'] = "Podstawowy próg ochrony graczy. Póki gracz nie przekroczy tego progu, nikt nie może go atakować (ale działa to też w drugą stronę).<br/>(wpis 'noobprotectiontime' w tabeli 'game_config')";
+$_Lang['Tip_Uni_NoobProtectionBasicLimitMultiplier'] = "Współczynnik punktów między graczami, który określa, czy walka może się odbyć. Jeśli atakowany gracz ma X razy mniej punktów lub X razy więcej punktów niż podana wartość, atak nie może się odbyć.<br/>(wpis 'noobprotectionmulti' w tabeli 'game_config')";
+$_Lang['Tip_Uni_NoobProtectionRemove'] = "Próg, powyżej którego ochrona jest całkowicie zdejmowana. Oznacza to, że nie obowiązują już zasady związane ze współczynnikiem punktów, więc każdy gracz może atakować innych graczy, o ile oczywiście obydwoje przekraczają ten próg.<br/>(wpis 'no_noob_protect' w tabeli 'game_config')";
+$_Lang['Tip_Uni_NoobProtectionIdleDays'] = "Po ilu dniach nieaktywności konta system ma ignorowac ochronę gracza?<br/>Jeśli gracz wróci do gry, licznik ten jest resetowany dla tego konta.<br/>(wpis 'no_idle_protect' w tabeli 'game_config')";
+$_Lang['Tip_Uni_NoobProtectionFirstLogin'] = "Czas, przez który konto gracza ma być całkowicie chronione od czasu pierwszego zalogowania na konto.<br/>Ta wartość jest niezależna od poprzednich wartości (i jest ona nadrzędna).<br/>(wpis 'Protection_NewPlayerTime' w tabeli 'game_config')";
+$_Lang['Tip_Uni_AntiFarm_Enabled'] = "Czy włączyć system ochrony przed nadmienym 'farmingiem'? System ten blokuje możliwość ataków na danego gracza po przekroczeniu pewnych progów.<br/>System zlicza ataki od godziny 00:00 do 23:59:59.<br/>(wpis 'Protection_AntiFarmEnabled' w tabeli 'game_config')";
+$_Lang['Tip_Uni_AntiFarm_Ratio'] = "Przy jakim współczynniku punktowym (agresor X razy słabszy/silniejszy) system ma się uaktywniać?<br/>(wpis 'Protection_AntiFarmRate' w tabeli 'game_config')";
+$_Lang['Tip_Uni_AntiFarm_TotalCount'] = "Po ilu atakach na gracza system ma całkowicie blokować możliwość dalszego ataku?<br/>(wpis 'Protection_AntiFarmCountTotal' w tabeli 'game_config')";
+$_Lang['Tip_Uni_AntiFarm_PlanetCount'] = "Po ilu atakach na daną planetę/księżyc system ma blokować możliwość dalszego ataku na tą planetę/księżyc (dla każdej planety/księżyca istnieje osobny licznik).<br/>(wpis 'Protection_AntiFarmCountPlanet' w tabeli 'game_config')";
+$_Lang['Tip_Uni_AntiBash_Enabled'] = "Czy włączyć system ochrony przed bashowaniem? System działa podobnie do systemu AntyFarmingu, jednak ten nieco inaczej liczy, które ataki są brane pod uwagę.<br/>(wpis 'Protection_BashLimitEnabled' w tabeli 'game_config')";
+$_Lang['Tip_Uni_AntiBash_Interval'] = "Z przed ilu sekund system ma brać pod uwage ataki na gracza (np. z przed godziny oznacza, że tylko ataki wykonane w ciągu ostatniej godziny mogą zablokować możliwość ataku).<br/>(wpis 'Protection_BashLimitInterval' w tabeli 'game_config')";
+$_Lang['Tip_Uni_AntiBash_TotalCount'] = "Po ilu atakach na gracza system ma całkowicie blokować możliwość dalszego ataku?<br/>(wpis 'Protection_BashLimitCountTotal' w tabeli 'game_config')";
+$_Lang['Tip_Uni_AntiBash_PlanetCount'] = "Po ilu atakach na daną planetę/księżyc system ma blokować możliwość dalszego ataku na tą planetę/księżyc (dla każdej planety/księżyca istnieje osobny licznik).<br/>(wpis 'Protection_BashLimitCountPlanet' w tabeli 'game_config')";
 
 
-$_Lang['CheckError_Template'] = "<b style="color: red">Podczas sprawdzania wymagań serwera wystąpił błąd uniemożliwiający dalsza instalację!</b><br/>Przed ponowną próbą instalacji prosze sprawdzić wymagania i poprawić ewentualne błędy.<br/><br/>Lista testów:<br/>%s";
-$_Lang['CheckError_TestRow'] = "&bull; (<b style="color: %s">%s</b>) %s";
+$_Lang['CheckError_Template'] = "<b style='color: red'>Podczas sprawdzania wymagań serwera wystąpił błąd uniemożliwiający dalsza instalację!</b><br/>Przed ponowną próbą instalacji prosze sprawdzić wymagania i poprawić ewentualne błędy.<br/><br/>Lista testów:<br/>%s";
+$_Lang['CheckError_TestRow'] = "&bull; (<b style='color: %s'>%s</b>) %s";
 $_Lang['CheckError_Success'] = "Zaliczony";
 $_Lang['CheckError_Fail'] = "Niezaliczony";
 
 $_Lang['Requirements_PHPVersion'] = "Wersja PHP przynajmniej 5.4";
 $_Lang['Requirements_PHPNoticesOff'] = "Powiadomienia PHP (PHP Notice) wyłączone";
-$_Lang['Requirements_ConfigDirectoryWritable'] = "Folder "config/" umożliwia zapis (CHMOD 777)";
-$_Lang['Requirements_ConfigDirectoryMigrationEntryDo
-5000/5000
-Nombre maximal de caractères : 5000
-$_Lang ['Tip_Uni_AutoToolPass_StatBuilder'] = "Le mot de passe fourni ici sera nécessaire pour exécuter le générateur de statistiques automatiques (fichier' admin / autostatbuilter.php ') sans vous connecter au compte utilisateur (par exemple via le démon Cron).";
-$_Lang ['Tip_Uni_AutoToolPass_GarbageCollector'] = "Le mot de passe fourni ici sera nécessaire pour exécuter la collecte automatique des déchets (admin / cron_GarbageCollector.php') sans se connecter au compte utilisateur (par exemple via le démon Cron). ";
-$_Lang ['Tip_Uni_AutoToolPass_GZipLog'] = "Le mot de passe fourni ici sera nécessaire pour exécuter le regroupement automatique de AccessLogs (fichier' admin / autogziplogs.php ') sans se connecter au compte de l'utilisateur (par exemple via le démon Cron).";
-$_Lang ['Tip_Uni_NoobProtectionEnable'] = "Un système responsable de la protection des joueurs les plus faibles contre les attaques des joueurs plus âgés et plus développés. <br/> (entrée "noobprotection" dans le tableau "game_config") ";
-$_Lang ['Tip_Uni_NoobProtectionBasicTimeLimit'] = "Le seuil de protection de base pour les joueurs. Tant que le joueur ne dépasse pas ce seuil, personne ne peut l'attaquer (mais cela fonctionne dans l'autre sens). <br/> (entrée "noobprotection time" dans la table "game_config") ";
-$_Lang ['Tip_Uni_NoobProtectionBasicLimitMultiplier'] = "Le coefficient de points entre joueurs, qui détermine si un combat peut avoir lieu. Si le joueur attaqué a X fois moins de points ou X fois plus de points que la valeur donnée, l'attaque ne peut avoir lieu. <br/> (entrée "noobprotectionmulti" dans la table "game_config") ";
-$_Lang ['Tip_Uni_NoobProtectionRemove'] = "Seuil au-dessus duquel la protection est complètement supprimée. Cela signifie que les règles relatives au coefficient de points ne sont plus applicables. Chaque joueur peut donc attaquer d’autres joueurs, sauf si les deux dépassent bien entendu ce seuil. <br/> (entrée "no_noob_protect" dans la table "game_config") ";
-$_Lang ['Tip_Uni_NoobProtectionIdleDays'] = "Après combien de jours d'inactivité du compte, le système devrait ignorer la protection du joueur? <br/> Si le joueur revient au jeu, ce compteur est réinitialisé pour ce compte. <br/> (entrée "no_idle_protect") game_config « ) « ;
-$_Lang ['Tip_Uni_NoobProtectionFirstLogin'] = "Temps pendant lequel le compte du joueur doit être complètement protégé dès la première connexion au compte. <br/> Cette valeur est indépendante des valeurs précédentes (et est supérieure). <br/> (entrée "Protection_NewPlayerTime" dans la table "game_config") ";
-$_Lang ['Tip_Uni_AntiFarm_Enabled'] = "Voulez-vous activer le système de protection de l'agriculteur? Ce système bloque la possibilité d’attaques contre un joueur donné après le dépassement de certains seuils. <br/> Le système compte les attaques de 00h00 à 23:59:59. <br/> (entrée "Protection_AntiFarmEnabled" dans la table "game_config") ";
-$_Lang ['Tip_Uni_AntiFarm_Ratio'] = "À quel moment le facteur (agresseur X fois plus faible / plus fort) le système doit être activé? <br/> (entrée "Protection_AntiFarmRate" dans la table "game_config") ";
-$_Lang ['Tip_Uni_AntiFarm_TotalCount'] = "Après combien d’attaques sur le joueur, le système doit bloquer complètement la possibilité d’attaques ultérieures? <br/> (entrée "Protection_AntiFarmCountTotal" dans le tableau "game_config") ";
-$_Lang ['Tip_Uni_AntiFarm_PlanetCount'] = "Après combien d'attaques sur une planète / lune donnée le système doit bloquer la possibilité d'attaques supplémentaires sur cette planète / lune (il y a un compteur séparé pour chaque planète / lune). <br/> (entrée' Protection_AntiFarmCountPlanet 'dans le tableau "game_config") « ;
-$_Lang ['Tip_Uni_AntiBash_Enabled'] = "Voulez-vous activer le système de protection bash? Le système fonctionne de la même manière que le système Anti-Fending, cependant, celui-ci compte différemment les attaques prises en compte. <br/> (entrée "Protection_BashLimitEnabled" dans la table "game_config") ";
-$_Lang ['Tip_Uni_AntiBash_Interval'] = "À partir de combien de secondes le système devrait-il prendre en compte les attaques contre le joueur (par exemple, une heure avant que cela signifie que seules les attaques effectuées au cours de la dernière heure peuvent bloquer l'attaque). <br/> (entrée' Protection_BashLimitInterval "dans la table" game_config ") ";
-$_Lang ['Tip_Uni_AntiBash_TotalCount'] = "Après combien d’attaques sur le joueur, le système doit bloquer complètement la possibilité d’attaques ultérieures? <br/> (entrée "Protection_BashLimitCountTotal" dans le tableau "game_config") ";
-$_Lang ['Tip_Uni_AntiBash_PlanetCount'] = "Après combien d'attaques sur une planète / lune donnée le système doit bloquer la possibilité d'attaques supplémentaires sur cette planète / lune (il y a un compteur séparé pour chaque planète / lune). <br/> (entrée' Protection_BashLimitCountPlanet 'dans le tableau "game_config") « ;
+$_Lang['Requirements_ConfigDirectoryWritable'] = "Folder 'config/' umożliwia zapis (CHMOD 777)";
+$_Lang ['Requirements_ConfigDirectoryMigrationEntryDoesNotExist'] = "Le fichier 'config / dernière application migrée' ne doit pas exister";
+$_Lang ['Requirements_ConfigWritable'] = "Le fichier' config.php '/' config.localhost.php 'permet de lui écrire (CHMOD 777)";
+$_Lang ['Requirements_ConstantsWritable'] = "Le fichier 'includes / constants.php' permet d'y écrire (CHMOD 777)";
+$_Lang ['Requirements_RegisterWritable'] = "Le fichier 'js / register.js'permet de lui écrire (CHMOD 777)";
+$_Lang ['Requirements_ActionLogsWritable'] = "Le répertoire 'action_logs' permet de lui écrire (CHMOD 777)";
+$_Lang ['Requirements_AdminActionLogsWritable'] = "Le répertoire 'admin / action_logs' vous permet de l’écrire (CHMOD 777)";
 
+$_Lang ['InstallError_EmptyFields'] = "Le système a détecté des champs obligatoires vides! Entrez les valeurs où les champs sont marqués en rouge! ";
+$_Lang ['InstallError_BadVars'] = "Le système a détecté des valeurs non quantifiées! Corrigez les valeurs où les champs sont marqués en rouge! ";
+$_Lang ['InstallError_CannotConnectToMySQL'] = "Le système ne peut pas se connecter au serveur MySQL!";
+$_Lang ['InstallError_CannotSelectDatabase'] = "Le système ne peut pas sélectionner une base de données sur le serveur MySQL!";
+$_Lang ['InstallError_FailToSaveBothFiles'] = "Le système ne peut pas enregistrer les fichiers' config.php '/' config.localhost.php 'et' includes /constants.php '!!";
+$_Lang ['InstallError_FailToSaveConfig'] = "Le système ne peut pas enregistrer le fichier 'config.php'/'config.localhost.php'!'";
+$_Lang ['InstallError_FailToSaveConstants'] = "Le système ne peut pas enregistrer le fichier' includes / constants.php '!'";
+$_Lang ['InstallError_FailToSaveRegister'] = "Le système ne peut pas enregistrer le fichier' js / register.js '!'";
+$_Lang ['InstallError_QueryFail'] = 'Une des requêtes n’a pas été exécutée correctement! <br/> Avant de réessayer, nettoyez la base de données!';
+$_Lang ['InstallError_MigrationEntryFileCreationFail'] = "Échec de l'enregistrement du fichier' config / dernière-migration appliquée '! <br/> Avant de réessayer, effacez la base de données!";
+$_Lang ['InstallSuccess'] = "L'installation a réussi! <br/> <br/> N'oubliez pas de supprimer le dossier' install 'du catalogue principal du moteur!";
 
-$_Lang ['CheckError_Template'] = "<b style = "color: red"> Une erreur est survenue lors de la vérification des exigences du serveur pour empêcher toute installation ultérieure! </ B> <br/> Veuillez essayer les exigences et corriger les erreurs avant de réessayer. < br /> <br/> Liste de tests: <br/>% s ";
-$_Lang ['CheckError_TestRow'] = "& bull; (<b style = "couleur:% s">% s </ b>)% s ";
-$_Lang ['CheckError_Success'] = "Passé";
-$_Lang ['CheckError_Fail'] = "Echec";
-
-$_Lang ['Requirements_PHPVersion'] = "Version PHP au moins 5.4";
-$_Lang ['Requirements_PHPNoticesOff'] = "Notifications PHP (avis PHP) désactivées";
-$_Lang ['Requirements_ConfigDirectoryWritable'] = "Le dossier' config / 'permet l’écriture (CHMOD 777)";
-$_Lang['Requirements_ConfigDirectoryMigrationEntryDoesNotExist'] = "Plik "config/latest-applied-migration" nie powinien istnieć";
-$_Lang['Requirements_ConfigWritable'] = "Plik "config.php" / "config.localhost.php" umożliwia zapis do niego (CHMOD 777)";
-$_Lang['Requirements_ConstantsWritable'] = "Plik "includes/constants.php" umożliwia zapis do niego (CHMOD 777)";
-$_Lang['Requirements_RegisterWritable'] = "Plik "js/register.js" umożliwia zapis do niego (CHMOD 777)";
-$_Lang['Requirements_ActionLogsWritable'] = "Katalog "action_logs" umożliwia zapis do niego (CHMOD 777)";
-$_Lang['Requirements_AdminActionLogsWritable'] = "Katalog "admin/action_logs" umożliwia zapis do niego (CHMOD 777)";
-
-$_Lang['InstallError_EmptyFields'] = "System wykrył puste wymagane pola! Wpisz wartości tam, gdzie pola są zaznaczone na czerwono!";
-$_Lang['InstallError_BadVars'] = "System wykrył nieprawiłowe wartości! Popraw wartości tam, gdzie pola są zaznaczone na czerwono!";
-$_Lang['InstallError_CannotConnectToMySQL'] = "System nie może nawiązać połączenia z serwerem MySQL!";
-$_Lang['InstallError_CannotSelectDatabase'] = "System nie może wybrać bazy danych na serwerze MySQL!";
-$_Lang['InstallError_FailToSaveBothFiles'] = "System nie może zapisać plików "config.php" / "config.localhost.php" i "includes/constants.php"!";
-$_Lang['InstallError_FailToSaveConfig'] = "System nie może zapisać pliku "config.php" / "config.localhost.php"!";
-$_Lang['InstallError_FailToSaveConstants'] = "System nie może zapisać pliku "includes/constants.php"!";
-$_Lang['InstallError_FailToSaveRegister'] = "System nie może zapisać pliku "js/register.js"!";
-$_Lang['InstallError_QueryFail'] = "Jedno z zapytań nie zostało wykonane poprawnie!<br/>Przed ponowną próbą wyczyść bazę danych!";
-$_Lang['InstallError_MigrationEntryFileCreationFail'] = "Nie udało się zapisać pliku "config/latest-applied-migration"!<br/>Przed ponowną próbą wyczyść bazę danych!";
-$_Lang['InstallSuccess'] = "Instalacja przebiegła pomyślnie!<br/><br/>Pamiętaj, by usunąć folder "install" z katalogu głównego silnika!";
-
-$_Lang['LocalhostInfo'] = "System wykrył, że prawdopodobnie instalujesz silnik na swoim serwerze domowym (localhost).<br/>Plik konfiguracji zostanie więc zapisany do "config.localhost.php".";
+$_Lang ['LocalhostInfo'] = "Le système a détecté que vous installiez probablement le moteur sur votre serveur local (localhost). <br/> Le fichier de configuration sera alors enregistré dans' config.localhost.php '.'";
 
 ?>
