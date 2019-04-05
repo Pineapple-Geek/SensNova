@@ -2,101 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65afed0c-0d52-4e0a-ba74-c520e6776914" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/install/install_lang_pl.lang" beforeDir="false" afterPath="$PROJECT_DIR$/install/install_lang_pl.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/FleetMission_MissileAttack.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/FleetMission_MissileAttack.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/aboutpro.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/aboutpro.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/activate.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/activate.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/admin.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/admin.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/admin/FleetControl.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/admin/FleetControl.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/admin/SFBSettings.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/admin/SFBSettings.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/admin/addMoon.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/admin/addMoon.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/admin/alerts.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/admin/alerts.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/admin/alerts_filters.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/admin/alerts_filters.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/admin/autogziplogs.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/admin/autogziplogs.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/admin/autostatbuilder.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/admin/autostatbuilder.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/admin/banslist.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/admin/banslist.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/admin/banuser.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/admin/banuser.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/admin/bashDetector.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/admin/bashDetector.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/admin/browse_actionlogs.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/admin/browse_actionlogs.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/admin/chatbrowser.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/admin/chatbrowser.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/admin/cron_GarbageCollector.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/admin/cron_GarbageCollector.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/admin/declarations_list.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/admin/declarations_list.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/admin/iplog.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/admin/iplog.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/admin/iplog_addproxy.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/admin/iplog_addproxy.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/admin/massmessage.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/admin/massmessage.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/admin/messagelist.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/admin/messagelist.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/admin/planets_resmanager.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/admin/planets_resmanager.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/admin/reduceban.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/admin/reduceban.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/admin/reports_list.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/admin/reports_list.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/admin/settings.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/admin/settings.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/admin/ship_calculations.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/admin/ship_calculations.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/admin/telemetry.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/admin/telemetry.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/admin/unbanuser.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/admin/unbanuser.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/admin/user_info.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/admin/user_info.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/admin/userdevscanner.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/admin/userdevscanner.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/admin/userlist.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/admin/userlist.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/admin/users_techmanager.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/admin/users_techmanager.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/alliance.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/alliance.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/attackslist.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/attackslist.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/banned.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/banned.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/bannedUser.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/bannedUser.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/buddy.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/buddy.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/buildings.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/buildings.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/changelog.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/changelog.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/chat.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/chat.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/contact.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/contact.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/converter.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/converter.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/cookies.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/cookies.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/declaration.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/declaration.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/destroy_rockets.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/destroy_rockets.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/email_change.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/email_change.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/empire.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/empire.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/firstlogin.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/firstlogin.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/fleet.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/fleet.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/fleetshortcut.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/fleetshortcut.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/galacticshop.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/galacticshop.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/galaxy.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/galaxy.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/galaxy_ajax.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/galaxy_ajax.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/generate_sig.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/generate_sig.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/infos.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/infos.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/leftmenu.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/leftmenu.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/login.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/login.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/logout.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/logout.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/lostcode.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/lostcode.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/lostpassword.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/lostpassword.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/merchant.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/merchant.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/messageSystem.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/messageSystem.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/messages.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/messages.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/moon_sim.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/moon_sim.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/morale_info.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/morale_info.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/notes.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/notes.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/officers.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/officers.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/overview.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/overview.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/phalanx.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/phalanx.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/polls.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/polls.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/profile.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/profile.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/readBattleReport.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/readBattleReport.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/records.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/records.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/reftable.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/reftable.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/reg_ajax.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/reg_ajax.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/reg_mainpage.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/reg_mainpage.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/report.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/report.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/resources.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/resources.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/rocket_simulator.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/rocket_simulator.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/rules.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/rules.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/search.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/search.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/settings.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/settings.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/sfbInfos.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/sfbInfos.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/simulator.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/simulator.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/spyReport.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/spyReport.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/stat.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/stat.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/system.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/system.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/tasks.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/tasks.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/tasks_infobox.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/tasks_infobox.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/tech.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/tech.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/texts.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/texts.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr/topmenu.lang" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr/topmenu.lang" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/install/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -150,25 +56,20 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/language/fr/converter.lang">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/install/install_lang_fr.lang">
+        <entry file="file://$PROJECT_DIR$/install/install_functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1206">
-              <caret line="18" column="26" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="26" />
+            <state relative-caret-position="306">
+              <caret line="48" column="34" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/language/fr/banned.lang">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/install/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+            <state relative-caret-position="198">
+              <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -198,6 +99,7 @@
       <find>CheckError_TestRow</find>
       <find>';</find>
       <find>= '</find>
+      <find>$_UseLang</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -219,6 +121,7 @@
         <option value="$PROJECT_DIR$/language/fr/attackslist.lang" />
         <option value="C:/wamp64/bin/apache/apache2.4.37/bin/php.ini" />
         <option value="$PROJECT_DIR$/install/install_lang_fr.lang" />
+        <option value="$PROJECT_DIR$/install/index.php" />
       </list>
     </option>
   </component>
@@ -295,12 +198,12 @@
       <workItem from="1554452151880" duration="78000" />
       <workItem from="1554452440271" duration="110000" />
       <workItem from="1554452600294" duration="791000" />
-      <workItem from="1554469303357" duration="311000" />
+      <workItem from="1554469303357" duration="518000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2067000" />
+    <option name="totallyTimeSpent" value="2274000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -322,7 +225,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -410,9 +313,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/language/fr/cookies.lang">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/install/install_lang_pl.lang">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="549">
@@ -429,6 +329,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/language/fr/converter.lang">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/language/fr/cookies.lang">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/install/install_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="48" column="34" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/install/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

@@ -21,7 +21,7 @@ $_Install_ConfigDirectory = './config';
 
 include('install_functions.php');
 
-$_UseLang = 'pl';
+$_UseLang = 'fr';
 
 includeLang();
 
