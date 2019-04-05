@@ -6,7 +6,7 @@
         <link rel="icon" href="../favicon.ico" type="image/x-icon" />
         <link rel="stylesheet" type="text/css" href="../skins/epicblue/default.css" />
         <link rel="stylesheet" type="text/css" href="../skins/epicblue/formate.css" />
-        <meta http-equiv="Content-Language" content="pl" />
+        <meta http-equiv="Content-Language" content="fr" />
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     </head>
     <body>
