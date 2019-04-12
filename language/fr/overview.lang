@@ -19,7 +19,7 @@ $_Lang ['RefferingInfo'] = 'En recommandant le jeu à vos amis, vous gagnez Dark
 
 // Titres et données InBox
 $_Lang ['Box_online'] = 'En ligne';
-$_Lang ['Box_todayActive'] = 'Actif aujourd'hui';
+$_Lang ['Box_todayActive'] = 'Actif aujourd\'hui';
 $_Lang ['Box_onlineRecord'] = 'Enregistrement en ligne';
 $_Lang ['Box_userCount'] = 'Nombre de joueurs';
 
@@ -28,8 +28,8 @@ $_Lang ['Box_Morale_InfoTitle'] = 'Informations sur la morale';
 $_Lang ['Box_Morale_NoChanges'] = 'Aucune modification';
 $_Lang ['Box_Morale_DropStartIn_Pos'] = 'Passez derrière <b id = "bxxmorale">%s </ b>';
 $_Lang ['Box_Morale_DropStartIn_Neg'] = 'Augmenter pour <b id = "bxxmorale">%s </ b>';
-$_Lang ['Box_Morale_Dropping_Pos'] = '<b class = "red"> & dArr; </ b> Supprimer (2 %% / h) [<b id = "bxxmorale">%s </ b>] ";
-$_Lang ['Box_Morale_Dropping_Neg'] = '<b class = "lime"> & uArr; </ b> Hauteur (1 %% / h) [<b id = "bxxmorale">%s </ b>] ";
+$_Lang ['Box_Morale_Dropping_Pos'] = '<b class = "red"> & dArr; </ b> Supprimer (2 %% / h) [<b id = "bxxmorale">%s </ b>] ';
+$_Lang ['Box_Morale_Dropping_Neg'] = '<b class = "lime"> & uArr; </ b> Hauteur (1 %% / h) [<b id = "bxxmorale">%s </ b>] ';
 $_Lang ['Box_Morale_Points'] = 'Niveau de développement Empire: <br/> <b class = "grey">%s pt. </ B>';
 
 $_Lang ['Box_youPlaySince'] = 'Vous jouez à partir de';
@@ -45,7 +45,7 @@ $_Lang ['_ overview_planet'] = 'planètes';
 $_Lang ['_ overview_moon'] = 'moon';
 $_Lang ['_ planetData_changename'] = 'Renommer';
 $_Lang ['_ planetData_leave'] = 'Abandonnez la colonie';
-$_Lang ['Box_planetCoords'] = 'Coordonnées ";
+$_Lang ['Box_planetCoords'] = 'Coordonnées ';
 $_Lang ['Box_planetDiameter'] = 'Diameter';
 $_Lang ['diamètre_unité'] = 'km.';
 $_Lang ['Box_planetBuildFields'] = 'Bâtiments';
@@ -77,7 +77,7 @@ $_Lang ['Box_transRequired'] = 'Besoin';
 $_Lang ['Box_transMissing_Stay'] = '<span style = "color: red;"> manquant </ span> / <span style = "color: lime;"> Rester </ span>';
 $_Lang ['QuickResSend_Button'] = 'Envoyer toutes les ressources à la planète%s [%s:%s:%s]';
 
-$_Lang ['Box_fromAdmins'] = 'Du conseil d'administration';
+$_Lang ['Box_fromAdmins'] = 'Du conseil d\'administration';
 $_Lang ['Box_lastChanges'] = 'Modifications récentes';
 $_Lang ['Box_buttons'] = 'TopListy';
 
@@ -97,11 +97,11 @@ $_Lang ['VacationModeBox_Text'] = 'Votre compte est actuellement en <a class="or
 
 // NewUser Protection Box
 $_Lang ['NewUserProtection_Alert'] = 'Voulez-vous vraiment supprimer la protection de votre compte? \ Cette action est irréversible ...';
-$_Lang ['NewUserProtection_Text'] = 'Votre compte est couvert par la protection des nouveaux joueurs (par <span id = "bxxnewprotect">%s </ span>) <br/> Cela signifie que personne ne peut attaquer votre compte pendant cette période. <br/> <a href="?cancelprotection=1" onclick="return confirmer(\''.$_Lang['NewUserProtection_Alert'aser.'\');"> Supprimer la protection de votre compte </a> « ;
+$_Lang ['NewUserProtection_Text'] = 'Votre compte est couvert par la protection des nouveaux joueurs (par <span id = "bxxnewprotect">%s </ span>) <br/> Cela signifie que personne ne peut attaquer votre compte pendant cette période. <br/> <a href="?cancelprotection=1" onclick="return confirmer('.$_Lang['NewUserProtection_Alert'] .');"> Supprimer la protection de votre compte </a> ';
 $_Lang ['NewUserProtection_Canceled'] = 'La protection des nouveaux joueurs a été supprimée de votre compte!';
 
 // Activation Info Box
-$_Lang ['ActivationInfo_Text'] = 'Votre compte n’a pas encore été activé via un lien envoyé à EMail! <br/> Tant que vous n’activez pas votre compte, vous ne pouvez pas envoyer de flotte et personne ne peut vous attaquer. <br/> Si vous n’activez pas votre compte compte dans les 12 heures, il sera bloqué jusqu'à son activation. ';
+$_Lang ['ActivationInfo_Text'] = 'Votre compte n’a pas encore été activé via un lien envoyé à EMail! <br/> Tant que vous n’activez pas votre compte, vous ne pouvez pas envoyer de flotte et personne ne peut vous attaquer. <br/> Si vous n’activez pas votre compte compte dans les 12 heures, il sera bloqué jusqu\'à son activation. ';
 
 // NewMsgBox
 $_Lang ['MsgBox_YouHave'] = 'Vous';
@@ -147,8 +147,8 @@ $_Lang ['Error'] = 'Error';
 // --- renommer la planète ---
 $_Lang ['Rename_Title'] = 'Modifier le nom';
 $_Lang ['Rename_TitleMain'] = 'Aperçu - Changer le nom';
-$_Lang ['Rename_GoBack'] = 'Retourner à l'aperçu';
-$_Lang ['Rename_CurrentName'] = 'Nom et position% s';
+$_Lang ['Rename_GoBack'] = 'Retourner à l\'aperçu';
+$_Lang ['Rename_CurrentName'] = 'Nom et position %s';
 $_Lang ['Rename_NewName'] = 'Nouveau nom <br/> (3-20 caractères)';
 $_Lang ['Rename_Submit'] = 'Changer';
 
@@ -167,8 +167,8 @@ $_Lang ['Rename_TipTip'] = 'Changer le nom';
 // --- Abandon Planet ---
 $_Lang ['Abandon_Title'] = 'Abandon de Cologne';
 $_Lang ['Abandon_TitleMain'] = 'Aperçu - Abandonner la colonie';
-$_Lang ['Abandon_GoBack'] = & $ _ Lang ['Rename_GoBack'];
-$_Lang ['Abandon_Desc'] = 'Pour abandonner cette colonie (<b class = "orange">% s% s% s </ b>), vous devez entrer votre mot de passe <br/> (Protection contre le retrait non autorisé par des étrangers ) « ;
+$_Lang ['Abandon_GoBack'] = & $_Lang ['Rename_GoBack'];
+$_Lang ['Abandon_Desc'] = 'Pour abandonner cette colonie (<b class = "orange">% s% s% s </ b>), vous devez entrer votre mot de passe <br/> (Protection contre le retrait non autorisé par des étrangers )';
 $_Lang ['Abandon_GivePassword'] = 'Entrez votre mot de passe';
 $_Lang ['Abandon_Submit'] = 'Abandon';
 $_Lang ['Abandon_Confirm'] = 'Toutes les matières premières, bâtiments et parcs installés dans cette colonie seront perdus!';
@@ -189,7 +189,7 @@ $_Lang ['Abandon_ColonyAbandoned'] = 'Cologne a été abandonnée! Je reviens su
 
 // ---
 
-$_Lang ['Disallowed_signs'] = 'Caractères illégaux donnés! Seules les lettres (+ caractères polonais), les chiffres, les espaces, le soulignement et le trait d'union sont autorisés! ';
+$_Lang ['Disallowed_signs'] = 'Caractères illégaux donnés! Seules les lettres (+ caractères polonais), les chiffres, les espaces, le soulignement et le trait d\'union sont autorisés! ';
 
 $_Lang ['No_planettype'] = 'Aucune identification de la planète!';
 
@@ -209,7 +209,7 @@ $_Lang ['security_query'] = 'Application de sécurité';
 $_Lang ['name'] = 'Nom';
 $_Lang ['namer'] = 'Renommer';
 $_Lang ['password'] = 'Confirmer le mot de passe';
-$_Lang ['confirm_planet_delete'] = 'Confirmer l'abandon de la planète';
+$_Lang ['confirm_planet_delete'] = 'Confirmer l\'abandon de la planète';
 $_Lang ['confirm_with_password'] = 'Confirmez votre mot de passe';
 
 
@@ -217,8 +217,8 @@ $_Lang ['confirm_with_password'] = 'Confirmez votre mot de passe';
 $_Lang ['deletemessage_ok'] = 'Votre colonie a été abandonnée!';
 $_Lang ['deletemessage_wrong'] = 'Vous ne pouvez pas abandonner la planète mère!';
 $_Lang ['deletemessage_fail'] = 'Mot de passe invalide!';
-$_Lang ['Can't_delete_when_fleets_flying'] = 'Vous ne pouvez pas quitter la colonie si au moins une flotte vole dessus ou en a été envoyée!';
-$_Lang ['Can't_delete_mysql_problems'] = 'Vous ne pouvez pas quitter la colonie - il y a eu un problème avec la base de données!';
+$_Lang ['Can\'t_delete_when_fleets_flying'] = 'Vous ne pouvez pas quitter la colonie si au moins une flotte vole dessus ou en a été envoyée!';
+$_Lang ['Can\'t_delete_mysql_problems'] = 'Vous ne pouvez pas quitter la colonie - il y a eu un problème avec la base de données!';
 
 //Zarządzanie flot
 $_Lang ['ov_fleet'] = 'flottes';
@@ -243,7 +243,7 @@ $_Lang ['ov_rentrant'] = 'renvoie';
 $_Lang ['ov_planet_from'] = 'de la planète';
 $_Lang ['ov_moon_from'] = 'de la lune';
 $_Lang ['ov_debris_from'] = 'depuis le champ de dégâts';
-$_Lang ['ov_explo_from'] = 'de l'expédition';
+$_Lang ['ov_explo_from'] = 'de l\'expédition';
 $_Lang ['ov_back_planet'] = 'à la planète';
 $_Lang ['ov_back_moon'] = 'à la lune';
 
@@ -254,7 +254,7 @@ $_Lang ['ov_message'] = 'Écrire un message';
 $_Lang ['this_planet'] = 'Cette planète';
 $_Lang ['this_moon'] = 'Cette lune';
 
-$_Lang ['stats_are_empty'] = '<style acronyme = "curseur: pointeur;" title = "Les statistiques n'ont pas encore été recalculées pour votre compte!"> [?] </ acronym> ';
+$_Lang ['stats_are_empty'] = '<style acronyme = "curseur: pointeur;" title = "Les statistiques n\'ont pas encore été recalculées pour votre compte!"> [?] </ acronym> ';
 $_Lang ['multiacc_with'] = 'Compte multiple avec';
 
 $_Lang ['ProAccTill'] = 'Actif jusqu’à <br/>';
@@ -264,14 +264,14 @@ $_Lang ['ProAccBuyMore'] = 'Étendre';
 $_Lang ['ProAccBuyFirst'] = 'Rachat';
 $_Lang ['ProAccBuyNext'] = 'Reprendre';
 
-$_Lang ['StatImg_user_noexists'] = 'Le joueur n'existe pas!';
+$_Lang ['StatImg_user_noexists'] = 'Le joueur n\'existe pas!';
 
 $_Lang ['AdminAlertsBox'] = 'Vous avez <un style = "color: black;" href = "admin / report_list.php">% s nouveaux rapports </a>, <a style = "color: black;" href = "admin / declare_list.php">% s nouvelles déclarations </a> et <a style = "color: black;" href = "admin / alerts_list.php">% s nouvelles alertes système </a> à examiner! ';
 
-$_Lang ['MailChange_Title'] = 'Processus de changement d'adresse électronique';
-$_Lang ['MailChange_Text'] = '<b style = "color: lime;"> Le processus de modification de l'adresse e-mail a été activé sur votre compte. Pour terminer ce processus, vous devez confirmer l'activité de la nouvelle adresse e-mail et le désir réel de modifier l'ancienne adresse e-mail. <br/> Si vous n'utilisez pas le lien d'activation envoyé à l'ancienne adresse e-mail (par exemple, en raison d'un manque d'accès à cette boîte aux lettres), vous pourrez le faire après. 7 jours après le début du processus, cliquez ici. </ B> ';
-$_Lang ['MailChange_Inf1'] = 'Vous n'avez pas encore confirmé l'activité de la nouvelle adresse email!';
-$_Lang ['MailChange_Inf2'] = 'La confirmation du changement d'adresse sera possible le% s à partir de cet endroit <br/> (ou plus tôt si vous utilisez le lien d'activation envoyé à l'ancienne adresse e-mail)';
-$_Lang ['MailChange_Buto'] = 'Mettre fin au processus de changement d'adresse e-mail';
+$_Lang ['MailChange_Title'] = 'Processus de changement d\'adresse électronique';
+$_Lang ['MailChange_Text'] = '<b style = "color: lime;"> Le processus de modification de l\'adresse e-mail a été activé sur votre compte. Pour terminer ce processus, vous devez confirmer l\'activité de la nouvelle adresse e-mail et le désir réel de modifier l\'ancienne adresse e-mail. <br/> Si vous n\'utilisez pas le lien d\'activation envoyé à l\'ancienne adresse e-mail (par exemple, en raison d\'un manque d\'accès à cette boîte aux lettres), vous pourrez le faire après. 7 jours après le début du processus, cliquez ici. </ B> ';
+$_Lang ['MailChange_Inf1'] = 'Vous n\'avez pas encore confirmé l\'activité de la nouvelle adresse email!';
+$_Lang ['MailChange_Inf2'] = 'La confirmation du changement d\'adresse sera possible le% s à partir de cet endroit <br/> (ou plus tôt si vous utilisez le lien d\'activation envoyé à l\'ancienne adresse e-mail)';
+$_Lang ['MailChange_Buto'] = 'Mettre fin au processus de changement d\'adresse e-mail';
 
 ?>
