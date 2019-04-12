@@ -1,19 +1,19 @@
 <?php
 
-$_Lang['Page_Title']                         = "Zmiana Adresu Email";
+$_Lang ['Page_Title'] = "Modifier l'adresse e-mail";
 
-$_Lang['Info_havetobelogged']                = "Musisz być zalogowany, by dokonać aktywacji Adresu Email!";
-$_Lang['Info_noenoughtdata']                 = "Link wydaje się być niepoprawny! Skontaktuj się z Administracją!";
-$_Lang['Info_baddata']                       = "Link nie zawiera wszystkich wymaganych danych! Skontaktuj się z Administracją!";
-$_Lang['Info_badkey']                        = "Klucz z Linku Aktywacyjnego wydaje się być niepoprawny! Skontaktuj się z Administracją!";
-$_Lang['Info_noactivePrc']                   = "Na tym koncie nie ma żadnego aktywnego procesu zmiany Adresu Email!";
-$_Lang['Info_some1hasthisemail']             = "Wygląda na to, że ktoś wcześniej aktywował ten Adres Email przed tobą!<br/>Jeśli uważasz to za kradzież Adresu Email, skontaktuj się z Administracją!";
-$_Lang['Info_newmail_notconfirmed']          = "Nie możesz dokonać pełnej aktywacji, póki nowy Adres Email nie został potwierdzony Linkiem Aktywacyjnym!";
-$_Lang['Info_7daysnotpassed']                = "Nie minęło jeszcze 7 dni od rozpoczęcia procesu!";
-$_Lang['Info_Hashnotcorrect']                = "Klucz z linku nie jest poprawny! Skontaktuj się z Administracją!";
-$_Lang['Info_HashalreadyConfirmed']          = "Ten Klucz został już potwierdzony!";
-$_Lang['Info_MailChangedCompletely']         = "Proces Zmiany Adresu Email został poprawnie zakończony!<br/>Teraz do twojego konta został przypisany nowy Adres Email!";
-$_Lang['Info_MailChangePartComplete_OldHash']= 'Potwierdzenie zmiany Adresu Email ze starego konta zostało zakończone!<br/>Aby dokończyć proces Zmiany, potwierdź aktywność nowego Adresu Email!";
-$_Lang['Info_MailChangePartComplete_NewHash']= 'Potwierdzenie ważności nowego Adresu Email zostało zakończone!<br/>Aby dokończyć proces Zmiany, potwierdź proces ze starego Adresu Email, bądź poczekaj 7 dni i dokonaj ręcznej aktywacji z zakładki "Podgląd"!";
+$_Lang ['Info_havetobelogged'] = "Vous devez être connecté pour activer l'adresse email!";
+$_Lang ['Info_noenoughtdata'] = "Le lien semble être incorrect! Contactez l'administration!";
+$_Lang ['Info_baddata'] = "Le lien ne contient pas toutes les données requises! Contactez l'administration!";
+$_Lang ['Info_badkey'] = "La clé du lien d'activation semble être incorrecte! Veuillez contacter l'administration!";
+$_Lang ['Info_noactivePrc'] = "Il n’ya pas de processus actif pour changer l’adresse email dans ce compte!";
+$_Lang ['Info_some1hasthisemail'] = "On dirait que quelqu'un a déjà activé cette adresse e-mail devant vous! <br/> Si vous pensez qu'il s'agit d'un vol d'une adresse e-mail, contactez l'administration!";
+$_Lang ['Info_newmail_notconfirmed'] = "Vous ne pouvez pas l'activer complètement tant que la nouvelle adresse email n'a pas été confirmée avec le lien d'activation!";
+$_Lang ['Info_7daysnotpassed'] = "Sept jours se sont écoulés depuis le début du procès!";
+$_Lang ['Info_Hashnotcorrect'] = "La clé du lien n'est pas correcte! Contactez l'administration!";
+$_Lang ['Info_HashalreadyConfirmed'] = "Cette clé a déjà été confirmée!";
+$_Lang ['Info_MailChangedCompletely'] = "Le processus de modification de l'adresse e-mail a été correctement terminé! <br/> Une nouvelle adresse e-mail a maintenant été attribuée à votre compte!";
+$_Lang ['Info_MailChangePartComplete_OldHash'] = 'La confirmation de la modification de l\'adresse e-mail de l\'ancien compte est terminée! <br/> Pour terminer le processus de modification, confirmez l\'activité de la nouvelle adresse e-mail!';
+$_Lang ['Info_MailChangePartComplete_NewHash'] = 'La validation de la validité de la nouvelle adresse électronique est terminée! <br/> Pour terminer le processus de modification, confirmez le processus de l\'ancienne adresse électronique ou attendez 7 jours et activez-le manuellement à partir de l\'onglet "Aperçu"!';
 
 ?>

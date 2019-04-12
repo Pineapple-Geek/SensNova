@@ -1,9 +1,9 @@
 <?php
 
-$_Lang['Title']				= 'Kontakt";
-$_Lang['Info']				= 'Tutaj znajdziesz adresy kontaktowe do całego Teamu Gry.";
-$_Lang['Label_username']		= 'Nick";
-$_Lang['Label_authlabel']	= 'Ranga";
-$_Lang['Label_email']		= 'Email";
+$_Lang ['Title'] = 'Contact';
+$_Lang ['Info'] = 'Vous y trouverez les adresses de contact du jeu en équipe entier.';
+$_Lang ['Label_username'] = 'Pseudo';
+$_Lang ['Label_authlabel'] = 'Rang';
+$_Lang ['Label_email'] = 'Email';
 
 ?>

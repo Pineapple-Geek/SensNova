@@ -2,7 +2,7 @@
 
 $_Lang ['Bash_Title'] = "Liste des attaques du jour";
 
-$_Lang ['Bash_Desc'] = "Le tableau ci-dessous présente la liste de vos attaques en cours contre les autres joueurs soumis aux règles Bash (réglementations: <a href="rules.php#rule_3_6" target="_blank" class="orange"> 3.6 Bash </a>). Toutes les attaques sont comptées à partir de minuit (00:00). <br/> N'oubliez pas qu'après le franchissement du seuil Bash, le joueur lésé peut porter plainte contre vous ... ";
+$_Lang ['Bash_Desc'] = "Le tableau ci-dessous présente la liste de vos attaques en cours contre les autres joueurs soumis aux règles Bash (réglementations: <a href='rules.php#rule_3_6' target='_blank' class='orange'> 3.6 Bash </a>). Toutes les attaques sont comptées à partir de minuit (00:00). <br/> N'oubliez pas qu'après le franchissement du seuil Bash, le joueur lésé peut porter plainte contre vous ... ";
 
 $_Lang ['Bash_Header'] = "Liste des attaques";
 

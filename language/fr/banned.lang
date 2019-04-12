@@ -8,7 +8,7 @@ $_Lang ['ban_to'] = "Expire";
 $_Lang ['ban_by'] = "Accordé par";
 $_Lang ['NoBannedPPL'] = "Aucun joueur interdit!";
 $_Lang ['CountOfBannedPPL'] = "Nombre de joueurs interdits";
-$_Lang ['Reason_NotSpecified'] = "<b class = "red"> Non rendu public </ b>";
+$_Lang ['Reason_NotSpecified'] = "<b class = 'red'> Non rendu public </ b>";
 
 $_Lang ['ban_bysys'] = "Système";
 

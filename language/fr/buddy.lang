@@ -1,50 +1,50 @@
 <?php
 
-$_Lang['Title'] = "Znajomi";
+$_Lang ['Title'] = 'Amis';
 
-$_Lang['Headers_Nick'] = "Gracz";
-$_Lang['Headers_StatPoints'] = "Punkty";
-$_Lang['Headers_StatPosition'] = "Pozycja";
-$_Lang['Headers_Ally'] = "Sojusz";
-$_Lang['Headers_GalaxyPosition'] = "Współrzędne";
-$_Lang['Headers_Date'] = "Data";
-$_Lang['Headers_State'] = "Status";
-$_Lang['Headers_Actions'] = "Akcje";
-$_Lang['Headers_BuddyForm'] = "Buddy-Zapytanie";
-$_Lang['Headers_Text'] = "Treść";
-$_Lang['Headers_Cancel'] = "Anuluj";
-$_Lang['Headers_Send'] = "Wyślij";
-$_Lang['Headers_Limit'] = "Limit";
+$_Lang ['Headers_Nick'] = 'Joueur';
+$_Lang ['Headers_StatPoints'] = 'Points';
+$_Lang ['Headers_StatPosition'] = 'Position';
+$_Lang ['Headers_Ally'] = 'Alliance';
+$_Lang ['Headers_GalaxyPosition'] = "Coordonnées";
+$_Lang ['Headers_Date'] = 'Données';
+$_Lang ['Headers_State'] = 'Statut';
+$_Lang ['Headers_Actions'] = 'Actions';
+$_Lang ['Headers_BuddyForm'] = "Buddy-Inquiry";
+$_Lang ['Headers_Text'] = 'Contenu';
+$_Lang ['Headers_Cancel'] = 'Annuler';
+$_Lang ['Headers_Send'] = 'Envoyer';
+$_Lang ['Headers_Limit'] = "Limite";
 
-$_Lang['qTip_Edit'] = "Edycja zapytania";
-$_Lang['qTip_Delete'] = "Usuń zapytanie";
-$_Lang['qTip_Remove'] = "Usuń z Listy Znajomych";
-$_Lang['qTip_Accept'] = "Zaakceptuj zapytanie";
-$_Lang['qTip_Refuse'] = "Odrzuć zapytanie";
+$_Lang ['qTip_Edit'] = "Modifier la requête";
+$_Lang ['qTip_Delete'] = "Supprimer la requête";
+$_Lang ['qTip_Remove'] = "Supprimer de la liste d'amis";
+$_Lang ['qTip_Accept'] = "Acceptez la requête";
+$_Lang ['qTip_Refuse'] = "Rejeter la requête";
 
-$_Lang['Info_NoBuddy'] = "Brak znajomych...";
+$_Lang ['Info_NoBuddy'] = "Pas d'amis ...";
 
-$_Lang['Row_State_Online'] = "Online";
-$_Lang['Row_State_Offline'] = "Offline";
-$_Lang['Row_State_Minutes'] = "min";
-$_Lang['Row_State_Days'] = "d";
-$_Lang['Row_State_Awaiting'] = "Oczekuje";
+$_Lang ['Row_State_Online'] = "En ligne";
+$_Lang ['Row_State_Offline'] = "Hors ligne";
+$_Lang ['Row_State_Minutes'] = "min";
+$_Lang ['Row_State_Days'] = "d";
+$_Lang ['Row_State_Awaiting'] = "En attente";
 
-$_Lang['Success_Accepted'] = "Zapytanie gracza zostało zaakceptowane";
-$_Lang['Success_Refused'] = "Zapytanie gracza zostało odrzucone";
-$_Lang['Success_Removed'] = "Gracz został usunięty z Listy Znajomych";
-$_Lang['Success_Deleted'] = "Zapytanie zostało usunięte";
-$_Lang['Success_Edited'] = "Zapytanie zostało zmienione";
-$_Lang['Success_Sent'] = "Zapytanie zostało wysłane";
+$_Lang ['Success_Accepted'] = "La demande du joueur a été acceptée";
+$_Lang ['Success_Refused'] = "La demande du joueur a été rejetée";
+$_Lang ['Success_Removed'] = "Le joueur a été retiré de la liste d'amis";
+$_Lang ['Success_Deleted'] = 'La requête a été supprimée';
+$_Lang ['Success_Edited'] = "La requête a été modifiée";
+$_Lang ['Success_Sent'] = "La requête a été envoyée";
 
-$_Lang['Error_BadElement'] = "Niedozwolona akcja!";
-$_Lang['Error_ElementIDBad'] = "Podano niepoprawny identyfikator!";
-$_Lang['Error_EmptyText'] = "Treść zapytania nie może być pusta!";
-$_Lang['Error_BadUID'] = "Niepoprawny identyfikator gracza!";
-$_Lang['Error_BadUser'] = "Taki gracz nie istnieje!";
-$_Lang['Error_LinkExists'] = "Ten gracz jest już na twojej Liście Znajomych lub zapytanie oczekuje na akceptację!";
-$_Lang['Error_RowNoExists'] = "Takie zapytanie nie istnieje!";
-$_Lang['Error_CantEdit'] = "Niedozwolona akcja!";
-$_Lang['Error_AlreadyActive'] = "To zapytanie jest już aktywne!";
+$_Lang ['Error_BadElement'] = "Action illégale!";
+$_Lang ['Error_ElementIDBad'] = "Identifiant invalide entré!";
+$_Lang ['Error_EmptyText'] = "Le contenu de la requête ne peut être vide!";
+$_Lang ['Error_BadUID'] = "ID de lecteur incorrect!";
+$_Lang ['Error_BadUser'] = "Un tel joueur n'existe pas!";
+$_Lang ['Error_LinkExists'] = "Ce joueur est déjà sur votre liste d'amis ou la demande est en attente d'acceptation!";
+$_Lang ['Error_RowNoExists'] = "Une telle requête n'existe pas!";
+$_Lang ['Error_CantEdit'] = "Action illégale!";
+$_Lang ['Error_AlreadyActive'] = "Cette requête est déjà active!";
 
 ?>

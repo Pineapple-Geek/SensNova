@@ -1,21 +1,21 @@
 <?php
 
-$_Lang['FirstLogin_Title']   = "Powitanie";
-$_Lang['LoginPage_Header']   = "Witamy w '.$_GameConfig['game_name'].'!";
+$_Lang ['FirstLogin_Title'] = "Bienvenue";
+$_Lang ['LoginPage_Header'] = 'Bienvenue à'. $_GameConfig ['game_name']. '! ';
 
-$_Lang['LoginPage_Text']     = "<center><b class="orange">Witaj serdecznie na jednym z serwerów '.$_GameConfig['game_name'].'!</b><br/><br/>";
-$_Lang['LoginPage_Text']    .= '<b>Jest to twoje pierwsze logowanie, dlatego też pragniemy przedstawić ustawienia tego Serwera:</b></center><br/>";
-$_Lang['LoginPage_Text']    .= '<span style="line-height: 18px;"><b class="minw">Universum:</b> <b class="lime">1</b><br/>";
-$_Lang['LoginPage_Text']    .= '<b class="minw">Prędkość gry:</b> <b class="lime">{GameSpeed}x</b><br/><b class="minw">Prędkość wydobycia:</b> <b class="lime">{ResSpeed}x</b><br/><b class="minw">Prędkość flot:</b> <b class="lime">{FleetSpeed}x</b><br/>";
-$_Lang['LoginPage_Text']    .= '<b class="minw">Złom z Floty:</b> <b class="lime">{FleetDebris}%</b><br/><b class="minw">Złom z Obrony:</b> <b class="help lime" title="Z ataków normalną flotą">{DefFlDebris}%</b> / <b class="help lime" title="Z ataków Rakietami Międzyplanetarnymi">{DefMiDebris}%</b><br/><b class="minw">Wielkość Planety Matki:</b> <b class="lime">{MotherSize} pól</b><br/>";
-$_Lang['LoginPage_Text']    .= '<b class="minw">Start Serwera:</b> <b class="lime">{OpenTime}</b><br/>";
-$_Lang['LoginPage_Text']    .= '<b class="minw">Czasowa Ochrona nowych Graczy:</b> <b class="lime">{Protection_NewPlayerTime}h</b><br/>";
-$_Lang['LoginPage_Text']    .= '<b class="minw"><b class="help" title="Po osiągnięciu tej ilości punktów nie będą obowiązywały żadne ograniczenia punktowe co do ataków na lub przez Ciebie">Próg procentowej Ochrony:</b></b> <b class="lime">{Protection_PointsLimit} pkt.</b><br/>";
-$_Lang['LoginPage_Text']    .= '</span><br/><br/>";
-//$_Lang['LoginPage_Text']    .= '<center><b class="red">Jako prezent dostajesz całkowicie darmowe Konto Pro na okres 10-ciu dni, które możesz aktywować w dowolnym momencie gry!</b></center><br/><br/>";
-$_Lang['LoginPage_Text']    .= '<b>Jeśli jesteś nowym graczem</b>, z pewnością zainteresuje Cię wykonanie <a class="orange" href="tasks.php?cat=1"><b>&#187; Zadań Wprowadzających</b></a>, które pomogą Ci odnaleźć się w świecie '.$_GameConfig['game_name'].' i nauczą podstaw gry.<br/>";
-$_Lang['LoginPage_Text']    .= '<center><b>Życzymy udanych łowów i powodzenia w grze!</b></center>";
+$_Lang ['LoginPage_Text'] = "<centre> <b class='orange'> Bienvenue sur l'un des serveurs '. $_GameConfig [' game_name '].'! </ B> <br/> <br/>";
+$_Lang ['LoginPage_Text']. = '<B> Ceci est votre première connexion. Par conséquent, nous aimerions présenter les paramètres de ce serveur: </ b> </ center> <br/>';
+$_Lang ['LoginPage_Text']. = '<Span style = "line-height: 18px;"> <b class="minw"> Univers: </ b> <b class="lime"> 1 </ b> <br/>';
+$_Lang ['LoginPage_Text']. = '<B class="minw"> Vitesse de jeu: </ b> <b class="lime"> {GameSpeed} x </ b> <br/> <b class=" minw "> Vitesse d’exploitation minière: </ b> <b class =" lime "> {ResSpeed} x </ b> <br/> <b class =" minw "> Vitesse de la flotte: </ b> <b class =" chaux « > {x} FleetSpeed ​​</ b> <br/> ';
+$_Lang ['LoginPage_Text']. = '<B class="minw"> Reprise de flotte: </ b> <b class="lime"> {FleetDebris}% </ b> <br/> <b class="minw"> Rebuts de défense: </ b> <b class="help lime" title = "Des attaques de flotte normales"> {DefFlDebris}% </ b> / <b class="help lime" title = "À partir de attaques de missiles interplanétaires "> {DefMiDebris}% </ b> <br/> <b class =" minw "> Taille de la planète mère: </ b> <b class =" lime "> Champs {MotherSize} </ b> < br /> ';
+$_Lang ['LoginPage_Text']. = '<B class="minw"> Début du serveur: </ b> <b class="lime"> {OpenTime} </ b> <br/>';
+$_Lang ['LoginPage_Text']. = '<B class="minw"> Protection temporaire des nouveaux joueurs: </ b> <b class="lime"> {Protection_NewPlayerTime} h </ b> <br/>';
+$_Lang ['LoginPage_Text']. = '<B class="minw"> <b class="help" title = "Lorsque ce nombre de points est atteint, il n\'y aura pas de restriction de points sur les attaques que vous ferez ou vous-même"> Seuil en pourcentage Protection: </ b> </ b> <b class="lime"> {Protection_PointsLimit} pts. </ B> <br/> ';
+$_Lang ['LoginPage_Text']. = '</ Span> <br/> <br/>';
+// $_Lang ['LoginPage_Text']. = '<Centre> <b class="red"> En cadeau, vous obtenez un compte Pro entièrement gratuit pendant 10 jours, que vous pouvez activer à tout moment du jeu! </ B> < / center> <br/> « ;
+$_Lang ['LoginPage_Text']. '<B> Si vous êtes un nouveau joueur </ b>, vous êtes certainement intéressé par un <a class="orange" href="tasks.php?cat=1"> <b> » Les tâches de positionnement </ b> </a> vous aideront à trouver votre place dans le monde.'. $_GameConfig ['game_name'] .' et ils apprendront les bases du jeu. <br/> ';
+$_Lang ['LoginPage_Text']. = '<Centre> <b> Nous vous souhaitons une chasse fructueuse et une bonne chance dans le jeu! </ B> </ center>';
 
-$_Lang['LoginPage_Input']    = "Rozpocznij grę!";
+$_Lang ['LoginPage_Input'] = "Démarrer le jeu!";
 
 ?>

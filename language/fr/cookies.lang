@@ -1,10 +1,10 @@
 <?php
 
-$_Lang['cookies']['Title']   = "Błąd Ciasteczek";
-$_Lang['cookies']['Error1']  = "Błędne Cookies (Ciasteczek) [Error #001]. Usuń Cookies i spróbuj ponownie!<br/><br/><a href="login.php">Zaloguj się ponownie</a>!";
-$_Lang['cookies']['Error2']  = "Błędne Cookies (Ciasteczek) [Error #002]. Usuń Cookies i spróbuj ponownie!<br/><br/><a href="login.php">Zaloguj się ponownie</a>!";
-$_Lang['cookies']['Error3']  = "Błędne Cookies (Ciasteczek) [Error #003]. Usuń Cookies i spróbuj ponownie!<br/><br/><a href="login.php">Zaloguj się ponownie</a>!";
-$_Lang['cookies']['Error4']  = "Błędne Cookies (Ciasteczek) [Error #004]. Usuń Cookies i spróbuj ponownie!<br/><br/><a href="login.php">Zaloguj się ponownie</a>!";
-$_Lang['cookies']['Error5']  = "Błędne Cookies (Ciasteczek) [Error #005]. Usuń Cookies i spróbuj ponownie!<br/><br/><a href="login.php">Zaloguj się ponownie</a>!";
+$_Lang ['cookies'] ['Title'] = 'Erreur de cookie';
+$_Lang ['cookies'] ['Error1'] = 'Cookies (Cookies) erronés [Erreur # 001]. Supprimez les cookies et réessayez! <br/> <br/> <a href="login.php"> Connexion encore </a>! ';
+$_Lang ['cookies'] ['Error2'] = 'Cookies (Cookies) erronés [Erreur # 002] Supprimez les cookies et réessayez! <br/> <br/> <a href="login.php"> Se connecter encore </a>! ';
+$_Lang ['cookies'] ['Error3'] = 'Cookies (Cookies) erronés [Erreur # 003] Supprimez les cookies et réessayez! <br/> <br/> <a href="login.php"> Se connecter encore </a>! ';
+$_Lang ['cookies'] ['Error4'] = 'Cookies (Cookies) erronés [Erreur # 004] Supprimez les cookies et réessayez! <br/> <br/> <a href="login.php"> Connexion encore </a>! ';
+$_Lang ['cookies'] ['Error5'] = 'Cookies (Cookies) erronés [Erreur # 005] Supprimez les cookies et réessayez! <br/> <br/> <a href="login.php"> Se connecter encore </a>! ';
 
 ?>

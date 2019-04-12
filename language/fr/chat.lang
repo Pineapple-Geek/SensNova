@@ -1,69 +1,69 @@
 <?php
 
-$_Lang['Chat']  = "Chat";
+$_Lang ['Chat'] = 'Chat';
 
-$_Lang['ChatTitle_String'] = "Chat %s";
-$_Lang['ChatTitle_Main'] = "główny";
-$_Lang['ChatTitle_Ally'] = "sojuszu %s";
-$_Lang['ChatTitle_GameTeam'] = "obsługi gry";
+$_Lang ['ChatTitle_String'] = "Chat% s";
+$_Lang ['ChatTitle_Main'] = 'main';
+$_Lang ['ChatTitle_Ally'] = 'alliance% s';
+$_Lang ['ChatTitle_GameTeam'] = "Traitement du jeu";
 
-$_Lang['chat_loading']  = "Ładowanie ...";
-$_Lang['chat_disc']     = "Bezpośredni czat";
-$_Lang['chat_message']  = "Wiadomość<br/>(Shift + Enter &#187; Nowa Linia)";
-$_Lang['chat_short']    = "Emotikony";
-$_Lang['chat_text']     = "Tekst";
-$_Lang['chat_send']     = "Wyślij";
-$_Lang['chat_save']     = "Zapisz zmiany";
-$_Lang['on_chat']       = "Obecni na czacie:";
+$_Lang ['chat_loading'] = "Chargement ...";
+$_Lang ['chat_disc'] = 'Chat direct';
+$_Lang ['chat_message'] = "Message <br/> (Maj + Entrée» Nouvelle ligne) ";
+$_Lang ['chat_short'] = 'Émoticônes';
+$_Lang ['chat_text'] = 'Texte';
+$_Lang ['chat_send'] = 'Envoyer';
+$_Lang ['chat_save'] = 'Enregistrer les modifications';
+$_Lang ['on_chat'] = "Présent dans le chat:";
 
-$_Lang['Legend_Smiles']      = "Emotikony";
-$_Lang['Legend_BBCode']      = "BBCode";
-$_Lang['Legend_BBCode_B'] = "Pogrubienie";
-$_Lang['Legend_BBCode_S'] = "Przekreślenie";
-$_Lang['Legend_BBCode_I'] = "Kursywa";
-$_Lang['Legend_BBCode_URL'] = "Link";
-$_Lang['Legend_BBCode_U'] = "Podkreślenie";
-$_Lang['Legend_BBCode_C'] = "Kolor";
-$_Lang['Legend_BBCode_Text'] = "Tekst";
-$_Lang['Legend_BBCode_Adress'] = "ADRES";
-$_Lang['Legend_BBCode_OR'] = "lub";
-$_Lang['Legend_BBCode_Color'] = "KOLOR";
-$_Lang['Legend_BBCode_ColorInfo'] = "Angielski lub Hex";
+$_Lang ['Legend_Smiles'] = "Émoticônes";
+$_Lang ['Legend_BBCode'] = "BBCode";
+$_Lang ['Legend_BBCode_B'] = "Gras";
+$_Lang ['Legend_BBCode_S'] = "Barré";
+$_Lang ['Legend_BBCode_I'] = "Italique";
+$_Lang ['Legend_BBCode_URL'] = 'Lien';
+$_Lang ['Legend_BBCode_U'] = "Souligné";
+$_Lang ['Legend_BBCode_C'] = 'Couleur';
+$_Lang ['Legend_BBCode_Text'] = 'Texte';
+$_Lang ['Legend_BBCode_Adress'] = "ADRESSE";
+$_Lang ['Legend_BBCode_OR'] = 'ou';
+$_Lang ['Legend_BBCode_Color'] = "COULEUR";
+$_Lang ['Legend_BBCode_ColorInfo'] = "Anglais ou Hex";
 
-$_Lang['Settings_Header'] = "Ustawienia";
-$_Lang['Settings_GhostMode'] = "Ukryj moją obecność";
-$_Lang['Settings_GhostMode_DontCount'] = "Nie uwzględniaj w liczniku Online";
+$_Lang ['Settings_Header'] = 'Paramètres';
+$_Lang ['Settings_GhostMode'] = "Masquer ma présence";
+$_Lang ['Settings_GhostMode_DontCount'] = "Ne pas inclure dans le compteur en ligne";
 
-$_Lang['Today']          = "Dziś";
-$_Lang['Yesterday']      = "Wczoraj";
+$_Lang ['Today'] = 'Aujourd\'hui';
+$_Lang ['Yesterday'] = 'Hier';
 
-$_Lang['jQueryAjax_getError']    = "Błąd przy pobieraniu danych - Ponowne połączenie za 5 sekund (pozostało prób: {x})...";
-$_Lang['jQueryAjax_getErrorFatal'] = "Błąd przy pobieraniu danych - Połączenie z serwerem utracone... (<a class="orange" id="chatReload" href="#">Spróbuj ponownie</a>)";
-$_Lang['jQueryAjax_postError']   = "Błąd przy wysyłaniu wiadomości...";
+$_Lang ['jQueryAjax_getError'] = "Erreur lors de l'extraction des données - Reconnexion en 5 secondes (essais restants: {x}) ...";
+$_Lang ['jQueryAjax_getErrorFatal'] = "Erreur lors de l'extraction des données - Connexion au serveur perdue ... (<a class='orange' id='chatReload' href='#'> Veuillez réessayer </a>)";
+$_Lang ['jQueryAjax_postError'] = "Erreur lors de l'envoi du message ...";
 
-$_Lang['jsLang_Errors'] = array
+$_Lang ['jsLang_Errors'] = array
 (
-	'getErr_001' => 'Taki pokój nie istnieje!',
-	'getErr_002' => 'Nie masz dostępu do tego pokoju!',
-	'getErr_003' => 'Gra została wyłączona!',
+'getErr_001' => 'Cette pièce n’existe pas!',
+'getErr_002' => 'Vous n’avez pas accès à cette salle!',
+'getErr_003' => 'Le jeu a été désactivé!',
 );
 
-$_Lang['jQueryAjax_postErr_2'] = "Błąd przy wysyłaniu wiadomości - błąd Bazy Danych...";
-$_Lang['jQueryAjax_postErr_3'] = "Błąd przy wysyłaniu wiadomości - pusta wiadomość...";
-$_Lang['jQueryAjax_postErr_5'] = "Błąd przy wysyłaniu wiadomości - brak dostępu do tego Pokoju...";
-$_Lang['jQueryAjax_postErr_6'] = "Błąd przy wysyłaniu wiadomości - Pokój nie istnieje...";
+$_Lang ['jQueryAjax_postErr_2'] = "Erreur lors de l'envoi du message - Erreur base de données ...";
+$_Lang ['jQueryAjax_postErr_3'] = "Erreur lors de l'envoi d'un message - message vide ...";
+$_Lang ['jQueryAjax_postErr_5'] = "Erreur lors de l'envoi d'un message - pas d'accès à cette salle ...";
+$_Lang ['jQueryAjax_postErr_6'] = "Erreur lors de l'envoi de messages - La pièce n'existe pas ...";
 
-$_Lang['jQueryAjax_delErr_2'] = "Błąd usuwania wiadomości (#{$id}) - wiadomość nie istnieje!";
-$_Lang['jQueryAjax_delErr_3'] = "Błąd usuwania wiadomości (#{$id}) - błąd Bazy Danych!";
-$_Lang['jQueryAjax_delErr_4'] = "Błąd akcji - brak uprawnień!";
+$_Lang ['jQueryAjax_delErr_2'] = "Erreur lors de la suppression des messages (# {$id}) - le message n'existe pas!";
+$_Lang ['jQueryAjax_delErr_3'] = "Erreur lors de la suppression des messages (# {$id}) - Erreur de base de données!";
+$_Lang ['jQueryAjax_delErr_4'] = "Erreur d'action - pas de privilèges!";
 
-$_Lang['jQueryAjax_notLogged'] = "Błąd - nie jesteś zalogowany!";
+$_Lang ['jQueryAjax_notLogged'] = "Erreur - vous n'êtes pas connecté!";
 
-$_Lang['jsLang_usrRef'] = "Zwróć się do tego gracza";
-$_Lang['jsLang_profile'] = "Profil gracza";
-$_Lang['jsLang_mentioned'] = "Ktoś do Ciebie napisał!";
-$_Lang['jsLang_ToolTip_ReportMsg'] = "Zgłoś wpis";
+$_Lang ['jsLang_usrRef'] = "Veuillez contacter ce joueur";
+$_Lang ['jsLang_profile'] = "Profil du joueur";
+$_Lang ['jsLang_mentenced'] = "Quelqu'un vous a écrit!";
+$_Lang ['jsLang_ToolTip_ReportMsg'] = "Entrée de rapport";
 
-$_Lang['UsersOnline'] = "Online";
+$_Lang ['UsersOnline'] = 'En ligne';
 
 ?>

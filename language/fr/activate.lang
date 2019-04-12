@@ -1,10 +1,10 @@
 <?php
 
-$_Lang['title']                  = "Aktywacja";
-$_Lang['activation_completed']   = "Aktywacja użytkownika %s przebiegła pomyślnie!<br/>Można już zalogować się na konto!";
-$_Lang['no_code_in_db']          = "Taki kod aktywacyjny nie występuje w bazie danych!<br/>Jeśli to dobry kod, <a href="contact.php">skontaktuj się z Administracją</a>!";
-$_Lang['invalid_code_format']    = "Podany kod jest niepoprawny!<br/>Jeśli to dobry kod, <a href="contact.php">skontaktuj się z Administracją</a>!";
-$_Lang['empty_code']             = "Nie podano kodu aktywującego!";
-$_Lang['go_back']                = "<a href="index.php">Powrót</a>";
+$_Lang ['title'] = "Activation";
+$_Lang ['activation_completed'] = "L'activation de l'utilisateur %s a réussi! <br/> Vous pouvez maintenant vous connecter à votre compte!";
+$_Lang ['no_code_in_db'] = "Ce code d'activation n'existe pas dans la base de données! <br/> S'il s'agit d'un code valide, veuillez <a href='contact.php'> contacter l'Administration </a>!";
+$_Lang ['invalid_code_format'] = "Le code fourni est incorrect! <br/> S'il s'agit d'un bon code, veuillez <a href='contact.php'> contacter l'administration </a>!";
+$_Lang ['empty_code'] = 'Aucun code d activation fourni!';
+$_Lang ['go_back'] = "<a href='index.php'> Retour </a>";
 
 ?>
