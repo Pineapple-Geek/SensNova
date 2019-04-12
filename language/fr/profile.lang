@@ -1,58 +1,58 @@
 <?php
 
-$_Lang['PageTitle']              = "Profil Gracza";
+$_Lang ['PageTitle'] = "Profil du joueur";
 
-$_Lang['Table_NoAvatar']         = "Brak Avatara";
-$_Lang['Table_Username']         = "Nazwa";
-$_Lang['Table_Gamerank']         = "Ranga";
-$_Lang['Table_Allyname']         = "Sojusz";
-$_Lang['Table_Allyrank']         = "Ranga w Sojuszu";
-$_Lang['Table_MotherPlanet']     = "Planeta Matka";
-$_Lang['Table_WritePM']          = "Napisz Wiadomość";
-$_Lang['Table_Add2Buddy']        = "Dodaj do BuddyListy";
-$_Lang['Table_AllyInvite']		= 'Zaproś do Sojuszu";
-$_Lang['Table_Buddy']            = "Znajomy";
-$_Lang['Table_Online']           = "Online";
-$_Lang['Table_Offline']          = "Offline";
-$_Lang['Table_Ignore']           = "Ignoruj Wiadomości";
-$_Lang['Table_UnIgnore']         = "Przestań Ignorować Wiadomości";
-$_Lang['Table_Report']           = "Zgłoś przewinienie Gracza";
-$_Lang['Table_UserOnVacations']  = "Gracz jest na Urlopie";
-$_Lang['Table_UserIsBanned']     = "Gracz jest Zbanowany!";
-$_Lang['Table_AdminInfo']		= 'Przejdź do Podglądu Administratora";
+$_Lang ['Table_NoAvatar'] = "Pas d'avatar";
+$_Lang ['Table_Username'] = "Nom";
+$_Lang ['Table_Gamerank'] = "Classement";
+$_Lang ['Table_Allyname'] = 'Alliance';
+$_Lang ['Table_Allyrank'] = "Classement dans l'Alliance";
+$_Lang ['Table_MotherPlanet'] = "Planète Mère";
+$_Lang ['Table_WritePM'] = "Écrire un message";
+$_Lang ['Table_Add2Buddy'] = "Ajouter à la liste d'amis";
+$_Lang ['Table_AllyInvite'] = 'Inviter l’Alliance';
+$_Lang ['Table_Buddy'] = 'Familier';
+$_Lang ['Table_Online'] = "En ligne";
+$_Lang ['Table_Offline'] = "Hors ligne";
+$_Lang ['Table_Ignore'] = "Ignorer les messages";
+$_Lang ['Table_UnIgnore'] = "Arrêtez d'ignorer les messages";
+$_Lang ['Table_Report'] = "Signaler l'infraction du joueur";
+$_Lang ['Table_UserOnVacations'] = "Le joueur est en vacances";
+$_Lang ['Table_UserIsBanned'] = "Le joueur est banni!";
+$_Lang ['Table_AdminInfo'] = 'Aller à la prévisualisation administrateur';
 
-$_Lang['Table_WarStats']         = "Statystyki Wojenne";
-$_Lang['Table_FightsTotal']      = "Stoczone Bitwy";
-$_Lang['Table_FightsWon']        = "Wygrane";
-$_Lang['Table_FightsWonACS']     = "&raquo; Wygrane w Związku";
-$_Lang['Table_FightsDraw']       = "Remisy";
-$_Lang['Table_FightsLost']       = "Przegrane";
-$_Lang['Table_FightsInAlly']		= 'Bitwy w Sojuszu";
-$_Lang['Table_MissileAttacks']	= 'Ataki Rakietowe";
-$_Lang['Table_MoonsCreated']     = "Stworzone Księżyce";
-$_Lang['Table_MoonsDestroyed']   = "Zniszczone Księżyce";
-$_Lang['Table_ShotDownUnits']    = "Zestrzelone Jednostki";
-$_Lang['Table_LostUnits']        = "Stracone Jednostki";
-$_Lang['Table_WarBalancePt']     = "pkt.";
-$_Lang['Table_WarBalance']       = "Bilans Wojenny";
-$_Lang['Table_WarBalanceTip']    = "Łączna ilość zestrzelonych i straconych jednostek przeliczona na punkty";
+$_Lang ['Table_WarStats'] = "Statistiques de guerre";
+$_Lang ['Table_FightsTotal'] = "Batailles de combat";
+$_Lang ['Table_FightsWon'] = "Victoires";
+$_Lang ['Table_FightsWonACS'] = "& raquo; Gagne dans l'Union";
+$_Lang ['Table_FightsDraw'] = "Dessine";
+$_Lang ['Table_FightsLost'] = "Perdu";
+$_Lang ['Table_FightsInAlly'] = 'Batailles dans l’Alliance';
+$_Lang ['Table_MissileAttacks'] = 'Attaques à la roquette';
+$_Lang ['Table_MoonsCreated'] = "Lunes créées";
+$_Lang ['Table_MoonsDestroyed'] = "Lunes détruites";
+$_Lang ['Table_ShotDownUnits'] = "Unités abattues";
+$_Lang ['Table_LostUnits'] = "Unités perdues";
+$_Lang ['Table_WarBalancePt'] = "points";
+$_Lang ['Table_WarBalance'] = "Bilan militaire";
+$_Lang ['Table_WarBalanceTip'] = "Nombre total d'unités perdues et perdues converties en points";
 
-$_Lang['Table_NormalStats']      = "Statystyki Ogólne";
-$_Lang['Table_Position']         = "Pozycja";
-$_Lang['Table_Points']           = "Ilość Punktów";
-$_Lang['Table_MoralePoints']		= 'Poziom rozwoju Imperium";
-$_Lang['Table_PositionFleets']   = "Pozycja we Flotach";
-$_Lang['Table_PointsFleets']     = "Punkty za Flotę";
-$_Lang['Table_PositionResearch'] = "Pozycja w Badaniach";
-$_Lang['Table_PointsResearch']   = "Punkty za Badania";
-$_Lang['Table_PositionBuildings']= 'Pozycja w Budynkach";
-$_Lang['Table_PointsBuildings']  = "Punkty za Budynki";
-$_Lang['Table_PositionDefense']  = "Pozycja w Obronie";
-$_Lang['Table_PointsDefense']    = "Punkty za Obronę";
+$_Lang ['Table_NormalStats'] = 'Statistiques générales';
+$_Lang ['Table_Position'] = "Position";
+$_Lang ['Table_Points'] = "Nombre de points";
+$_Lang ['Table_MoralePoints'] = 'Niveau de développement de l’Empire';
+$_Lang ['Table_PositionFleets'] = "Position dans les flottes";
+$_Lang ['Table_PointsFleets'] = "Points pour la flotte";
+$_Lang ['Table_PositionResearch'] = "Position dans la recherche";
+$_Lang ['Table_PointsResearch'] = "Points pour la recherche";
+$_Lang ['Table_PositionBuildings'] = 'Position dans la construction';
+$_Lang ['Table_PointsBuildings'] = "Points pour bâtiments";
+$_Lang ['Table_PositionDefense'] = "Position dans la défense";
+$_Lang ['Table_PointsDefense'] = "Points pour la défense";
 
-$_Lang['Table_PosZero']          = "Nieprzeliczona";
+$_Lang ['Table_PosZero'] = "Non compté";
 
-$_Lang['Error_NoUIDGiven']       = "Nie podano Identyfikatora Gracza!";
-$_Lang['Error_UserNoExists']     = "Taki Gracz nie istnieje!";
+$_Lang ['Error_NoUIDGiven'] = "ID de joueur non fourni.";
+$_Lang ['Error_UserNoExists'] = "Un tel joueur n'existe pas!";
 
 ?>
