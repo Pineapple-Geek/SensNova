@@ -1,30 +1,29 @@
 <?php
 
-$_Lang['Resources']                                  = "Surowce";
-$_Lang['Production_of_resources_in_the_planet']      = "Produkcja surowców na %s";
-$_Lang['Production_level_t']                         = "Poziom produkcji";
-$_Lang['Basic_income']                               = "Przyrost podstawowy";
-$_Lang['quantity']                                   = "Ilość";
-$_Lang['level']                                      = "Poziom";
-$_Lang['Stores_capacity']                            = "Pojemność magazynów";
-$_Lang['Widespread_production']                      = "Produkcja rozszerzona";
-$_Lang['Daily']                                      = "Dzienne";
-$_Lang['Weekly']                                     = "Tygodniowe";
-$_Lang['Monthly']                                    = "Miesięczne";
-$_Lang['Storage_state']                              = "Stan Magazynów";
-$_Lang['Calcule']                                    = "Przelicz";
-$_Lang['o/o']                                        = "%";
-$_Lang['k']                                          = "k";
-$_Lang['no_need_more_transporters']                  = "Nie brakuje";
+$_Lang ['Resources'] = 'Matières premières';
+$_Lang ['Production_of_resources_in_the_planet'] = "Production de matières premières à% s";
+$_Lang ['Production_level_t'] = "Niveau de production";
+$_Lang ['Basic_income'] = "Augmentation de base";
+$_Lang ["quantité"] = "Quantité";
+$_Lang ["niveau"] = "Niveau";
+$_Lang ['Stores_capacity'] = "Capacité de stockage";
+$_Lang ['Widespread_production'] = 'Production étendue';
+$_Lang ['Daily'] = "Daily";
+$_Lang ['Weekly'] = "Hebdomadaire";
+$_Lang ["Monthly"] = "Mensuel";
+$_Lang ['Storage_state'] = 'Statut de l'entrepôt';
+$_Lang ['Calcule'] = "Convertir";
+$_Lang ['o / o'] = "%";
+$_Lang ['k'] = "k";
+$_Lang ['no_need_more_transporters'] = "Il ne manque pas";
 
-$_Lang['NeedenTransporters']                         = "Transportery potrzebne do przewiezienia wszystkich surowców z";
-$_Lang['Needen']                                     = "Potrzebne";
-$_Lang['YouHave']                                    = "Posiadasz";
-$_Lang['Missing']                                    = "Brakuje";
-$_Lang['Total']                                      = "Łącznie";
+$_Lang ['NeedenTransporters'] = "Les transporteurs doivent transporter toutes les matières premières à partir de";
+$_Lang ['Needen'] = 'Nécessaire';
+$_Lang ['YouHave'] = "Vous avez";
+$_Lang ['Missing'] = "Manquant";
+$_Lang ['Total'] = "Total";
 
-$_Lang['MineUsage']                                  = "Wydobycie";
-$_Lang['Res_SetThisUsage2All']                       = "Ustaw takie same wartości Wydobycia na Wszystkich Planetach";
-$_Lang['Res_GeologistBonus']                         = "Bonus wydobycia surowców za <a href='officers.php' class='skyblue'>Geologa</a>";
-
+$_Lang ['MineUsage'] = "Extraction";
+$_Lang ['Res_SetThisUsage2All'] = "Définissez les mêmes valeurs d'extraction sur toutes les planètes";
+$_Lang ['Res_GeologistBonus'] = "Bonus pour l'extraction de matières premières pour <a href='officers.php 'class='skyblue'> Géologue </a>";
 ?>

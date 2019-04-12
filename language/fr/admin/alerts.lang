@@ -1,134 +1,134 @@
 <?php
 
-$_Lang['PageTitle']			= 'Alerty Systemowe";
+$_Lang['PageTitle']			= 'Alertes système";
 
-// Body and headers
-$_Lang['Alerts_List']		= 'Lista Alertów Systemowych";
-$_Lang['Alert_ID']			= 'ID";
-$_Lang['Alert_Origin']		= 'Wysłano";
-$_Lang['Alert_Date']			= 'Data";
-$_Lang['Alert_Sender']		= 'Pochodzenie";
-$_Lang['Alert_Type']			= 'Typ";
-$_Lang['Alert_Importance']	= 'Waga";
-$_Lang['Alert_User']			= 'Gracz";
-$_Lang['Alert_Data']			= 'Treść";
-$_Lang['Alert_Status']		= 'Status";
-$_Lang['Alert_Actions']		= 'Akcje";
+// Corps et en-têtes
+$_Lang ['Alerts_List'] = 'Liste des alertes système';
+$_Lang ['Alert_ID'] = 'ID';
+$_Lang ['Alert_Origin'] = 'Envoyé';
+$_Lang ['Alert_Date'] = 'Données';
+$_Lang ['Alert_Sender'] = 'Origine';
+$_Lang ['Alert_Type'] = 'Type';
+$_Lang ['Alert_Importance'] = 'Poids';
+$_Lang ['Alert_User'] = 'Player';
+$_Lang ['Alert_Data'] = 'Contenu';
+$_Lang ['Alert_Status'] = 'Statut';
+$_Lang ['Alert_Actions'] = 'Actions';
 
-$_Lang['PerPage']			= 'Na stronę";
-$_Lang['Pages']				= 'Strony";
-$_Lang['Prev']				= '&#171;";
-$_Lang['Next']				= '&#187;";
+$_Lang ['PerPage'] = 'Par page';
+$_Lang ['Pages'] = 'Pages';
+$_Lang ['Prev'] = "«";
+$_Lang ['Next'] = "»";
 
-$_Lang['DeletedUser']		= 'Gracz usunięty";
-$_Lang['DeletedUser2']		= 'Usunięty Gracz";
+$_Lang ['DeletedUser'] = 'Lecteur supprimé';
+$_Lang ['DeletedUser2'] = 'Lecteur supprimé';
 
-// Senders
-$_Lang['Senders'] = array
+// expéditeurs
+$_Lang ['Senders'] = array
 (
-	1 => 'Wysyłanie Floty<br/>(flotten3.php)',
-	2 => 'Wysyłanie Floty<br/>(galaxyfleet.php)',
-	3 => 'Atak Rakietowy<br/>(sendmissiles.php)',
-	4 => 'Pierwsze logowanie<br/>poleconego gracza<br/>(overview.php)',
-	5 => 'Pierwsze logowanie<br/>przez Proxy<br/>(overview.php)',
+1 => 'Envoi de la flotte <br/> (flotten3.php)',
+2 => 'Envoi de la flotte <br/> (galaxyfleet.php)',
+3 => 'Attaque à la roquette <br/> (sendmissiles.php)',
+4 => 'Première connexion <br/> du joueur référé <br/> (overview.php) ",
+5 => 'Première connexion <br/> par le proxy <br/> (overview.php) ",
 );
 
-// Types
-$_Lang['Types'] = array
+// types
+$_Lang ['Types'] = array
 (
-	1 => 'Prawdopodobne MultiKonto',
-	2 => 'Złamanie zasad gry z jednego IP',
-	3 => 'Blokada wysłania floty graczy z jednego IP',
-	4 => 'Prawdopodobne MultiKonto<br/>flota zablokowana',
-	5 => 'Wykrycie Pushu',
+1 => 'Compte multi probable',
+2 => 'Casser les règles du jeu d'une IP',
+3 => 'Bloquer l'envoi d'une flotte de joueurs d'une adresse IP',
+4 => 'Flotte multi-comptes probable <br/> bloquée',
+5 => 'Détection push',
 );
 
 // StatusList
-$_Lang['StatusList'] = array
+$_Lang ['StatusList'] = array
 (
-	0 => '<b class="orange">Nowe</b>',
-	1 => 'Oczekuje',
-	2 => 'Przyjęte do realizacji',
-	3 => 'Realizacja w toku',
-	4 => 'Realizacja zakończona,<br/>oczekiwanie na zakończenie',
-	5 => 'Zrealizowano',
-	6 => 'Odrzucone',
-	7 => 'Zrealizowano<br/>Gracz zbanowany',
-	8 => 'Zrealizowano<br/>Błąd naprawiony',
+0 => '<b class = "orange"> Nouveau </ b>',
+1 => 'En attente',
+2 => 'Accepté pour la mise en oeuvre',
+3 => 'Mise en oeuvre en cours',
+4 => 'Exécution terminée, <br/> en attente d’achèvement',
+5 => 'Terminé',
+6 => 'Rejeté',
+7 => 'Réalisé <br/> Joueur banni',
+8 => 'Complété <br/> Bug corrigé',
 );
 
-$_Lang['AlertCodes'] = array
+$_Lang ['AlertCodes'] = array
 (
-	1 => 'Gracz %s wysyłał flotę (%s) do gracza %s.<br/>Status Floty: %s<br/>Deklaracja multikonta: %s<hr>%s<hr>Inni gracze powiązani z tym IP%s: %s',
-	2 => 'Nowy gracz %s ma powiązania Adresów IP z jego polecającym, %s.<hr>Powiązane zadania polecającego:<br/>%s<hr>%s<hr>Inni gracze powiązani z tym IP%s: %s',
-	3 => 'Nowy gracz %s zalogował się za pierwszym razem z Adresu IP oznaczonego jako Proxy.<hr>%s',
-	4 => 'Słabszy gracz %s wysłał surowce do gracza %s.<br/>Powiązania graczy: %s<hr>Różnica punktów: <b class="orange">%s</b> (%s%%), różnica miejsc: <b class="orange">%s</b><br/>%s<br/>%s<hr>Status Floty: %s [#%s]<br/>Transportowane Surowce:<br/>%s'
+1 => '% s le joueur envoyait sa flotte (% s) au joueur% s. <br/> Statut de la flotte:% s <br/> Déclaration de plusieurs comptes:% s <hr>% s <hr> Autres joueurs associés à cette adresse IP % s:% s ',
+2 => 'Le nouveau joueur% s possède des liaisons d'adresse IP avec son référent,% s. <Hr> Tâches associées au référent: <br/>% s <hr>% s <hr> Autres joueurs associés à cet IP% s:% s'
+3 => 'Le nouveau joueur% s est connecté pour la première fois avec l'adresse IP marquée Proxy. <Hr>% s',
+4 => 'Le joueur le plus faible% sa envoyé des ressources au joueur% s. <br/> Associations de joueurs:% s <hr> Différence de points: <b class = "orange">% s </ b> (% s %%) , différence d'espace: <b class = "orange">% s </ b> <br/>% s <br/>% s <hr> Statut de la flotte:% s [#% s] <br/> Matières premières transportées: <br/>% s'
 );
 
-$_Lang['AlertCodes_Texts'] = array
+$_Lang ['AlertCodes_Texts'] = array
 (
-	'DeletedUser'						=> '<b class="red">Gracz usunięty</b>',
-	'DeletedUserID'						=> '<b class="red">Gracz usunięty [#%s]</b>',
-	'DeletedAlly'						=> '<b class="red">Sojusz rozwiązany</b>',
-	'DeletedAllyID'						=> '<b class="red">Sojusz rozwiązany [#%s]</b>',
-	'FleetBlock_Blocked_Text'			=> '<b class="lime">Zablokowana (Multialarm)</b>',
-	'FleetBlock_NonBlocked_Text'		=> '<b class="red">Wysłana [#%s]</b>',
-	'MultiACCDeclaration_Exists_Text'	=> '<b class="red">Złożona [#%s]</b>',
-	'MultiACCDeclaration_None_Text'		=> '<b class="orange">Brak</b>',
-	'IPIntersect_Main'					=> '<a class="iplink skyblue" href="iplog.php?ipid=%s" target="_blank">%s [#%s]</a> (Różnica czasów: <b class="%s">%s</b>) (Ostatnie: <b class="%s">%s</b> temu)<br/>%s',
-	'IPIntersect_UserExist'				=> '<b class="skyblue">&bull;</b> <a href="user_info.php?uid=%s" target="_blank">%s [#%s]</a> (Logowania: %s) (Ostatnie: %s)',
-	'IPIntersect_UserDeleted'			=> '<b class="skyblue">&bull;</b> <b class="red">Gracz usunięty [#%s]</b> (Logowania: %s) (Ostatnie: %s)',
-	'IPIntersect_TimeDiff_Small'		=> 'red',
-	'IPIntersect_TimeDiff_Medium'		=> 'orange',
-	'IPIntersect_TimeDiff_Big'			=> 'lime',
-	'OtherUsers_None'					=> '<b class="skyblue">Brak</b>',
-	'OtherUsers_Count'					=> ' (%s)',
-	'UserLink'							=> '<a class="userlink" href="user_info.php?uid=%s" target="_blank"><b class="skyblue">%s</b> [#%s]</a>',
-	'AllyLink'							=> '%s (%s) [#%s]',
-	'FleetInfo'							=> '%s',
-	'NewUser_IPProxy'					=> '<a class="iplink skyblue" href="iplog.php?ipid=%s" target="_blank">%s [#%s]</a> %s',
-	'NewUser_IPProxy_RegIP'				=> '<span class="orange">(identyczne IP przy rejestracji)</span>',
-	'NewUser_IPProxy_NoRegIP'			=> '<span class="red">(IP przy rejestracji jest inne)</span>',
-	'NewUser_NoTasks'					=> '<b class="skyblue">Brak</b>',
-	'TaskData'							=> '&bull; %s [#%s] <span class="%s">(%s/%s)</span>',
-	'TaskData_StatusDone'				=> 'red',
-	'TaskData_StatusNotDone'			=> 'orange',
-	'PushAlert_UsersInAlly'				=> '<b class="orange">wspólny sojusz - %s</b>',
-	'PushAlert_UsersHasPact'			=> '<b class="orange">sojusze związane Paktem - %s / %s</b>',
-	'PushAlert_UsersAreBuddy'			=> '<b class="orange">znajomość (BuddyList)</b>',
-	'PushAlert_UsersDontKnowEachother'	=> '<b class="red">Brak</b>',
-	'PushAlert_UserExist'				=> '<b class="skyblue">&bull;</b> <a href="user_info.php?uid=%s" target="_blank">%s [#%s]</a> (Punkty: <b class="skyblue">%s</b>) (Pozycja: <b class="skyblue">%s</b>)',
-	'PushAlert_UserDeleted'				=> '<b class="skyblue">&bull;</b> <b class="red">Gracz usunięty [#%s]</b> (Punkty: %s) (Pozycja: %s)',
-	'PushAlert_FleetState_Flying'		=> '<b class="orange">Leci (cel za %s)</b>',
-	'PushAlert_FleetState_TurnedBack'	=> '<b class="lime">Zawrócona</b>',
-	'PushAlert_FleetState_GoalAchieved'	=> '<b class="red">Doleciała do celu (nieobliczona)</b>',
-	'PushAlert_FleetState_Delivered'	=> '<b class="red">Surowce dostarczone</b>',
-	'PushAlert_ResourceLine'			=> '<b class="skyblue">&bull;</b> %s: <b class="orange">%s</b>',
-	'PushAlert_Res_Metal'				=> 'Metal',
-	'PushAlert_Res_Crystal'				=> 'Kryształ',
-	'PushAlert_Res_Deuterium'			=> 'Deuter',
-);
+'DeletedUser' => '<b class = "red"> Utilisation de Gracz </ b>',
+'DeletedUserID' => '<b class = "red"> Utilisation courante [#% s] </ b>',
+'DeletedAlly' => '<b class = "red"> Sojusz rozwiąany </ b>',
+'DeletedAllyID' => '<b class = "red"> Sojusz rozwiąany [#% s] </ b>',
+'FleetBlock_Blocked_Text' => '<b class = "lime"> Zablokowana (Multialarm) </ b>',
+'FleetBlock_NonBlocked_Text' => '<b class = "red"> Wysłana [#% s] </ b>',
+'MultiACCDeclaration_Exists_Text' => '<b class = "red"> Złożona [#% s] </ b>',
+'MultiACCDeclaration_None_Text' => '<b class = "orange"> Brak </ b>',
+'IPIntersect_Main' => '<a class="iplink skyblue" href="iplog.php?ipid=%s" target="_blank">% s [#% s] </a> (Rónica czasów: <b class = "% s">% s </ b>) (Ostatnie: <b class = "% s">% s </ b> temu) <br/>% s ',
+'IPIntersect_UserExist' => '<b class = "skyblue"> & bull; </ b> <a href="user_info.php?uid=%s" target="_blank">% s [#% s] </ a > (Logowania:% s) (Ostatnie:% s) ',
+'IPIntersect_UserDeleted' => '<b class = "skyblue"> & bull; </ b> <b class = "red"> Utilisation courante [#% s] </ b> (Logowania:% s) (Ostatnie:% s ) ',
+'IPIntersect_TimeDiff_Small' => 'rouge',
+'IPIntersect_TimeDiff_Medium' => 'orange',
+'IPIntersect_TimeDiff_Big' => 'lime',
+'OtherUsers_None' => '<b class = "skyblue"> Brak </ b>',
+'OtherUsers_Count' => '(% s)',
+'UserLink' => '<a class="userlink" href="user_info.php?uid=%s" target="_blank"> <b class = "skyblue">% s </ b> [#% s] </a> ',
+'AllyLink' => '% s (% s) [#% s]',
+'FleetInfo' => '% s',
+'NewUser_IPProxy' => '<a class="iplink skyblue" href="iplog.php?ipid=%s" target="_blank">% s [#% s] </a>% s',
+'NewUser_IPProxy_RegIP' => '<span class = "orange"> (identifiez-vous sur une adresse IP przy rejestracji) </ span>',
+'NewUser_IPProxy_NoRegIP' => '<span class = "red"> (Adressez-vous à l'adresse indiquée) </ span>',
+'NewUser_NoTasks' => '<b class = "skyblue"> Brak </ b>',
+'TaskData' => '& bull; % s [#% s] <span class = "% s"> (% s /% s) </ span> ',
+'TaskData_StatusDone' => 'rouge',
+'TaskData_StatusNotDone' => 'orange',
+'PushAlert_UsersInAlly' => '<b class = "orange"> wspólny sojusz -% s </ b>',
+'PushAlert_UsersHasPact' => '<b class = "orange"> sojusze związane Paktem -% s /% s </ b>',
+'PushAlert_UsersAreBuddy' => '<b class = "orange"> znajomość (BuddyList) </ b>',
+'PushAlert_UsersDontKnowEachother' => '<b class = "red"> Brak </ b>',
+'PushAlert_UserExist' => '<b class = "skyblue"> & bull; </ b> <a href="user_info.php?uid=%s" target="_blank">% s [#% s] </ a > (Punkty: <b class = "skyblue">% s </ b>) (Pozycja: <b class = "skyblue">% s </ b>) ',
+'PushAlert_UserDeleted' => '<b class = "skyblue"> & bull; </ b> <b class = "red"> Utilisation courante [#% s] </ b> (punk:% s) (pozycja:% s ) ',
+'PushAlert_FleetState_Flying' => '<b class = "orange"> Leci (cel za% s) </ b>',
+'PushAlert_FleetState_TurnedBack' => '<b class = "lime"> Zawrócona </ b>',
+'PushAlert_FleetState_GoalAchieved' => '<b class = "red"> Doleciała do celu (nieobliczona) </ b>',
+'PushAlert_FleetState_Delivered' => '<b class = "red"> Surowce dostarczone </ b>',
+'PushAlert_ResourceLine' => '<b class = "skyblue"> & bull; </ b>% s: <b class = "orange">% s </ b>',
+'PushAlert_Res_Metal' => 'Métal',
+'PushAlert_Res_Crystal' => 'Cristal',
+'PushAlert_Res_Deuterium' => 'Deuterium',
+)
 
-// Commands
-$_Lang['Cmd_Deleteall']				= 'Usuń wszystkie";
-$_Lang['CMD_Delete_Title']			= 'Usuń wybrany Alert";
-$_Lang['CMD_Show_Users_Title']		= 'Pokaż wszystkich graczy powiązanych z tym Alertem";
-$_Lang['CMD_Show_MainUsers_Title']	= 'Pokaż głównych graczy powiązanych z tym Alertem";
-$_Lang['CMD_GoToFiltersList']		= 'Pokaż Listę Filtrów";
+// Commandes
+$_Lang ['Cmd_Deleteall'] = 'Supprimer tout ";
+$_Lang ['CMD_Delete_Title'] = 'Alerte d’utilisation ";
+$_Lang ['CMD_Show_Users_Title'] = 'Afficher tous les joueurs associés à cette alerte ";
+$_Lang ['CMD_Show_MainUsers_Title'] = 'Afficher les principaux acteurs associés à cette alerte ";
+$_Lang ['CMD_GoToFiltersList'] = 'Afficher les filtres de fil ";
 
-$_Lang['CMD_DelAll']					= 'Czy jesteś pewien, że chcesz usunąć wszystkie Alerty Systemowe?";
+$_Lang ['CMD_DelAll'] = 'Êtes-vous sûr ? ";
 
 // Informations
-$_Lang['Alert_deleted']				= 'Alert usunięty!";
-$_Lang['Alert_no_status_given']		= 'Nie podano Statusu do zmiany!";
-$_Lang['Alert_same_status']			= 'Status pozostał bez zmian!";
-$_Lang['Alert_status_changed']		= 'Status Alertu zmieniony na <u>%s</u>!";
-$_Lang['Alert_status_noexist']		= 'Taki Status nie istnieje!";
-$_Lang['Alert_noexist']				= 'Alert o podanym ID nie istnieje!";
-$_Lang['No_id_given']				= 'Nie podano poprawnego ID!";
-$_Lang['No_Alerts']					= 'Brak Alertów!";
-$_Lang['No_Alerts_ThisPage']			= 'Brak Alertów na tej stronie!";
-$_Lang['Alert_Truncated']			= 'Wyczyszczono tabelę Alertów!";
-$_Lang['NotFound']					= 'Brak";
+$_Lang ['Alert_deleted'] = 'Créer une alerte! ";
+$_Lang ['Alert_no_status_given'] = 'Non renseigné sur le statut de la personne! ";
+$_Lang ['Alert_same_status'] = 'Le statut est resté inchangé! ";
+$_Lang ['Alert_status_changed'] = 'Statut Alerte sur le Web <u>% s </ u>! ";
+$_Lang ['Alert_status_noexist'] = 'Statut de Taki non disponible! ";
+$_Lang ['Alert_noexist'] = 'Alerte pour le numéro de nom de programme ni pour le nom! ";
+$_Lang ['No_id_given'] = 'L'identifiant correct n'a pas été fourni ! ";
+$_Lang ['No_Alerts'] = 'Aucune alerte ! ";
+$_Lang ['No_Alerts_ThisPage'] = 'Aucune alerte sur cette page! ";
+$_Lang ['Alert_Truncated'] = 'La table des alertes a été effacée ! ";
+$_Lang ['NotFound'] = 'Non trouvé';
 
 ?>

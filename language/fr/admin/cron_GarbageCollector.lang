@@ -1,14 +1,14 @@
 <?php
 
-$_Lang['Title'] = "Garbage Collector";
+$_Lang ['Title'] = "Ramasse-miettes";
 
-$_Lang['Result_Parse'] = "";
-$_Lang['Result_Parse'] .= 'Czas wykonywania: %s s.<br/>";
-$_Lang['Result_Parse'] .= 'Usunięte wiadomości: %s<br/>";
-$_Lang['Result_Parse'] .= 'Usunięte symulacje: %s<br/>";
-$_Lang['Result_Parse'] .= 'Usunięte zaproszenia do sojuszu: %s<br/>";
-$_Lang['Result_Parse'] .= 'Usunięte wpisy Ochrony Logowania: %s<br/>";
-$_Lang['Result_Parse'] .= 'Usunięte Opuszczone Planety: %s<br/>";
-$_Lang['Result_Parse'] .= '<br/>Tabela czasowa:<br/>%s";
+$_Lang ['Result_Parse'] = "";
+$_Lang ['Result_Parse']. = 'Exécution:% s p. <br/>';
+$_Lang ['Result_Parse']. = 'Messages supprimés:% s <br/>';
+$_Lang ['Result_Parse']. = 'Simulations supprimées:% s <br/>';
+$_Lang ['Result_Parse']. = 'Invitations à l'alliance supprimées:% s <br/>';
+$_Lang ['Result_Parse']. = 'Entrées supprimées de la protection contre la journalisation:% s <br/>';
+$_Lang ['Result_Parse']. = 'Planètes abandonnées supprimées:% s <br/>';
+$_Lang ['Result_Parse']. = '<br/> Heure: <br/>% s';
 
 ?>
