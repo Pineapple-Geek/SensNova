@@ -1,18 +1,18 @@
 <?php
 
-$_Lang['rec_title']      = "Rekordy Serwera";
+$_Lang ['rec_title'] = "Enregistrements du serveur";
 
-$_Lang['rec_build']      = "Budynki";
-$_Lang['rec_specb']      = "Budynki specjalne";
-$_Lang['rec_techn']      = "Technologie";
-$_Lang['rec_fleet']      = "Flota";
-$_Lang['rec_defes']      = "Obrona";
+$_Lang ['rec_build'] = "Bâtiments";
+$_Lang ['rec_specb'] = "Bâtiments spéciaux";
+$_Lang ['rec_techn'] = "Technologies";
+$_Lang ['rec_fleet'] = "Flotte";
+$_Lang ['rec_defes'] = "Défense";
 
-$_Lang['rec_playe']      = "Gracz";
-$_Lang['rec_level']      = "Poziom";
-$_Lang['rec_nbre']       = "Liczba";
-$_Lang['rec_rien']       = "-";
+$_Lang ['rec_playe'] = "Joueur";
+$_Lang ['rec_level'] = "Niveau";
+$_Lang ['rec_nbre'] = "Nombre";
+$_Lang ['rec_rien'] = "-";
 
-$_Lang['last_count_was'] = "Ostatnie obliczanie rekordów";
+$_Lang ['last_count_was'] = "Dernier calcul des enregistrements";
 
 ?>

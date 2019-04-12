@@ -1,21 +1,21 @@
 <?php
 
-$_Lang['Table_Title']            = "Informacje";
-$_Lang['reftable']               = "Lista poleconych graczy";
+$_Lang ['Table_Title'] = "Information";
+$_Lang ['reftable'] = 'Liste des renvois';
 
-$_Lang['reftable_desc']          = "W tym miejscu możesz sprawdzić status polecenia graczy, którzy zarejestrowali się do gry poprzez twój link polecający.";
+$_Lang ['reftable_desc'] = "Vous pouvez vérifier ici le statut de la commande des joueurs inscrits au jeu via votre lien de parrainage.";
 
-$_Lang['referring_info']         = "Gdy polecisz do gry nowego gracza, zostaje on dodany do listy poniżej.<br/>Gdy tylko doładuje swoje konto Ciemną Energią, ty od razu dostaniesz prowizję od tego doładowania!<br/><br/>Obecnie prowizja wynosi <b class="lime">%s%%</b> od każdego doładowania Ciemnej Energii.";
+$_Lang ['pointing_info'] = "Lorsque vous référez un nouveau joueur au jeu, celui-ci est ajouté à la liste ci-dessous. <br/> Dès que vous complétez votre compte avec Dark Energy, vous recevez immédiatement une commission de cette recharge! <br/> <br /> La commission actuelle est <b class = "lime">% s %% </ b> pour chaque recharge d’énergie sombre. ";
 
-$_Lang['your_referral_link_is']  = "Oto twój link polecający:";
+$_Lang ['your_referral_link_is'] = "Voici votre lien de parrainage:";
 
-$_Lang['Who']                    = "Nick Gracza";
-$_Lang['Date']                   = "Data Rejestracji";
-$_Lang['Provisions_Granted']     = "Całkowita otrzymana Prowizja";
+$_Lang ['Who'] = 'Nick Player';
+$_Lang ['Date'] = 'Date d'enregistrement';
+$_Lang ['Provisions_Granted'] = 'Commission totale reçue';
 
-$_Lang['DEUnits']                = "j. Ciemnej Energii";
-$_Lang['UserDeleted']            = "Konto Usunięte";
+$_Lang ['DEUnits'] = "j. Énergie sombre";
+$_Lang ['UserDeleted'] = 'Compte supprimé';
 
-$_Lang['referred_noone']         = "Nie poleciłeś nikogo!";
+$_Lang ['vise_noone'] = "Vous n'avez recommandé personne!";
 
 ?>
