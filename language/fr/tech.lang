@@ -4,8 +4,8 @@
 	$_Lang ['Requirements'] = "Requirements";
 	$_Lang ['Metal'] = "Metal";
 	$_Lang ['Crystal'] = "Crystal";
-	$_Lang ['Deutérium'] = "Deutérium";
-	$_Lang ['Energy'] = "Energy";
+	$_Lang ['Deuterium'] = "Deutérium";
+	$_Lang ['Energy'] = "Energie";
 	$_Lang ['DarkEnergy'] = "Énergie noire";
 	$_Lang ['Message'] = "Messages";
 	$_Lang ['GoToShop'] = "Store";
