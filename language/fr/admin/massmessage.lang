@@ -1,4 +1,4 @@
-<? Php
+<?php
 
 $_Lang ['MassMessage_Success'] = "Un message de masse a été envoyé aux utilisateurs de% s!";
 $_Lang ['MassMessage_NoSufficientData'] = "Aucune donnée entrée!";

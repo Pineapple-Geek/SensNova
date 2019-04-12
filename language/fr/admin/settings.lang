@@ -1,4 +1,4 @@
-<? Php
+<?php
 
 $_Lang ['Header_FleetBlock'] = "Verrouillage de la flotte";
 

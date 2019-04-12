@@ -1,4 +1,4 @@
-<? Php
+<?php
 
 $_Lang ['Userlist_Title'] = "Liste des joueurs";
 $_Lang ['Userlist_ID'] = "ID";

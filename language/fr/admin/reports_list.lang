@@ -1,4 +1,4 @@
-<? Php
+<?php
 
 $_Lang ['Report_list_title'] = "Système de reporting";
 $_Lang ['Report_list_list'] = "Liste des rapports";
@@ -24,7 +24,7 @@ $_Lang ['Report_no_status_given'] = "Aucun statut fourni";
 $_Lang ['Report_status_changed'] = "Statut modifié";
 $_Lang ['Report_noexist'] = "Le rapport n'existe pas";
 
-$_Lang ['Report_types'] = tableau
+$_Lang ['Report_types'] = array
 (
 'Player - Message',
 'Player - Bash',
