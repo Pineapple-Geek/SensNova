@@ -1,34 +1,34 @@
 <?php
 
-$_Lang['PageTitle']                      = "Banowanie Graczy";
+$_Lang ['PageTitle'] = "Lecteur bannissant";
 
-$_Lang['Form_General']                   = "Podstawowe dane";
-$_Lang['Form_UserInput']                 = "Gracze do zbanowania<br/>(Oddziel przecinkami)<br/>(ID podawaj w nawiasach [])";
-$_Lang['Form_Reason']                    = "Powód przyznania bana";
-$_Lang['Form_Period']                    = "Długość bana";
-$_Lang['Form_Days']                      = "Dni";
-$_Lang['Form_Hours']                     = "Godziny";
-$_Lang['Form_Minutes']                   = "Minuty";
-$_Lang['Form_Seconds']                   = "Sekundy";
-$_Lang['Form_ExtendPrevious']			= 'Przedłuż poprzedniego bana<br/>(O ile to możliwe)";
-$_Lang['Form_Other']                     = "Inne opcje";
-$_Lang['Form_SetVacationOn']             = "Włącz Urlop";
-$_Lang['Form_SetRetreatOwnOn']           = "Zawróć Floty Gracza";
-$_Lang['Form_SetRetreatOthersOn']        = "Zawróć resztę Flot";
-$_Lang['Form_SetBlockade_CookieStyle']   = "Załóż Blokadę na Ciasteczka";
-$_Lang['Form_GiveBan']                   = "Zbanuj";
+$_Lang ['Form_General'] = "Données de base";
+$_Lang ['Form_UserInput'] = "Joueurs à bannir <br/> (Séparer par des virgules) <br/> (Identifiant entre parenthèses [])";
+$_Lang ['Form_Reason'] = "Raison de l'interdiction";
+$_Lang ['Form_Period'] = "Durée de l'interdiction";
+$_Lang ['Form_Days'] = "Jours";
+$_Lang ['Form_Hours'] = "Heures";
+$_Lang ['Form_Minutes'] = "Minutes";
+$_Lang ['Form_Seconds'] = "Secondes";
+$_Lang ['Form_ExtendPrevious'] = 'Étendre l’interdiction précédente <br/> (si possible)';
+$_Lang ['Form_Other'] = "Autres options";
+$_Lang ['Form_SetVacationOn'] = "Activer le congé";
+$_Lang ['Form_SetRetreatOwnOn'] = "Parc de joueurs recyclé";
+$_Lang ['Form_SetRetreatOthersOn'] = "Retournez le reste de la flotte";
+$_Lang ['Form_SetBlockade_CookieStyle'] = "Créer un verrou de cookie";
+$_Lang ['Form_GiveBan'] = "Interdiction";
 
-$_Lang['Msg_Ban1OK']						= 'Gracz %s został zbanowany!";
-$_Lang['Msg_Ban1OK_wFleets']				= 'Gracz %s został zbanowany (Zawrócone floty: %s)!";
-$_Lang['Msg_BanMOK']						= 'Gracze %s zostali zbanowani!";
-$_Lang['Msg_BanMOK_wFleets']				= 'Gracze %s zostali zbanowani (Zawrócone floty: %s)!";
+$_Lang ['Msg_Ban1OK'] = 'Le joueur% sa été banni!';
+$_Lang ['Msg_Ban1OK_wFleets'] = 'Le joueur% sa été banni (la flotte a été retournée:% s)! ";
+$_Lang ['Msg_BanMOK'] = 'Les joueurs% s ont été bannis!';
+$_Lang ['Msg_BanMOK_wFleets'] = 'Les joueurs% s ont été interdits (la flotte a été retournée:% s)! ";
 
-$_Lang['Msg_BansGiven']                  = "Ban został wlepiony!";
-$_Lang['Msg_BansGiven_Fleets']           = "Ban został wlepiony (Zarócone floty: %s)!";
-$_Lang['Msg_PeriodBad']                  = "Niepoprawny czas bana!";
-$_Lang['Msg_ReasonEmpty']                = "Nie możesz wlepić bana bez podania przyczyny!";
-$_Lang['Msg_UsersNotFound']              = "Gracze nie zostali znalezieni!";
-$_Lang['Msg_BadUserDataGiven']           = "Podano niepoprawne nazwy graczy lub ich ID!";
-$_Lang['Msg_EmptyUserInput']             = "Musisz podać nazwy graczy lub ID do zbanowania!";
+$_Lang ['Msg_BansGiven'] = "L’interdiction a été bloquée!";
+$_Lang ['Msg_BansGiven_Fleets'] = "L’interdiction a été bloquée (flotte compliquée:% s)!";
+$_Lang ['Msg_PeriodBad'] = "Heure d'interdiction incorrecte!";
+$_Lang ['Msg_ReasonEmpty'] = "Vous ne pouvez pas vous en tenir à l’interdiction sans donner de raison!";
+$_Lang ['Msg_UsersNotFound'] = "Les joueurs n'ont pas été trouvés!";
+$_Lang ['Msg_BadUserDataGiven'] = "Des noms de joueurs incorrects ou leur identifiant ont été entrés!";
+$_Lang ['Msg_EmptyUserInput'] = "Vous devez entrer le nom du joueur ou son identifiant pour le bannir!";
 
 ?>

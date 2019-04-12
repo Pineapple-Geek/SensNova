@@ -1,86 +1,85 @@
 <?php
 
-$_Lang['PageTitle']  = "Przeglądarka Logów Akcji";
+$_Lang ['PageTitle'] = "Navigateur du journal des actions";
 
-// Look
-$_Lang['LogBrowser']     = "Przeglądarka";
-$_Lang['User']           = "Gracz";
-$_Lang['Date']           = "Data";
-$_Lang['Size']           = "Rozmiar";
-$_Lang['TotalLogsCount'] = "Całkowita ilość znalezionych logów tego gracza";
-$_Lang['SearchForLogs']  = "Szukaj Logów tego gracza wg. dat";
-$_Lang['From']           = "Od";
-$_Lang['To']             = "Do";
-$_Lang['Submit']         = "Szukaj";
-$_Lang['Reset']          = "Resetuj";
-$_Lang['Packed']         = "Spakowany";
-$_Lang['Actions']        = "Akcje";
+// regarde
+$_Lang ['LogBrowser'] = 'Navigateur';
+$_Lang ['User'] = 'Player';
+$_Lang ['Date'] = "Données";
+$_Lang ['Size'] = "Taille";
+$_Lang ['TotalLogsCount'] = "Le nombre total de journaux trouvés de ce joueur";
+$_Lang ['SearchForLogs'] = "Recherche de journaux par ce joueur par dates";
+$_Lang ['De'] = "De";
+$_Lang ['To'] = "To";
+$_Lang ['Submit'] = 'Recherche';
+$_Lang ['Reset'] = "Reset";
+$_Lang ['Packed'] = 'Zipped';
+$_Lang ['Actions'] = "Actions";
 
-$_Lang['Time']           = "Czas";
-$_Lang['File']           = "Plik";
-$_Lang['Data']           = "Dane GET i POST";
+$_Lang ['Time'] = 'Time';
+$_Lang ['File'] = 'Fichier';
+$_Lang ['Data'] = "Données GET et POST";
 
-$_Lang['FilteringActive']    = "Filtrowanie aktywne";
-$_Lang['Filters_Activate']   = "Aktywuj";
-$_Lang['Filters_Comparision'] = "Porównanie";
-$_Lang['Filters_Exclusion']  = "Wykluczenie";
-$_Lang['Filters_RegExp']     = "RegExp";
-$_Lang['Filters_CompareArgs']= 'Porównuj argumenty";
-$_Lang['Filters_Query']      = "Fraza";
-$_Lang['Filters_Additional'] = "Wyświetlanie";
+$_Lang ['FilteringActive'] = "Filtrage actif";
+$_Lang ['Filters_Activate'] = "Activer";
+$_Lang ['Filters_Comparision'] = 'Comparaison';
+$_Lang ['Filters_Exclusion'] = 'Exclusion';
+$_Lang ['Filters_RegExp'] = "RegExp";
+$_Lang ['Filters_CompareArgs'] = 'Comparer les arguments';
+$_Lang ['Filters_Query'] = 'Phrase';
+$_Lang ['Filters_Additional'] = 'Afficher';
 
-$_Lang['ShowingXofYRows']    = "Ilość pokazanych wpisów: %s (Dostępne: %s | Wszystkie: %s)";
+$_Lang ['ShowingXofYRows'] = "Nombre d'entrées affichées:% s (Disponible:% s | Toutes:% s)";
 
-$_Lang['Pages']              = "Strony";
-$_Lang['Next']               = "&#187;";
-$_Lang['Prev']               = "&#171;";
-
+$_Lang ['Pages'] = 'Pages';
+$_Lang ['Next'] = "» ";
+$_Lang ['Prev'] = "« ";
 // Log Parser
-$_Lang['Log_IPSetToX']       = "<b class="orange">Używane IP: %s</b>";
-$_Lang['Log_IPChangedToX']   = "<b class="orange">Zmiana IP: %s</b>";
-$_Lang['Log_IPisCurentlyX']	= '<b class="orange">Aktualne IP: %s</b>";
-$_Lang['Log_BrowserStart']	= '<b class="orange">Używana przeglądarka: %s</b>";
-$_Lang['Log_BrowserCurrent'] = "<b class="orange">Aktualna przeglądarka: %s</b>";
-$_Lang['Log_BrowserChange']	= '<b class="orange">Zmiana przeglądarki: %s</b>";
-$_Lang['Log_ScreenChange']   = "<b class="orange">Zmiana rozdzielczości: %s</b>";
-$_Lang['Log_ScreenCurrent']	= '<b class="orange">Aktualna rozdzielczość: %s</b>";
-$_Lang['Log_TooManyLines']   = "<b class="red">Osiągnięto limit wyświetlanych Wpisów (%s)!</b>";
-$_Lang['Log_ReachedFilter']  = "<b class="red">Osiągnięto czas maksymalny (%s:%s:%s)!</b>";
-$_Lang['Log_No_GET_POST']    = "Brak danych";
-$_Lang['Log_GETData']        = "GET";
-$_Lang['Log_POSTData']       = "POST";
-$_Lang['Log_Array']          = "Tablica";
-$_Lang['Log_POST_UnserializeError']  = "<b style="color: red;">Błąd funkcji Unserialize!</b>";
-$_Lang['Log_UncompatibleFormat']     = "Niekompatybilny format danych!";
-$_Lang['Log_BadFormatLines'] = "<b class="red">Pominięto wpisy o niepoprawnym formacie danych (ilość: %s)!</b>";
+$_Lang ['Log_IPSetToX'] = "<b class =" orange "> IP utilisée:% s </ b>";
+$_Lang ['Log_IPChangedToX'] = "<b class =" orange "> Changer l’IP:% s </ b>";
+$_Lang ['Log_IPisCurentlyX'] = '<b class = "orange"> IP actuelle:% s </ b> ";
+$_Lang ['Log_BrowserStart'] = '<b class = "orange"> Navigateur utilisé:% s </ b> ";
+$_Lang ['Log_BrowserCurrent'] = "<b class =" orange "> Navigateur actuel:% s </ b>";
+$_Lang ['Log_BrowserChange'] = '<b class = "orange"> Changement de navigateur:% s </ b> ";
+$_Lang ['Log_ScreenChange'] = "<b class =" orange "> Changement de résolution:% s </ b>";
+$_Lang ['Log_ScreenCurrent'] = '<b class = "orange"> Résolution actuelle:% s </ b> ";
+$_Lang ['Log_TooManyLines'] = "<b class =" red "> La limite de liste affichée (% s) a été atteinte! </ B>";
+$_Lang ['Log_ReachedFilter'] = "<b class =" red "> Le temps maximum a été atteint (% s:% s:% s)! </ B>";
+$_Lang ['Log_No_GET_POST'] = 'Pas de données';
+$_Lang ['Log_GETData'] = "GET";
+$_Lang ['Log_POSTData'] = "POST";
+$_Lang ['Log_Array'] = "Table";
+$_Lang ['Log_POST_UnserializeError'] = "<b style="color: red;"> Erreur de désérialisation de la fonction! </ B>";
+$_Lang ['Log_UncompatibleFormat'] = "Format de données incompatible!";
+$_Lang ['Log_BadFormatLines'] = "<b class =" red "> Les entrées avec un format de données incorrect (nombre:% s) ont été omises! </ B>";
 
-$_Lang['ExpandArrays']       = "Rozwiń Tablice";
-$_Lang['CollapseArrays']     = "Zwiń Tablice";
-$_Lang['ExpandAmps']         = "Rozwiń Ampersandy";
-$_Lang['CollapseAmps']       = "Zwiń Ampersandy";
-$_Lang['ResendRequest']		= 'Wyślij to żądanie";
+$_Lang ['ExpandArrays'] = "Agrandir les tables";
+$_Lang ['CollapseArrays'] = "Réduire les tables";
+$_Lang ['ExpandAmps'] = "Développez Ampersandy";
+$_Lang ['CollapseAmps'] = "Collapse Ampersandy";
+$_Lang ['ResendRequest'] = 'Envoyer cette demande';
 
-$_Lang['ExpandAllArr']       = "Rozwiń Tablice";
-$_Lang['CollapseAllArr']     = "Zwiń Tablice";
-$_Lang['ExpandAllAmp']       = "Rozwiń Ampersandy";
-$_Lang['CollapseAllAmp']     = "Zwiń Ampersandy";
+$_Lang ['ExpandAllArr'] = "Développer les tables";
+$_Lang ['CollapseAllArr'] = "Réduire les tables";
+$_Lang ['ExpandAllAmp'] = "Développez Ampersandy";
+$_Lang ['CollapseAllAmp'] = "Collapse Ampersandy";
 
-$_Lang['AutoExpandArr']      = "Auto Rozwijanie Tablic";
-$_Lang['AutoExpandAmp']      = "Auto Rozwijanie Ampersandów";
+$_Lang ['AutoExpandArr'] = "Développement de tables automatiques";
+$_Lang ['AutoExpandAmp'] = "Développement automatique d'esperluettes";
 
 // Infos
-$_Lang['Info_NoLogsFilter'] = "<b class="red">Nie znaleziono pasujących Logów!</b>";
-$_Lang['Info_NoLogs']    = "Brak Logów dla tego użytkownika!";
-$_Lang['Info_NoLogsForThatPeriod']   = "Brak Logów dla tego użytkownika we wskazanym przedziale czasowym!";
-$_Lang['Info_RequestProceeding'] = "Wysyłanie żądania...";
+$_Lang ['Info_NoLogsFilter'] = "<b class =" red "> Aucun journal correspondant trouvé! </ B>";
+$_Lang ['Info_NoLogs'] = "Aucun journal pour cet utilisateur!";
+$_Lang ['Info_NoLogsForThatPeriod'] = "Aucun journal pour cet utilisateur dans la plage de temps spécifiée!";
+$_Lang ['Info_RequestProceeding'] = "Envoyer une demande ...";
 
-// Errors
-$_Lang['Error_BadUID']           = "Niepoprane ID Użytkownika!";
-$_Lang['Error_LogNoExists']      = "Taki Log nie istnieje!";
-$_Lang['Error_BadDateFormat']    = "Niepoprawny format Daty!";
-$_Lang['Error_ResendBadLine']	= '<b class="red">Niepoprawny numer linii!</b>";
-$_Lang['Error_ResendLineEmpty']	= 'Ta linia jest pusta!";
-$_Lang['Error_ResendLineBadFormat'] = "Niepoprawny format linii!";
-$_Lang['Error_ResendLineBadRevScan'] = "Podczas wstecznego skanowania wystąpił błąd!";
+// Erreurs
+$_Lang ['Error_BadUID'] = "ID d'utilisateur non placé!";
+$_Lang ['Error_LogNoExists'] = "Un tel journal n'existe pas!";
+$_Lang ['Error_BadDateFormat'] = "Format de date non valide!";
+$_Lang ['Error_ResendBadLine'] = '<b class = "red"> Numéro de ligne invalide! </ B> ";
+$_Lang ['Error_ResendLineEmpty'] = 'Cette ligne est vide!';
+$_Lang ['Error_ResendLineBadFormat'] = "Format de ligne non valide!";
+$_Lang ['Error_ResendLineBadRevScan'] = "Une erreur s'est produite lors de la numérisation en arrière!";
 
 ?>

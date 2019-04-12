@@ -24,7 +24,7 @@ $_Lang ['Report_no_status_given'] = "Aucun statut fourni";
 $_Lang ['Report_status_changed'] = "Statut modifié";
 $_Lang ['Report_noexist'] = "Le rapport n'existe pas";
 
-$_Lang ['Report_types'] = tableau
+$_Lang ['Report_types'] = array
 (
 'Player - Message',
 'Player - Bash',

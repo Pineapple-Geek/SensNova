@@ -3,12 +3,12 @@
 $_Lang['AddMoon_Title'] = "Ajouter une lune";
 $_Lang['AddMoon_PlanetID'] = "ID planète";
 $_Lang['AddMoon_Name'] = "Nom (vide - par défaut)";
-$_Lang['AddMoon_Diameter'] = "Diamètre (puste - losowa)";
-$_Lang['AddMoon_Submit'] = "Stwórz";
-$_Lang['AddMoon_Success'] = "Księżyc został stworzony";
-$_Lang['AddMoon_Fail_NoPlanet'] = "Taka planeta nie istnieje!";
-$_Lang['AddMoon_Fail_MoonExists'] = "Ta planeta ma już księżyc!";
-$_Lang['AddMoon_Fail_NameBadSigns'] = "System nie może zaakceptować takiej nazwy!";
-$_Lang['AddMoon_Fail_BadID'] = "Niepoprawne ID planety!";
+$_Lang['AddMoon_Diameter'] = "Diamètre (vide - aléatoire)";
+$_Lang ['AddMoon_Submit'] = "Créer";
+$_Lang ['AddMoon_Success'] = "La lune a été créée";
+$_Lang ['AddMoon_Fail_NoPlanet'] = "Une telle planète n'existe pas!";
+$_Lang ['AddMoon_Fail_MoonExists'] = "Cette planète a déjà une lune!";
+$_Lang ['AddMoon_Fail_NameBadSigns'] = "Le système ne peut pas accepter ce nom!";
+$_Lang ['AddMoon_Fail_BadID'] = "Identifiant Planète non valide!";
 
 ?>
