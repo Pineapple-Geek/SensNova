@@ -1,26 +1,26 @@
 <?php
 
-$_Lang['Page_Title']		= 'Logowanie";
-$_Lang['Body_Username']	= 'Nick";
-$_Lang['Body_Password']	= 'Hasło";
-$_Lang['Body_Remember']	= 'Zapamiętaj mnie";
-$_Lang['Body_Submit']	= 'Zaloguj";
-$_Lang['Body_LostPass']	= 'Zapomniałeś Hasła?";
-$_Lang['Body_LostCode']	= 'Nie otrzymałeś Linku Aktywacyjnego?";
-$_Lang['Body_ServerOffline'] = "Serwer jest wyłączony";
+$_Lang ['Page_Title'] = 'Connexion';
+$_Lang ['Body_Username'] = 'Nick';
+$_Lang ['Body_Password'] = 'Mot de passe';
+$_Lang ['Body_Remember'] = 'Mémoriser mes informations';
+$_Lang ['Body_Submit'] = 'Connexion';
+$_Lang ['Body_LostPass'] = 'Mot de passe oublié?';
+$_Lang ['Body_LostCode'] = 'Vous n\'avez pas reçu le lien d\'activation?';
+$_Lang ['Body_ServerOffline'] = 'Le serveur est en panne';
 
-$_Lang['Body_Contact']	= 'Kontakt";
-$_Lang['Body_Register']	= 'Rejestracja";
+$_Lang ['Body_Contact'] = 'Contact';
+$_Lang ['Body_Register'] = 'Enregistrement';
 
-$_Lang['Err_Title']					= 'Błąd Logowania";
-$_Lang['Login_FailPassword']			= 'Podano niepoprawne hasło!<br/><a href="login.php">Powrót</a>";
-$_Lang['Login_FailUser']				= 'Taki gracz nie istnieje!<br/><a href=login.php>Powrót</a>";
-$_Lang['Login_FailCookiePassword']	= 'Błędnie zapisane hasło Gracza, proszę zalogować się ponownie!<br /><a href="login.php">Powrót</a>";
-$_Lang['Login_FailCookieUser']		= 'Błędnie zapisane dane Gracza, proszę zalogować się ponownie!<br/><a href=login.php>Powrót</a>";
-$_Lang['Login_BadSignsUser']			= 'Podano niepoprawny Login!<br/><a href=login.php>Powrót</a>";
-$_Lang['Login_BadUniversum']			= 'Próba logowania na niepoprawne Universum!";
-$_Lang['Login_UniversumNotStarted']	= 'To Universum startuje w dniu<br/>%s o godzinie %s.<br/>W oczekiwaniu na otwarcie Serwera, polecamy zapraszać swoich znajomych do wspólnej rozgrywki poprzez otrzymany w Wiadomości Aktywacyjnej <u>Link Polecający</u>.";
-$_Lang['Login_FailLoginProtection']	= 'System zablokował Ci dalszą możliwość logowania, ponieważ 5 razy nie udało Ci się zalogować do gry!<br/>Musisz odczekać <b class="orange">5 minut</b> do następnej próby logowania.";
-$_Lang['Login_UnknownError']			= 'Wystąpił nieznany błąd, prosimy o kontakt z Administracją!";
+$_Lang ['Err_Title'] = 'Erreur de connexion';
+$_Lang ['Login_FailPassword'] = 'Mot de passe entré invalide! <br/> <a href="login.php"> Retour </a>';
+$_Lang ['Login_FailUser'] = 'Ce lecteur n\'existe pas! <br/> <a href=login.php> Retourner </a>';
+$_Lang ['Login_FailCookiePassword'] = 'Mot de passe du joueur mal enregistré, veuillez vous reconnecter! <br /> <a href="login.php"> Retourner </a>';
+$_Lang ['Login_FailCookieUser'] = 'Données de joueur incorrectement enregistrées, veuillez vous reconnecter! <br/> <a href=login.php> Retourner </a>';
+$_Lang ['Login_BadSignsUser'] = 'Connexion invalide spécifiée! <br/> <a href=login.php> Revenir </a>';
+$_Lang ['Login_BadUniversum'] = 'Essayez de vous connecter à un univers incorrect!';
+$_Lang ['Login_UniversumNotStarted'] = 'Cette université commence le <br/>%, donc à% s. <br/> En attendant l’ouverture du serveur, nous vous recommandons d’inviter vos amis à une partie conjointe via le message d’activation <u> Lien recommandé </ u>.';
+$_Lang ['Login_FailLoginProtection'] = 'Le système vous a empêché de vous connecter car vous n\'avez pas réussi à vous connecter au jeu! <br/> Vous devez attendre <b class = "orange"> 5 minutes </ b> pour la prochaine tentative login.';
+$_Lang ['Login_UnknownError'] = 'Une erreur inconnue s’est produite, veuillez contacter l’administration!';
 
 ?>

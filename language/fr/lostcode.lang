@@ -1,35 +1,35 @@
 <?php
 
-$_Lang['mail_text']         = "Ten email został wygenerowany przez skrypt odzyskiwania kodu aktywacyjnego na <a href="'.GAMEURL_STRICT.'">'.$_GameConfig['game_name'].'</a><br /><br /><b>Twój nowy link aktywacyjny to:</b> {activationlink}<br/><br/>Jeśli to nie ty generowałeś ten link, zignoruj tą wiadomość<br/>Życzymy powodzenia w grze!";
+$_Lang ['mail_text'] = 'Cet e-mail a été généré par le script de récupération du code de récupération de la <a href="'GAMEURL_STRICT.'">'. $ _ GameConfig ['nom du jeu']. '</a> <br /> <br /> <b> Votre nouveau lien d’activation est le suivant: </ b> {activationlink} <br/> <br/> Si vous n’avez pas généré ce lien, veuillez ignorer ce message. <br/> Nous vous souhaitons bonne chance dans le jeu! ';
 
-$_Lang['mail_template']     = "<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">";
-$_Lang['mail_template']    .= '<html>";
-$_Lang['mail_template']    .= '<head>";
-$_Lang['mail_template']    .= '<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">";
-$_Lang['mail_template']    .= '</head>";
-$_Lang['mail_template']    .= '<body>";
-$_Lang['mail_template']    .= $_Lang['mail_text'];
-$_Lang['mail_template']    .= '</body>";
-$_Lang['mail_template']    .= '</html>";
+$_Lang ['mail_template'] = '<! DOCTYPE HTML PUBLIC' - // W3C // DTD HTML 4.01 Transitional // EN ">";
+$_Lang ['mail_template']. = '<Html>';
+$_Lang ['mail_template']. = '<Head>';
+$_Lang ['mail_template']. = '<Méta http-equiv = "Content-Type" content = "text / html; charset = UTF-8">';
+$_Lang ['mail_template']. = '</ Head>';
+$_Lang ['mail_template']. = '<Corps>';
+$_Lang ['mail_template']. = $_Lang ['mail_text'];
+$_Lang ['mail_template']. = '</ Body>';
+$_Lang ['mail_template']. = '</ Html>';
 
-$_Lang['mail_title']        = "Ponowna aktywacja";
+$_Lang ['mail_title'] = 'Réactiver';
 
-$_Lang['ResetCode'] = "Ponowne wysłanie linku aktywacyjnego";
-$_Lang['TextCode1'] = "Proszę o wpisanie adresu e-mail.";
-$_Lang['TextCode2'] = "Po wpisaniu mail'a kliknij generuj, a na adres e-mail dostaniesz wygenerowany nowy kod aktywacyjny.";
-$_Lang['email']    = "EMail";
-$_Lang['ButtonSendPass'] = "Generuj";
-$_Lang['CodeForm'] = "Formularz";
-$_Lang['Title']      = "Generowanie kodu aktywacyjnego";
+$_Lang ['ResetCode'] = 'Renvoi du lien d\'activation';
+$_Lang ['TextCode1'] = 'Veuillez saisir votre adresse email.';
+$_Lang ['TextCode2'] = 'Après avoir saisi l’e-mail et cliqué sur Générer, vous recevrez un nouveau code d’activation généré sur l’adresse e-mail.';
+$_Lang ['email'] = 'EMail';
+$_Lang ['ButtonSendPass'] = 'Générer';
+$_Lang ['CodeForm'] = 'Form';
+$_Lang ['Title'] = 'Générer le code d’activation';
 
-$_Lang['go_back']                = "<br/><br/><a href="lostcode.php">Powrót</a>";
+$_Lang ['go_back'] = '<br/> <br/> <a href="lostcode.php"> Retour </a>';
 
-$_Lang['new_code_sent']          = "Nowy kod aktywacyjny został wysłany na podany Email!'.$_Lang['go_back'];
-$_Lang['smtp_error']             = "Wystąpił błąd podczas wysyłania wiadomości Email:<br/>%s<br/>Proszę <a href="contact.php">skontaktować się z Administratorem</a>!'.$_Lang['go_back'];
-$_Lang['acc_already_activated']  = "To konto jest już aktywne!'.$_Lang['go_back'];
-$_Lang['no_email_in_db']         = "Podany Email nie pasuje do żadnego konta!'.$_Lang['go_back'];
-$_Lang['bad_email_given']        = "Podano niepoprawny adres Email (sprawdź czy przez przypadek nie wpisałeś niedozwolonego znaku)!'.$_Lang['go_back'];
-$_Lang['no_mail_given']          = "Nie podano adresu Email!'.$_Lang['go_back'];
-$_Lang['prevent_spaming']        = "Przepraszamy, ale nowy kod aktywacyjny można wysyłać tylko raz co godzinę - zabezpieczenie przed SPAMem i niepotrzebnym obciążeniem serwera pocztowego.";
+$_Lang ['new_code_sent'] = 'Un nouveau code d\'activation a été envoyé à l\'e-mail indiqué!'. $_Lang ['go_back'];
+$_Lang ['smtp_error'] = 'Une erreur est survenue lors de l\'envoi d\'un email: <br/>% s <br/> Veuillez <a href="contact.php"> contacter l\'administrateur </a>!'. $_Lang [ 'GO_BACK'];
+$_Lang ['acc_already_activated'] = 'Ce compte est déjà actif!'. $_Lang ['go_back'];
+$_Lang ['no_email_in_db'] = 'L\'email donné ne correspond à aucun compte!'. $_Lang ['go_back'];
+$_Lang ['bad_email_given'] = 'Adresse email invalide entrée (cochez si vous avez entré un caractère illégal par mégarde)!'. $_Lang ['go_back'];
+$_Lang ['no_mail_given'] = 'Adresse email non fournie!'. $_Lang ['go_back'];
+$_Lang ['prevent_spaming'] = 'Désolé, mais vous ne pouvez envoyer un nouveau code d\'activation qu\'une fois par heure - Protection SPAM et chargement inutile du serveur de messagerie.';
 
 ?>
