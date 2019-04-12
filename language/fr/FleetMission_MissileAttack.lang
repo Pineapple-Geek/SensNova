@@ -1,17 +1,17 @@
 <?php
 
-$_Lang['MIP_A_M_Cap']= 'Twoje rakiety międzyplanetarne <b>(%s)</b> zostały przechwycone przez przeciwrakiety obrońcy!";
-$_Lang['MIP_D_M_Cap']= 'Rakiety międzyplanetarne agresora <b>(%s)</b> zostały przechwycone przez twoje przeciwrakiety!";
-$_Lang['MIP_Cap_M']= 'Przechwycona ilość rakiet międzyplanetarnych: <b>%s</b>";
-$_Lang['MIP_destroy']= '<b>Zniszczenia dokonane przez rakiety</b>:";
-$_Lang['MIP_A_rp_h'] = "Twoje rakiety międzyplanetarne <b>(%s)</b> wystrzelone z %s %s %s zaatakowały %s %s %s<br/>";
-$_Lang['MIP_D_rp_h'] = "Atak rakietowy <b>(%s)</b> z %s %s %s osiągnął %s %s %s<br/>";
-$_Lang['MIP_nodef']= 'Brak obrony na planecie, nic nie zostało zniszczone!";
-$_Lang['MIP_Debris'] = "<br/><b>Powstałe Pole Zniszczeń</b>";
-$_Lang['MIP_Units']= 'jednostek";
-$_Lang['MIP_DebMet'] = "metalu";
-$_Lang['MIP_DebCry'] = "kryształu";
+$_Lang ['MIP_A_M_Cap'] = 'Vos fusées interplanétaires <b> (% s) </ b> ont été interceptées par les défenses du défenseur!';
+$_Lang ['MIP_D_M_Cap'] = 'Les missiles interplanétaires de l’agresseur <b> (% s) </ b> ont été interceptés par vos contre-attaques!';
+$_Lang ['MIP_Cap_M'] = 'Missile interplanétaire capturé: <b>% s </ b>';
+$_Lang ['MIP_destroy'] = '<b> Détruit par des roquettes </ b>:';
+$_Lang ['MIP_A_rp_h'] = "Vos fusées interplanétaires <b> (% s) </ b> lancées depuis% s% s% s% s attaquées% s% s% s <br/>";
+$_Lang ['MIP_D_rp_h'] = "Une attaque à la roquette <b> (% s) </ b> avec% s% s% s atteinte% s% s% s <br/>";
+$_Lang ['MIP_nodef'] = 'Aucune défense sur la planète, rien n’a été détruit!';
+$_Lang ['MIP_Debris'] = "<br/> <b> Le champ de destruction résultant </ b>";
+$_Lang ['MIP_Units'] = 'unités';
+$_Lang ['MIP_DebMet'] = 'metal';
+$_Lang ['MIP_DebCry'] = "crystal";
 
-$_Lang['RocketReport_Morale_Attacker_Negative'] = "Ze względu na dyspropocję w Poziomie rozwoju Imperium między Tobą a Obrońcą (współczynnik: <b class="skyblue">%s</b>), ten atak był niehonorowy.<br/>Morale twojej załogi spadają do poziomu <b class="red">%s%%</b>.";
+$_Lang ['RocketReport_Morale_Attacker_Negative'] = "En raison de la disproportion entre le niveau de développement de l'Empire entre vous et le protecteur (coefficient: <b class = 'skyblue'>% s </ b>), cet attentat était déshonorant. <br/> Morale votre équipage tombe au niveau <b class = 'red'>% s %% </ b>. ";
 
 ?>

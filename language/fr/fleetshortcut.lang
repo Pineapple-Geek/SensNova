@@ -1,41 +1,41 @@
 <?php
 
-$_Lang['Title']= 'Szybkie linki";
+$_Lang ['Title'] = 'Liens rapides';
 
-$_Lang['Your_shortcuts'] = "Twoje szybkie linki";
-$_Lang['add_new_shortcut'] = "Dodaj nowy link";
-$_Lang['select_shortcut'] = "Wybierz link";
-$_Lang['edit_shortcut'] = "Edytuj";
-$_Lang['delete_shortcut'] = "Usuń";
-$_Lang['are_you_sure'] = "Czy jesteś pewien, że chcesz usunąć ten link?";
-$_Lang['goback'] = "Powrót";
-$_Lang['no_shortcuts'] = "- Nie dodano jeszcze żadnych linków -";
-$_Lang['moon_sign'] = "K";
-$_Lang['debris_sign'] = "PZ";
-$_Lang['planet_sign'] = "P";
+$_Lang ['Your_shortcuts'] = "Vos liens rapides";
+$_Lang ['add_new_shortcut'] = "Ajouter un nouveau lien";
+$_Lang ['select_shortcut'] = "Choisissez un lien";
+$_Lang ["edit_shortcut"] = "Modifier";
+$_Lang ['delete_shortcut'] = "Supprimer";
+$_Lang ['are_you_sure'] = "Êtes-vous sûr de vouloir supprimer ce lien?";
+$_Lang ['goback'] = 'Retour';
+$_Lang ['no_shortcuts'] = "- Aucun lien ajouté pour le moment -";
+$_Lang ['moon_sign'] = 'K';
+$_Lang ['debris_sign'] = "PZ";
+$_Lang ['planet_sign'] = 'P';
 
-$_Lang['NameTip'] = "Nazwa linku zawsze składa się z twojej nazwy oraz nazwy własnej celu (o ile cel istnieje)";
-$_Lang['Name'] = "Nazwa <acronym title="'.$_Lang['NameTip'].'">(opcjonalna)</acronym>";
-$_Lang['Coordinates'] = "Współrzędne";
-$_Lang['Adding_shortcut'] = "Dodawanie nowego linku";
-$_Lang['Editing_shortcut'] = "Edycja linku";
-$_Lang['Deleting_shortcut'] = "Usuwanie linku";
-$_Lang['Add'] = "Dodaj";
-$_Lang['Edit'] = "Zapisz zmiany";
+$_Lang ['NameTip'] = "Le nom du lien est toujours composé de votre nom et du nom de votre propre objectif (si celui-ci existe)";
+$_Lang ['Name'] = "Nom <titre acronyme =". $_Lang['NameTip']. "> (Facultatif) </ acronym>";
+$_Lang ['Coordinates'] = "Coordonnées";
+$_Lang ['Adding_shortcut'] = "Ajout d'un nouveau lien";
+$_Lang ['Editing_shortcut'] = 'Modifier le lien';
+$_Lang ['Deleting_shortcut'] = 'Supprimer un lien';
+$_Lang ['Add'] = 'Ajouter';
+$_Lang ['Edit'] = 'Enregistrer les modifications';
 
-$_Lang['list_planet'] = "Planeta";
-$_Lang['list_debris'] = "Pole zniszczeń";
-$_Lang['list_moon'] = "Księżyc";
+$_Lang ['list_planet'] = "Planète";
+$_Lang ['list_debris'] = "Champ endommagé";
+$_Lang ["list_moon"] = "Moon";
 
-$_Lang['Bad_coordinates'] = "Podano niepoprawne koordynaty!";
-$_Lang['Forbidden_signs_in_name'] = "Nazwa celu może składać się tylko z liter, cyfr, spacji, myślników i podkreśleń!";
-$_Lang['That_target_already_exists'] = "Zapisałeś już taki cel!";
-$_Lang['Bad_ID_given'] = "Podano nieprawidłowy link!";
-$_Lang['This_shortcut_is_not_yours'] = "Ten link nie jest twój!";
-$_Lang['NothingChanged'] = "Brak zmian do zapisania...";
+$_Lang ['Bad_coordinates'] = "Coordonnées incorrectes fournies!";
+$_Lang ['Forbidden_signs_in_name'] = "Le nom de la cible ne peut contenir que des lettres, des chiffres, des espaces, des tirets et des traits de soulignement!";
+$_Lang ['That_target_already_exists'] = "Vous avez déjà enregistré un tel objectif!";
+$_Lang ['Bad_ID_given'] = "Lien invalide fourni!";
+$_Lang ['This_shortcut_is_not_yours'] = "Ce lien ne vous appartient pas!";
+$_Lang ['NothingChanged'] = "Aucune modification à enregistrer ...";
 
-$_Lang['Shortcut_hasbeen_added'] = "Link został dodany!";
-$_Lang['Link_hasbeen_deleted'] = "Link został usunięty!";
-$_Lang['Shortcut_hasbeen_saved'] = "Zmiany zostały zapisane!";
+$_Lang ['Shortcut_hasbeen_added'] = "Le lien a été ajouté!";
+$_Lang ['Link_hasbeen_deleted'] = "Le lien a été supprimé!";
+$_Lang ['Shortcut_hasbeen_saved'] = "Les modifications ont été enregistrées!";
 
 ?>
