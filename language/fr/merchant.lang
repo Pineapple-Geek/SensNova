@@ -1,57 +1,57 @@
 <?php
 
-$_Lang['Trader_Title']               = "Handlarz";
+$_Lang ['Trader_Title'] = 'Marchand';
 
-$_Lang['Trader_DoSell']              = "Sprzedaj";
-$_Lang['Trader_DoBuy']               = "Kup";
-$_Lang['Trader_UsesLeft']			= 'Ilość transakcji Handlarza";
+$_Lang ['Trader_DoSell'] = 'Vendre';
+$_Lang ['Trader_DoBuy'] = 'Acheter';
+$_Lang ['Trader_UsesLeft'] = 'Nombre de transactions';
 
-$_Lang['Trader_Uses_Infinite']		= 'Nieskończona";
-$_Lang['Trader_Uses_InStandBy']		= 'W zapasie";
-$_Lang['Trader_Uses_BuyMore']		= 'Kup więcej transakcji u Handlowca";
-$_Lang['Trader_Uses_BlockedBuy']		= 'Aby korzystać z Handlarza, wykup Konto Pro lub transakcje u Handlowca!";
+$_Lang ['Trader_Uses_Infinite'] = 'Infini';
+$_Lang ['Trader_Uses_InStandBy'] = 'En magasin';
+$_Lang ['Trader_Uses_BuyMore'] = 'Achetez plus de transactions avec le commerçant';
+$_Lang ['Trader_Uses_BlockedBuy'] = 'Pour utiliser le commerçant, achetez un compte Pro ou des transactions avec le commerçant!';
 
-$_Lang['Trader_BadResType']          = "Niepoprawny typ surowców!";
-$_Lang['Trader_BadResMode']          = "Niepoprawny typ transakcji!";
-$_Lang['Trader_ResMinus']            = "Nie można podawać ujemnych surowców!";
-$_Lang['Trader_ResZero']             = "Nie podano surowców do wymiany!";
-$_Lang['Trader_ResZero2']            = "Podano za mało surowców aby dokonać wymiany!";
-$_Lang['Trader_NoEnoughMetal']       = "Nie masz odpowiedniej ilości Metalu!";
-$_Lang['Trader_NoEnoughCrystal']     = "Nie masz odpowiedniej ilości Kryształu!";
-$_Lang['Trader_NoEnoughDeuterium']   = "Nie masz odpowiedniej ilości Deuteru!";
-$_Lang['Trader_Done']                = "Transakcja wykonana pomyślnie!";
+$_Lang ['Trader_BadResType'] = 'Type de ressource incorrect!';
+$_Lang ['Trader_BadResMode'] = 'Type de transaction incorrect!';
+$_Lang ['Trader_ResMinus'] = 'Vous ne pouvez pas donner de ressources négatives!';
+$_Lang ['Trader_ResZero'] = 'Aucune matière première n\'a été échangée!';
+$_Lang ['Trader_ResZero2'] = 'Trop peu de matières premières ont été échangées!';
+$_Lang ['Trader_NoEnoughMetal'] = 'Vous n’avez pas assez de métal!';
+$_Lang ['Trader_NoEnoughCrystal'] = 'Vous n’avez pas assez de Crystal!';
+$_Lang ['Trader_NoEnoughDeuterium'] = 'Vous n’avez pas assez de deutérium!';
+$_Lang ['Trader_Done'] = 'Transaction terminée avec succès!';
 
-$_Lang['Trader_SellMet']             = "Sprzedaj: Metal";
-$_Lang['Trader_SellCry']             = "Sprzedaj: Kryształ";
-$_Lang['Trader_SellDeu']             = "Sprzedaj: Deuter";
-$_Lang['Trader_BuyMet']              = "Kup: Metal";
-$_Lang['Trader_BuyCry']              = "Kup: Kryształ";
-$_Lang['Trader_BuyDeu']              = "Kup: Deuter";
+$_Lang ['Trader_SellMet'] = 'Vendre: Métal';
+$_Lang ['Trader_SellCry'] = 'Vendre: Cristal';
+$_Lang ['Trader_SellDeu'] = 'Vendre: Deuter';
+$_Lang ['Trader_BuyMet'] = 'Acheter: Métal';
+$_Lang ['Trader_BuyCry'] = 'Acheter: Cristal';
+$_Lang ['Trader_BuyDeu'] = 'Acheter: Deuter';
 
-$_Lang['Trader_PercentMode']         = "Stosunek zamiany";
-$_Lang['MainResource_Mode1']         = "Ilość surowca do <b class="orange">Sprzedania</b>";
-$_Lang['MainResource_Mode2']         = "Ilość surowca do <b class="orange">Kupienia</b>";
-$_Lang['OtherResources_Mode1']       = "Zamiana na";
-$_Lang['OtherResources_Mode2']       = "Zamiana z";
+$_Lang ['Trader_PercentMode'] = 'Ratio d\'échange';
+$_Lang ['MainResource_Mode1'] = 'Quantité de matière première à <b class = "orange"> Ventes </ b>';
+$_Lang ['MainResource_Mode2'] = 'Quantité de matière première à <b class = "orange"> Achats </ b>';
+$_Lang ['OtherResources_Mode1'] = 'Remplacer par';
+$_Lang ['OtherResources_Mode2'] = 'Remplacement par';
 
-$_Lang['Trader_Needen']              = "Potrzebna ilość";
-$_Lang['Trader_Receiving']           = "Otrzymasz";
-$_Lang['Trader_GoBack']              = "Powrót";
-$_Lang['Trader_Max']                 = "Max";
-$_Lang['Trader_Zero']                = "Zero";
+$_Lang ['Trader_Needen'] = 'Montant nécessaire';
+$_Lang ['Trader_Receiving'] = 'Vous obtiendrez';
+$_Lang ['Trader_GoBack'] = 'Retour';
+$_Lang ['Trader_Max'] = 'Max';
+$_Lang ['Trader_Zero'] = 'Zero';
 
-$_Lang['Trader_CantUseTrader']		= '<b class="red">Aby korzystać z Handlarza, musisz mieć wykupione pakiety transakcji od Handlowca lub Konto Pro!</b>";
+$_Lang ['Trader_CantUseTrader'] = '<b class = "red"> Pour utiliser le commerçant, vous devez avoir acheté des packages pour les transactions du compte marchand ou professionnel! </ B>';
 
-$_Lang['mod_ma_title'] = "Handlarz";
-$_Lang['mod_ma_typer'] = "Sprzedaj";
-$_Lang['mod_ma_rates'] = "Preferowany przelicznik 4:2:1";
-$_Lang['mod_ma_buton'] = "Handluj";
-$_Lang['mod_ma_noten'] = "Brak surowca";
-$_Lang['mod_ma_done']  = "Dziękujemy za zaufanie i polecamy się na przyszłość.";
-$_Lang['mod_ma_error'] = "Błąd";
-$_Lang['mod_ma_donet'] = "Tranzakcja wykonana pomyślnie!";
-$_Lang['mod_ma_excha'] = "Dokonaj tranzakcji";
-$_Lang['mod_ma_cours'] = "Przelicznik";
-$_Lang['mod_ma_nbre']  = "Szereg !!!";
+$_Lang ['mod_ma_title'] = 'Marchand';
+$_Lang ['mod_ma_typer'] = 'Vendre';
+$_Lang ['mod_ma_rates'] = 'Taux de conversion préféré 4: 2: 1';
+$_Lang ['mod_ma_buton'] = 'Commerce';
+$_Lang ['mod_ma_noten'] = 'Pas de matière première';
+$_Lang ['mod_ma_done'] = 'Merci de nous avoir fait confiance et de nous recommander nous-mêmes pour le futur.';
+$_Lang ['mod_ma_error'] = 'Erreur';
+$_Lang ['mod_ma_donet'] = 'La bonne affaire a été réalisée avec succès!';
+$_Lang ['mod_ma_excha'] = 'Transact';
+$_Lang ['mod_ma_cours'] = 'Convertisseur de devises';
+$_Lang ['mod_ma_nbre'] = 'Série !!!';
 
 ?>
