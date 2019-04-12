@@ -1,41 +1,41 @@
 <?php
 
-$_Lang['Title']              = "Raport";
-$_Lang['Table_title']        = "Wyślij raport";
+$_Lang ['Title'] = 'Rapport';
+$_Lang ['Table_title'] = "Envoyer un rapport";
 
-$_Lang['Report_type']        = "Typ raportu";
-$_Lang['Type_user_badmsg']   = "Wiadomość od gracza łamiąca Regulamin";
-$_Lang['Type_user_bash']     = "Złamanie reguły Bashu";
-$_Lang['Type_user_push']     = "Złamanie reguły Pushu";
-$_Lang['Type_user_other']    = "Inne przewinienie gracza";
-$_Lang['Type_sys_badmsg']    = "Błąd systemu wiadomości";
-$_Lang['Type_sys_error']     = "Błąd systemu gry";
-$_Lang['Type_mail_smtp']     = "Błąd zmiany adresu Email";
-$_Lang['Type_other']			= 'Inne";
-$_Lang['Type_user_badmsg_chat'] = "Wiadomość na Chacie łamiąca Regulamin";
+$_Lang ['Report_type'] = "Type de rapport";
+$_Lang ['Type_user_badmsg'] = "Message du joueur enfreignant les règlements";
+$_Lang ['Type_user_bash'] = "Rompre la règle Bash";
+$_Lang ['Type_user_push'] = "Rompre la règle Push";
+$_Lang ['Type_user_other'] = "Mauvais comportement d'un autre joueur";
+$_Lang ['Type_sys_badmsg'] = "Erreur du système de messagerie";
+$_Lang ['Type_sys_error'] = "Erreur du système de jeu";
+$_Lang ['Type_mail_smtp'] = "Erreur lors de la modification de l'adresse e-mail";
+$_Lang ['Type_other'] = 'Autre';
+$_Lang ['Type_user_badmsg_chat'] = "Message au chalet enfreignant les règlements";
 
-$_Lang['Additional_info']        = "Dodatkowe instrukcje<br/><span style="font-size: 70%">(Jeśli są podane, proszę postępować zgodnie z nimi)</span>";
-$_Lang['add_info_none']          = "Brak dodatkowych instrukcji";
-$_Lang['add_info_bash']          = "1. Podaj godzinę ataków<br/>2. Podaj koordynaty zaatakowanej planety";
-$_Lang['add_info_push']          = "1. Podaj godzinę otrzymania surowców<br/>2. Podaj koordynaty planety gracza<br/>3. Podaj ilość surowców<br/>4. Podaj godzinę odesłania surowców";
-$_Lang['add_info_user_other']    = "1. Podaj rodzaj przewinienia (najlepiej złamany punkt Regulaminu)<br/>2. Podaj dokładne informacje o przewinieniu gracza";
-$_Lang['add_info_sys_badmsg']    = "1. Podaj typ wiadomości<br/>2. Podaj okoliczności wystąpienia (po jakiej akcji dostałeś wiadomość)<br/>3. Podaj, czy wystąpiły jakieś dodatkowe komplikacje";
-$_Lang['add_info_sys_error']     = "1. Podaj dokładny i szczegółowy opis błędu";
-$_Lang['add_info_user_badmsg']   = "(Opcjonalne)<br/>1. Podaj, czy to pierwsza taka wiadomość<br/>2. Jeśli nie, podaj, gdzie dostawałeś już takie wiadomości od tego gracza (Chat, PW)";
+$_Lang ['Additional_info'] = "Instructions supplémentaires <br/> <span style =" font-size: 70% "> (s’ils sont indiqués, veuillez les suivre) </ span>";
+$_Lang ['add_info_none'] = "Aucune instruction supplémentaire";
+$_Lang ['add_info_bash'] = "1. Entrez l’heure des attaques <br/> 2. Entrez les coordonnées de la planète attaquée";
+$_Lang ['add_info_push'] = "1. Entrez l'heure de réception des matières premières <br/> 2. Entrez les coordonnées de la planète du joueur <br/> 3. Entrez la quantité de matières premières <br/> 4. Spécifiez l'heure de restitution des matières premières";
+$_Lang ['add_info_user_other'] = "1. Spécifiez le type d'infraction (de préférence un point de rupture du Règlement) <br/> 2. Fournissez des informations exactes sur l'infraction du joueur";
+$_Lang ['add_info_sys_badmsg'] = "1. Entrez le type de message <br/> 2. Spécifiez les circonstances de l'occurrence (après quelle action vous avez reçu le message) <br/> 3. Indiquez s'il existe des complications supplémentaires";
+$_Lang ['add_info_sys_error'] = "1. Fournissez une description exacte et détaillée de l’erreur";
+$_Lang ['add_info_user_badmsg'] = "(Facultatif) <br/> 1. Veuillez entrer le premier message de ce type <br/> 2. Dans le cas contraire, entrez l'endroit où vous avez reçu de tels messages de ce joueur (Chat, PW)" ;
 
-$_Lang['Report_Username']    = "Nick gracza<br/><span style="font-size: 70%">(Jeśli zgłoszenie dotyczy gracza)</span>";
+$_Lang ['Report_Username'] = "Nick du joueur <br/> <span style =" font-size: 70% "> (Si l’entrée concerne un joueur) </ span>";
 
-$_Lang['User_info']          = "Dodatkowe informacje<br/><span style="font-size: 70%">(Wpisz wszelkie dodatkowe informacje)</span>";
+$_Lang ['User_info'] = "Informations complémentaires <br/> <span style =" font-size: 70% "> (Entrez toute information supplémentaire) </ span>";
 
-$_Lang['Send_report']        = "Wyślij raport";
+$_Lang ['Send_report'] = "Envoyer un rapport";
 
-$_Lang['Error_badtype']          = "Niepoprawny typ raportu!";
-$_Lang['Error_nousername']       = "Musisz podać nazwę gracza, którego dotyczy zgłoszenie!";
-$_Lang['Error_username_signs']   = "Podana nazwa gracza zawiera zabronione znaki!";
-$_Lang['Error_user_noexists']    = "Podany gracz nie istnieje!";
-$_Lang['Error_no_info_given']    = "Musisz podać dodatkowe informacje, które wymienione są w Instrukcji!";
-$_Lang['Error_no_element_given'] = "Nie podano Identyfikatora elementu, który jest zgłaszany!<br/><span style="font-size: 70%">(Jeśli nic nie mieszałeś w linku, proszę zgłosić to jako błąd Systemu)</span>";
+$_Lang ['Error_badtype'] = "Type de rapport incorrect!";
+$_Lang ['Error_nousername'] = "Vous devez entrer le nom du joueur que vous signalez!";
+$_Lang ['Error_username_signs'] = "Le nom du joueur donné contient des caractères interdits!";
+$_Lang ['Error_user_noexists'] = "Le lecteur spécifié n’existe pas!";
+$_Lang ['Error_no_info_given'] = "Vous devez fournir des informations supplémentaires listées dans l'instruction!";
+$_Lang ['Error_no_element_given'] = "L'identifiant de l'article n'est pas fourni, cela est signalé! <br/> <span style =" font-size: 70% "> (Si vous n'avez pas mélangé quoi que ce soit dans le lien, signalez-le comme une erreur système) </ span> « ;
 
-$_Lang['Report_sent']            = "Raport został wysłany!";
+$_Lang ['Report_sent'] = "Le rapport a été envoyé!";
 
 ?>

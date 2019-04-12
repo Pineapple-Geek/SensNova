@@ -5,83 +5,83 @@ if(!defined('INSIDE'))
 	die('Access Denied!');
 }
 
-$_Lang['Title']							= 'Rejestracja";
+$_Lang ['Title'] = 'Inscription';
 
-$_Lang['Description']					= 'Darmowa Rejestracja w grze '.$_GameConfig['game_name'];
+$_Lang ['Description'] = 'Inscription gratuite dans le jeu'. $ _ GameConfig ['game_name'];
 
-$_Lang['Universe']						= 'Świat Gry";
-$_Lang['UniSelector']					= 'Universum";
-$_Lang['SelectUni_2']					= 'Universum 2";
-$_Lang['SelectUni_3']					= 'Universum 3";
+$_Lang ['Universe'] = 'Monde du jeu';
+$_Lang ['UniSelector'] = 'Universum';
+$_Lang ['SelectUni_2'] = 'Universum 2';
+$_Lang ['SelectUni_3'] = 'Universum 3';
 
-// Registration form
-$_Lang['registry']						= 'Rejestracja";
-$_Lang['Input_Username']					= 'Nazwa gracza";
-$_Lang['Input_Passoword']				= 'Hasło";
-$_Lang['Input_Email']					= 'Email";
-$_Lang['Input_Galaxy']					= 'Galaktyka";
-$_Lang['Input_Rules']					= 'Akceptuję";
-$_Lang['signup']							= ' Rejestruj ";
+// formulaire d'inscription
+$_Lang ['registry'] = 'Registration';
+$_Lang ['Input_Username'] = 'Nom du joueur';
+$_Lang ['Input_Passoword'] = 'Mot de passe';
+$_Lang ['Input_Email'] = 'Email';
+$_Lang ['Input_Galaxy'] = 'Galaxy';
+$_Lang ['Input_Rules'] = 'J'accepte';
+$_Lang ['signup'] = 'Inscrivez-vous';
 
-$_Lang['UniInfo_GameSpeed']				= 'Prędkość Gry";
-$_Lang['UniInfo_ResSpeed']				= 'Prędkość Wydobycia";
-$_Lang['UniInfo_FleetSpeed']				= 'Prędkość Flot";
-$_Lang['UniInfo_StartDate']				= 'Data Startu";
-$_Lang['UniInfo_WorldSize']				= 'Ilość Galaktyk";
-$_Lang['UniInfo_ACSOn']					= 'ACS (Ataki i Obrona)";
-$_Lang['UniInfo_RapidOn']				= 'Szybkie Działa";
-$_Lang['UniInfo_FleetDeb']				= 'Złom z Floty";
-$_Lang['UniInfo_DefDeb']					= 'Złom z Obrony";
-$_Lang['UniInfo_MotherSize']				= 'Planeta-Matka";
+$_Lang ['UniInfo_GameSpeed'] = 'Vitesse de jeu';
+$_Lang ['UniInfo_ResSpeed'] = 'Taux d’extraction';
+$_Lang ['UniInfo_FleetSpeed'] = 'Vitesse de la flotte';
+$_Lang ['UniInfo_StartDate'] = 'Date de début';
+$_Lang ['UniInfo_WorldSize'] = 'Quantité de galaxies';
+$_Lang ['UniInfo_ACSOn'] = 'ACS (Attaques et Défense)';
+$_Lang ['UniInfo_RapidOn'] = 'Travaux rapides';
+$_Lang ['UniInfo_FleetDeb'] = 'Rebuts de la flotte';
+$_Lang ['UniInfo_DefDeb'] = 'Scrap from Defence';
+$_Lang ['UniInfo_MotherSize'] = 'Planet Mother';
 
-$_Lang['UniOpt_Active']					= 'Aktywne";
-$_Lang['UniOpt_InActive']				= 'Nieaktywne";
-$_Lang['UniInfo_MotherFields']			= 'pól";
+$_Lang ['UniOpt_Active'] = 'Actif';
+$_Lang ['UniOpt_InActive'] = 'Inactif';
+$_Lang ['UniInfo_MotherFields'] = 'champs';
 
-$_Lang['ReCaptcha_instructions_visual']	= 'Przepisz kod z obrazka:";
-$_Lang['ReCaptcha_instructions_visual']	= 'Przepisz kod z obrazka:";
-$_Lang['ReCaptcha_instructions_audio']	= 'Przepisz to, co słyszysz:";
-$_Lang['ReCaptcha_play_again']			= 'Jeszcze raz";
-$_Lang['ReCaptcha_cant_hear_this']		= 'Pobierz jako MP3";
-$_Lang['ReCaptcha_visual_challenge']		= 'Chcę przepisać kod z obrazka";
-$_Lang['ReCaptcha_audio_challenge']		= 'Chcę przepisać kod ze słuchu";
-$_Lang['ReCaptcha_refresh_btn']			= 'Nowy kod";
-$_Lang['ReCaptcha_help_btn']				= 'Pomoc";
-$_Lang['ReCaptcha_incorrect_try_again']	= 'Źle przepisano kod, spróbuj ponownie";
+$_Lang ['ReCaptcha_instructions_visual'] = 'Réécrivez le code de l’image:';
+$_Lang ['ReCaptcha_instructions_visual'] = 'Réécrivez le code de l’image:';
+$_Lang ['ReCaptcha_instructions_audio'] = 'Réécrivez ce que vous entendez:';
+$_Lang ['ReCaptcha_play_again'] = 'Encore une fois';
+$_Lang ['ReCaptcha_cant_hear_this'] = 'Télécharger en MP3';
+$_Lang ['ReCaptcha_visual_challenge'] = 'Je souhaite réécrire le code de la photo';
+$_Lang ['ReCaptcha_audio_challenge'] = 'Je souhaite réécrire le code à l'oreille';
+$_Lang ['ReCaptcha_refresh_btn'] = 'Nouveau code';
+$_Lang ['ReCaptcha_help_btn'] = 'Aide';
+$_Lang ['ReCaptcha_incorrect_try_again'] = 'Réécriture incorrecte du code, essayez à nouveau';
 
-$_Lang['JSLang'] = array
+$_Lang ['JSLang'] = array
 (
-	'Info_RequestSent'			=> '<img src="./images/ajaxload.gif" style="margin-right: 10px;" /> Trwa tworzenie konta...',
-	
-	'Alert_UsernameShort'		=> 'Nazwa gracza musi być dłuższa niż 3 znaki!',
-	'Alert_UsernameLong'		=> 'Nazwa gracza nie może być dłuższa niż 64 znaków!',
-	'Alert_PasswordShort'		=> 'Hasło musi być dłuższe niż 3 znaki!',
-	'Alert_NoEmail'				=> 'Musisz podać aktywny adres Email!',
-	'Alert_NoGalaxy'			=> 'Musisz podać, w której Galaktyce chcesz rozpocząć rozgrywkę!',
-	'Alert_RulesNotAccepted'	=> 'Musisz zaakceptować Regulamin!',
-	'Alert_CaptchaNotWriten'	=> 'Nie przepisano kodu ReCaptcha!',
-	'Alert_RequestTimeout'		=> 'Przekroczono czas żądania. Prosimy spróbować ponownie za kilka chwil...',
-	'Alert_RequestError'		=> 'Wystąpił błąd podczas przetwarzania żądania. Prosimy o kontakt z Administracją...',
-	'Alert_JSONError'			=> 'Wystąpił błąd podczas przetwarzania odpowiedzi serwera. Prosimy o kontakt z Administracją...',
-	
-	'Alert_RequestCode_1'		=> 'Nazwa gracza musi być dłuższa niż 3 znaki!',
-	'Alert_RequestCode_2'		=> 'Nazwa gracza nie może być dłuższa niż 64 znaków!',
-	'Alert_RequestCode_3'		=> 'Nazwa gracza zawiera niedozwolone znaki!',
-	'Alert_RequestCode_4'		=> 'Hasło musi być dłuższe niż 3 znaki!',
-	'Alert_RequestCode_5'		=> 'Musisz podać aktywny adres Email!',
-	'Alert_RequestCode_6'		=> 'Adres EMail zawiera niedozwolone znaki!',
-	'Alert_RequestCode_7'		=> 'Adres EMail wygląda na niepoprawny!',
-	'Alert_RequestCode_8'		=> 'Przepraszamy, ale nie akceptujemy skrzynek tymczasowych...',
-	'Alert_RequestCode_9'		=> 'Musisz zaakceptować Regulamin!',
-	'Alert_RequestCode_10'		=> 'Przepisany kod ReCaptcha jest niepoprawny!',
-	'Alert_RequestCode_11'		=> 'Taka Nazwa gracza jest już zajęta!',
-	'Alert_RequestCode_12'		=> 'Taki Adres EMail jest już w użyciu!',
-	'Alert_RequestCode_13'		=> 'Musisz podać, w której Galaktyce chcesz rozpocząć rozgrywkę!',
-	'Alert_RequestCode_14'		=> 'Przekroczyłeś wielkość Universum podając numer Galaktyki!',
-	'Alert_RequestCode_15'		=> 'Przepraszamy, ale w tej Galaktyce nie ma już wolnych miejsc!',
-	
-	'Info_RequestCode_1'		=> 'Twoje konto zostało założone poprawnie, za chwilę nastapi przejście do gry...',
-	'Info_RequestCode_2'		=> 'Twoje konto zostało założone poprawnie. Teraz oczekuj na otwarcie tego Universum...',
+'Info_RequestSent' => « <img src = "./ images / ajaxload.gif" style = "margin-right: 10px;" /> Créer un compte ... ',
+
+'Alert_UsernameShort' => 'Le nom du joueur doit comporter plus de 3 caractères!',
+'Alert_UsernameLong' => 'Le nom du joueur ne peut pas dépasser 64 caractères!',
+'Alert_PasswordShort' => 'Le mot de passe doit comporter plus de 3 caractères!',
+'Alert_NoEmail' => 'Vous devez fournir une adresse e-mail active!',
+'Alert_NoGalaxy' => 'Vous devez spécifier dans quelle galaxie vous voulez commencer le jeu!',
+'Alert_RulesNotAccepted' => 'Vous devez accepter le règlement!',
+'Alert_CaptchaNotWriten' => 'Le code ReCaptcha n’a pas été réécrit!',
+'Alert_RequestTimeout' => 'La demande a expiré. Veuillez réessayer dans quelques instants ... ',
+'Alert_RequestError' => 'Une erreur est survenue lors du traitement de la demande. S'il vous plaît contacter l'administration ... ',
+'Alert_JSONError' => 'Une erreur est survenue lors du traitement de la réponse du serveur. S'il vous plaît contacter l'administration ... ',
+
+'Alert_RequestCode_1' => 'Le nom du joueur doit comporter plus de 3 caractères!',
+'Alert_RequestCode_2' => 'Le nom du joueur ne peut pas dépasser 64 caractères!',
+'Alert_RequestCode_3' => 'Le nom du joueur contient des caractères illégaux!',
+'Alert_RequestCode_4' => 'Le mot de passe doit comporter plus de 3 caractères!',
+'Alert_RequestCode_5' => 'Vous devez fournir une adresse e-mail active!',
+'Alert_RequestCode_6' => 'L’adresse email contient des caractères illégaux!',
+'Alert_RequestCode_7' => 'L'adresse email semble incorrecte!',
+'Alert_RequestCode_8' => 'Désolé, nous n'acceptons pas les boîtes aux lettres temporaires ...',
+'Alert_RequestCode_9' => 'Vous devez accepter le règlement!',
+'Alert_RequestCode_10' => 'Le code ReCaptcha réécrit est incorrect!',
+'Alert_RequestCode_11' => 'Ce nom de joueur est déjà pris!',
+'Alert_RequestCode_12' => 'Cette adresse email est déjà utilisée!',
+'Alert_RequestCode_13' => 'Vous devez spécifier dans quelle galaxie vous voulez commencer le jeu!',
+'Alert_RequestCode_14' => 'Vous avez dépassé la taille d’Universum en donnant le numéro du Galaxy!',
+'Alert_RequestCode_15' => 'Désolé, il n’ya pas d’espace vide dans cette galaxie!',
+
+'Info_RequestCode_1' => 'Votre compte a été configuré avec succès, le jeu prendra le relais ...',
+'Info_RequestCode_2' => 'Votre compte a été créé correctement. Maintenant, attendez que l'Universum s'ouvre ... ',
 );
 
 ?>
