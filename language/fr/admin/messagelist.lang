@@ -1,4 +1,4 @@
-<? Php
+<?php
 
 $_Lang ['mlst_title'] = "Liste des messages";
 $_Lang ['mlst_mess_del'] = "Messages supprimés";

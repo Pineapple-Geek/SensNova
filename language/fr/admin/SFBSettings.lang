@@ -1,4 +1,4 @@
-<? Php
+<?php
 
 $_Lang ['SFB_Title'] = "Gestion des verrous de fonds";
 

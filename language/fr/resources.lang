@@ -25,6 +25,6 @@ $_Lang['Total']                                      = "Łącznie";
 
 $_Lang['MineUsage']                                  = "Wydobycie";
 $_Lang['Res_SetThisUsage2All']                       = "Ustaw takie same wartości Wydobycia na Wszystkich Planetach";
-$_Lang['Res_GeologistBonus']                         = "Bonus wydobycia surowców za <a href="officers.php" class="skyblue">Geologa</a>";
+$_Lang['Res_GeologistBonus']                         = "Bonus wydobycia surowców za <a href='officers.php' class='skyblue'>Geologa</a>";
 
 ?>

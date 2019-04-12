@@ -1,4 +1,4 @@
-<? Php
+<?php
 
 $_Lang ['PageTitle'] = "Aperçu du lecteur";
 

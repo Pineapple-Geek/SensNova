@@ -1,4 +1,4 @@
-<? Php
+<?php
 
 $_Lang ['Page_Title'] = "Comparer les navires";
 

@@ -1,4 +1,4 @@
-<? Php
+<?php
 
 $_Lang ['UserDevScanner_Title'] = "Analyse du développement du lecteur";
 

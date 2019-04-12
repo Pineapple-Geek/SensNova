@@ -1,4 +1,4 @@
-<? Php
+<?php
 
 $_Lang ['logout'] = "Déconnexion";
 $_Lang ['player'] = "Player";
@@ -10,9 +10,9 @@ $_Lang ['notes'] = "Notes";
 $_Lang ['rules'] = "Réglementation";
 $_Lang ['contact'] = "Contact";
 $_Lang ['chat'] = "Chat";
-$_Lang ['admin_cp'] = "<b style = "color: lime;"> AdminPanel </ b>";
-$_Lang ['go_cp'] = "<b style = "color: lime;"> Panneau GO </ b>";
-$_Lang ['sgo_cp'] = "<b style = "color: lime;"> Panneau SGO </ b>";
+$_Lang ['admin_cp'] = "<b style = 'color: lime;'> AdminPanel </ b>";
+$_Lang ['go_cp'] = "<b style = 'color: lime;'> Panneau GO </ b>";
+$_Lang ['sgo_cp'] = "<b style = 'color: lime;'> Panneau SGO </ b>";
 $_Lang ['forum'] = "Forum";
 $_Lang ['banned'] = "Banni";
 $_Lang ['ReportLink'] = "Système de reporting";

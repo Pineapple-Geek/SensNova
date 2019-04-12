@@ -1,4 +1,4 @@
-<? Php
+<?php
 
 $_Lang ['PageTitle'] = "Gestion de la technologie du joueur";
 

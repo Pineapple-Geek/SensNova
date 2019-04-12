@@ -1,4 +1,4 @@
-<? Php
+<?php
 
 $_Lang ['PageTitle'] = "Ajout de ProxyIP à la base";
 

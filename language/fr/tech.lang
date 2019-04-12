@@ -1,4 +1,4 @@
-	<? Php
+<?php
 
 	$_Lang ['Tech'] = "Technologie";
 	$_Lang ['Requirements'] = "Requirements";
@@ -35,7 +35,7 @@
 	$_Lang ['type_mission'] [15] = "Expédition";
 	$_Lang ['type_mission_quickres'] = "Premières de transport";
 
-	$_Lang ['tech'] = tableau
+	$_Lang ['tech'] = array
 	(
 	0 => "Bâtiments",
 	1 => "mine de métal",
@@ -69,7 +69,7 @@
 	113 => 'technologie énergétique',
 	114 => 'technologie hyperspace',
 	115 => 'Entraînement à combustion',
-	117 => 'lecteur d'impulsion',
+	117 => 'lecteur d\'impulsion',
 	118 => 'lecteur Hyperdrive',
 	120 => 'technologie laser',
 	121 => 'Ion Technology',
@@ -119,14 +119,14 @@
 	503 => 'Fusée interplanétaire',
 	);
 
-	$_Lang ['res'] ['descriptions'] = tableau
+	$_Lang ['res'] ['descriptions'] = array
 	(
 	1 => "Fournisseur de la matière première principale pour la construction de structures porteuses de bâtiments et d'engins spatiaux.",
 	2 => "Fournisseur de la matière première principale pour la construction de composants électroniques et d'alliages métalliques",
 	3 => "Séparer les atomes de deutérium (isotope de l'hydrogène lourd) de ceux de l'hydrogène léger de l'eau de la planète.",
 	4 => "Une centrale solaire acquiert l’énergie du rayonnement solaire. Presque tous les bâtiments ont besoin d’énergie pour fonctionner.",
 	12 => "La centrale à fusion reçoit de l'énergie de la combinaison de deux atomes de deutérium en un atome d'hélium.",
-	14 => "L’usine de robots fournit une main-d’œuvre peu coûteuse qui permet d’élargir l’infrastructure de la planète." Chaque niveau ultérieur de l’usine de robots augmente la vitesse de construction. ",
+	14 => "L’usine de robots fournit une main-d’œuvre peu coûteuse qui permet d’élargir l’infrastructure de la planète. Chaque niveau ultérieur de l’usine de robots augmente la vitesse de construction. ",
 	15 => "Il présente le couronnement des travaux dans le domaine de la robotique. Chaque niveau ultérieur réduit de moitié le temps de construction des bâtiments, des navires et des défenses.",
 	21 => "Toutes sortes de navires et de systèmes de défense sont construits dans le chantier naval.",
 	22 => "C’est le lieu de stockage du minerai métallique fraîchement extrait avant son traitement ultérieur.",
@@ -134,8 +134,7 @@
 	24 => "Ce sont d’énormes réservoirs pour stocker du deutérium fraîchement préparé.",
 	31 => "Pour découvrir de nouvelles technologies, un laboratoire de recherche est nécessaire.",
 	33 => "Terraformer est nécessaire pour préparer les zones inaccessibles au développement.",
-	34 => "Le gisement allié offre la possibilité de fournir du carburant aux flottes amies qui aident ou sont stationnées en orbite pendant les opérations de défense."
-
+	34 => "Le gisement allié offre la possibilité de fournir du carburant aux flottes amies qui aident ou sont stationnées en orbite pendant les opérations de défense.",
 	40 => 'Bâtiments spéciaux',
 	41 => 'Moon station',
 	42 => 'capteurs Falang',
@@ -152,7 +151,7 @@
 	113 => 'technologie énergétique',
 	114 => 'technologie hyperspace',
 	115 => 'Entraînement à combustion',
-	117 => 'lecteur d'impulsion',
+	117 => 'lecteur d\'impulsion',
 	118 => 'lecteur Hyperdrive',
 	120 => 'technologie laser',
 	121 => 'Ion Technology',
@@ -209,7 +208,7 @@ $_Lang['res']['descriptions'] = array
 	3 => "Séparer les atomes de deutérium (isotope de l'hydrogène lourd) de ceux de l'hydrogène léger de l'eau de la planète.",
 	4 => "Une centrale solaire acquiert l’énergie du rayonnement solaire. Presque tous les bâtiments ont besoin d’énergie pour fonctionner.",
 	12 => "La centrale à fusion reçoit de l'énergie de la combinaison de deux atomes de deutérium en un atome d'hélium.",
-	14 => "L’usine de robots fournit une main-d’œuvre peu coûteuse qui permet d’élargir l’infrastructure de la planète." Chaque niveau ultérieur de l’usine de robots augmente la vitesse de construction. ",
+	14 => "L’usine de robots fournit une main-d’œuvre peu coûteuse qui permet d’élargir l’infrastructure de la planète. Chaque niveau ultérieur de l’usine de robots augmente la vitesse de construction. ",
 	15 => "Il présente le couronnement des travaux dans le domaine de la robotique. Chaque niveau ultérieur réduit de moitié le temps de construction des bâtiments, des navires et des défenses.",
 	21 => "Toutes sortes de navires et de systèmes de défense sont construits dans le chantier naval.",
 	22 => "C’est le lieu de stockage du minerai métallique fraîchement extrait avant son traitement ultérieur.",
@@ -217,7 +216,7 @@ $_Lang['res']['descriptions'] = array
 	24 => "Ce sont d’énormes réservoirs pour stocker du deutérium fraîchement préparé.",
 	31 => "Pour découvrir de nouvelles technologies, un laboratoire de recherche est nécessaire.",
 	33 => "Terraformer est nécessaire pour préparer les zones inaccessibles au développement.",
-	34 => "Le gisement allié offre la possibilité de fournir du carburant aux flottes amis qui, lors d'opérations de défense, aident ou sont en orbite."
+	34 => "Le gisement allié offre la possibilité de fournir du carburant aux flottes amis qui, lors d'opérations de défense, aident ou sont en orbite.",
 	41 => "Il n’ya pas d’atmosphère sur la lune, il faut donc construire une station lunaire avant de s’installer.",
 	42 => "La phalange de capteurs vous permet d’observer les mouvements des flottes. Plus elle est étendue, plus sa portée est grande.",
 	43 => "Le téléporteur est un énorme relais capable d’envoyer des flottes entre galaxies sans perte de temps.",
@@ -226,13 +225,13 @@ $_Lang['res']['descriptions'] = array
 
 	106 => "Avec cette technologie, vous pouvez obtenir des informations sur d’autres planètes.",
 	108 => "En augmentant l'efficacité des ordinateurs, vous pouvez contrôler davantage de parcs. Chaque niveau de technologie informatique augmente le nombre maximal de parcs de 1.",
-	109 => "La technologie de combat améliore les systèmes de combat." Chaque niveau de technologie de combat augmente la puissance de combat des unités de 10% de la valeur initiale. ",
+	109 => "La technologie de combat améliore les systèmes de combat. Chaque niveau de technologie de combat augmente la puissance de combat des unités de 10% de la valeur initiale. ",
 	110 => "La technologie de protection améliore les revêtements protecteurs autour des navires et des systèmes de défense, et chaque niveau de technologie de protection augmente l'efficacité des revêtements de 10% de la valeur de base.",
 	111 => "L’alliage métallique spécial améliore les propriétés de l’armure, son efficacité augmente de 10% de sa valeur initiale.",
 	113 => "La maîtrise de différents types d'énergie est nécessaire pour de nombreuses nouvelles technologies.",
 	114 => "En combinant les 4ème et 5ème dimensions, il est maintenant possible de construire un entraînement innovant plus économique et plus efficace.",
 	115 => "Le développement ultérieur de ce lecteur signifie que certains navires se déplacent plus rapidement. Surtout, chaque niveau augmente la vitesse de 10% de la valeur de base.",
-	117 => "La propulsion est basée sur le principe du recul." Le développement ultérieur de cette propulsion signifie que certains navires se déplacent plus rapidement, tout d'abord chaque niveau augmente leur vitesse de 20% de la valeur de base. ",
+	117 => "La propulsion est basée sur le principe du recul. Le développement ultérieur de cette propulsion signifie que certains navires se déplacent plus rapidement, tout d'abord chaque niveau augmente leur vitesse de 20% de la valeur de base. ",
 	118 => "L'espace de courbe autour du navire, le développement de cette propulsion augmente efficacement la vitesse de certains navires de 30% de la valeur de base.",
 	120 => "Le faisceau lumineux résultant provoque des dommages importants à la cible choisie.",
 	121 => "Développe l'efficacité des radiations mortelles d'ions accélérés, lesquels accélèrent les dégâts causés aux objets qu'ils atteignent.",
@@ -260,12 +259,12 @@ $_Lang['res']['descriptions'] = array
 	216 => "Une station orbitale est une autre étape dans la défense de votre planète.",
 	217 => "Les progrès de la miniaturisation et des nanotechnologies ont permis de créer cette grande statuette de transport.",
 	218 => "La découverte de la production d’antimatière a permis la construction de missiles spéciaux à courte portée capables de détruire d’énormes quantités de navires en une fois.",
-	219 => "Un projet abandonné de transport de personnes et de marchandises en orbite terrestre qui connaît actuellement sa deuxième jeunesse. <br/> <b style = \" couleur: orange; \ "> En raison du très vieux type de moteur à combustion interne, ce véhicule ne accélère avec le développement du moteur à essence. </ b> ",
+	219 => "Un projet abandonné de transport de personnes et de marchandises en orbite terrestre qui connaît actuellement sa deuxième jeunesse. <br/> <b style = \" couleur: orange; \"> En raison du très vieux type de moteur à combustion interne, ce véhicule ne accélère avec le développement du moteur à essence. </ b> ",
 	220 => 'Le métier de porte-avions est de transporter des chasseurs plus petits mais très maniables et efficaces.',
-	221 => 'L'effondrement des hadrons est une arme mortelle contre les installations de défense de la planète',
-	222 => 'Grâce à l'utilisation de placettes plasma à haute énergie, ce véhicule gère efficacement les unités bien blindées.',
+	221 => 'L\'effondrement des hadrons est une arme mortelle contre les installations de défense de la planète',
+	222 => 'Grâce à l\'utilisation de placettes plasma à haute énergie, ce véhicule gère efficacement les unités bien blindées.',
 	223 => 'L’utilisation efficace de l’annihilation a conduit à la création de ce navire extraordinaire.',
-	224 => 'L'arme ultime contre les navires lourdement blindés, capable de déchirer les liens interatomiques en une fraction de seconde.',
+	224 => 'L\'arme ultime contre les navires lourdement blindés, capable de déchirer les liens interatomiques en une fraction de seconde.',
 
 	401 => "Le lance-roquettes est une opportunité de défense simple et abordable.",
 	402 => "En tirant de manière concentrée sur une cible avec des photons, vous pouvez faire beaucoup plus de dégâts qu'avec des armes balistiques ordinaires.",

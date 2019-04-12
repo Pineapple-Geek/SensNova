@@ -1,4 +1,4 @@
-<? Php
+<?php
 
 $_Lang ['Report_list_title'] = "Système de reporting";
 $_Lang ['Report_list_list'] = "Liste des rapports";
