@@ -1,38 +1,38 @@
 <?php
 
-$_Lang['stat_title']             = "Statystyki Serwera";
-$_Lang['stat_header_txt']        = "Statystyki z dnia";
-$_Lang['stat_show']              = "Pokaż";
-$_Lang['stat_by']                = "który posiada";
-$_Lang['stat_range']             = "na miejscu";
+$_Lang ['stat_title'] = "Statistiques du serveur";
+$_Lang ['stat_header_txt'] = 'Statistiques du jour';
+$_Lang ['stat_show'] = 'Afficher';
+$_Lang ['stat_by'] = 'à qui appartient';
+$_Lang ['stat_range'] = 'sur le site';
 
-$_Lang['stat_player']            = "gracza";
-$_Lang['stat_allys']             = "sojusz";
-$_Lang['stat_main']              = "punkty";
-$_Lang['stat_fleet']             = "floty";
-$_Lang['stat_research']          = "badania";
-$_Lang['stat_building']          = "budynki";
-$_Lang['stat_defenses']          = "obronę";
+$_Lang ['stat_player'] = 'joueur';
+$_Lang ['stat_allys'] = 'alliance';
+$_Lang ['stat_main'] = 'points';
+$_Lang ['stat_fleet'] = 'flottes';
+$_Lang ['stat_research'] = 'research';
+$_Lang ['stat_building'] = 'Bâtiments';
+$_Lang ['stat_defenses'] = 'défense';
 
-$_Lang['Position']               = "Miejsce";
-$_Lang['Difference']             = "+/-";
-$_Lang['Player']                 = "Gracz";
-$_Lang['Alliance']               = "Sojusz";
-$_Lang['Points']                 = "Punkty";
-$_Lang['Members']                = "Członkowie";
-$_Lang['PerMember']              = "Na gracza";
-$_Lang['Ecrire']                 = "Napisz wiadomość";
+$_Lang ['Position'] = "Lieu";
+$_Lang ['Difference'] = "+/-";
+$_Lang ['Player'] = "Player";
+$_Lang ['Alliance'] = 'Alliance';
+$_Lang ['Points'] = "Points";
+$_Lang ['Members'] = 'Membres';
+$_Lang ['PerMember'] = "Sur le joueur";
+$_Lang ['Ecrire'] = "Écrire un message";
 
-$_Lang['Fight_Won']              = "Wygrane";
-$_Lang['Fight_Lost']             = "Przegrane";
-$_Lang['Fight_Draw']             = "Remisy";
+$_Lang ['Fight_Won'] = 'Gains';
+$_Lang ['Fight_Lost'] = 'Perdu';
+$_Lang ['Fight_Draw'] = "Dessine";
 
-$_Lang['User_is_banned']         = "Gracz został zbanowany!";
-$_Lang['User_is_on_vacations']   = "Gracz jest na urlopie";
+$_Lang ['User_is_banned'] = "Le joueur a été banni!";
+$_Lang ['User_is_on_vacations'] = "Le joueur est en vacances";
 
-$_Lang['QuickChangeInfo']        = "Zmiana pozycji od <b>ostatniego przeliczania</b>";
-$_Lang['DailyChangeInfo']        = "Zmiana pozycji w stosunku do <b>wczorajszego dnia</b>";
+$_Lang ['QuickChangeInfo'] = "Changement de position à partir de <b> dernière conversion </ b>";
+$_Lang ['DailyChangeInfo'] = "Changement de position par rapport à <b> le jour d'hier </ b>";
 
-$_Lang['No_Rows_Found']          = "Brak przeliczonych Statystyk!";
+$_Lang ['No_Rows_Found'] = "Pas de statistiques recalculées!";
 
 ?>
