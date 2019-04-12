@@ -1,70 +1,69 @@
 <?php
 
-$_Lang['PageTitle'] = "Morale - Informacje";
+$_Lang ['PageTitle'] = "Moral - Information";
 
-$_Lang['Table_MoraleInfo'] = "Morale twojej załogi to ważny czynnik gry, który może poważnie wpłynąć na rozwój twojego Imperium oraz przebieg walk z twoimi wrogami.<br/>Morale twojej załogi wzrastają, gdy atakujesz silniejszych wrogów od siebie, zaś spadają, gdy atakujesz o wiele słabsze imperia.<br/>Im wyższy poziom morali, tym lepsze otrzymujesz bonusy. Im niższy, tym twoi poddani są mniej posłuszni.<br/>Pamiętaj, że morale po pewnym czasie zaczynają się wyrównywać, a domyślnym poziomem jest 0% (poziom neutralny).";
+$_Lang ['Table_MoraleInfo'] = "Le moral de votre équipage est un facteur important dans le jeu, qui peut sérieusement affecter le développement de votre Empire et le déroulement des combats avec vos ennemis. <br/> Le moral de votre équipage augmente lorsque vous attaquez des ennemis plus forts les uns des autres, pendant leur chute. lorsque vous attaquez des empires beaucoup plus faibles. <br/> Plus les niveaux de moralité sont élevés, meilleurs sont les bonus que vous recevez. Plus vos soumissions sont peu obéissantes. <br/> N'oubliez pas qu'après un certain temps, le moral commence à monter de niveau et le niveau par défaut est 0% (neutre). ";
 
-$_Lang['Table_MoraleStatus'] = "Twój obecny poziom morali:<br/><b class="%s">%s%%</b>";
+$_Lang ['Table_MoraleStatus'] = "Votre niveau de moral actuel: <br/> <b class ="% s ">% s %% </ b>";
 
-$_Lang['Table_Bonuses'] = "Bonusy";
-$_Lang['Table_Penalties'] = "Kary";
+$_Lang ['Table_Bonuses'] = "Bonus";
+$_Lang ['Table_Penalties'] = 'Pénalités';
 
-$_Lang['Table_State_Active_Bonus'] = "%s%%<br/><b class="lime">Aktywne</b>";
-$_Lang['Table_State_Active_Penalty'] = "%s%%<br/><b class="red">Aktywne</b>";
-$_Lang['Table_State_InActive'] = "%s%%<br/><b class="orange">Nieaktywne</b>";
+$_Lang ['Table_State_Active_Bonus'] = "% s %% <br/> <b class =" lime "> Actif </ b>";
+$_Lang ['Table_State_Active_Penalty'] = "% s %% <br/> <b class =" red "> Actif </ b>";
+$_Lang ['Table_State_InActive'] = "% s %% <br/> <b class =" orange "> Inactif </ b>";
 
-$_Lang['Table_Bonus_FleetSpeedUp1_Name'] = "Przyspieszenie Flot I";
-$_Lang['Table_Bonus_FleetSpeedUp2_Name'] = "Przyspieszenie Flot II";
-$_Lang['Table_Bonus_FleetPowerUp1_Name'] = "Wzrost mocy Broni";
-$_Lang['Table_Bonus_FleetShieldPowerUp1_Name'] = "Wzrost mocy Tarcz";
-$_Lang['Table_Bonus_IdleResStealRaise1_Name'] = "Wzrost rabunku z graczy nieaktywnych";
-$_Lang['Table_Bonus_FleetRFAddition1_Name'] = "Dodatkowe strzały Szybkich Dział";
+$_Lang ['Table_Bonus_FleetSpeedUp1_Name'] = "Excès de vitesse des flottes I";
+$_Lang ['Table_Bonus_FleetSpeedUp2_Name'] = "Accélération des flottes II";
+$_Lang ['Table_Bonus_FleetPowerUp1_Name'] = "Augmentation de la puissance de l'arme";
+$_Lang ['Table_Bonus_FleetShieldPowerUp1_Name'] = "Boucliers d'augmentation de puissance";
+$_Lang ['Table_Bonus_IdleResStealRaise1_Name'] = "Croissance des vols de joueurs inactifs";
+$_Lang ['Table_Bonus_FleetRFAddition1_Name'] = "Photos extra rapides par département";
 
-$_Lang['Table_Penalty_FleetSlowDown1_Name'] = "Spowolnienie Flot";
-$_Lang['Table_Penalty_FleetShieldAttenuation1_Name'] = "Spadek mocy Tarcz I";
-$_Lang['Table_Penalty_FleetShieldAttenuation2_Name'] = "Spadek mocy Tarcz II";
-$_Lang['Table_Penalty_FleetPowerAttenuation1_Name'] = "Spadek mocy Broni I";
-$_Lang['Table_Penalty_FleetPowerAttenuation2_Name'] = "Spadek mocy Broni II";
-$_Lang['Table_Penalty_FleetRFRemoval1_Name'] = "Zmniejszenie użycia Szybkich Dział";
-$_Lang['Table_Penalty_IdleResStealDrop1_Name'] = "Spadek rabunku z graczy nieaktywnych";
-$_Lang['Table_Penalty_AllResStealDrop1_Name'] = "Spadek rabunku ze wszystkich graczy";
-$_Lang['Table_Penalty_SpyReportRevolt_Name'] = "Bunt w czasie Szpiegowania";
-$_Lang['Table_Penalty_OwnResLoseRaise1_Name'] = "Wzrost strat podczas wrogiego rabunku";
+$_Lang ['Table_Penalty_FleetSlowDown1_Name'] = "Flottes au ralentissement";
+$_Lang ['Table_Penalty_FleetShieldAttenuation1_Name'] = "Bouclier de protection I";
+$_Lang ['Table_Penalty_FleetShieldAttenuation2_Name'] = "Bouclier de protection II";
+$_Lang ['Table_Penalty_FleetPowerAttenuation1_Name'] = "Baisse de la puissance de l'arme I";
+$_Lang ['Table_Penalty_FleetPowerAttenuation2_Name'] = "Chute de la puissance de l'arme II";
+$_Lang ['Table_Penalty_FleetRFRemoval1_Name'] = "Réduisez l'utilisation de Quick Department";
+$_Lang ['Table_Penalty_IdleResStealDrop1_Name'] = "Drop du vol de joueurs inactifs";
+$_Lang ['Table_Penalty_AllResStealDrop1_Name'] = "Drop du vol qualifié de tous les joueurs";
+$_Lang ['Table_Penalty_SpyReportRevolt_Name'] = "Rébellion lors de l'espionnage";
+$_Lang ['Table_Penalty_OwnResLoseRaise1_Name'] = "Augmentation des pertes lors d'un vol hostile";
 
-$_Lang['Table_Bonus_FleetSpeedUp1_Desc'] = "Dzięki podwyższonym moralom, wśród załogi wyłania się kilka światłych umysłów z nowymi pomysłami na podniesienie wydajności silników międzygwiezdnych.<br/><b>&bull; Dodatkowa opcja prędkości statków, podniesiona o 10%</b>";
-$_Lang['Table_Bonus_FleetSpeedUp2_Desc'] = "Ze względu na podwyższone morale w całym Imperium, twoi naukowcy opracowali nowe metody wykorzystania Deuteru w silnikach.<br/><b>&bull; Dodatkowa opcja prędkości statków, podniesiona o 20%</b>";
-$_Lang['Table_Bonus_FleetPowerUp1_Desc'] = "Po ostatnich zwycięstwach na galaktycznym froncie, załoga obsługująca uzbrojenie staje się bardziej skupiona podczas celowania do wrogich jednostek.<br/><b>&bull; Wzrost mocy dział Statków i Obrony o 20%</b>";
-$_Lang['Table_Bonus_FleetShieldPowerUp1_Desc'] = "Zmotywowani niedawnymi sukcesami, imperialni naukowcy ulepszyli możliwości tarcz dla wszystkich jednostek.<br/><b>&bull; Wzrost mocy tarcz Statków i Obrony o 20%</b>";
-$_Lang['Table_Bonus_IdleResStealRaise1_Desc'] = "W obawie przed twoją silnie zmotywowaną armią, uśpieni wrogowie twojego Imperium w pośpiesznej ucieczce zostawiają na swoich planetach większe ilości surowców.<br/><b>&bull; Podczas każdego ataku na nieaktywnego gracza, rabunek obejmuje 75% ilości surowców</b>";
-$_Lang['Table_Bonus_FleetRFAddition1_Desc'] = "Podczas ostatnich pomyślnych bitew, sekcja automatyzacji opracowała nowe oprogramowanie do Szybkich Dział twoich pojazdów.<br/><b>&bull; Wszystkie pojazdy z Szybkimi Działami otrzymują dodatkowy strzał SD przeciwko wrogim jednostkom.</b>";
+$_Lang ['Table_Bonus_FleetSpeedUp1_Desc'] = "Grâce à une moralité élevée, de nombreux esprits brillants émergent parmi l'équipage avec de nouvelles idées pour augmenter l'efficacité des moteurs interstellaires. <br/> Une option supplémentaire de vitesse du navire, augmentée de 10% </ b > « ;
+$_Lang ['Table_Bonus_FleetSpeedUp2_Desc'] = "En raison du moral accru de l'Empire, vos scientifiques ont mis au point de nouvelles méthodes d'utilisation de Deuter dans les moteurs. <br/> <b> & bull; Option de vitesse de navigation supplémentaire, augmentée de 20% </ b> « ;
+$_Lang ['Table_Bonus_FleetPowerUp1_Desc'] = "Après de récentes victoires sur le front galactique, l'équipage qui soutient l'armement devient plus concentré tout en visant les unités ennemies. <br /> <b> & bull; Augmentation de la puissance du département des navires et de la défense de 20% </ b > « ;
+$_Lang ['Table_Bonus_FleetShieldPowerUp1_Desc'] = 'Motivés par les récents succès, les scientifiques impériaux ont amélioré les capacités de bouclier de toutes les unités. <br/> <b> & bull; Augmentation de la puissance des boucliers de défense et de défense de 20% </ b> ";
+$_Lang ['Table_Bonus_IdleResStealRaise1_Desc'] = "Craignant votre armée très motivée, les ennemis dormants de votre ennemi lors d'une évasion précipitée laissent davantage de ressources sur leurs planètes. <br/> <b> & bull Lors de chaque attaque contre un joueur inactif, le vol comprend 75% de la quantité de matières premières </ b> ";
+$_Lang ['Table_Bonus_FleetRFAddition1_Desc'] = "Au cours des batailles récentes, la section automatisation a développé un nouveau logiciel pour le département rapide de vos véhicules. <br/> <b> & bull; Tous les véhicules dotés de départements rapides reçoivent un tir supplémentaire contre les unités ennemies. </ B > « ;
 
-$_Lang['Table_Penalty_FleetSlowDown1_Desc'] = "Twoja załoga zaczyna się deprymować ostatnimi bitwami, przez co spadają morale w sekcji napędów.<br/><b>&bull; Spadek prędkości flot o 15%</b>";
-$_Lang['Table_Penalty_FleetShieldAttenuation1_Desc'] = "Ostatnie ataki na słabsze imperia zniechęcają obsługę tarcz do optymalnego działania.<br/><b>&bull; Spadek mocy Tarcz o 15%</b>";
-$_Lang['Table_Penalty_FleetShieldAttenuation2_Desc'] = "Protesty w grupach naukowców-idealistów nasilają się. Sabotaże linii produkcyjnych godzą w sprawność nowych systemów ochronnych.<br/><b>&bull; Spadek mocy Tarcz o 30%</b>";
-$_Lang['Table_Penalty_FleetPowerAttenuation1_Desc'] = "Załoga uzbrojenia floty imperialnej jest niezadowolona z obecnej strategii ataków na bezbronne planety.<br/><b>&bull; Spadek mocy Uzbrojenia o 15%</b>";
-$_Lang['Table_Penalty_FleetPowerAttenuation2_Desc'] = "Nasilają się protesty w fabrykach pocisków w twoim imperium. Brak amunicji oznacza zmniejszoną skuteczność bojową.<br/><b>&bull; Spadek mocy Uzbrojenia o 25%</b>";
-$_Lang['Table_Penalty_FleetRFRemoval1_Desc'] = "Wzmożone protesty wsród informatyków pracujących nad systemami automatyzacji dział spowalniają prace nad obsługą nowych jednostek.<br/><b>&bull; Twoje pojazdy będą używać 50% dostępnych Szybkich Dział</b>";
-$_Lang['Table_Penalty_IdleResStealDrop1_Desc'] = "Niezmotywowana załoga desantowa obniża wydajność swoich akcji podczas napadów.<br/><b>&bull; Podczas każdego ataku na nieaktywnego gracza, rabunek obejmuje tylko 25% ilości surowców.</b>";
-$_Lang['Table_Penalty_AllResStealDrop1_Desc'] = "Coraz większa ilość desantowców zaczyna odmawiać posłuszeństwa podczas rabowania słabszych imperiów.<br/><b>&bull; Podczas każdego ataku na innych graczy, rabunek obejmuje tylko 25% ilości surowców.</b>";
-$_Lang['Table_Penalty_SpyReportRevolt_Desc'] = "Przez zwiększone niezadowolenie twoich poddanych, wrodzy szpiedzy zdołali dostać się w szeregi kontroli lotów, przez co z łatwością sieją dezinformację w twoim systemie.<br/><b>&bull; Podczas szpiegowania istnieje 50% szansy, że Raport będzie pusty</b>";
-$_Lang['Table_Penalty_OwnResLoseRaise1_Desc'] = "Wroga aktywność szpiegowska nasila się dzięki ogólnemu niezadowoleniu w Imperium. Podczas inwazji, wrogie jednostki przekazują szczegółowe informacje dotyczące lokalizacji ukrytych zasobów.<br/><b>&bull; Zwiększenie strat własnych podczas rabunków do 75%</b>";
+$_Lang ['Table_Penalty_FleetSlowDown1_Desc'] = "Votre équipage commence à déprimer avec les dernières batailles, ce qui réduit le moral de la section des entraînements. <br/> <b> & bull; Baisse de la vitesse de la flotte de 15% </ b>";
+$_Lang ['Table_Penalty_FleetShieldAttenuation1_Desc'] = "Les attaques récentes sur les empires les plus faibles découragent le fonctionnement du disque pour des performances optimales. <br/> <b> & bull; Puissance de protection de 15% </ b>";
+$_Lang ['Table_Penalty_FleetShieldAttenuation2_Desc'] = "Les protestations dans les groupes de scientifiques idéalistes se multiplient." Le sabotage des chaînes de production compromet l'efficacité des nouveaux systèmes de protection. <br /> <b> & Bull; La chute de puissance des boucliers de 30% </ b> ";
+$_Lang ['Table_Penalty_FleetPowerAttenuation1_Desc'] = "L'équipage des armes de la flotte impériale n'est pas satisfait de la stratégie actuelle consistant à attaquer des planètes sans défense. <br/> <b> & Bull; diminution de 15% des armements </ b>";
+$_Lang ['Table_Penalty_FleetPowerAttenuation2_Desc'] = "Les manifestations dans les usines de fabrication de missiles de votre empire sont à la hausse. Le manque de munitions signifie une réduction de l'efficacité au combat. <br/> <b> & Bull; Baisse des armements de 25% </ b>";
+$_Lang ['Table_Penalty_FleetRFRemoval1_Desc'] = "Les protestations croissantes des professionnels de l'informatique travaillant au service des systèmes d'automatisation ralentissent le travail sur le service des nouvelles unités. <br/> <b> & bull; vos véhicules utiliseront 50% de la disponibilité du service rapide disponible </ b>";
+$_Lang ['Table_Penalty_IdleResStealDrop1_Desc'] = 'Une équipe d’atterrissage non motivée réduit les performances de ses actions lors des assauts. <br/> <b> & bull; Lors de chaque attaque contre un joueur inactif, le vol ne couvre que 25% de la quantité de matière première. </ B> ";
+$_Lang ['Table_Penalty_AllResStealDrop1_Desc'] = 'Un nombre croissant de commandos commencent à refuser de voler des empires plus faibles. <br/> <b> & bull; Lors de chaque attaque contre d'autres joueurs, le vol ne couvre que 25% de la quantité de matière première. </ B> " ;
+$_Lang ['Table_Penalty_SpyReportRevolt_Desc'] = "En raison du mécontentement croissant de vos sujets, des espions hostiles ont réussi à entrer dans les rangs du contrôle de vol, ce qui répand facilement la désinformation dans votre système. <br/> <b> & bull; il y a 50% de chances que cela se produise. que le rapport sera vide </ b> ";
+$_Lang ['Table_Penalty_OwnResLoseRaise1_Desc'] = "L'espionnage ennemi s'intensifie en raison du mécontentement général de l'Empire." Pendant l'invasion, les unités ennemies fournissent des informations détaillées sur l'emplacement des ressources cachées. <br/> <b> & bull; </ b> « ;
 
-$_Lang['Table_Bonus_FleetSpeedUp1_Level'] = MORALE_BONUS_FLEETSPEEDUP1;
-$_Lang['Table_Bonus_FleetSpeedUp2_Level'] = MORALE_BONUS_FLEETSPEEDUP2;
-$_Lang['Table_Bonus_FleetPowerUp1_Level'] = MORALE_BONUS_FLEETPOWERUP1;
-$_Lang['Table_Bonus_FleetShieldPowerUp1_Level'] = MORALE_BONUS_FLEETSHIELDUP1;
-$_Lang['Table_Bonus_IdleResStealRaise1_Level'] = MORALE_BONUS_SOLOIDLERSTEAL;
-$_Lang['Table_Bonus_FleetRFAddition1_Level'] = MORALE_BONUS_FLEETSDADDITION;
+$_Lang ['Table_Bonus_FleetSpeedUp1_Level'] = MORALE_BONUS_FLEETSPEEDUP1;
+$_Lang ['Table_Bonus_FleetSpeedUp2_Level'] = MORALE_BONUS_FLEETSPEEDUP2;
+$_Lang ['Table_Bonus_FleetPowerUp1_Level'] = MORALE_BONUS_FLEETPOWERUP1;
+$_Lang ['Table_Bonus_FleetShieldPowerUp1_Level'] = MORALE_BONUS_FLEETSHIELDUP1;
+$_Lang ['Table_Bonus_IdleResStealRaise1_Level'] = MORALE_BONUS_SOLOIDLERSTEAL;
+$_Lang ['Table_Bonus_FleetRFAddition1_Level'] = MORALE_BONUS_FLEETSDADDITION;
 
-$_Lang['Table_Penalty_FleetSlowDown1_Level'] = MORALE_PENALTY_FLEETSLOWDOWN;
-$_Lang['Table_Penalty_FleetShieldAttenuation1_Level'] = MORALE_PENALTY_FLEETSHIELDDOWN1;
-$_Lang['Table_Penalty_FleetShieldAttenuation2_Level'] = MORALE_PENALTY_FLEETSHIELDDOWN2;
-$_Lang['Table_Penalty_FleetPowerAttenuation1_Level'] = MORALE_PENALTY_FLEETPOWERDOWN1;
-$_Lang['Table_Penalty_FleetPowerAttenuation2_Level'] = MORALE_PENALTY_FLEETPOWERDOWN2;
-$_Lang['Table_Penalty_FleetRFRemoval1_Level'] = MORALE_PENALTY_FLEETSDDOWN;
-$_Lang['Table_Penalty_IdleResStealDrop1_Level'] = MORALE_PENALTY_IDLERSTEAL;
-$_Lang['Table_Penalty_AllResStealDrop1_Level'] = MORALE_PENALTY_STEAL;
-$_Lang['Table_Penalty_SpyReportRevolt_Level'] = MORALE_PENALTY_EMPTYSPYREPORT;
-$_Lang['Table_Penalty_OwnResLoseRaise1_Level'] = MORALE_PENALTY_RESOURCELOSE;
-
+$_Lang ['Table_Penalty_FleetSlowDown1_Level'] = MORALE_PENALTY_FLEETSLOWDOWN;
+$_Lang ['Table_Penalty_FleetShieldAttenuation1_Level'] = MORALE_PENALTY_FLEETSHIELDDOWN1;
+$_Lang ['Table_Penalty_FleetShieldAttenuation2_Level'] = MORALE_PENALTY_FLEETSHIELDDOWN2;
+$_Lang ['Table_Penalty_FleetPowerAttenuation1_Level'] = MORALE_PENALTY_FLEETPOWERDOWN1;
+$_Lang ['Table_Penalty_FleetPowerAttenuation2_Level'] = MORALE_PENALTY_FLEETPOWERDOWN2;
+$_Lang ['Table_Penalty_FleetRFRemoval1_Level'] = MORALE_PENALTY_FLEETSDDOWN;
+$_Lang ['Table_Penalty_IdleResStealDrop1_Level'] = MORALE_PENALTY_IDLERSTEAL;
+$_Lang ['Table_Penalty_AllResStealDrop1_Level'] = MORALE_PENALTY_STEAL;
+$_Lang ['Table_Penalty_SpyReportRevolt_Level'] = MORALE_PENALTY_EMPTYSPYREPORT;
+$_Lang ['Table_Penalty_OwnResLoseRaise1_Level'] = MORALE_PENALTY_RESOURCELOSE;
 ?>
