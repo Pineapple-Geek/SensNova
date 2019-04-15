@@ -7,7 +7,7 @@ if(!defined('INSIDE'))
 
 $_Lang ['Title'] = 'Inscription';
 
-$_Lang ['Description'] = 'Inscription gratuite dans le jeu'. $ _ GameConfig ['game_name'];
+$_Lang ['Description'] = 'Inscription gratuite dans le jeu'. $_GameConfig ['game_name'];
 
 $_Lang ['Universe'] = 'Monde du jeu';
 $_Lang ['UniSelector'] = 'Universum';
@@ -20,7 +20,7 @@ $_Lang ['Input_Username'] = 'Nom du joueur';
 $_Lang ['Input_Passoword'] = 'Mot de passe';
 $_Lang ['Input_Email'] = 'Email';
 $_Lang ['Input_Galaxy'] = 'Galaxy';
-$_Lang ['Input_Rules'] = 'J'accepte';
+$_Lang ['Input_Rules'] = 'J\'accepte';
 $_Lang ['signup'] = 'Inscrivez-vous';
 
 $_Lang ['UniInfo_GameSpeed'] = 'Vitesse de jeu';
@@ -44,14 +44,14 @@ $_Lang ['ReCaptcha_instructions_audio'] = 'Réécrivez ce que vous entendez:';
 $_Lang ['ReCaptcha_play_again'] = 'Encore une fois';
 $_Lang ['ReCaptcha_cant_hear_this'] = 'Télécharger en MP3';
 $_Lang ['ReCaptcha_visual_challenge'] = 'Je souhaite réécrire le code de la photo';
-$_Lang ['ReCaptcha_audio_challenge'] = 'Je souhaite réécrire le code à l'oreille';
+$_Lang ['ReCaptcha_audio_challenge'] = 'Je souhaite réécrire le code à l\'oreille';
 $_Lang ['ReCaptcha_refresh_btn'] = 'Nouveau code';
 $_Lang ['ReCaptcha_help_btn'] = 'Aide';
 $_Lang ['ReCaptcha_incorrect_try_again'] = 'Réécriture incorrecte du code, essayez à nouveau';
 
 $_Lang ['JSLang'] = array
 (
-'Info_RequestSent' => « <img src = "./ images / ajaxload.gif" style = "margin-right: 10px;" /> Créer un compte ... ',
+'Info_RequestSent' => '<img src = "./ images / ajaxload.gif" style = "margin-right: 10px;" /> Créer un compte ... ',
 
 'Alert_UsernameShort' => 'Le nom du joueur doit comporter plus de 3 caractères!',
 'Alert_UsernameLong' => 'Le nom du joueur ne peut pas dépasser 64 caractères!',
@@ -61,8 +61,8 @@ $_Lang ['JSLang'] = array
 'Alert_RulesNotAccepted' => 'Vous devez accepter le règlement!',
 'Alert_CaptchaNotWriten' => 'Le code ReCaptcha n’a pas été réécrit!',
 'Alert_RequestTimeout' => 'La demande a expiré. Veuillez réessayer dans quelques instants ... ',
-'Alert_RequestError' => 'Une erreur est survenue lors du traitement de la demande. S'il vous plaît contacter l'administration ... ',
-'Alert_JSONError' => 'Une erreur est survenue lors du traitement de la réponse du serveur. S'il vous plaît contacter l'administration ... ',
+'Alert_RequestError' => 'Une erreur est survenue lors du traitement de la demande. S\'il vous plaît contacter l\'administration ... ',
+'Alert_JSONError' => 'Une erreur est survenue lors du traitement de la réponse du serveur. S\'il vous plaît contacter l\'administration ... ',
 
 'Alert_RequestCode_1' => 'Le nom du joueur doit comporter plus de 3 caractères!',
 'Alert_RequestCode_2' => 'Le nom du joueur ne peut pas dépasser 64 caractères!',
@@ -70,8 +70,8 @@ $_Lang ['JSLang'] = array
 'Alert_RequestCode_4' => 'Le mot de passe doit comporter plus de 3 caractères!',
 'Alert_RequestCode_5' => 'Vous devez fournir une adresse e-mail active!',
 'Alert_RequestCode_6' => 'L’adresse email contient des caractères illégaux!',
-'Alert_RequestCode_7' => 'L'adresse email semble incorrecte!',
-'Alert_RequestCode_8' => 'Désolé, nous n'acceptons pas les boîtes aux lettres temporaires ...',
+'Alert_RequestCode_7' => 'L\'adresse email semble incorrecte!',
+'Alert_RequestCode_8' => 'Désolé, nous n\'acceptons pas les boîtes aux lettres temporaires ...',
 'Alert_RequestCode_9' => 'Vous devez accepter le règlement!',
 'Alert_RequestCode_10' => 'Le code ReCaptcha réécrit est incorrect!',
 'Alert_RequestCode_11' => 'Ce nom de joueur est déjà pris!',
@@ -81,7 +81,7 @@ $_Lang ['JSLang'] = array
 'Alert_RequestCode_15' => 'Désolé, il n’ya pas d’espace vide dans cette galaxie!',
 
 'Info_RequestCode_1' => 'Votre compte a été configuré avec succès, le jeu prendra le relais ...',
-'Info_RequestCode_2' => 'Votre compte a été créé correctement. Maintenant, attendez que l'Universum s'ouvre ... ',
+'Info_RequestCode_2' => 'Votre compte a été créé correctement. Maintenant, attendez que l\'Universum s\'ouvre ... ',
 );
 
 ?>

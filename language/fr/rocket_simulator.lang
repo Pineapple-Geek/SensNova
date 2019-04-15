@@ -23,7 +23,7 @@ $_Lang ['IPMissiles_Destroyed'] = "Toutes les courses interplanétaires ont ét�
 $_Lang ['IPMissiles_CapturedX'] = 'Quantité de missiles interplanétaires interceptés:% s';
 
 $_Lang ['Destroyed_Sys'] = '<u> Systèmes de défense détruits </u>';
-$_Lang ['Nothing_destroyed'] = "<u style =" couleur: orange; "> Rien n’a été détruit! </U>";
+$_Lang ['Nothing_destroyed'] = "<u style ='couleur: orange;'> Rien n’a été détruit! </U>";
 $_Lang ['Destroyed_Sys_Count'] = "<u> Nombre d'unités perdues </u>:";
 $_Lang ['Lost_units_ICM'] = "<u> Matériaux anti-missiles perdus </u>";
 $_Lang ['Lost_units_Sys'] = "<u> Ressources perdues des systèmes de défense </u>";

@@ -1,40 +1,40 @@
 <?php
 
 $_Lang ['BattleReport_AttackerNormal'] = "";
-$_Lang ['BattleReport_AttackerNormal']. = "<Centre> <a href = \" # \ "onclick = \" f ('battlereport.php? Id =%s', ''); return false; \ "> <span style = \" color:%s \ "> {$ _ Lang ['sys_mess_attack_report']} [%s:%s:%s] [%s] </ span> </a> <br/> <br/> ";
-$_Lang ['BattleReport_AttackerNormal']. = "<Span class = \" red \ "> {$ _ Lang ['sys_perte_attaquant']}:%s </ span> <b> | </ b> <span class = \" lime \ "> {$ _ Lang ['sys_perte_defenseur']}:%s </ span> <br/>";
-$_Lang ['BattleReport_AttackerNormal']. = "<B> [{$ _ Lang ['sys_gain']]] </ b> {$_Lang ['Metal']}: <b style = \" couleur: # passé; ">%s </ b> <b> | </ b> {$_Lang ['Crystal']}: <b style = \" color: # ef51ef; \ ">%s </ b> <b> | </ b> {$_Lang ['Deutérium']}: <b style = \ "color: # f77542; \">%s </ b> <br/> ";
-$_Lang ['BattleReport_AttackerNormal']. = "<B> [{$ _ Lang ['sys_debris']}], </ b> {$_Lang ['Metal']}: <b style = \" couleur: # passé. ">%s </ b> <b> | </ b> {$_Lang ['Crystal']}: <b style = \" color: # ef51ef; \ ">%s </ b> <br/> <br/> <b class = \ "skyblue \"> Link Udostępniający: </ b> <a href = \ "%s \" onclick = \ "f (this.href, ''); return false; \ ">%s </a> </ center>";
+$_Lang ['BattleReport_AttackerNormal']. = "<Centre> <a href = \" # \ \"onclick = \" f ('battlereport.php? Id =%s', ''); return false; \"> <span style = \" color:%s \"> {$_Lang ['sys_mess_attack_report']} [%s:%s:%s] [%s] </ span> </a> <br/> <br/> ";
+$_Lang ['BattleReport_AttackerNormal']. = "<Span class = \" red \"> {$ _ Lang ['sys_perte_attaquant']}:%s </ span> <b> | </ b> <span class = \" lime \"> {$ _ Lang ['sys_perte_defenseur']}:%s </ span> <br/>";
+$_Lang ['BattleReport_AttackerNormal']. = "<B> [{$ _ Lang ['sys_gain']]] </ b> {$_Lang ['Metal']}: <b style = \" couleur: # passé; ">%s </ b> <b> | </ b> {$_Lang ['Crystal']}: <b style = \" color: # ef51ef; \">%s </ b> <b> | </ b> {$_Lang ['Deutérium']}: <b style = \"color: # f77542; \">%s </ b> <br/> ";
+$_Lang ['BattleReport_AttackerNormal']. = "<B> [{$ _ Lang ['sys_debris']}], </ b> {$_Lang ['Metal']}: <b style = \" couleur: # passé. ">%s </ b> <b> | </ b> {$_Lang ['Crystal']}: <b style = \" color: # ef51ef; \">%s </ b> <br/> <br/> <b class = \"skyblue \"> Link Udostępniający: </ b> <a href = \"%s \" onclick = \"f (this.href, ''); return false; \">%s </a> </ center>";
 // Rapport d'attaquant - Destroy Moon
 $_Lang ['BattleReport_AttackerDestroy'] = str_replace ($ _ Lang ['sys_mess_attack_report'], $_Lang ['sys_mess_destruc_report'], $_Lang ['BattleReport_AttackerNormal']);
 // Rapport Defender (Propriétaire) - Sans statistiques de reconstruction de la Défense
-$_Lang ['BattleReport_Defender_NoRebuild'] = "<centre> <a href = \" # \ "onclick = \" f ('battlereport.php? Id =%s', ''); return false; \ "> <span style = \" color:%s \ "> {$ _ Lang ['sys_mess_attack_report']} [%s:%s:%s] [%s] </ span> </a> <br/> <br/> <b class = \ "skyblue \"> Lien Udostępniający: </ b> <a href = \ "%s \" onclick = \ "f (this.href, ''); return false; \ ">%s </a> </ center>";
+$_Lang ['BattleReport_Defender_NoRebuild'] = "<centre> <a href = \" # \"onclick = \" f ('battlereport.php? Id =%s', ''); return false; \"> <span style = \" color:%s \"> {$ _ Lang ['sys_mess_attack_report']} [%s:%s:%s] [%s] </ span> </a> <br/> <br/> <b class = \"skyblue \"> Lien Udostępniający: </ b> <a href = \"%s \" onclick = \"f (this.href, ''); return false; \">%s </a> </ center>";
 // Rapport Defender (Propriétaire) - Avec les statistiques de reconstruction de la Défense
-$_Lang ['BattleReport_Defender_WithRebuild'] = "<centre> <a href = \" # \ "onclick = \" f ('battlereport.php? Id =%s', ''); return false; \ "> <span style = \" color:%s \ "> {$ _ Lang ['sys_mess_attack_report']} [%s:%s:%s] [%s] </ span> </a> <br/> <br/> <b> <u> {$_Lang ['sys_mess_rebuilt_def']} </ u> </ b> <br/>%s <br/> <br/> <b class = \ "skyblue \"> Link Udostępniający: </ b> <a href = \ "%s \" onclick = \ "f (this.href, ''); return false; \ ">%s </a> </ center>";
+$_Lang ['BattleReport_Defender_WithRebuild'] = "<centre> <a href = \" # \"onclick = \" f ('battlereport.php? Id =%s', ''); return false; \"> <span style = \" color:%s \"> {$ _ Lang ['sys_mess_attack_report']} [%s:%s:%s] [%s] </ span> </a> <br/> <br/> <b> <u> {$_Lang ['sys_mess_rebuilt_def']} </ u> </ b> <br/>%s <br/> <br/> <b class = \"skyblue \"> Link Udostępniający: </ b> <a href = \"%s \" onclick = \"f (this.href, ''); return false; \">%s </a> </ center>";
 // Defender Report (Helper) - Rapport
-$_Lang ['BattleReport_Helper_NoRebuild'] = "<centre> <a href = \" # \ "onclick = \" f ('battlereport.php? Id =%s', ''); return false; \ "> <span style = \" color:%s \ "> {$ _ Lang ['sys_mess_defense_report']} [%s:%s:%s] [%s] </ span> </a> <br/> <br/> <b class = \ "skyblue \"> Lien Udostępniający: </ b> <a href = \ "%s \" onclick = \ "f (this.href, ''); return false; \ ">%s </a> </ center>";
+$_Lang ['BattleReport_Helper_NoRebuild'] = "<centre> <a href = \" # \"onclick = \" f ('battlereport.php? Id =%s', ''); return false; \"> <span style = \" color:%s \"> {$ _ Lang ['sys_mess_defense_report']} [%s:%s:%s] [%s] </ span> </a> <br/> <br/> <b class = \"skyblue \"> Lien Udostępniający: </ b> <a href = \"%s \" onclick = \"f (this.href, ''); return false; \">%s </a> </ center>";
 
 //
 
 $_Lang['msg_const']['msgs'] = array
 (
 // Erreurs MessageSystem
-'err' => '<span class = "red"> Une erreur s'est produite dans le système de messagerie! Signalez ce message en cliquant sur le lien "Signaler" (et dans le champ "Informations complémentaires", entrez le code d'erreur - # ERR_MSGSYS_001) [Identificateur de message:%s]! </ Span> ',
-'err2' => '<span class = "red"> Une erreur s'est produite dans le système de messagerie! Signalez ce message en cliquant sur le lien "Signaler" (et dans le champ "Informations complémentaires", entrez le code d'erreur - # ERR_MSGSYS_002) [Identificateur de message:%s]! </ Span> ',
-'err3' => '<span class = "red"> Une erreur s'est produite dans le système de messagerie de masse! Signalez ce message en cliquant sur le lien "Signaler" (et dans les "Informations complémentaires, saisissez le code d'erreur - # ERR_MSGSYS_003) [Identifiant du message:%s]! </ Span> ',
-'err4' => '<span class = "red"> Une erreur s'est produite dans le système de messagerie de masse! Signalez ce message en cliquant sur le lien "Signaler" (et dans le champ "Informations complémentaires", entrez le code d'erreur - # ERR_MSGSYS_004) [Identificateur de message:%s]! </ Span> ',
+'err' => '<span class = "red"> Une erreur s\'est produite dans le système de messagerie! Signalez ce message en cliquant sur le lien "Signaler" (et dans le champ "Informations complémentaires", entrez le code d\'erreur - # ERR_MSGSYS_001) [Identificateur de message:%s]! </ Span> ',
+'err2' => '<span class = "red"> Une erreur s\'est produite dans le système de messagerie! Signalez ce message en cliquant sur le lien "Signaler" (et dans le champ "Informations complémentaires", entrez le code d\'erreur - # ERR_MSGSYS_002) [Identificateur de message:%s]! </ Span> ',
+'err3' => '<span class = "red"> Une erreur s\'est produite dans le système de messagerie de masse! Signalez ce message en cliquant sur le lien "Signaler" (et dans les "Informations complémentaires, saisissez le code d\'erreur - # ERR_MSGSYS_003) [Identifiant du message:%s]! </ Span> ',
+'err4' => '<span class = "red"> Une erreur s\'est produite dans le système de messagerie de masse! Signalez ce message en cliquant sur le lien "Signaler" (et dans le champ "Informations complémentaires", entrez le code d\'erreur - # ERR_MSGSYS_004) [Identificateur de message:%s]! </ Span> ',
 
 // Messages normaux
 '000' => '%s',
 '001' => 'Le bâtiment <b>%s </ b> ne peut pas être construit car il n’a pas encore été construit!',
-'002' => 'Le niveau de construction maximal%s!' A été atteint,
+'002' => 'Le niveau de construction maximal%s! a été atteint',
 '003' => 'Vous n’avez pas assez d’énergie sombre pour construire un bâtiment <b>%s </ b>. <br/> Vous avez besoin de <b>%s </ b> j. Et vous avez <b> dans votre compte %s </ b> j. ',
 '004' => 'Le bâtiment <b>%s </ b> ne peut pas être démoli!',
 '005' => 'Vous ne disposez pas de suffisamment de matières premières pour construire%s (niveau%s). <br/> Vous disposez actuellement de <b>%s </ b> unités <b> métal </ b>, <b>%s </ b> unités <b> cristal </ b> et <b>%s </ b> unités <b> deutérium </ b>, <br/> alors que la construction nécessite <b class = "red">%s </ b> unités <b> métal </ b>, <b class = "red">%s </ b> unités <b> cristaux </ b> et <b class = "red">%s < / b> unités <b> deuteru </ b>. ',
 
 '006' => 'L’une de vos flottes a atteint%s%s. Elle a obtenu%s unités%s,%s unités%s et%s unités%s. ',
 '007' => 'La flotte alliée de%s%s a atteint%s%s a gagné%s unités%s,%s unités%s et%s unités%s.',
-'008' => 'Votre flotte revient à%s%s%s. Elle n'a fourni aucune matière première. ',
+'008' => 'Votre flotte revient à%s%s%s. Elle n\'a fourni aucune matière première. ',
 
 '009' => 'Votre flotte a atteint%s%s <a href="galaxy.php?mode=3&galaxy=%s&system=%s"> [%s:%s:%s] </a>. <Br /> Les navires suivants seront désormais stationnés sur ces coordonnées: <br/>%s <br/> Les matières premières suivantes ont été fournies: <br/>%s: <b>%s </ b>,%s: <b>%s </ b>,%s: <b>%s </ b> ',
 '010' => 'Votre flotte rentre à%s%s <a href="galaxy.php?mode=3&galaxy=%s&system=%s"> [%s:%s:%s] </a> et est importée. sauvegarder les matières premières suivantes: <br/>%s: <b>%s </ b>,%s: <b>%s </ b>,%s: <b>%s </ b> ',
@@ -48,35 +48,35 @@ $_Lang['msg_const']['msgs'] = array
 '016' => 'Votre équipe d’expédition a rencontré des navires abandonnés! <br/> Les navires qui ont réussi à naviguer étaient les suivants: <br/>%s',
 '017' => 'Votre expédition est revenue sur votre planète.',
 
-'018' => 'Votre flotte de colonisation a atteint la position <b> [%s:%s:%s] </ b>, mais la colonisation n’était pas possible. Vous disposez déjà du nombre maximal de colonies (%s)! <br/> < b> N'oubliez pas que vous pouvez acheter 3 emplacements supplémentaires pour les nouvelles colonies dans le <a href="galacticshop.php#shop" class="orange"> Store </a>! </ b> ',
+'018' => 'Votre flotte de colonisation a atteint la position <b> [%s:%s:%s] </ b>, mais la colonisation n’était pas possible. Vous disposez déjà du nombre maximal de colonies (%s)! <br/> < b> N\'oubliez pas que vous pouvez acheter 3 emplacements supplémentaires pour les nouvelles colonies dans le <a href="galacticshop.php#shop" class="orange"> Store </a>! </ b> ',
 '019' => 'Votre flotte de colonisation a atteint la position <b> [%s:%s:%s] </ b>, vos émissaires commencent à s’établir sur la planète.',
 
 '020' => 'Votre flotte de colonisation a atteint la position <b> [%s:%s:%s] </ b>, mais il n’existe pas de planète correcte dans cette position! <br/> La flotte retourne sur sa planète. '
-'021' => 'Votre flotte de colonisation a atteint la position <b> [%s:%s:%s] </ b>, mais il s’est avéré que cette planète est déjà habitée! <br/> La flotte retourne sur sa planète natale « .,
+'021' => 'Votre flotte de colonisation a atteint la position <b> [%s:%s:%s] </ b>, mais il s’est avéré que cette planète est déjà habitée! <br/> La flotte retourne sur sa planète natale ' .,
 
-'022' => '%sWitamy sur le serveur'. $ _ GameConfig ['game_name']. '. <br/> Si vous avez des questions sur le jeu, visitez notre forum ou chattez dans le jeu. <br/> Numéros et adresses le contact avec la gestion du jeu se trouve dans l'onglet Contact. <br/> <br/> ',
+'022' => '%sWitamy sur le serveur'. $_GameConfig ['game_name']. '. <br/> Si vous avez des questions sur le jeu, visitez notre forum ou chattez dans le jeu. <br/> Numéros et adresses le contact avec la gestion du jeu se trouve dans l\'onglet Contact. <br/> <br/> ',
 
 '023' => 'Alliance%s a accepté votre demande d’adhésion!',
 '024' => 'Alliance%s a rejeté votre demande d’adhésion! <br/> Raison:%s',
 
-'029' => 'La flotte ennemie de%s%s <a href="galaxy.php?mode=3&galaxy=%s&system=%s"> [%s:%s:%s] </a> a été repérée dans près de%s%s <a href="galaxy.php?mode=3&galaxy=%s&system=%s"> [%s:%s:%s] </a> <br/> <br/> Possibilité d'intercepter sondes:%s ',
+'029' => 'La flotte ennemie de%s%s <a href="galaxy.php?mode=3&galaxy=%s&system=%s"> [%s:%s:%s] </a> a été repérée dans près de%s%s <a href="galaxy.php?mode=3&galaxy=%s&system=%s"> [%s:%s:%s] </a> <br/> <br/> Possibilité d\'intercepter sondes:%s ',
 
-'030' => 'L'un de vos flottes a atteint%s%s <a href="galaxy.php?mode=3&galaxy=%s&system=%s"> [%s:%s:%s] </a>. <br/> <b>%s </ b> unités métalliques fournies, <b>%s </ b> unités cristallines et <b>%s </ b> unités de deutérium. ',
+'030' => 'L\'un de vos flottes a atteint%s%s <a href="galaxy.php?mode=3&galaxy=%s&system=%s"> [%s:%s:%s] </a>. <br/> <b>%s </ b> unités métalliques fournies, <b>%s </ b> unités cristallines et <b>%s </ b> unités de deutérium. ',
 '031' => 'La flotte alliée de%s%s <a href="galaxy.php?mode=3&galaxy=%s&system=%s"> [%s:%s:%s] </a> a atteint%s %s <a href="galaxy.php?mode=3&galaxy=%s&system=%s"> [%s:%s:%s] </a>. <br/> Fourni <b>%s </ b > unités métalliques, <b>%s </ b> unités cristallines et <b>%s <b /> unités de deutérium. ',
 
-'032' => 'L'un de vos flottes a atteint%s%s <a href="galaxy.php?mode=3&galaxy=%s&system=%s"> [%s:%s:%s] </a>. <br/> Restera là pour%s h. ',
+'032' => 'L\'un de vos flottes a atteint%s%s <a href="galaxy.php?mode=3&galaxy=%s&system=%s"> [%s:%s:%s] </a>. <br/> Restera là pour%s h. ',
 '033' => 'La flotte alliée de%s%s <a href="galaxy.php?mode=3&galaxy=%s&system=%s"> [%s:%s:%s] </a> a atteint%s %s <a href="galaxy.php?mode=3&galaxy=%s&system=%s"> [%s:%s:%s] </a>. <br/> Restera ici pour%s h. ',
 
 '034' => 'Votre flotte revient à%s%s <a href="galaxy.php?mode=3&galaxy=%s&system=%s"> [%s:%s:%s] </a>. < br /> Importe les matières premières suivantes: <b>%s </ b> unités métalliques, <b>%s </ b> unités cristallines et <b>%s </ b> unités de deutérium. ',
-'035' => 'Votre flotte revient à%s%s <a href="galaxy.php?mode=3&galaxy=%s&system=%s"> [%s:%s:%s] </a>. < Elle n'a apporté aucune matière première avec elle. ',
+'035' => 'Votre flotte revient à%s%s <a href="galaxy.php?mode=3&galaxy=%s&system=%s"> [%s:%s:%s] </a>. < Elle n\'a apporté aucune matière première avec elle. ',
 
 '037' => 'A%s%s, il n’ya plus de place pour l’extension de bâtiment%s.',
 
-'038' => '<b> Quelqu'un vient de s’inscrire pour jouer à partir de votre lien de parrainage! </ B> <br/> <br/> Si vous souhaitez vérifier qui s’est enregistré à partir de votre lien, accédez à la section <a href = ". ref_table.php "class =" orange "> <u> Références </ u> </a>. <br/> À ce stade, vous pouvez également vérifier la quantité d’énergie noire que vous avez déjà reçue grâce à cette personne! ',
-'039' => 'Félicitations! <br/> L’utilisateur <b>%s </ b> a dépassé l’un des seuils (%s), c’est pourquoi vous obtenez <b>%s d’unités d’énergie sombre </ b >! <br/> <br/> N'oubliez pas que vous pouvez inviter un nombre infini d'utilisateurs au jeu! ',
+'038' => '<b> Quelqu\'un vient de s’inscrire pour jouer à partir de votre lien de parrainage! </ B> <br/> <br/> Si vous souhaitez vérifier qui s’est enregistré à partir de votre lien, accédez à la section <a href = ". ref_table.php "class =" orange "> <u> Références </ u> </a>. <br/> À ce stade, vous pouvez également vérifier la quantité d’énergie noire que vous avez déjà reçue grâce à cette personne! ',
+'039' => 'Félicitations! <br/> L’utilisateur <b>%s </ b> a dépassé l’un des seuils (%s), c’est pourquoi vous obtenez <b>%s d’unités d’énergie sombre </ b >! <br/> <br/> N\'oubliez pas que vous pouvez inviter un nombre infini d\'utilisateurs au jeu! ',
 
 // Invitation ACS
-'041' => '%s vous a invité à rejoindre l'attaque sur%s%s <a href="galaxy.php?mode=3&galaxy=%s&system=%s"> [%s:%s:%s] < / a> <br/> <br/> Si vous souhaitez utiliser ses suggestions, attaquez%s, sélectionnez <a class = "orange" href = "flotte.php? galaxy =%s & system =%s & planet =%s & planettype = %s & target_mission = 2 "> <b> Attaque de plainte </ b> </a>, puis sélectionnez dans la liste le composé nommé <b class =" lime ">"%s "</ b>. ',
+'041' => '%s vous a invité à rejoindre l\'attaque sur%s%s <a href="galaxy.php?mode=3&galaxy=%s&system=%s"> [%s:%s:%s] < / a> <br/> <br/> Si vous souhaitez utiliser ses suggestions, attaquez%s, sélectionnez <a class = "orange" href = "flotte.php? galaxy =%s & system =%s & planet =%s & planettype = %s & target_mission = 2 "> <b> Attaque de plainte </ b> </a>, puis sélectionnez dans la liste le composé nommé <b class =" lime ">"%s "</ b>. ',
 
 // Expéditions
 '042' => 'Votre expédition a rencontré des pirates hostiles et est entrée dans une bataille! <br/> <br/> Les navires suivants ont été détruits dans cette bataille: <br/>%s',
@@ -86,7 +86,7 @@ $_Lang['msg_const']['msgs'] = array
 '046' => 'Lors de l’exploration spatiale, votre expédition était dans le champ des astéroïdes. <br/> Grâce aux grandes manœuvres de vos amiraux et de vos navigateurs, la flotte s’est envolée des astéroïdes ...',
 '047' => 'L’erreur de votre expédition par les navigateurs était proche du trou noir. <br/> Grâce à la réaction rapide des physiciens du groupe de recherche, ils ont pu augmenter l’efficacité des entraînements un instant, de sorte que tous les navires s’échappent du terrain gravité ... '
 '048' => 'Votre expédition à travers l’erreur des navigateurs a eu lieu dans l’horizon des événements de Black Hole. <br/> Aucun des navires n’a pu résister à l’énorme force gravitationnelle ...',
-'049' => 'Lors de l’exploration spatiale, votre expédition a découvert un étrange astéroïde émettant un champ électromagnétique faible. <br /> Les scientifiques intéressés ont décidé d’en explorer la source. Malheureusement, il s’agissait d’une embuscade tendue par des pirates. <br/> Aucun des navires n'est sorti de cette bataille ... ',
+'049' => 'Lors de l’exploration spatiale, votre expédition a découvert un étrange astéroïde émettant un champ électromagnétique faible. <br /> Les scientifiques intéressés ont décidé d’en explorer la source. Malheureusement, il s’agissait d’une embuscade tendue par des pirates. <br/> Aucun des navires n\'est sorti de cette bataille ... ',
 '050' => 'Votre expédition a rencontré une race sans précédent dans l’Univers. <br/> Lorsqu’il a tenté de prendre contact avec des inconnus, le système de communication a envoyé un message erroné, ce qui a amené les étrangers à reconnaître que la tentative de contact était une menace. <br/> Leur avantage technologique n’a pas donné aucune chance pour vos navires. Le contact avec la flotte a été interrompu ... ',
 '051' => 'Votre expédition a trouvé une petite ceinture d’astéroïdes dans laquelle vous pouvez récupérer des matières premières. <br/> Votre flotte a obtenu les matières premières suivantes: <br/>%s',
 '052' => 'Votre expédition a rencontré une station de recherche abandonnée. Dans ses entrepôts, des stocks de matières premières ont été trouvés. <br/> Votre flotte a emporté les matières premières suivantes: <br/>%s ',
@@ -95,12 +95,12 @@ $_Lang['msg_const']['msgs'] = array
 '055' => 'Votre expédition a rencontré une station de recherche abandonnée. Dans ses entrepôts, des stocks de matières premières ont été trouvés. <br/> Malheureusement, la capacité de chargement des navires ne permettait pas de prélever les ressources restantes ... ',
 '056' => 'Votre expédition a découvert une cachette de pirates abandonnée sur l’un des énormes astéroïdes dans lequel les pirates dissimulaient leur butin. <br/> Malheureusement, la capacité de chargement des navires ne permettait de prendre aucun butin ...',
 '057' => 'Votre expédition a trouvé des navires abandonnés et légèrement détruits. Les ingénieurs de pont ont réussi à démarrer et à remettre certains navires à l’état normal. <br/> Les navires ont lancé: <br/>%s ',
-'058' => 'Votre expédition a fouillé la planque des pirates. Il s'est avéré qu'ils ont laissé de très bons navires dans les hangars. <br/> Navires acquis: <br/>%s ',
+'058' => 'Votre expédition a fouillé la planque des pirates. Il s\'est avéré qu\'ils ont laissé de très bons navires dans les hangars. <br/> Navires acquis: <br/>%s ',
 '059' => 'Votre expédition a atterri sur des navires abandonnés et légèrement détruits. <br/> Malheureusement, aucun d’entre eux n’a pu être lancé - les dégâts étaient trop importants pour pouvoir être réparés ...',
 '060' => 'Votre expédition a fouillé la planque des pirates. Ils ont laissé quelques navires dans les hangars. <br/> Malheureusement, leur état laissait beaucoup à désirer - ils ne pouvaient pas être utilisés plus tard ... ',
-'061' => 'Votre expédition n’a rien trouvé de remarquable aux extrémités de ce système planétaire. <br/> Malheureusement, une erreur dans les calculs des navigateurs a amené la flotte à emprunter le mauvais chemin pour revenir à la planète d'origine. Le délai de retour a donc été prolongé de: < br />%s'
+'061' => 'Votre expédition n’a rien trouvé de remarquable aux extrémités de ce système planétaire. <br/> Malheureusement, une erreur dans les calculs des navigateurs a amené la flotte à emprunter le mauvais chemin pour revenir à la planète d\'origine. Le délai de retour a donc été prolongé de: < br />%s'
 
-'069' => '%s vous invite à participer à l'attaque sur%s%s <a href="galaxy.php?mode=3&galaxy=%s&system=%s"> [%s:%s:%s] < / a> <br/> <br/> Si vous souhaitez utiliser ses suggestions, attaquez%s, sélectionnez <a class = "orange" href = "flotte.php? galaxy =%s & system =%s & planet =%s & planettype = %s & target_mission = 2 "> <b> Réclamer une attaque </ b> </a>, puis sélectionnez une relation nommée <a href="fleet.php?joinacs=%s" class="lime">"%s dans la liste. "</a> (Cliquez sur ce nom pour rejoindre directement la relation) ',
+'069' => '%s vous invite à participer à l\'attaque sur%s%s <a href="galaxy.php?mode=3&galaxy=%s&system=%s"> [%s:%s:%s] < / a> <br/> <br/> Si vous souhaitez utiliser ses suggestions, attaquez%s, sélectionnez <a class = "orange" href = "flotte.php? galaxy =%s & system =%s & planet =%s & planettype = %s & target_mission = 2 "> <b> Réclamer une attaque </ b> </a>, puis sélectionnez une relation nommée <a href="fleet.php?joinacs=%s" class="lime">"%s dans la liste. "</a> (Cliquez sur ce nom pour rejoindre directement la relation) ',
 
 '070' => 'Vous ne pouvez pas étendre le bâtiment <b>%s </ b> à%s%s car vous n’avez pas satisfait à ses <a href="techtree.php#el%s"> exigences technologiques </a>! '
 '071' => $_Lang ['BattleReport_AttackerNormal'],
@@ -109,12 +109,12 @@ $_Lang['msg_const']['msgs'] = array
 '074' => $_Lang ['BattleReport_Defender_WithRebuild'],
 '075' => $_Lang ['BattleReport_Helper_NoRebuild'],
 
-'076' => 'Flotte ennemie de%s%s <a href="galaxy.php?mode=3&galaxy=%s&system=%s"> [%s:%s:%s] </a> (<a href = "profile.php? uid =%s">%s </a>) a été remarqué près de%s%s <a href="galaxy.php?mode=3&galaxy=%s&system=%s"> [%s:%s:%s] </a> <br/> <br/> Possibilité d'intercepter les sondes:%s ',
+'076' => 'Flotte ennemie de%s%s <a href="galaxy.php?mode=3&galaxy=%s&system=%s"> [%s:%s:%s] </a> (<a href = "profile.php? uid =%s">%s </a>) a été remarqué près de%s%s <a href="galaxy.php?mode=3&galaxy=%s&system=%s"> [%s:%s:%s] </a> <br/> <br/> Possibilité d\'intercepter les sondes:%s ',
 
 // Déclarations multi-comptes
 '077' => 'La déclaration du jeu d’un IP / ordinateur sur lequel se trouve votre compte a été <b class = "lime"> acceptée </ b> par l’Administration!',
 '078' => 'La déclaration du jeu d’un IP / ordinateur sur lequel se trouve votre compte a été <b class = "orange"> rejetée </ b> par l’Administration - veuillez nous contacter à ce sujet!',
-'079' => 'La déclaration du jeu d’un IP / ordinateur sur lequel se trouve votre compte a été <b class = "red"> supprimée </ b> (le dernier joueur appartenant à cette déclaration s’est retiré, a supprimé le compte ou la personne qui l’a déclarée retiré)!
+'079' => 'La déclaration du jeu d’un IP / ordinateur sur lequel se trouve votre compte a été <b class = "red"> supprimée </ b> (le dernier joueur appartenant à cette déclaration s’est retiré, a supprimé le compte ou la personne qui l’a déclarée retiré)!'
 '080' => 'La déclaration du jeu d’un IP / ordinateur sur lequel se trouve votre compte a été <b class = "red"> supprimée </ b> par l’Administration - veuillez nous contacter à ce sujet!',
 
 	// Bâtiments / Technologie Queue Infos
@@ -131,25 +131,25 @@ $_Lang['msg_const']['msgs'] = array
 // amis invite
 '090' => 'Lecteur <a href="profile.php?uid=%s">%s </a> <b> a accepté votre demande de contact! </ B>',
 '091' => 'Le joueur <a href="profile.php?uid=%s">%s </a> <b> a rejeté votre demande de contact! </ B>',
-'092' => 'Le joueur <a href="profile.php?uid=%s">%s </a> <b> vous a retiré de sa liste d'amis! </ B>',
+'092' => 'Le joueur <a href="profile.php?uid=%s">%s </a> <b> vous a retiré de sa liste d\'amis! </ B>',
 
 // Infos retraite
-'093' => 'Votre flotte volante a été renvoyée par l’Administration. <br/> <b> Les flottes retournent à leurs coordonnées d'origine avec un vol normal. </ B> <br/> <br/> Nombre de flottes retournées:%s /%s '
+'093' => 'Votre flotte volante a été renvoyée par l’Administration. <br/> <b> Les flottes retournent à leurs coordonnées d\'origine avec un vol normal. </ B> <br/> <br/> Nombre de flottes retournées:%s /%s '
 '094' => 'Votre flotte volante a été restituée par l’Administration. <br/> <b> Les flottes ont été immédiatement restaurées à leurs coordonnées de base. </ B> <br/> <br/> Nombre de flottes recyclées:%s /%s '
 
 // Allié Invite
-'095' => 'Vous avez été invité à l'alliance <a href="alliance.php?mode=ainfo&a=%s">%s [%s] </a> par le joueur <a href = "profile.php? Uid = %s ">%s </a>. <br/> Pour <b class =" lime "> accepter </ b> ou <b class =" orange "> rejeter </ b> cette invitation, accédez à < a href = "alliance.php"> Alliance </a> (l'invitation est valable 14 jours). <br/> <u> Contenu de l'invitation: </ u> <br/> <br/>%s ',
+'095' => 'Vous avez été invité à l\'alliance <a href="alliance.php?mode=ainfo&a=%s">%s [%s] </a> par le joueur <a href = "profile.php? Uid = %s ">%s </a>. <br/> Pour <b class =" lime "> accepter </ b> ou <b class =" orange "> rejeter </ b> cette invitation, accédez à < a href = "alliance.php"> Alliance </a> (l\'invitation est valable 14 jours). <br/> <u> Contenu de l\'invitation: </ u> <br/> <br/>%s ',
 // pactes alliés
-'096' => 'L’alliance <a href="alliance.php?mode=ainfo&amp;a=%s">%s </a> a envoyé une proposition de pacte pour votre alliance. <br/> <br/> <a href = "alliance.php? mode = pactslist"> Pour vérifier cette proposition, allez à la liste des alliances dans l'onglet "Alliance" </a> ',
+'096' => 'L’alliance <a href="alliance.php?mode=ainfo&amp;a=%s">%s </a> a envoyé une proposition de pacte pour votre alliance. <br/> <br/> <a href = "alliance.php? mode = pactslist"> Pour vérifier cette proposition, allez à la liste des alliances dans l\'onglet "Alliance" </a> ',
 '097' => 'Alliance <a href="alliance.php?mode=ainfo&amp;a=%s">%s </a> a retiré sa proposition de créer un pacte pour votre alliance!',
 '098' => 'L’Alliance <a href="alliance.php?mode=ainfo&amp;a=%s">%s </a> a accepté l’offre du Pacte envoyée par votre Alliance!',
 '099' => 'Alliance <a href="alliance.php?mode=ainfo&amp;a=%s">%s </a> a rejeté la proposition du pacte envoyée par votre alliance!',
-'100' => 'L'Alliance <a href="alliance.php?mode=ainfo&amp;a=%s">%s </a> a accepté la proposition de changer le type de pacte envoyé par votre alliance!',
-'101' => 'L'Alliance <a href="alliance.php?mode=ainfo&amp;a=%s">%s </a> a rejeté la proposition de modification du type de pacte envoyé par votre alliance!',
-'102' => 'Alliance <a href="alliance.php?mode=ainfo&amp;a=%s">%s </a> s'est retirée du pacte avec votre alliance!',
-'103' => 'L'Alliance <a href="alliance.php?mode=ainfo&amp;a=%s">%s </a> a retiré sa proposition de changer le type de pacte!',
-'104' => 'L'Alliance <a href="alliance.php?mode=ainfo&amp;a=%s">%s </a> a envoyé une proposition visant à modifier le type du pacte d'alliance. <br/> <br/> <a href = "alliance.php? mode = pactslist"> Pour vérifier cette proposition, allez à la liste des alliances dans l'onglet "Alliance" </a> ',
-'105' => 'Alliance <a href="alliance.php?mode=ainfo&amp;a=%s">%s </a> a modifié le type du pacte d'alliance en' <b>%s </ b> '!'! ' .
+'100' => 'L\'Alliance <a href="alliance.php?mode=ainfo&amp;a=%s">%s </a> a accepté la proposition de changer le type de pacte envoyé par votre alliance!',
+'101' => 'L\'Alliance <a href="alliance.php?mode=ainfo&amp;a=%s">%s </a> a rejeté la proposition de modification du type de pacte envoyé par votre alliance!',
+'102' => 'Alliance <a href="alliance.php?mode=ainfo&amp;a=%s">%s </a> s\'est retirée du pacte avec votre alliance!',
+'103' => 'L\'Alliance <a href="alliance.php?mode=ainfo&amp;a=%s">%s </a> a retiré sa proposition de changer le type de pacte!',
+'104' => 'L\'Alliance <a href="alliance.php?mode=ainfo&amp;a=%s">%s </a> a envoyé une proposition visant à modifier le type du pacte d\'alliance. <br/> <br/> <a href = "alliance.php? mode = pactslist"> Pour vérifier cette proposition, allez à la liste des alliances dans l\'onglet "Alliance" </a> ',
+'105' => 'Alliance <a href="alliance.php?mode=ainfo&amp;a=%s">%s </a> a modifié le type du pacte d\'alliance en\' <b>%s </ b> \'!' .
 );
 
 $_Lang['msg_const']['senders']['system'] = array
@@ -183,7 +183,7 @@ $_Lang['msg_const']['subjects'] = array
 '004' => 'Stationner la flotte',
 '005' => 'Rapport du champ de destruction',
 '006' => 'Attaque interplanétaire',
-'007' => 'Rapport d'expédition',
+'007' => 'Rapport d\'expédition',
 '008' => 'Colonization Report',
 '009' => 'Bienvenue dans le jeu!',
 '010' => 'Votre candidature a été acceptée!',
@@ -195,11 +195,11 @@ $_Lang['msg_const']['subjects'] = array
 '016' => 'Commande du joueur',
 '017' => 'Rapport de la défense',
 '018' => 'Invitation à une attaque conjointe',
-'019' => 'Système de messagerie d'erreur',
-'020' => 'Déclarations jeux d'un IP / ordinateur',
+'019' => 'Système de messagerie d\'erreur',
+'020' => 'Déclarations jeux d\'un IP / ordinateur',
 '021' => 'Buddy-Inquiry',
 '022' => 'Flottes tournantes',
-'023' => 'Invitation à l'Alliance',
+'023' => 'Invitation à l\'Alliance',
 '024' => 'Proposition du pacte d’alliance',
 );
 

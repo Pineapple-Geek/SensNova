@@ -1,17 +1,17 @@
 <?php
 
 $_Lang ['sfb_Title'] = 'Verrouillage de flot intelligent';
-$_Lang ['sfb_GlobalText'] = 'Il y a <b class =" red "> Verrou Flot </ b> dans tout Universum, qui durera jusqu'à <b class =" orange ">% s </ b>, jusqu'à une heure <b class = 'orange">% s </ b>. <br/> Le verrou inclut% s. Plus d'informations sur les verrous: <a href="redirect.php?id=5" target="_blank"> <u > Lien </ u> </a> <br/> Raison du blocage:% s ';
+$_Lang ['sfb_GlobalText'] = 'Il y a <b class =" red "> Verrou Flot </ b> dans tout Universum, qui durera jusqu\'à <b class =" orange ">% s </ b>, jusqu\'à une heure <b class = "orange">% s </ b>. <br/> Le verrou inclut% s. Plus d\'informations sur les verrous: <a href="redirect.php?id=5" target="_blank"> <u > Lien </ u> </a> <br/> Raison du blocage:% s ';
 $_Lang ['sfb_Mission_All'] = '<b class =" skyblue "> toutes les missions de la flotte </ b>';
 $_Lang ['sfb_Mission_Aggresive'] = '<b class =" skyblue "> toutes les missions de flotte agressives </ b>';
 $_Lang ['sfb_Mission_Civil'] = '<b class =" skyblue "> toutes les missions de la flotte civile </ b>';
 $_Lang ['sfb_Mission_Other'] = 'les missions de flotte suivantes: <b class =" skyblue ">% s </ b>';
-$_Lang ['sfb_Mission_DontBlockIdle'] = '(le blocus n'inclut pas les joueurs <b class =" skyblue "> inactif </ b>)';
-$_Lang ['sfb_Mission_AggresiveDontBlockIdle'] = '(le blocus des missions agressives n'inclut pas les joueurs <b class =" skyblue "> inactif </ b>)';
+$_Lang ['sfb_Mission_DontBlockIdle'] = '(le blocus n\'inclut pas les joueurs <b class =" skyblue "> inactif </ b>)';
+$_Lang ['sfb_Mission_AggresiveDontBlockIdle'] = '(le blocus des missions agressives n\'inclut pas les joueurs <b class =" skyblue "> inactif </ b>)';
 $_Lang ['sfb_NoReason'] = '- Aucune raison donnée -';
 
 $_Lang ['sfb_Mission__1'] = 'Attaque';
-$_Lang ['sfb_Mission__2'] = 'Attaque dans l'Union';
+$_Lang ['sfb_Mission__2'] = 'Attaque dans l\'Union';
 $_Lang ['sfb_Mission__3'] = 'Transport';
 $_Lang ['sfb_Mission__4'] = 'Stationing';
 $_Lang ['sfb_Mission__5'] = 'Arrêter';

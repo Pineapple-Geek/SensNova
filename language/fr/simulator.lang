@@ -9,7 +9,7 @@ $_Lang ['ShowHide'] = 'Cacher / Afficher';
 $_Lang ['Slot'] = 'Slot';
 $_Lang ['Submit'] = 'Exécuter la simulation!';
 
-$_Lang ['Attacker'] = 'N° d'agresseur <span id =" attacker_slot "> 1 </ span>';
+$_Lang ['Attacker'] = 'N° d\'agresseur <span id =" attacker_slot "> 1 </ span>';
 $_Lang ['Defender'] = 'Numéro de défenseur <span id =" defender_slot "> 1 </ span> <span id =" is_planet_owner "> (Propriétaire de la planète / lune) </ span>';
 $_Lang ['PlanetOwner'] = '(Propriétaire de la planète / lune)';
 
@@ -38,7 +38,7 @@ $_Lang ['Button_Max'] = 'Max';
 $_Lang ['Button_Min'] = 'Min';
 
 $_Lang ['CalcTotalTime'] = 'Temps de calcul';
-$_Lang ['Atk_won'] = 'Nombre de batailles remportées par l'agresseur (s)';
+$_Lang ['Atk_won'] = 'Nombre de batailles remportées par l\'agresseur (s)';
 $_Lang ['Def_won'] = 'Nombre de combats gagnés par le ou les défenseurs';
 $_Lang ['It_was_draw'] = 'Nombre de tirages';
 $_Lang ['Sim_count'] = 'Nombre de simulations';
@@ -57,16 +57,16 @@ $_Lang ['CloseWindow'] = 'Fermer';
 $_Lang ['Warn_noDeathStar'] = '- La simulation de la destruction de la lune n’a pas été réalisée, aucune étoile de la mort!';
 $_Lang ['Warn_noMoonDiameter'] = '- La simulation de la destruction de la lune n’a pas été réalisée, pas de diamètre de la lune!';
 $_Lang ['Warn_maxLoopCountExt'] = '- Seules 50 simulations peuvent être effectuées à la fois!';
-$_Lang ['Warn_noProForSaveAll'] = '- L'option permettant de sauvegarder toutes les simulations est disponible après l'achat d'un compte Pro!';
+$_Lang ['Warn_noProForSaveAll\'] = '- l\'option permettant de sauvegarder toutes les simulations est disponible après l\'achat d\'un compte Pro!';
 $_Lang ['Warn_generatedMaxNumRW'] = '- 1000 simulations ont déjà été enregistrées au cours des 10 dernières minutes!';
-$_Lang ['Break_noATKShips'] = 'Les navires de l'agresseur n'ont pas été donnés pour la simulation!';
-$_Lang ['Break_noDEFShips'] = 'Les vaisseaux du Protecteur n'ont pas été utilisés pour la simulation!';
-$_Lang ['Break_noDEFTechs'] = 'La technologie du Defender n'a pas été fournie!';
-$_Lang ['Break_noATKTechs'] = 'La technologie de l'agresseur n'est pas fournie!';
+$_Lang ['Break_noATKShips'] = 'Les navires de l\'agresseur n\'ont pas été donnés pour la simulation!';
+$_Lang ['Break_noDEFShips'] = 'Les vaisseaux du Protecteur n\'ont pas été utilisés pour la simulation!';
+$_Lang ['Break_noDEFTechs'] = 'La technologie du Defender n\'a pas été fournie!';
+$_Lang ['Break_noATKTechs'] = 'La technologie de l\'agresseur n\'est pas fournie!';
 
-$_Lang ['avg_atk_lost'] = 'Pertes de l'agresseur';
+$_Lang ['avg_atk_lost'] = 'Pertes de l\'agresseur';
 $_Lang ['avg_def_lost'] = 'Pertes du ou des protecteurs';
-$_Lang ['avg_atk_ship_lost'] = 'Pertes d'agresseur (s) (navires)';
+$_Lang ['avg_atk_ship_lost'] = 'Pertes d\'agresseur (s) (navires)';
 $_Lang ['avg_def_ship_lost'] = 'Pertes du (des) défenseur (s) (navires)';
 $_Lang ['txt_rounds'] = 'Nombre de rounds';
 $_Lang ['txt_min'] = 'min';

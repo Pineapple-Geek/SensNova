@@ -5,12 +5,12 @@ $_Lang ['reftable'] = 'Liste des renvois';
 
 $_Lang ['reftable_desc'] = "Vous pouvez vérifier ici le statut de la commande des joueurs inscrits au jeu via votre lien de parrainage.";
 
-$_Lang ['pointing_info'] = "Lorsque vous référez un nouveau joueur au jeu, celui-ci est ajouté à la liste ci-dessous. <br/> Dès que vous complétez votre compte avec Dark Energy, vous recevez immédiatement une commission de cette recharge! <br/> <br /> La commission actuelle est <b class = "lime">% s %% </ b> pour chaque recharge d’énergie sombre. ";
+$_Lang ['pointing_info'] = "Lorsque vous référez un nouveau joueur au jeu, celui-ci est ajouté à la liste ci-dessous. <br/> Dès que vous complétez votre compte avec Dark Energy, vous recevez immédiatement une commission de cette recharge! <br/> <br /> La commission actuelle est <b class = 'lime'>% s %% </ b> pour chaque recharge d’énergie sombre. ";
 
 $_Lang ['your_referral_link_is'] = "Voici votre lien de parrainage:";
 
 $_Lang ['Who'] = 'Nick Player';
-$_Lang ['Date'] = 'Date d'enregistrement';
+$_Lang ['Date'] = 'Date d\'enregistrement';
 $_Lang ['Provisions_Granted'] = 'Commission totale reçue';
 
 $_Lang ['DEUnits'] = "j. Énergie sombre";

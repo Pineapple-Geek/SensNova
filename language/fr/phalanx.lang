@@ -30,7 +30,7 @@ $_Lang ['ov_rentrant'] = 'renvoie';
 $_Lang ['ov_planet_from'] = 'de la planète';
 $_Lang ['ov_moon_from'] = 'de la lune';
 $_Lang ['ov_debris_from'] = 'depuis le champ de destruction';
-$_Lang ['ov_explo_from'] = 'de l'expédition';
+$_Lang ['ov_explo_from'] = 'de l\'expédition';
 $_Lang ['ov_back_planet'] = 'à la planète';
 $_Lang ['ov_back_moon'] = 'à la lune';
 
@@ -41,14 +41,14 @@ $_Lang ['ov_message'] = 'Écrire un message';
 $_Lang ['PhalanxError_BadCoordinates'] = 'Coordonnées non valides entrées!';
 $_Lang ['PhalanxError_GalaxyOutOfRange'] = 'La phalange des sphères ne fonctionne que dans une galaxie!';
 $_Lang ['PhalanxError_TargetOutOfRange'] = 'Ciblez hors de la portée de Phalanx!';
-$_Lang ['PhalanxError_NoEnoughFuel'] = 'Vous n’avez pas assez de Deuteru pour effectuer l’analyse (% s)! ";
+$_Lang ['PhalanxError_NoEnoughFuel'] = 'Vous n’avez pas assez de Deuteru pour effectuer l’analyse (% s)! ';
 $_Lang ['PhalanxError_MoonDestroyed'] = 'La lune sur laquelle vous vous trouvez a été détruite!';
 $_Lang ['PhalanxError_CoordsEmpty'] = 'Il n’ya pas de planète dans ces coordonnées!';
 $_Lang ['PhalanxError_NoPhalanxHere'] = 'Il n’ya pas de Falang sur cette lune!';
 $_Lang ['PhalanxError_ScanOnlyFromMoon'] = 'La numérisation avec les fantômes ne peut être effectuée que depuis la Lune!';
 
 $_Lang ['PhalanxInfo_NoMovements_Text'] = 'Aucun mouvement de flotte détecté ...';
-$_Lang ['PhalanxInfo_NoMovements'] = "<tr> <e classe = \" orange pad8 \ "> {$ _ Lang ['PhalanxInfo_NoMovements_Text']} </ th> </ tr>";
+$_Lang ['PhalanxInfo_NoMovements'] = "<tr> <e classe = \" orange pad8 \"> {$_Lang ['PhalanxInfo_NoMovements_Text']} </ th> </ tr>";
 
 $_Lang ['Phalanx_only_from_moon'] = 'La numérisation avec Sensor Falange ne peut être effectuée que depuis la lune!';
 $_Lang ['Phalanx_CurrentMoonDestroyed'] = 'La lune sur laquelle vous vous trouvez a été détruite!';

@@ -1,7 +1,7 @@
 <?php
 
 $_Lang ['DarkEnergyStatusIs'] = "Nombre d'unités d'énergie sombre sur votre compte";
-$_Lang ['BuyMoreDE'] = "Acheter de l'énergie noire!";
+$_Lang ['BuyMoreDE'] = "Acheter de l\'énergie noire!";
 
 $_Lang ['Officers'] = 'Officiers';
 $_Lang ['description'] = "Les officiers sont une élite parmi les conseillers galactiques. Grâce à leurs compétences et à leur expérience, votre empire grandit beaucoup plus rapidement. <br/> Vous pouvez en louer un, à condition de les récompenser généreusement.";
@@ -14,7 +14,7 @@ $_Lang ['OfficersArr'] = array
                 'vari' => '+ a',
                 'img' => '601',
                 'desc' => 'Le géologue est un expert minier reconnu dans toute la galaxie. Grâce à sa vaste connaissance des roches et des minéraux, il est capable de diriger correctement les travaux miniers pour obtenir les plus riches gisements de matières premières. ',
-                'bene' => array ('Augmentation de l'exploitation minière de 15%'),
+                'bene' => array ('Augmentation de l\'exploitation minière de 15%'),
 'type' => 1,
 'prix' => array (20),
                 'time' => array (14),
@@ -26,7 +26,7 @@ $_Lang ['OfficersArr'] = array
                 'vari' => '+ a',
                 'img' => '603',
                 'desc' => 'Cet expert largement connu est recherché par presque tous les Imperators de l’Univers. Grâce à ses idées brillantes, vos usines augmentent leur productivité et les systèmes de défense ont de meilleures chances de se reconstruire. ',
-                'bene' => array ('Augmentation de 10% de la production d'énergie', 'Possibilité de reconstruire la défense augmentée de 20% (Reconstruction possible de l'intégralité de la défense)'),
+                'bene' => array ('Augmentation de 10% de la production d\'énergie', 'Possibilité de reconstruire la défense augmentée de 20% (Reconstruction possible de l\'intégralité de la défense)'),
 'type' => 1,
 'prix' => array (20),
                 'time' => array (14),
@@ -37,7 +37,7 @@ $_Lang ['OfficersArr'] = array
                 'name' => 'Amiral',
                 'vari' => '+ a',
                 'img' => '602',
-                'desc' => 'As parmi les meilleurs commandants de guerre de l'univers. Sa tactique, sa vitesse et son mode de fonctionnement sont incomparables. Chaque empereur veut l'avoir à ses côtés. ',
+                'desc' => 'As parmi les meilleurs commandants de guerre de l\'univers. Sa tactique, sa vitesse et son mode de fonctionnement sont incomparables. Chaque empereur veut l\'avoir à ses côtés. ',
                 'bene' => array ('Nombre maximal de flottes: +2', 'Options supplémentaires de vitesse de la flotte (120%, 110%, 5%, 2,5%)'),
 'type' => 1,
                 'prix' => array (20),
@@ -60,8 +60,8 @@ $_Lang ['OfficersArr'] = array
 (
 'name' => 'Handlowiec',
 'img' => '605',
-'desc' => 'Le commerçant impérial est l’intermédiaire entre vous et le marchand. En échange d'une rémunération modeste, il est prêt à représenter vos intérêts auprès du commerçant. ',
-'bene' => array ('Possibilité d'utiliser le marchand sans Account Pro et sans limite de temps'),
+'desc' => 'Le commerçant impérial est l’intermédiaire entre vous et le marchand. En échange d\'une rémunération modeste, il est prêt à représenter vos intérêts auprès du commerçant. ',
+'bene' => array ('Possibilité d\'utiliser le marchand sans Account Pro et sans limite de temps'),
 'type' => 2,
 'field' => 'trader_usesCount',
 'thisState' => 'TransactionsLeft',
@@ -71,10 +71,10 @@ $_Lang ['OfficersArr'] = array
 )
     );
 
-$_Lang ['Buy'] = "Si vous devez embaucher ou prolonger l'emploi d'un officier, allez à";
+$_Lang ['Buy'] = "Si vous devez embaucher ou prolonger l\'emploi d'un officier, allez à";
 $_Lang ['BuyTitle'] = 'Magasin';
 
-$_Lang ['RentState'] = 'Statut d \' emploi ';
+$_Lang ['RentState'] = 'Statut d\' emploi ';
 $_Lang ['RentEnded'] = 'L’emploi est terminé';
 $_Lang ['RentTill'] = 'Employé à';
 $_Lang ['NeverRented'] = 'Jamais employé';
@@ -85,7 +85,7 @@ $_Lang ['Avantages'] = "Avantages";
 $_Lang ['FirstRent'] = "Louez à% s% s!";
 $_Lang ['RentPlus'] = 'Louez un% s% s supplémentaire!';
 $_Lang ['RentAgain'] = "Louez à nouveau le% s% s!";
-$_Lang ['RenewRent'] = "Extension de l'emploi de% s% s!";
+$_Lang ['RenewRent'] = "Extension de l\'emploi de% s% s!";
 $_Lang ['RentForTransactions'] = 'transaction';
 $_Lang ['Cost'] = 'Coût';
 $_Lang ['DEUnits'] = "j. Énergie sombre";

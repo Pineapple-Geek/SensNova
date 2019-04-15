@@ -26,7 +26,7 @@ $_Lang ['Tab01_CatSel_DoSkip'] = "Ignorer cette catégorie";
 $_Lang ['Tab01_CatSel_SkipConfirm'] = "Êtes-vous sûr de vouloir ignorer cette catégorie?";
 
 $_Lang ['Tab01_CatList_TabTitle'] = "Liste des catégories de tâches à exécuter";
-$_Lang ['Tab01_CatList_Info'] = "Voici une liste de toutes les tâches (divisées en catégories) que vous pouvez actuellement effectuer. <br/> Cliquez sur l’une des catégories pour afficher son aperçu et vérifier le statut de tâches spécifiques. <br/> Si vous souhaitez revoir toutes les tâches que vous avez déjà effectuées, accédez à l'onglet "Journal des tâches". <br/> <b class = "lime"> Toutes les récompenses de quête sont attribuées à Planet Mother </ b> ";
+$_Lang ['Tab01_CatList_Info'] = "Voici une liste de toutes les tâches (divisées en catégories) que vous pouvez actuellement effectuer. <br/> Cliquez sur l’une des catégories pour afficher son aperçu et vérifier le statut de tâches spécifiques. <br/> Si vous souhaitez revoir toutes les tâches que vous avez déjà effectuées, accédez à l\'onglet 'Journal des tâches'. <br/> <b class = 'lime'> Toutes les récompenses de quête sont attribuées à Planet Mother </ b> ";
 $_Lang ['Tab01_CatList_Done'] = "Pris";
 $_Lang ['Tab01_CatList_NoCats'] = "Aucune tâche possible à faire!";
 $_Lang ['Tab01_CatList_AllCatsMade'] = "Vous avez terminé toutes les tâches!";
@@ -56,105 +56,104 @@ $_Lang['Tasks'] = array
 	(
 		'name' => 'Basic Supply',
 		'img' => 'gebaeude / 1.gif',
-		'desc' => 'L’expansion de base de l’infrastructure planétaire fournit les ressources nécessaires pour continuer à jouer. <b> Le métal </ b> et le <b> Cristal </ b> sont les principales matières premières disponibles dans le jeu. Grâce à cela, vous développerez votre Empire avec de nouveaux bâtiments ou de nouvelles flottes. Il est également nécessaire d'extraire de <b> l'énergie </ b> fournie par les centrales électriques concernées et leurs substituts plus petits. ',
+		'desc' => 'L’expansion de base de l’infrastructure planétaire fournit les ressources nécessaires pour continuer à jouer. <b> Le métal </ b> et le <b> Cristal </ b> sont les principales matières premières disponibles dans le jeu. Grâce à cela, vous développerez votre Empire avec de nouveaux bâtiments ou de nouvelles flottes. Il est également nécessaire d\'extraire de <b> l\'énergie </ b> fournie par les centrales électriques concernées et leurs substituts plus petits. ',
 		'récompenses' => '10 000 unités de métal et de cristal'
 	),
 	2 => array
 	(
 		'name' => 'Troisième matière première',
 		'img' => 'gebaeude / 3.gif',
-		'desc' => '<b> Deutérium </ b> est une ressource très importante dans le jeu. Il permet l'expansion de l'infrastructure de Planet, le développement de la recherche, la création de la flotte et de certains systèmes de défense. Si votre empire doit prospérer, vous devez lui fournir la bonne quantité de cette ressource. <b> Deuter </ b> est également utilisé comme <b> carburant </ b> pour engin spatial en raison de ses valeurs énergétiques. ',
+		'desc' => '<b> Deutérium </ b> est une ressource très importante dans le jeu. Il permet l\'expansion de l\'infrastructure de Planet, le développement de la recherche, la création de la flotte et de certains systèmes de défense. Si votre empire doit prospérer, vous devez lui fournir la bonne quantité de cette ressource. <b> Deuter </ b> est également utilisé comme <b> carburant </ b> pour engin spatial en raison de ses valeurs énergétiques. ',
 		'récompenses' => '5 000 unités Deuter'
 	),
 	3 => array
 	(
 		'name' => 'Défense nécessaire',
 		'img' => 'gebaeude / 401.gif',
-		'desc' => 'L'aspect principal du jeu est le combat avec d'autres joueurs. Pour éviter tout ratissage facile de vos planètes, essayez d’étendre de temps en temps la défense de votre planète. Vous aurez besoin de <b> Robot Factory </ b> et de <b> Stocznia </ b> pour la construction de navires et de systèmes de défense. Dans les phases ultérieures du jeu, des réalisations technologiques appropriées seront également nécessaires. ',
+		'desc' => 'L\'aspect principal du jeu est le combat avec d\'autres joueurs. Pour éviter tout ratissage facile de vos planètes, essayez d’étendre de temps en temps la défense de votre planète. Vous aurez besoin de <b> Robot Factory </ b> et de <b> Stocznia </ b> pour la construction de navires et de systèmes de défense. Dans les phases ultérieures du jeu, des réalisations technologiques appropriées seront également nécessaires. ',
 		'récompenses' => '5 000 lance-roquettes'
 	),
 	4 => array
 	(
 		'name' => 'Nouvelle expansion de Planet',
 		'img' => 'gebaeude / 22.gif',
-		'desc' => 'Chaque planète dispose d’un espace limité pour stocker les matières premières. Lorsqu'il n'y a pas assez d'espace sur la planète, la <b> production de matière première </ b> est arrêtée. L'extension des <b> Stockages </ b> et des <b> Stockages </ b> empêche cela. Rappelez-vous cependant que les matières premières livrées par vos navires ne seront pas perdues! ',
+		'desc' => 'Chaque planète dispose d’un espace limité pour stocker les matières premières. Lorsqu\'il n\'y a pas assez d\'espace sur la planète, la <b> production de matière première </ b> est arrêtée. L\'extension des <b> Stockages </ b> et des <b> Stockages </ b> empêche cela. Rappelez-vous cependant que les matières premières livrées par vos navires ne seront pas perdues! ',
 		'récompenses' => '50 000 unités Metal, Crystal et 20 000 unités Deuter '
 	),
 	5 => array
 	(
 	'name' => 'Research Development',
 	'img' => 'gebaeude / 31.gif',
-	'desc' => '<b> Le laboratoire de recherche </ b> est un bâtiment qui permet le développement de technologies vous permettant de construire de nouveaux types de navires avec de meilleurs paramètres et d’accroître leurs capacités. L’un des types de recherche les plus importants est la <b> technologie informatique </ b> (augmentation du nombre maximal de Flot en déplacement) et la <b> technologie des disques durs </ b>. Vous trouverez des informations sur les <b> Spécifications techniques </ b> dans l'onglet <b> de <a href="techtree.php" class="orange"> Technologie </a> "</ b> dans le menu Jeux. ',
+	'desc' => '<b> Le laboratoire de recherche </ b> est un bâtiment qui permet le développement de technologies vous permettant de construire de nouveaux types de navires avec de meilleurs paramètres et d’accroître leurs capacités. L’un des types de recherche les plus importants est la <b> technologie informatique </ b> (augmentation du nombre maximal de Flot en déplacement) et la <b> technologie des disques durs </ b>. Vous trouverez des informations sur les <b> Spécifications techniques </ b> dans l\'onglet <b> de <a href="techtree.php" class="orange"> Technologie </a> "</ b> dans le menu Jeux. ',
 	'récompenses' => '5 000 unités de cristal et de deutérium'
 	),
 	6 => array
 	(
 	'name' => 'First Ships',
 	'img' => 'gebaeude / 202.gif',
-	'desc' => 'Grâce aux navires, vous pouvez transporter des ressources entre vos colonies et attaquer et piller vos ennemis. Les navires tels que les <b> transporteurs </ b> ne sont pas adaptés au combat. Si vous avez une flotte ennemie sur la planète, soutenez-la avec d'autres unités militaires (par exemple, <b> des chasseurs légers </ b> qui prennent feu et < b> Navires de guerre </ b> pouvant causer des dommages importants à un adversaire) ',
+	'desc' => 'Grâce aux navires, vous pouvez transporter des ressources entre vos colonies et attaquer et piller vos ennemis. Les navires tels que les <b> transporteurs </ b> ne sont pas adaptés au combat. Si vous avez une flotte ennemie sur la planète, soutenez-la avec d\'autres unités militaires (par exemple, <b> des chasseurs légers </ b> qui prennent feu et < b> Navires de guerre </ b> pouvant causer des dommages importants à un adversaire) ',
 	'récompenses' => '500 petits transporteurs et combattants légers'
 	),
 	7 => array
 	(
 	'name' => 'Colonials Planetary',
 	'img' => 'gebaeude / 208.gif',
-	'desc' => 'Développer <b> Cologne </ b> est extrêmement important. Grâce à eux, il est beaucoup plus facile d'augmenter l'augmentation de la matière première lorsque les mines de la matière sur la planète mère nécessitent des fonds importants pour la construction. Il est beaucoup plus facile et plus efficace de développer deux mines de faible niveau qu'une autre à forte expansion (jusqu'à ce que ces niveaux soient égalisés). Les plus abondantes des planètes Deuter se trouvent dans les dernières positions les plus froides du <b> système solaire </ b>, et les plus grandes planètes se trouvent en 14ème position. ',
+	'desc' => 'Développer <b> Cologne </ b> est extrêmement important. Grâce à eux, il est beaucoup plus facile d\'augmenter l\'augmentation de la matière première lorsque les mines de la matière sur la planète mère nécessitent des fonds importants pour la construction. Il est beaucoup plus facile et plus efficace de développer deux mines de faible niveau qu\'une autre à forte expansion (jusqu\'à ce que ces niveaux soient égalisés). Les plus abondantes des planètes Deuter se trouvent dans les dernières positions les plus froides du <b> système solaire </ b>, et les plus grandes planètes se trouvent en 14ème position. ',
 	'récompenses' => '2 navires de colonisation'
 	),
 	8 => array
 	(
 	'name' => 'Additional Energy Sources',
 	'img' => 'gebaeude / 212.gif',
-	'desc' => 'Les <b> satellites solaires </ b> sont une très bonne source d’énergie fréquemment utilisée au cours des dernières étapes du jeu. Ils sont beaucoup moins chers que le développement de la centrale électrique et fournissent plus d’énergie. Malheureusement, vous devez tenir compte du fait qu'ils peuvent être détruits lors d'une bataille sur l'orbite de la planète. Par conséquent, il ne faut pas abandonner le développement de la centrale électrique, même à de faibles niveaux. ',
+	'desc' => 'Les <b> satellites solaires </ b> sont une très bonne source d’énergie fréquemment utilisée au cours des dernières étapes du jeu. Ils sont beaucoup moins chers que le développement de la centrale électrique et fournissent plus d’énergie. Malheureusement, vous devez tenir compte du fait qu\'ils peuvent être détruits lors d\'une bataille sur l\'orbite de la planète. Par conséquent, il ne faut pas abandonner le développement de la centrale électrique, même à de faibles niveaux. ',
 	'récompenses' => '200 satellites solaires'
 	),
 	9 => array
 	(
 	'name' => 'Warfare',
 	'img' => 'gebaeude / 210.gif',
-	'desc' => 'La première étape dans la collecte des ressources des autres joueurs consiste à <b> espionner </ b> leurs planètes à l'aide de <b> Sond Szpiegowskich </ b>. Aux bons niveaux ou quantités technologiques de sondes, il vous fournit des informations précieuses sur l’état de la planète ennemie (cependant, elle peut être détruite pendant les missions!). Avant l’attaque, utilisez le <b> Walk Simulator </ b> pour vérifier la rentabilité de l’attaque. N'oubliez pas qu'en l'absence de flotte et de défense sur la planète, vous pouvez <b> ramasser les matières premières </ b> même avec <b> Transporteurs </ b>! ',
+	'desc' => 'La première étape dans la collecte des ressources des autres joueurs consiste à <b> espionner </ b> leurs planètes à l\'aide de <b> Sond Szpiegowskich </ b>. Aux bons niveaux ou quantités technologiques de sondes, il vous fournit des informations précieuses sur l’état de la planète ennemie (cependant, elle peut être détruite pendant les missions!). Avant l’attaque, utilisez le <b> Walk Simulator </ b> pour vérifier la rentabilité de l’attaque. N\'oubliez pas qu\'en l\'absence de flotte et de défense sur la planète, vous pouvez <b> ramasser les matières premières </ b> même avec <b> Transporteurs </ b>! ',
 	'récompenses' => '500 Spy Pros, 20 Cruisers'
 	),
 	10 => array
 	(
 	'name' => 'Nettoyage des champs de destruction',
 	'img' => 'gebaeude / 209.gif',
-	'desc' => 'Après chaque bataille sur les orbites des planètes, des <b> champs de destruction </ b> sont créés. Ils sont constitués de parties de navires détruits lors des combats. Il s’agit d’un <b> profit supplémentaire </ b> des batailles menées. Vous devez donc collecter des chutes pour les retraiter. Pour collecter les débris (désignés par les <b> lecteurs de débris </ b>), <b> recycleurs </ b> 'sont utilisés,
-	'récompenses' => '200 recycleurs'
-	),
+	'desc' => 'Après chaque bataille sur les orbites des planètes, des <b> champs de destruction </ b> sont créés. Ils sont constitués de parties de navires détruits lors des combats. Il s’agit d’un <b> profit supplémentaire </ b> des batailles menées. Vous devez donc collecter des chutes pour les retraiter. Pour collecter les débris (désignés par les <b> lecteurs de débris </b>), <b>recycleurs</b> sont utilisés,
+	"récompenses" => "200 recycleurs"'),
 	11 => array
 	(
 	'name' => 'Relations de joueurs',
 	'img' => 'officiers / 602.jpg',
-	'desc' => '<b> Les alliances </ b> sont des associations de joueurs qui se déclarent mutuellement solidaires à la fois de Militran et de Handlowa. Votre présence dans l'Alliance augmente vos chances dans le jeu et peut accélérer votre développement. Une autre fonctionnalité "sociale" du jeu est <b> BuddyLista </ b> - une liste de personnes amicales dans le jeu. Ajouter quelqu'un à BuddyList vous permet de vérifier son statut En ligne et vous permet, comme l'Alliance, de <b> Attaques courantes </ b> (attaques de conformité, appelées ACS). ',
+	'desc' => '<b> Les alliances </ b> sont des associations de joueurs qui se déclarent mutuellement solidaires à la fois de Militran et de Handlowa. Votre présence dans l\'Alliance augmente vos chances dans le jeu et peut accélérer votre développement. Une autre fonctionnalité "sociale" du jeu est <b> BuddyLista </ b> - une liste de personnes amicales dans le jeu. Ajouter quelqu\'un à BuddyList vous permet de vérifier son statut En ligne et vous permet, comme l\'Alliance, de <b> Attaques courantes </ b> (attaques de conformité, appelées ACS). ',
 	'rewards' => '10 Warships '
 	),
 	12 => array
 	(
 	'name' => 'Fleet Protection',
 	'img' => 'gebaeude / 219.gif',
-	'desc' => 'Ce jeu fonctionne 24 heures sur 24, même si vous n'êtes pas connecté. Par conséquent, une action importante pour les propriétaires de Flot est de le faire. <b> FleetSave (FS) </ b> avant de vous déconnecter - il s’agit de vols de flotte longs et lents, afin que vos ennemis ne puissent pas détruire votre flotte. Navires spéciaux: les <b> navettes </ b> servent à ralentir les flottes. L’un des meilleurs types de FS consiste à envoyer des navires entre <b> vos Lunes </ b> avec la mission <b> Station </ b>. En envoyant une flotte de la planète ou sur la planète, cela sera visible sur <b> Faland Sensors </ b> (il s'agit d'un bâtiment spécial disponible pour les détenteurs de la lune). ',
+	'desc' => 'Ce jeu fonctionne 24 heures sur 24, même si vous n\'êtes pas connecté. Par conséquent, une action importante pour les propriétaires de Flot est de le faire. <b> FleetSave (FS) </ b> avant de vous déconnecter - il s’agit de vols de flotte longs et lents, afin que vos ennemis ne puissent pas détruire votre flotte. Navires spéciaux: les <b> navettes </ b> servent à ralentir les flottes. L’un des meilleurs types de FS consiste à envoyer des navires entre <b> vos Lunes </ b> avec la mission <b> Station </ b>. En envoyant une flotte de la planète ou sur la planète, cela sera visible sur <b> Faland Sensors </ b> (il s\'agit d\'un bâtiment spécial disponible pour les détenteurs de la lune). ',
 	'récompenses' => '150 000 unités de métal, cristal et deutérium'
 	),
 	13 => array
 	(
 	'name' => 'Development of computerization',
 	'img' => 'gebaeude / 15.gif',
-	'desc' => 'Au fur et à mesure que votre empire se développe, l'expansion des bâtiments ou celle de la flotte s'allongent en raison de l'avancement des travaux sur les nouvelles constructions. Un élément très important sur chaque planète est la Nanite Factory, qui accélère considérablement la construction de bâtiments et le chantier naval. Pour chaque niveau de l'usine, le temps de construction est réduit de moitié, quel que soit le niveau d'avancement des travaux. ',
+	'desc' => 'Au fur et à mesure que votre empire se développe, l\'expansion des bâtiments ou celle de la flotte s\'allongent en raison de l\'avancement des travaux sur les nouvelles constructions. Un élément très important sur chaque planète est la Nanite Factory, qui accélère considérablement la construction de bâtiments et le chantier naval. Pour chaque niveau de l\'usine, le temps de construction est réduit de moitié, quel que soit le niveau d\'avancement des travaux. ',
 	'récompenses' => '2.000.000 unités de métal, 1.000.000 de cristal et 200.000 de deutérium'
 	),
 	14 => array
 	(
 	'name' => 'Basics of Fleet Hunt',
 	'img' => 'gebaeude / 214.gif',
-	'desc' => 'Falanga Sensors est un outil extrêmement utile dans le soi-disant "Capturer des flottes", cependant, cela devient inutile lorsque l'ennemi envoie ses flottes entre les lunes. À la recherche de flottes pour tirer des Deathstars utiles, qui, grâce à leurs énormes gravitons, peuvent détruire toute la lune. Après destruction, toutes les flottes partant de la Lune donnée seront redirigées vers les Planètes, qui redeviendront visibles pour Falanga. ',
+	'desc' => 'Falanga Sensors est un outil extrêmement utile dans le soi-disant "Capturer des flottes", cependant, cela devient inutile lorsque l\'ennemi envoie ses flottes entre les lunes. À la recherche de flottes pour tirer des Deathstars utiles, qui, grâce à leurs énormes gravitons, peuvent détruire toute la lune. Après destruction, toutes les flottes partant de la Lune donnée seront redirigées vers les Planètes, qui redeviendront visibles pour Falanga. ',
 	'récompenses' => '10 étoiles de la mort '
 	),
 	15 => array
 	(
 	'name' => 'Transport interplanétaire',
 	'img' => 'gebaeude / 217.gif',
-	'desc' => 'Mega Transporters couronne le travail des ingénieurs pour améliorer les échanges commerciaux entre les colonies. Dans les empires développés, ils constituent l'unité de base du transport des matières premières dans le système planétaire impérial. ',
+	'desc' => 'Mega Transporters couronne le travail des ingénieurs pour améliorer les échanges commerciaux entre les colonies. Dans les empires développés, ils constituent l\'unité de base du transport des matières premières dans le système planétaire impérial. ',
 	'récompenses' => '50 Mega Transporters '
 	),
 	16 => array
@@ -168,21 +167,21 @@ $_Lang['Tasks'] = array
 	(
 	'name' => 'Raw colonialism',
 	'img' => 'gebaeude / 2.gif',
-	'desc' => 'La création de nouvelles colonies ne peut pas oublier le développement de leur infrastructure planétaire. Cela vaut la peine d’investir dans d’autres niveaux de mines et d’extracteurs pour développer l’activité minière dans tout l’empire. Un facteur important est le développement uniforme de toutes les colonies, ce qui permet d'accroître l'efficacité de l'extraction. ',
-	'récompenses' => '5 000 000 d'unités de métal et de cristal, 2 000 000 d'unités de Deuter'
+	'desc' => 'La création de nouvelles colonies ne peut pas oublier le développement de leur infrastructure planétaire. Cela vaut la peine d’investir dans d’autres niveaux de mines et d’extracteurs pour développer l’activité minière dans tout l’empire. Un facteur important est le développement uniforme de toutes les colonies, ce qui permet d\'accroître l\'efficacité de l\'extraction. ',
+	'récompenses' => '5 000 000 d\'unités de métal et de cristal, 2 000 000 d\'unités de Deuter'
 	),
 	18 => array
 	(
 	'name' => 'Satellites naturels',
 	'img' => 'gebaeude / 41.gif',
 	'desc' => 'La Lune est le seul endroit où vous pouvez construire des structures telles que Téléporteur ou Falanga Sensors. En outre, il crée les conditions idéales pour fabriquer Fleet Savów et protéger vos exploits contre les tirs hostiles. Les lunes sont formées après les batailles sur l’orbite de la planète, il est donc préférable de demander à vos amis de l’alliance de Moonmaking - briser une petite flotte qui, avec un peu de chance, va nous créer une lune. ',
-	'récompenses' => '4 000 000 d'unités de métal et de deutérium, 8 000 000 d'unités de cristal'
+	'récompenses' => '4 000 000 d\'unités de métal et de deutérium, 8 000 000 d\'unités de cristal'
 	),
 	19 => array
 	(
 	'name' => 'Sécuriser la flotte',
 	'img' => 'planeten / mond.jpg',
-	'desc' => 'L’une des meilleures méthodes de Fleet Saving consiste à envoyer une flotte de sa propre lune à l’autre avec la mission stationnée. Grâce à l'utilisation de lunes, notre flotte est invisible à la Phalange des capteurs. En cas de destruction de la lune, nous disposons d'une plus grande marge de manœuvre. ',
+	'desc' => 'L’une des meilleures méthodes de Fleet Saving consiste à envoyer une flotte de sa propre lune à l’autre avec la mission stationnée. Grâce à l\'utilisation de lunes, notre flotte est invisible à la Phalange des capteurs. En cas de destruction de la lune, nous disposons d\'une plus grande marge de manœuvre. ',
 	'récompenses' => '10 000 000 unités Deuter'
 	),
 	// Military
@@ -191,14 +190,14 @@ $_Lang['Tasks'] = array
 	'name' => 'Power of gravitrons I',
 	'img' => 'gebaeude / 214.gif',
 	'desc' => '',
-	'récompenses' => '1 000 000 000 d'unités Deuter'
+	'récompenses' => '1 000 000 000 d\'unités Deuter'
 	),
 	21 => array
 	(
 	'name' => 'Power of gravitrons II',
 	'img' => 'gebaeude / 214.gif',
 	'desc' => '',
-	'récompenses' => '3 000 000 000 d'unités Deuter'
+	'récompenses' => '3 000 000 000 d\'unités Deuter'
 	),
 	22 => array
 	(
@@ -212,7 +211,7 @@ $_Lang['Tasks'] = array
 	'name' => 'La gravité perfide I',
 	'img' => 'gebaeude / 199.gif',
 	'desc' => '',
-	'récompenses' => '5 000 000 000 d'unités Deuter'
+	'récompenses' => '5 000 000 000 d\'unités Deuter'
 	),
 	24 => array
 	(
@@ -247,7 +246,7 @@ $_Lang['Tasks'] = array
 	'name' => 'Le seigneur des gravitons',
 	'img' => 'planeten / mond.jpg',
 	'desc' => '',
-	'récompenses' => '100 000 000 000 d'unités Deuter'
+	'récompenses' => '100 000 000 000 d\'unités Deuter'
 	),
 	29 => array
 	(
@@ -268,7 +267,7 @@ $_Lang['Tasks'] = array
 	'name' => 'Orbital creator III',
 	'img' => 'planeten / mond.jpg',
 	'desc' => '',
-	'récompenses' => '100 000 000 000 d'unités Deuter'
+	'récompenses' => '100 000 000 000 d\'unités Deuter'
 	),
 	32 => array
 	(

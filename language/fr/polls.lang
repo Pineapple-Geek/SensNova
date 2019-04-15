@@ -7,9 +7,9 @@ $_Lang ['poll_closed'] = "complet";
 $_Lang ['no_polls'] = "Aucune enquête";
 $_Lang['select']             = "---";
 
-$_Lang['State_IsObligatory'] = "<img src="./images/warning.png" />";
-$_Lang['State_IsClosed']		= '<img src="./images/lock.png" />";
-$_Lang['State_IsVoted']		= '<img src="./images/tick.green.png" />";
+$_Lang['State_IsObligatory'] = "<img src=\"./images/warning.png\" />";
+$_Lang['State_IsClosed']		= '<img src="./images/lock.png" />';
+$_Lang['State_IsVoted']		= '<img src="./images/tick.green.png" />';
 
 $_Lang ['Tip_LockedVoted'] = 'Terminé, voté';
 $_Lang ['Tip_Locked'] = 'Terminé';

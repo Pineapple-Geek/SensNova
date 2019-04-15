@@ -14,7 +14,7 @@ $_Lang ['Type_mail_smtp'] = "Erreur lors de la modification de l'adresse e-mail"
 $_Lang ['Type_other'] = 'Autre';
 $_Lang ['Type_user_badmsg_chat'] = "Message au chalet enfreignant les règlements";
 
-$_Lang ['Additional_info'] = "Instructions supplémentaires <br/> <span style =" font-size: 70% "> (s’ils sont indiqués, veuillez les suivre) </ span>";
+$_Lang ['Additional_info'] = "Instructions supplémentaires <br/> <span style ='font-size: 70%'> (s’ils sont indiqués, veuillez les suivre) </ span>";
 $_Lang ['add_info_none'] = "Aucune instruction supplémentaire";
 $_Lang ['add_info_bash'] = "1. Entrez l’heure des attaques <br/> 2. Entrez les coordonnées de la planète attaquée";
 $_Lang ['add_info_push'] = "1. Entrez l'heure de réception des matières premières <br/> 2. Entrez les coordonnées de la planète du joueur <br/> 3. Entrez la quantité de matières premières <br/> 4. Spécifiez l'heure de restitution des matières premières";
@@ -23,9 +23,9 @@ $_Lang ['add_info_sys_badmsg'] = "1. Entrez le type de message <br/> 2. Spécifi
 $_Lang ['add_info_sys_error'] = "1. Fournissez une description exacte et détaillée de l’erreur";
 $_Lang ['add_info_user_badmsg'] = "(Facultatif) <br/> 1. Veuillez entrer le premier message de ce type <br/> 2. Dans le cas contraire, entrez l'endroit où vous avez reçu de tels messages de ce joueur (Chat, PW)" ;
 
-$_Lang ['Report_Username'] = "Nick du joueur <br/> <span style =" font-size: 70% "> (Si l’entrée concerne un joueur) </ span>";
+$_Lang ['Report_Username'] = "Nick du joueur <br/> <span style ='font-size: 70%'> (Si l’entrée concerne un joueur) </ span>";
 
-$_Lang ['User_info'] = "Informations complémentaires <br/> <span style =" font-size: 70% "> (Entrez toute information supplémentaire) </ span>";
+$_Lang ['User_info'] = "Informations complémentaires <br/> <span style ='font-size: 70%'> (Entrez toute information supplémentaire) </ span>";
 
 $_Lang ['Send_report'] = "Envoyer un rapport";
 
@@ -34,7 +34,7 @@ $_Lang ['Error_nousername'] = "Vous devez entrer le nom du joueur que vous signa
 $_Lang ['Error_username_signs'] = "Le nom du joueur donné contient des caractères interdits!";
 $_Lang ['Error_user_noexists'] = "Le lecteur spécifié n’existe pas!";
 $_Lang ['Error_no_info_given'] = "Vous devez fournir des informations supplémentaires listées dans l'instruction!";
-$_Lang ['Error_no_element_given'] = "L'identifiant de l'article n'est pas fourni, cela est signalé! <br/> <span style =" font-size: 70% "> (Si vous n'avez pas mélangé quoi que ce soit dans le lien, signalez-le comme une erreur système) </ span> « ;
+$_Lang ['Error_no_element_given'] = "L'identifiant de l'article n'est pas fourni, cela est signalé! <br/> <span style ='font-size: 70%'> (Si vous n'avez pas mélangé quoi que ce soit dans le lien, signalez-le comme une erreur système) </ span> ";
 
 $_Lang ['Report_sent'] = "Le rapport a été envoyé!";
 
