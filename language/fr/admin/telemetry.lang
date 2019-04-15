@@ -34,6 +34,6 @@ $_Lang ['Tele_NameTranslation__d'] = "Finalisation";
 $_Lang ['Tele_Legend_Avg'] = "Avg. % s ms. ";
 
 $_Lang ['Tele_TimeUnits'] = "ms";
-$_Lang ['Tele_ToolTipText'] = "\ 'Résultat: \' + RunResult + \ 'ms <br/> Mesure: \' + Nom du mode + \ '<br/> Lecteur: <a target = \\\" _ vierge \\\ "href = \\\" browse_actionlogs.php? uid = \ '+ ID utilisateur + \' & amp; date = \ '+ OtherDate + \' \\\ "> \ '+ Nom d'utilisateur + \' </a> <br/> Heure de mesure : \ '+ FullDate + \' \ '";
+$_Lang ['Tele_ToolTipText'] = "\ 'Résultat: \' + RunResult + \ 'ms <br/> Mesure: \' + Nom du mode + \ '<br/> Lecteur: <a target = \" _ vierge \" href = \" browse_actionlogs.php? uid = \'+ ID utilisateur + \' & amp; date = \ '+ OtherDate + \' \"> \ '+ Nom d'utilisateur + \' </a> <br/> Heure de mesure : \ '+ FullDate + \' \ '";
 
 ?>

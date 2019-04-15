@@ -64,15 +64,15 @@ $_Lang['FoundSummarys'] = array
         '000' => array('Txt1' => 'Tout va bien...', 'Txt2' => 'Les conflits suivants ont été détectés:'),
         '001' => array
             (
-                'Txt' => 'Pénurie d'éléments',
+                'Txt' => 'Pénurie d\'éléments',
                 'GenerateDataList' => false,
-                'Eval' => 'Planète : {$Data[\'PlanetID\']}<br/>Nom de l'élément: {$_Lang[\'tech\'][$Data[\'ElementID\']]}<br/>Résultat calculé : ".prettyNumber($Data[\'Data\'][0])."<br/>Aktualna ilość: ".prettyNumber($Data[\'Data\'][1])."<br/>Procent: ".sprintf(\'%0.2f\', $Data[\'Data\'][2] * 100)."%'
+                'Eval' => 'Planète : {$Data[\'PlanetID\']}<br/>Nom de l\'élément: {$_Lang[\'tech\'][$Data[\'ElementID\']]}<br/>Résultat calculé : ".prettyNumber($Data[\'Data\'][0])."<br/>Aktualna ilość: ".prettyNumber($Data[\'Data\'][1])."<br/>Procent: ".sprintf(\'%0.2f\', $Data[\'Data\'][2] * 100)."%'
             ),
         '002' => array
             (
-                'Txt' => 'Excédent d'élément',
+                'Txt' => 'Excédent d\'élément',
                 'GenerateDataList' => false,
-                'Eval' => 'Planète : {$Data[\'PlanetID\']}<br/>Nom de l'élément: {$_Lang[\'tech\'][$Data[\'ElementID\']]}<br/>Résultat calculé : ".prettyNumber($Data[\'Data\'][0])."<br/>Aktualna ilość: ".prettyNumber($Data[\'Data\'][1])."<br/>Procent: ".sprintf(\'%0.2f\', $Data[\'Data\'][2] * 100)."%'
+                'Eval' => 'Planète : {$Data[\'PlanetID\']}<br/>Nom de l\'élément: {$_Lang[\'tech\'][$Data[\'ElementID\']]}<br/>Résultat calculé : ".prettyNumber($Data[\'Data\'][0])."<br/>Aktualna ilość: ".prettyNumber($Data[\'Data\'][1])."<br/>Procent: ".sprintf(\'%0.2f\', $Data[\'Data\'][2] * 100)."%'
             ),
         '003' => array
             (
@@ -100,13 +100,13 @@ $_Lang['FoundSummarys'] = array
             ),
         '007' => array
             (
-                'Txt' => 'Pénurie générale d'élément',
+                'Txt' => 'Pénurie générale d\'élément',
                 'GenerateDataList' => false,
                 'Eval' => 'Nazwa Elementu: {$_Lang[\'tech\'][$Data[\'ElementID\']]}<br/>Wyliczony wynik: ".prettyNumber($Data[\'Data\'][0])."<br/>Aktualna ilość: ".prettyNumber($Data[\'Data\'][1])."<br/>Procent: ".sprintf(\'%0.2f\', $Data[\'Data\'][2] * 100)."%'
             ),
         '008' => array
             (
-                'Txt' => 'Excès général de l'élément',
+                'Txt' => 'Excès général de l\'élément',
                 'GenerateDataList' => false,
                 'Eval' => 'Nazwa Elementu: {$_Lang[\'tech\'][$Data[\'ElementID\']]}<br/>Wyliczony wynik: ".prettyNumber($Data[\'Data\'][0])."<br/>Aktualna ilość: ".prettyNumber($Data[\'Data\'][1])."<br/>Procent: ".sprintf(\'%0.2f\', $Data[\'Data\'][2] * 100)."%'
             ),
@@ -143,7 +143,7 @@ $_Lang['FoundWarnings'] = array
             ),
         '002' => array
             (
-                'Txt' => 'Pas d'ID de la planète',
+                'Txt' => 'Pas d\'ID de la planète',
                 'GenerateDataList' => false,
                 'Eval' => 'Skrypt: {$_Lang[\'Scripts\'][$Data[\'Place\']]}'
             ),

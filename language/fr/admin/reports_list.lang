@@ -17,7 +17,7 @@ $_Lang ['Report_Status'] = "Statut";
 $_Lang ['Report_Actions'] = "Actions";
 
 $_Lang ['Report_reply_subject'] = "Réponse au numéro de rapport% s";
-$_Lang ['Report_reply_input'] = "Ce message est la réponse à votre rapport:'. "\ N \ n";
+$_Lang ['Report_reply_input'] = "Ce message est la réponse à votre rapport:'. \"\ N \ n";
 
 $_Lang ['Report_deleted'] = "Rapport supprimé";
 $_Lang ['Report_no_status_given'] = "Aucun statut fourni";
@@ -33,7 +33,7 @@ $_Lang ['Report_types'] = array
 'Système - erreur de message',
 'Système - erreur de jeu',
 'Système - erreur SMTP',
-« Autre »
+"Autre"
 'Player - Message sur le chalet'
 );
 $_Lang['Report_statuslist']= array

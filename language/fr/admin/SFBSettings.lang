@@ -44,9 +44,9 @@ $_Lang ['SFB_LabelsData_Mission_Civil'] = "Civil";
 $_Lang ['SFB_LabelsData_PostEndTime_Zero'] = "Aucun";
 $_Lang ['SFB_LabelsData_PostEndTime_1Day'] = "$_Lang heures ";
 
-$_Lang ['SFB_Types_1'] = "<b class = "red"> Global </ b>";
-$_Lang ['SFB_Types_2'] = "<b class = "orange"> Par joueur </ b>";
-$_Lang ['SFB_Types_3'] = "<b class = "orange"> Planète na </ b>";
+$_Lang ['SFB_Types_1'] = "<b class = \"red\"> Global </ b>";
+$_Lang ['SFB_Types_2'] = "<b class = \"orange\"> Par joueur </ b>";
+$_Lang ['SFB_Types_3'] = "<b class = \"orange\"> Planète na </ b>";
 
 $_Lang ['SFB_Mission__1'] = "Assaut";
 $_Lang ['SFB_Mission__2'] = "Lien de parenté";
@@ -59,9 +59,9 @@ $_Lang ['SFB_Mission__8'] = "Récupérer les restes";
 $_Lang ['SFB_Mission__9'] = "Détruire";
 $_Lang ['SFB_Mission__10'] = "Attaque à la roquette";
 $_Lang ['SFB_Mission__15'] = "Expédition";
-$_Lang ['SFB_Mission_Aggresive'] = "<b class = "orange"> Agressif </ b>";
-$_Lang ['SFB_Mission_Civil'] = "<b class = "lightblue"> Civil </ b>";
-$_Lang ['SFB_Mission_All'] = "<b class = "red"> Tous </ b>";
+$_Lang ['SFB_Mission_Aggresive'] = "<b class = \"orange\"> Agressif </ b>";
+$_Lang ['SFB_Mission_Civil'] = "<b class = \"lightblue\"> Civil </ b>";
+$_Lang ['SFB_Mission_All'] = "<b class = \"red\"> Tous </ b>";
 
 $_Lang ['SFB_Additional_DontBlockIfIdle'] = "Ne pas bloquer les utilisateurs indélicats";
 

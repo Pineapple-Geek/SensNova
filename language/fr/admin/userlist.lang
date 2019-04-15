@@ -20,8 +20,8 @@ $_Lang ['IPs'] = "Adresses IP";
 
 $_Lang ['mEmail'] = "Courriel actif";
 $_Lang ['xEmail'] = "Adresse email modifiée (dans le processus d'activation)";
-$_Lang ['_ même'] = "<b class = "lime"> Pas de changement </ b>";
-$_Lang ['_ notsame'] = "<b class = "orange"> Modifications en cours </ b>";
+$_Lang ['_ même'] = "<b class = \"lime\"> Pas de changement </ b>";
+$_Lang ['_ notsame'] = "<b class = \"orange\"> Modifications en cours </ b>";
 
 $_Lang ['Lookup'] = "Recherche";
 $_Lang ['LoopupInfo'] = "Plus d’informations sur l’IP sélectionné";
@@ -98,7 +98,7 @@ $_Lang ['MassAction'] ['Unban'] = "Unban";
 
 $_Lang ['UserFilter_NoGoodStrings'] = "La fonction de filtrage a rejeté toutes les valeurs données!";
 
-$_Lang ['ThisData_NoAccess'] = "<span style = "couleur: rouge; bordure-bas: 1px en pointillé blanc;" class = "usrReg" title = "Vous n'êtes pas autorisé à afficher ce contenu!"> NoAccess </ span> ";
+$_Lang ['ThisData_NoAccess'] = "<span style = \"couleur: rouge; bordure-bas: 1px en pointillé blanc;\" class = \"usrReg\" title = \"Vous n'êtes pas autorisé à afficher ce contenu!\"> NoAccess </ span> ";
 
 
 ?>

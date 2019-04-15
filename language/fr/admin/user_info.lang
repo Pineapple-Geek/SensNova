@@ -115,7 +115,7 @@ $_Lang ['Start_from_planet'] = "Partir de la planète";
 $_Lang ['Start_from_moon'] = "Partir de la lune";
 $_Lang ['Target_is_planet'] = "L'objectif est une planète";
 $_Lang ['Target_is_moon'] = "L’objectif est la lune";
-$_Lang ['Target_is_debris'] = "L’objectif est le champ de destruction'
+$_Lang ['Target_is_debris'] = "L’objectif est le champ de destruction";
 
 // Erreurs
 $_Lang ['Error_NoUID_NoName'] = "Vous devez entrer l'ID ou le pseudo du joueur!";
