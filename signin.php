@@ -65,11 +65,11 @@
 							<form method="POST">
 								<div class="top-margin">
 									<label>Identifiant <span class="text-danger">*</span></label>
-									<input type="text" class="form-control" required>
+									<input type="text" id="uname" name="username" value="" type="text" class="form-control" required>
 								</div>
 								<div class="top-margin">
 									<label>Mot de passe <span class="text-danger">*</span> <a class="text-right" href="">Mot de passe oublié?</a></label>
-									<input type="password" class="form-control" required>
+									<input type="password" id="upass" name="password" value="" type="password" class="form-control" required>
 								</div>
 
 								<hr>
@@ -79,7 +79,7 @@
 										
 									</div>
 									<div class="col-lg-12 text-center">
-										<button class="btn btn-action btn-xs btn-sm btn-md" type="submit">Identifiez-vous</button>
+										<button class="btn btn-action btn-xs btn-sm btn-md" type="{type}" name="submit">Identifiez-vous</button>
 									</div>
 								</div>
 

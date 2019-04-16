@@ -17,7 +17,7 @@ $Common_TimeNow = time();
 define('DEFAULT_SKINPATH', 'skins/epicblue/');
 define('TEMPLATE_DIR', 'templates/');
 define('TEMPLATE_NAME', 'default_template');
-define('DEFAULT_LANG', 'pl');
+define('DEFAULT_LANG', 'fr');
 
 if(!empty($_BenchTool)){ $_BenchTool->simpleCountStart(false, 'telemetry__c_maininc'); }
 
