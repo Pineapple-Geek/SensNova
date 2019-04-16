@@ -82,7 +82,7 @@ $_Lang ['SetSkin_BadNetSkin'] = "Le lien vers le skin externe que vous avez sél
 $_Lang ['SetSkin_BadLocSkin'] = "Il n'y a pas de skin sur notre serveur! \ NPliquez sur l'un des skins disponibles de la liste.";
 $_Lang ['SetSkin_AjaxError'] = "Le système n'a pas pu vérifier si le skin du jeu que vous avez sélectionné était correct. \ NAtes-vous sûr de vouloir définir ce skin? \ NDans le cas d'un lien incorrect, le jeu peut sembler incorrect!";
 
-$_Lang ['ResSort_Resources'] = array ('met' => & $ _ Lang ['Metal'], 'cry' => & $ _ Lang ['Crystal'], 'deu' => & $ _ Lang ['Deuterium' ]);
+$_Lang ['ResSort_Resources'] = array('met' => & $_Lang ['Metal'], 'cry' => & $_Lang ['Crystal'], 'deu' => & $_Lang ['Deuterium' ]);
 
 // Galaxy
 
@@ -195,10 +195,10 @@ $_Lang ['BuyMoreDE'] = "Acheter de l'énergie noire!";
 $_Lang ['ChangeYourNick'] = "Nick change";
 $_Lang ['GoBack'] = "Retourner aux paramètres du compte";
 $_Lang ['NickChange_Info'] = "";
-$_Lang ['NickChange_Info']. = '& Bull; Nick change le coût: <b class = "orange"> 10 </b> unités d’énergie noire <br/> ';
-$_Lang ['NickChange_Info']. = '& Bull; Les informations relatives à votre ancien Nick seront visibles pendant les 7 prochains jours. <br/> ';
-$_Lang ['NickChange_Info']. = '& Bull; Le nouveau Nick doit être conforme à la <a class="red" href="rules.php" target="_blank"> Réglementation </a> <br/> ';
-$_Lang ['NickChange_Info']. = '& Bull; Le nouveau Nick doit comporter au moins 4 caractères et peut être composé de caractères alphanumériques, de soulignés, d\'espaces et de tirets. <br/> ';
+$_Lang ['NickChange_Info'] = '& Bull; Nick change le coût: <b class = "orange"> 10 </b> unités d’énergie noire <br/> ';
+$_Lang ['NickChange_Info'] = '& Bull; Les informations relatives à votre ancien Nick seront visibles pendant les 7 prochains jours. <br/> ';
+$_Lang ['NickChange_Info'] = '& Bull; Le nouveau Nick doit être conforme à la <a class="red" href="rules.php" target="_blank"> Réglementation </a> <br/> ';
+$_Lang ['NickChange_Info'] = '& Bull; Le nouveau Nick doit comporter au moins 4 caractères et peut être composé de caractères alphanumériques, de soulignés, d\'espaces et de tirets. <br/> ';
 
 $_Lang ['NewNick'] = "Nouveau pseudo";
 $_Lang ['ChangeIt'] = 'Changer de pseudo';
@@ -224,7 +224,7 @@ $_Lang ['Vacation_EndTimeNoBlock'] = '<b class = "lime"> Les vacances peuvent ê
 // Email Change
 
 $_Lang ['Email_Text'] = "Bonjour, <b> {EP_User} </b>! <br/> <br/> Dans votre compte de jeu, <a href='{EP_GameLink}'' target='_blank'> <b> '. $ _ GameConfig [' game_name '].' </b> </a> le processus de modification de l'adresse e-mail a commencé! <br/> <br/> <b> Le processus comprend deux étapes d'activation </b >, par les liens d'activation reçus. <br/> La première est l'activation de la nouvelle adresse électronique. La seconde est la confirmation de la modification de l'adresse électronique de l'ancienne adresse. <br/> <b> La première étape </b> est requise (confirmer, la nouvelle adresse n'est pas fausse et est toujours active). Toutefois, vous pouvez omettre la <b> deuxième étape </b>, mais l'activation durera <b> 7 jours </b>. <br/> Si les deux étapes sont terminées, l'adresse L'email sera changé immédiatement. ";
-$_Lang ['Email_Text']. = '<br/> <br/> {EP_Text}: <br/> <br/> <a href="{EP_LinkBuch"> {EP_Link} </a> <br / > (Si vous ne vous activez pas en cliquant sur le lien ci-dessus, copiez-le manuellement dans la barre d\'adresse.) <br/> <br/> <b> Détails du processus </b>: <br/> Ancienne adresse e-mail: <b > {EP_OldMail} </b> <br/> Nouvelle adresse de messagerie: <b> {EP_NewMail} </b> <br/> Date d\'activation du processus: <b> {EP_Date} </b> <br/> adresse IP à partir duquel le processus a été activé: <b> {EP_IP} </b> <br/> <br/> Si vous n\'avez pas activé ce processus, immédiatement <a href="{EP_ContactLink}" target="_blank"> contact avec l\'Administration! </a> <br/> {EP_Text2} <br/> <br/> Cordialement, <a href="{EP_GameLink}" target="_blank"> <b> Équipe '. $_GameConfig [' game_name '].' </b> </a>';
+$_Lang ['Email_Text'] = '<br/> <br/> {EP_Text}: <br/> <br/> <a href="{EP_LinkBuch"> {EP_Link} </a> <br / > (Si vous ne vous activez pas en cliquant sur le lien ci-dessus, copiez-le manuellement dans la barre d\'adresse.) <br/> <br/> <b> Détails du processus </b>: <br/> Ancienne adresse e-mail: <b > {EP_OldMail} </b> <br/> Nouvelle adresse de messagerie: <b> {EP_NewMail} </b> <br/> Date d\'activation du processus: <b> {EP_Date} </b> <br/> adresse IP à partir duquel le processus a été activé: <b> {EP_IP} </b> <br/> <br/> Si vous n\'avez pas activé ce processus, immédiatement <a href="{EP_ContactLink}" target="_blank"> contact avec l\'Administration! </a> <br/> {EP_Text2} <br/> <br/> Cordialement, <a href="{EP_GameLink}" target="_blank"> <b> Équipe '. $_GameConfig [' game_name '].' </b> </a>';
 $_Lang ['Email_WarnOld'] = "Si vous ne cliquez pas sur ce lien d\'activation, l\'adresse e-mail peut être modifiée dans le jeu 7 jours après le début du processus (si la nouvelle adresse e-mail sera confirmée plus tôt)!";
 $_Lang ['Email_WarnNew'] = "Si vous ne cliquez pas sur ce lien d\'activation, l\'adresse attribuée à votre compte ne sera pas modifiée (même si vous confirmez la modification de l\'ancienne adresse électronique)!";
 $_Lang ['Email_Title'] = $_GameConfig ['game_name']. ' - Changement d\'adresse e-mail ';
@@ -232,14 +232,14 @@ $_Lang ['Email_MailOld'] = "Pour confirmer le changement de cette adresse en une
 $_Lang ['Email_MailNew'] = "Pour confirmer l\'activité de la nouvelle adresse, cliquez sur le lien ci-dessous";
 
 $_Lang ['Email_Body'] = "<! DOCTYPE HTML PUBLIC" - // W3C // DTD HTML 4.01 Transitional // EN ">";
-$_Lang ['Email_Body']. = '<Html>';
-$_Lang ['Email_Body']. = '<Head>>';
-$_Lang ['Email_Body']. = '<Meta http-equiv = "Content-Type" content = "text / html; charset = UTF-8">';
-$_Lang ['Email_Body']. = '</Head>';
-$_Lang ['Email_Body']. = '<Corps>';
-$_Lang ['Email_Body']. = $_Lang ['Email_Text'];
-$_Lang ['Email_Body']. = '</Body>';
-$_Lang ['Email_Body']. = '</Html>';
+$_Lang ['Email_Body'] = '<Html>';
+$_Lang ['Email_Body'] = '<Head>>';
+$_Lang ['Email_Body'] = '<Meta http-equiv = "Content-Type" content = "text / html; charset = UTF-8">';
+$_Lang ['Email_Body'] = '</Head>';
+$_Lang ['Email_Body'] = '<Corps>';
+$_Lang ['Email_Body'] = $_Lang ['Email_Text'];
+$_Lang ['Email_Body'] = '</Body>';
+$_Lang ['Email_Body'] = '</Html>';
 
 $_Lang ['WhatIsFleetColors'] = "Information";
 $_Lang ['FleetColors_Info'] = "Cet onglet vous permet de modifier les couleurs des missions de flotte individuelles visibles dans l’aperçu. <br/> En cliquant sur n’importe quel champ, vous ouvrez la fenêtre de sélection des couleurs. Le champ vide indique la couleur par défaut.";

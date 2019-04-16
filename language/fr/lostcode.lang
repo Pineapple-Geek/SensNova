@@ -3,14 +3,14 @@
 $_Lang ['mail_text'] = 'Cet e-mail a été généré par le script de récupération du code de récupération de la <a href="'GAMEURL_STRICT.'">'. $ _ GameConfig ['nom du jeu']. '</a> <br /> <br /> <b> Votre nouveau lien d’activation est le suivant: </ b> {activationlink} <br/> <br/> Si vous n’avez pas généré ce lien, veuillez ignorer ce message. <br/> Nous vous souhaitons bonne chance dans le jeu! ';
 
 $_Lang ['mail_template'] = '<! DOCTYPE HTML PUBLIC' - // W3C // DTD HTML 4.01 Transitional // EN ">";
-$_Lang ['mail_template']. = '<Html>';
-$_Lang ['mail_template']. = '<Head>';
-$_Lang ['mail_template']. = '<Méta http-equiv = "Content-Type" content = "text / html; charset = UTF-8">';
-$_Lang ['mail_template']. = '</ Head>';
-$_Lang ['mail_template']. = '<Corps>';
-$_Lang ['mail_template']. = $_Lang ['mail_text'];
-$_Lang ['mail_template']. = '</ Body>';
-$_Lang ['mail_template']. = '</ Html>';
+$_Lang ['mail_template'] = '<Html>';
+$_Lang ['mail_template'] = '<Head>';
+$_Lang ['mail_template'] = '<Méta http-equiv = "Content-Type" content = "text / html; charset = UTF-8">';
+$_Lang ['mail_template'] = '</ Head>';
+$_Lang ['mail_template'] = '<Corps>';
+$_Lang ['mail_template'] = $_Lang ['mail_text'];
+$_Lang ['mail_template'] = '</ Body>';
+$_Lang ['mail_template'] = '</ Html>';
 
 $_Lang ['mail_title'] = 'Réactiver';
 

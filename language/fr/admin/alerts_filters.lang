@@ -105,7 +105,7 @@ $_Lang ['ActionTypes'] = array
                                                 '2' => 'Ignorer et ne pas bloquer la flotte',
                                             );
 
-$_Lang ['ActionType_2'] = & $ _ Lang ['ActionTypes'] [2];
-$_Lang ['ActionType_1'] = & $ _ Lang ['ActionTypes'] [1];
+$_Lang ['ActionType_2'] = & $_Lang ['ActionTypes'] [2];
+$_Lang ['ActionType_1'] = & $_Lang ['ActionTypes'] [1];
 
 ?>
