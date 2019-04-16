@@ -37,13 +37,13 @@ $_Lang ['FilterCode'] = 'Code de filtre';
 $_Lang ['ActionType'] = 'Action de filtrage';
 $_Lang ['TurnOff'] = "Désactiver le filtre";
 
-$_Lang ['Condition_1'] = "Le joueur" X "est dans la liste";
-$_Lang ['Condition_2'] = "IP" X "est dans la liste";
-$_Lang ['Condition_3'] = "Le joueur" X "envoie la flotte";
-$_Lang ['Condition_4'] = 'Le joueur sur la planète' X 'représente le but de la flotte';
-$_Lang ['Condition_5'] = 'Le joueur' X 'connecté avec une adresse IP' Y 'inférieure ou égale à' Z 'fois';
-$_Lang ['Condition_6'] = 'Le lieu de découverte des conditions est "X" ";
-$_Lang ['Condition_7'] = 'Le code d’envoi Alerte est "X" ";
+$_Lang ['Condition_1'] = "Le joueur 'X'est dans la liste";
+$_Lang ['Condition_2'] = "IP' X 'est dans la liste";
+$_Lang ['Condition_3'] = "Le joueur' X 'envoie la flotte";
+$_Lang ['Condition_4'] = 'Le joueur sur la planète" X "représente le but de la flotte';
+$_Lang ['Condition_5'] = 'Le joueur" X "connecté avec une adresse IP" Y "inférieure ou égale à" Z "fois';
+$_Lang ['Condition_6'] = 'Le lieu de découverte des conditions est "X" ';
+$_Lang ['Condition_7'] = 'Le code d’envoi Alerte est "X" ';
 
 $_Lang ['CondSelector_6_1'] = 'fleet3.php';
 $_Lang ['CondSelector_6_2'] = 'galaxyfleet.php';

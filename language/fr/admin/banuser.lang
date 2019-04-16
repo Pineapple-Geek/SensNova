@@ -19,9 +19,9 @@ $_Lang ['Form_SetBlockade_CookieStyle'] = "Créer un verrou de cookie";
 $_Lang ['Form_GiveBan'] = "Interdiction";
 
 $_Lang ['Msg_Ban1OK'] = 'Le joueur% sa été banni!';
-$_Lang ['Msg_Ban1OK_wFleets'] = 'Le joueur% sa été banni (la flotte a été retournée:% s)! ";
+$_Lang ['Msg_Ban1OK_wFleets'] = 'Le joueur% sa été banni (la flotte a été retournée:% s)! ';
 $_Lang ['Msg_BanMOK'] = 'Les joueurs% s ont été bannis!';
-$_Lang ['Msg_BanMOK_wFleets'] = 'Les joueurs% s ont été interdits (la flotte a été retournée:% s)! ";
+$_Lang ['Msg_BanMOK_wFleets'] = 'Les joueurs% s ont été interdits (la flotte a été retournée:% s)! ';
 
 $_Lang ['Msg_BansGiven'] = "L’interdiction a été bloquée!";
 $_Lang ['Msg_BansGiven_Fleets'] = "L’interdiction a été bloquée (flotte compliquée:% s)!";

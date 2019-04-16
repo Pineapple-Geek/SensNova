@@ -16,17 +16,17 @@ $_Lang ['Table_Head_ReportID'] = "Identifiant de rapport";
 
 $_Lang ['FleetRow_PlanetTypes'] [1] = "P";
 $_Lang ['FleetRow_PlanetTypes'] [3] = "K";
-$_Lang ['FleetRow_PlanetDeleted'] = "<b class =" red "> Supprimé </ b>";
-$_Lang ['UserRow_Deleted'] = "<b class =" red "> Supprimé </ b>";
+$_Lang ['FleetRow_PlanetDeleted'] = "<b class =\" red \"> Supprimé </ b>";
+$_Lang ['UserRow_Deleted'] = "<b class =\" red \"> Supprimé </ b>";
 
 $_Lang ['Info_NoFleetRows'] = 'Aucune attaque correspondante trouvée ...';
 
-$_Lang ['Analysis_Info'] = "Analyse des attaques entre joueurs: <b class =" skyblue ">% s </ b> (<a href="user_info.php?uid=%s" target="_blank"> # % s </a>) [L'attaquant] et <b class = "skyblue">% s </ b> (<a href="user_info.php?uid=%s" target="_blank"> #% s </a>) [Defender], le <b class = "skyblue">% s </ b> ";
-$_Lang ['Analysis_BashNotFound'] = "<b class =" lime "> Bash n’a pas été détecté ... </ b>";
-$_Lang ['Analysis_BashFound'] = "<b class =" red "> Bash a été détecté! </ B> <br/> [<a class="red" href="banuser.php?ids=%s"> <img src = "../ images / lock.png" style = "vertical-align: middle" /> Interdire l'attaquant </a>] ";
-$_Lang ['Analysis_BadInput'] = "<b class =" orange "> Échec de l'analyse! Données incorrectement saisies ... </ b>";
-$_Lang ['Analysis_BadSenderName'] = "<b class =" red "> L'attaquant donné n'existe pas! </ B>";
-$_Lang ["Analysis_BadOwnerName"] = "<b class =" red "> Le défenseur spécifié n'existe pas! </ B>";
+$_Lang ['Analysis_Info'] = "Analyse des attaques entre joueurs: <b class =\" skyblue \">% s </ b> (<a href="user_info.php?uid=%s" target="_blank"> # % s </a>) [L'attaquant] et <b class = \"skyblue\">% s </ b> (<a href=\"user_info.php?uid=%s\" target=\"_blank\"> #% s </a>) [Defender], le <b class = \"skyblue\">% s </ b> ";
+$_Lang ['Analysis_BashNotFound'] = "<b class =\" lime \"> Bash n’a pas été détecté ... </ b>";
+$_Lang ['Analysis_BashFound'] = "<b class =\" red \"> Bash a été détecté! </ B> <br/> [<a class=\"red\" href=\"banuser.php?ids=%s\"> <img src = \"../ images / lock.png\" style = \"vertical-align: middle\" /> Interdire l'attaquant </a>] ";
+$_Lang ['Analysis_BadInput'] = "<b class =\" orange \"> Échec de l'analyse! Données incorrectement saisies ... </ b>";
+$_Lang ['Analysis_BadSenderName'] = "<b class =\" red \"> L'attaquant donné n'existe pas! </ B>";
+$_Lang ["Analysis_BadOwnerName"] = "<b class =\" red \"> Le défenseur spécifié n'existe pas! </ B>";
 
 $_Lang ['Analysis_List_UserBash'] = "Nombre maximal d'attaques de joueurs dépassé (Quantité:% s / Autorisé:% s)";
 $_Lang ["Analysis_List_PlanetBash"] = "La limite d'attaque a été dépassée à"% s "[% s:% s:% s] [% s] (#% s) (Quantité:% s / Autorisé:% s)";

@@ -4,6 +4,6 @@ $_Lang ['ErrorsList_Title'] = 'Erreurs SQL';
 $_Lang ['ErrorsList_Clear'] = 'Nettoyer';
 $_Lang ['ErrorsList_ID'] = 'ID';
 $_Lang ['ErrorsList_Date'] = 'Données';
-$_Lang ['ErrorsList_Count'] = 'Nombre d'erreurs';
+$_Lang ['ErrorsList_Count'] = 'Nombre d\'erreurs';
 $_Lang ['ErrorsList_TooManyErrors'] = "Trop d'erreurs pour toutes les afficher (j'affiche les 100 premières)!";
 ?>

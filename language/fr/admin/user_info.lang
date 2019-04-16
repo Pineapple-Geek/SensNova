@@ -56,7 +56,7 @@ $_Lang ['NoLogin'] = "Pas de login!";
 $_Lang ['ActivationCode'] = "Code";
 $_Lang ['CookieBanActive'] = "Interdiction active des cookies!";
 $_Lang ['NotInvited'] = "-";
-$_Lang ['InviterDeleted'] = "<b class = "red"> Compte supprimé </ b>";
+$_Lang ['InviterDeleted'] = "<b class = \"red\"> Compte supprimé </ b>";
 
 $_Lang ['ShowOnline'] = "Afficher les joueurs en ligne";
 $_Lang ['SearchByIP'] = "Rechercher des joueurs avec cette adresse IP";

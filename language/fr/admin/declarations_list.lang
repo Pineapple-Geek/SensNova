@@ -1,9 +1,9 @@
 <?php
 $_Lang ['declaration_title'] = 'Entrées MultiKont';
 $_Lang ['declaration_noexist'] = "Cette déclaration n'existe pas!";
-$_Lang ['declaration_refused'] = "<b class =" orange "> Déclaration rejetée! </ B>";
-$_Lang ['declaration_accepted'] = "<b class =" lime "> Déclaration acceptée! </ B>";
-$_Lang ['declaration_deleted'] = "<b class =" red "> Déclaration supprimée! </ B>";
+$_Lang ['declaration_refused'] = "<b class =\" orange \"> Déclaration rejetée! </ B>";
+$_Lang ['declaration_accepted'] = "<b class =\" lime \"> Déclaration acceptée! </ B>";
+$_Lang ['declaration_deleted'] = "<b class =\" red \"> Déclaration supprimée! </ B>";
 $_Lang ['declaration_noaffect'] = "Rien n'a changé";
 $_Lang ['declaration_deletedalready'] = "La déclaration a déjà été supprimée!";
 
@@ -13,10 +13,10 @@ $_Lang ['DeclarationReasons _'] [3] = "Les mêmes endroits du jeu";
 $_Lang ['DeclarationReasons _'] [4] = 'Autre';
 $_Lang ['DeclarationReasons _'] [5] = "Connexions occasionnelles";
 
-$_Lang ['DeclarationStatuses _'] ['- 2'] = '<b class = "red"> Supprimé </ b> ";
-$_Lang ['DeclarationStatuses _'] ['- 1'] = "<b class =" orange "> Rejeté </ b>";
-$_Lang ['DeclarationStatuses _'] ['0'] = "<b class =" skyblue "> en attente </ b>";
-$_Lang ['DeclarationStateses _'] ['1'] = "<b class =" lime "> approuvé </ b>";
+$_Lang ['DeclarationStatuses _'] ['- 2'] = '<b class = "red"> Supprimé </ b> ';
+$_Lang ['DeclarationStatuses _'] ['- 1'] = "<b class =\" orange \"> Rejeté </ b>";
+$_Lang ['DeclarationStatuses _'] ['0'] = "<b class =\" skyblue \"> en attente </ b>";
+$_Lang ['DeclarationStateses _'] ['1'] = "<b class =\" lime \"> approuvé </ b>";
 
 $_Lang ['Declarations_Header_Title'] = "Liste des demandes de jeu d'un IP / ordinateur";
 $_Lang ['Declarations_Header_Confirm'] = "Êtes-vous sûr?";
@@ -30,8 +30,8 @@ $_Lang ['Declarations_Header_Reason'] = 'Reason';
 $_Lang ['Declarations_Header_Status'] = 'Statut';
 $_Lang ['Declarations_Header_Actions'] = 'Actions';
 
-$_Lang ['Declarations_NoUser'] = "<b class =" red "> Aucun </ b>";
-$_Lang ['Declarations_EmptyUser'] = "<b class =" red "> Compte supprimé </ b>";
+$_Lang ['Declarations_NoUser'] = "<b class =\" red \"> Aucun </ b>";
+$_Lang ['Declarations_EmptyUser'] = "<b class =\" red \"> Compte supprimé </ b>";
 $_Lang ['Declarations_NothingFound'] = 'Aucune déclaration';
 
 ?>

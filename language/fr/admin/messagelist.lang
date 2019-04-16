@@ -43,9 +43,9 @@ $_Lang ['tip_Deleted'] = "Supprimé";
 $_Lang ['tip_Read'] = "Lire";
 $_Lang ['tip_Copy'] = "Copier";
 
-$_Lang ['Err_CopyNotFound'] = "<b class = "red"> L'original de ce message n'existe pas! </ B>";
+$_Lang ['Err_CopyNotFound'] = "<b class = \"red\"> L'original de ce message n'existe pas! </ B>";
 
-$_Lang ['YouCannotSeeThisMsg'] = "<b class = "red"> Pas d’autorisation pour voir ce message! </ B>";
+$_Lang ['YouCannotSeeThisMsg'] = "<b class = \"red\"> Pas d’autorisation pour voir ce message! </ B>";
 $_Lang ['Error_NoMsgFound'] = "Aucun message trouvé!";
 $_Lang ['Form_ResetFilters'] = "Réinitialiser les filtres";
 

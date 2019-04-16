@@ -1,30 +1,30 @@
 <?php
 
-$_Lang['Page_Title']					= 'Journal banis";
+$_Lang['Page_Title']					= 'Journal banis';
 
-$_Lang['Header_ID']					= 'ID";
-$_Lang['Header_User']				= 'joueur";
-$_Lang['Header_StartTime']			= 'Date d'imposition";
-$_Lang['Header_Duration']			= 'période";
-$_Lang['Header_EndTime']				= 'Date de fin";
-$_Lang['Header_Status']				= 'Status";
-$_Lang['Header_Reason']				= 'raison";
-$_Lang['Header_Giver']				= 'diffuseur";
-$_Lang['Header_Indicators']			= 'information";
+$_Lang['Header_ID']					= 'ID';
+$_Lang['Header_User']				= 'joueur';
+$_Lang['Header_StartTime']			= 'Date d\'imposition';
+$_Lang['Header_Duration']			= 'période';
+$_Lang['Header_EndTime']				= 'Date de fin';
+$_Lang['Header_Status']				= 'Status';
+$_Lang['Header_Reason']				= 'raison';
+$_Lang['Header_Giver']				= 'diffuseur';
+$_Lang['Header_Indicators']			= 'information';
 
-$_Lang['Row_Active']				= '<b class="lime">actif</b>";
-$_Lang['Row_Expired']				= '<b class="orange">expiré</b>";
-$_Lang['Row_Removed']				= '<b class="red">coupé</b>";
-$_Lang['Row_ReasonEmpty']			= '<b class="orange">Pas donné</b>";
-$_Lang['Row_WithVacation']			= '<b class="skyblue">Les vacances étaient imposées</b>";
-$_Lang['Row_WithoutVacation']		= 'Congé non imposé";
-$_Lang['Row_AllFleetsRetreaded']		= '<b class="lime">Flottes retirées (#01)</b>";
-$_Lang['Row_OwnFleetsRetreaded']		= '<b class="orange">Flottes retirées (#02)</b>";
-$_Lang['Row_OthersFleetsRetreaded']	= '<b class="orange">Flottes retirées (#03)</b>";
-$_Lang['Row_NoFleetsRetreaded']		= '<b class="red">La flotte n'a pas été retirée</b>";
-$_Lang['Row_BlockadeOnCookieStyle']	= '<b class="red">Cookie verouillé</b>";
+$_Lang['Row_Active']				= '<b class="lime">actif</b>';
+$_Lang['Row_Expired']				= '<b class="orange">expiré</b>';
+$_Lang['Row_Removed']				= '<b class="red">coupé</b>';
+$_Lang['Row_ReasonEmpty']			= '<b class="orange">Pas donné</b>';
+$_Lang['Row_WithVacation']			= '<b class="skyblue">Les vacances étaient imposées</b>';
+$_Lang['Row_WithoutVacation']		= 'Congé non imposé';
+$_Lang['Row_AllFleetsRetreaded']		= '<b class="lime">Flottes retirées (#01)</b>';
+$_Lang['Row_OwnFleetsRetreaded']		= '<b class="orange">Flottes retirées (#02)</b>';
+$_Lang['Row_OthersFleetsRetreaded']	= '<b class="orange">Flottes retirées (#03)</b>';
+$_Lang['Row_NoFleetsRetreaded']		= '<b class="red">La flotte n\'a pas été retirée</b>';
+$_Lang['Row_BlockadeOnCookieStyle']	= '<b class="red">Cookie verouillé</b>';
 $_Lang['Row_UserDeleted']               = "Joueur enlevé";
 
-$_Lang['Error_NoRows']				= 'Aucune entrée";
+$_Lang['Error_NoRows']				= 'Aucune entrée';
 
 ?>
