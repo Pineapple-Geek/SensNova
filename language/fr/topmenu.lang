@@ -1,22 +1,22 @@
 <?php
 
 $_Lang ['logout'] = "Déconnexion";
-$_Lang ['player'] = "Player";
-$_Lang ['friends'] = "Friends";
+$_Lang ['player'] = "Joueur";
+$_Lang ['friends'] = "Amis";
 $_Lang ['options'] = "Paramètres";
 $_Lang ['stats'] = "Statistiques";
 $_Lang ['search'] = "Recherche";
 $_Lang ['notes'] = "Notes";
-$_Lang ['rules'] = "Réglementation";
+$_Lang ['rules'] = "Règles du jeu";
 $_Lang ['contact'] = "Contact";
 $_Lang ['chat'] = "Chat";
-$_Lang ['admin_cp'] = "<b style = 'color: lime;'> AdminPanel </ b>";
+$_Lang ['admin_cp'] = "<b style = 'color: lime;'> Panneau de l'admin </ b>";
 $_Lang ['go_cp'] = "<b style = 'color: lime;'> Panneau GO </ b>";
 $_Lang ['sgo_cp'] = "<b style = 'color: lime;'> Panneau SGO </ b>";
 $_Lang ['forum'] = "Forum";
 $_Lang ['banned'] = "Banni";
 $_Lang ['ReportLink'] = "Système de reporting";
-$_Lang ['Polls'] = "Polls";
+$_Lang ['Polls'] = "Sondages";
 
 $_Lang ['ServerTimeTxt'] = "Heure actuelle du serveur";
 

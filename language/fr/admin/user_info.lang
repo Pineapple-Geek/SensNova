@@ -72,7 +72,7 @@ $_Lang ['Delete_Time_onNextRecalc'] = "Supprimer lors de la prochaine conversion
 $_Lang ['NoStatsAvailable'] = "Désolé, les statistiques du joueur ne sont pas disponibles pour le moment!";
 
 $_Lang ['General'] = "Points";
-$_Lang ['Fleet'] = "Fleet";
+$_Lang ['Fleet'] = "Flotte";
 $_Lang ['Buildings'] = "Bâtiments";
 $_Lang ['Defense'] = "Defense";
 $_Lang ['Research'] = "Research";

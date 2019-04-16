@@ -1,111 +1,111 @@
 <?php
 
-	$_Lang ['Ally_FunctionNotReady'] = "Cette fonction n'est pas encore prête!";
+	$_Lang['Ally_FunctionNotReady'] = "Cette fonction n'est pas encore prête!";
 
 // Informations sur les alliés
 
-    $_Lang ['AInfo_Title'] = "Informations sur l'alliance";
+    $_Lang['AInfo_Title'] = 'Informations sur l\'alliance';
     
     // Messages
-    $_Lang ['AInfo_NoSelector'] = "Aucune balise ni identité d’alliance n’a été donnée!";
-    $_Lang ['AInfo_BadID'] = "Identifiant d'alliance non valide entré!";
-    $_Lang ['AInfo_BadTag'] = "La balise donnée est incorrecte!";
-    $_Lang ['AInfo_NoExist'] = "Une telle alliance n'existe pas!";
+    $_Lang['AInfo_NoSelector'] = "Aucune balise ni identité d’alliance n’a été donnée!";
+    $_Lang['AInfo_BadID'] = "Identifiant d'alliance non valide entré!";
+    $_Lang['AInfo_BadTag'] = "La balise donnée est incorrecte!";
+    $_Lang['AInfo_NoExist'] = "Une telle alliance n'existe pas!";
     
-    $_Lang ['AInfo_MembersCount'] = "Nombre de membres";
+    $_Lang['AInfo_MembersCount'] = "Nombre de membres";
     
-    $_Lang ['AInfo_NoAllyDesc'] = "Aucune description de l'alliance";
+    $_Lang['AInfo_NoAllyDesc'] = "Aucune description de l'alliance";
     
-    $_Lang ['AInfo_WebPage'] = "Page d'accueil";
-    $_Lang ['AInfo_MakeRequest'] = "Appliquer à cette alliance";
-    $_Lang ['AInfo_BelongToAlly'] = "Vous appartenez à cette alliance!";
-    $_Lang ['AInfo_RequestNotAllow'] = "Cette alliance a bloqué la possibilité de soumettre des applications!";
+    $_Lang['AInfo_WebPage'] = "Page d'accueil";
+    $_Lang['AInfo_MakeRequest'] = "Appliquer à cette alliance";
+    $_Lang['AInfo_BelongToAlly'] = "Vous appartenez à cette alliance!";
+    $_Lang['AInfo_RequestNotAllow'] = "Cette alliance a bloqué la possibilité de soumettre des applications!";
 
 // Création d'alliés
     
-    $_Lang ['AMake_Title'] = "Créer une alliance";
+    $_Lang['AMake_Title'] = "Créer une alliance";
     
-    $_Lang ['AMake_Tag'] = "Balise Alliance (3 à 8 caractères)";
-    $_Lang ['AMake_Name'] = "Nom de l'alliance (35 caractères max.)";
-    $_Lang ['AMake_Submit'] = "Créer une alliance!";
+    $_Lang['AMake_Tag'] = "Balise Alliance (3 à 8 caractères)";
+    $_Lang['AMake_Name'] = "Nom de l'alliance (35 caractères max.)";
+    $_Lang['AMake_Submit'] = "Créer une alliance!";
     
-    $_Lang ['AMake_TagShort'] = "La balise doit comporter au moins 3 caractères!";
-    $_Lang ['AMake_TagLong'] = "La balise ne peut avoir plus de 8 caractères!";
-    $_Lang ['AMake_BadTag'] = "La balise est incorrecte!";
-    $_Lang ['AMake_NoName'] = "Vous devez entrer le nom de l'Alliance!";
-    $_Lang ['AMake_NameLong'] = "Le nom de l'Alliance ne peut pas dépasser 35 caractères!";
-    $_Lang ['AMake_BadName'] = "Le nom de l'Alliance est incorrect! <br/> (Il ne peut contenir que des caractères alphanumériques, des caractères polonais, des espaces, un trait d'union et un soulignement)";
-    $_Lang ['AMake_TagExists'] = "Une alliance avec la balise %s existe déjà! <br/> Choisissez une autre balise";
-    $_Lang ['AMake_NameExists'] = "L’alliance nommée %s existe déjà! <br/> Veuillez choisir un autre nom";
+    $_Lang['AMake_TagShort'] = "La balise doit comporter au moins 3 caractères!";
+    $_Lang['AMake_TagLong'] = "La balise ne peut avoir plus de 8 caractères!";
+    $_Lang['AMake_BadTag'] = "La balise est incorrecte!";
+    $_Lang['AMake_NoName'] = "Vous devez entrer le nom de l'Alliance!";
+    $_Lang['AMake_NameLong'] = "Le nom de l'Alliance ne peut pas dépasser 35 caractères!";
+    $_Lang['AMake_BadName'] = "Le nom de l'Alliance est incorrect! <br/> (Il ne peut contenir que des caractères alphanumériques, des caractères polonais, des espaces, un trait d'union et un soulignement)";
+    $_Lang['AMake_TagExists'] = "Une alliance avec la balise %s existe déjà! <br/> Choisissez une autre balise";
+    $_Lang['AMake_NameExists'] = "L’alliance nommée %s existe déjà! <br/> Veuillez choisir un autre nom";
     
-    $_Lang ['AMake_Done'] = "L'alliance %s [%s] a été correctement créée!";
+    $_Lang['AMake_Done'] = "L'alliance %s [%s] a été correctement créée!";
     
-    $_Lang ['AMake_AllyLeader'] = "Fondateur";
-    $_Lang ['AMake_AllyNewComer'] = "Nouveau membre";
+    $_Lang['AMake_AllyLeader'] = "Fondateur";
+    $_Lang['AMake_AllyNewComer'] = "Nouveau membre";
 
 // formulaire de recherche allié
 
-    $_Lang ['AFind_Title'] = 'Recherche d’alliances';
+    $_Lang['AFind_Title'] = 'Recherche d’alliances';
     
-    $_Lang ['AFind_Search'] = 'Recherche';
+    $_Lang['AFind_Search'] = 'Recherche';
     
-    $_Lang ['AFind_Tag'] = "Tag";
-    $_Lang ['AFind_Name'] = 'Nom';
-    $_Lang ['AFind_Count'] = "Nombre de membres";
+    $_Lang['AFind_Tag'] = "Tag";
+    $_Lang['AFind_Name'] = 'Nom';
+    $_Lang['AFind_Count'] = "Nombre de membres";
     
-    $_Lang ['AFind_BadSigns'] = "Seul <br/> peut utiliser les caractères alphanumériques, les caractères polonais, les espaces, le trait d'union et le trait de soulignement dans le champ de recherche!";
-$_Lang ['AFind_NothingFound'] = "Rien trouvé ...";
+    $_Lang['AFind_BadSigns'] = "Seul <br/> peut utiliser les caractères alphanumériques, les caractères polonais, les espaces, le trait d'union et le trait de soulignement dans le champ de recherche!";
+$_Lang['AFind_NothingFound'] = "Rien trouvé ...";
 
 // Ally Menu par défaut
 
-    $_Lang ['AMenu_MakeAlly'] = "Créer votre propre alliance";
-    $_Lang ['AMenu_LookFor'] = "Rechercher une alliance";
+    $_Lang['AMenu_MakeAlly'] = "Créer votre propre alliance";
+    $_Lang['AMenu_LookFor'] = "Rechercher une alliance";
 
-$_Lang ['AMenu_Inv_Head'] = "Invitations aux alliances";
-$_Lang ['AMenu_Inv_Sender'] = "Alliance (joueur invitant)";
-$_Lang ['AMenu_Inv_Date'] = "Données";
-$_Lang ['AMenu_Inv_State'] = "Statut";
-$_Lang ['AMenu_Inv_Actions'] = "Actions";
+$_Lang['AMenu_Inv_Head'] = "Invitations aux alliances";
+$_Lang['AMenu_Inv_Sender'] = "Alliance (joueur invitant)";
+$_Lang['AMenu_Inv_Date'] = "Données";
+$_Lang['AMenu_Inv_State'] = "Statut";
+$_Lang['AMenu_Inv_Actions'] = "Actions";
 
-$_Lang ['AMenu_Inv_Accept'] = "Accepter l'invitation";
-$_Lang ['AMenu_Inv_Reject'] = "Rejeter l'invitation";
+$_Lang['AMenu_Inv_Accept'] = "Accepter l'invitation";
+$_Lang['AMenu_Inv_Reject'] = "Rejeter l'invitation";
 
-$_Lang ['AMenu_Inv_NoRows'] = "Vous n'avez été invité nulle part ...";
-$_Lang ['AMenu_Inv_States'] ['1'] = "<b class = 'lime'> en attente </ b>";
-$_Lang ['AMenu_Inv_States'] ['- 1'] = "<b class = 'orange'> rejeté </ b>";
-$_Lang ['AMenu_Inv_States'] ['- 2'] = "<b class = 'red'> Retired </ b>";
-$_Lang ['AMenu_Inv_States'] ['- 3'] = "<b class = 'red'> Retired </ b>";
+$_Lang['AMenu_Inv_NoRows'] = "Vous n'avez été invité nulle part ...";
+$_Lang['AMenu_Inv_States']['1'] = "<b class = 'lime'> en attente </ b>";
+$_Lang['AMenu_Inv_States']['- 1'] = "<b class = 'orange'> rejeté </ b>";
+$_Lang['AMenu_Inv_States']['- 2'] = "<b class = 'red'> Retired </ b>";
+$_Lang['AMenu_Inv_States']['- 3'] = "<b class = 'red'> Retired </ b>";
 
-$_Lang ['AMenu_Inv_MsgAcceptSuccess'] = "L'invitation a été acceptée!";
-$_Lang ['AMenu_Inv_MsgRejectSuccess'] = "L'invitation a été rejetée!";
-$_Lang ['AMenu_Inv_MsgNotFound'] = "L'invitation n'existe pas!";
-$_Lang ['AMenu_Inv_MsgBadID'] = "Données incorrectes!!";
+$_Lang['AMenu_Inv_MsgAcceptSuccess'] = "L'invitation a été acceptée!";
+$_Lang['AMenu_Inv_MsgRejectSuccess'] = "L'invitation a été rejetée!";
+$_Lang['AMenu_Inv_MsgNotFound'] = "L'invitation n'existe pas!";
+$_Lang['AMenu_Inv_MsgBadID'] = "Données incorrectes!!";
 
 // Ally Create Request
     
-    $_Lang ['AApp_Title'] = "Écrire une application dans l'alliance";
+    $_Lang['AApp_Title'] = "Écrire une application dans l'alliance";
     
-    $_Lang ['AApp_WriteRequest'] = "Écriture de l'application dans l'alliance %s [%s]";
+    $_Lang['AApp_WriteRequest'] = "Écriture de l'application dans l'alliance %s [%s]";
     
-    $_Lang ['AApp_Message'] = 'Message';
-    $_Lang ['AApp_Chars'] = "caractères";
-    $_Lang ['AApp_Help'] = "Aide";
-    $_Lang ['AApp_UseExample'] = "Recharger le formulaire de demande";
-    $_Lang ['AApp_Send'] = "Soumettez une candidature!";
+    $_Lang['AApp_Message'] = 'Message';
+    $_Lang['AApp_Chars'] = "caractères";
+    $_Lang['AApp_Help'] = "Aide";
+    $_Lang['AApp_UseExample'] = "Recharger le formulaire de demande";
+    $_Lang['AApp_Send'] = "Soumettez une candidature!";
     
-    $_Lang ['AApp_NoSample'] = "Alliance n'a pas de modèle d'application!";
+    $_Lang['AApp_NoSample'] = "Alliance n'a pas de modèle d'application!";
     
-    $_Lang ['AApp_BadID'] = "Identifiant d'alliance non valide entré!";
-    $_Lang ['AApp_AllyNoExists'] = 'Une telle alliance n’existe pas!';
-    $_Lang ['AApp_AllyBlockRequest'] = & $_Lang ['AInfo_RequestNotAllow'];
-    $_Lang ['AApp_NoText'] = "Vous devez entrer le contenu de l'application!";
-    $_Lang ['AApp_Done'] = "Votre candidature a été envoyée. <br/> Attendez maintenant que la candidature soit traitée <br/> (vous serez averti par un message)";
+    $_Lang['AApp_BadID'] = "Identifiant d'alliance non valide entré!";
+    $_Lang['AApp_AllyNoExists'] = 'Une telle alliance n’existe pas!';
+    $_Lang['AApp_AllyBlockRequest'] = & $_Lang['AInfo_RequestNotAllow'];
+    $_Lang['AApp_NoText'] = "Vous devez entrer le contenu de l'application!";
+    $_Lang['AApp_Done'] = "Votre candidature a été envoyée. <br/> Attendez maintenant que la candidature soit traitée <br/> (vous serez averti par un message)";
 
 // Ally Waiting Request
 
-    $_Lang ['AReq_Title'] = "Votre application";
+    $_Lang['AReq_Title'] = "Votre application";
     
-    $_Lang ['AReq_Cancel'] = "Retirer l'application";
-    $_Lang [ 'AReq_Sure']
+    $_Lang['AReq_Cancel'] = "Retirer l'application";
+    $_Lang [ 'AReq_Sure'];
 
 ?>

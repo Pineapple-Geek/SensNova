@@ -1,7 +1,7 @@
 <?php
 
 	$_Lang ['Tech'] = "Technologie";
-	$_Lang ['Requirements'] = "Requirements";
+	$_Lang ['Requirements'] = "Prérequis";
 	$_Lang ['Metal'] = "Metal";
 	$_Lang ['Crystal'] = "Crystal";
 	$_Lang ['Deuterium'] = "Deutérium";
@@ -115,7 +115,7 @@
 	407 => 'Petit revêtement de protection',
 	408 => 'Grand revêtement de protection',
 
-	502 => 'przeciwrakieta',
+	502 => 'Missile Patriot',
 	503 => 'Fusée interplanétaire',
 	);
 

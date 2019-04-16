@@ -1289,7 +1289,7 @@ $_Lang['Msg_CatNotDone'] = "Nie wykonałeś jeszcze tej kategorii!";
 $_Lang['Msg_CatNotAvailable'] = "Nie odblokowałeś jeszcze tej kategorii!";
 $_Lang['Msg_CantSkipUnSkippable'] = "Nie możesz pominąć tej kategorii!";
 $_Lang['Msg_CantSkipDone'] = "Ta kategoria zadań jest już wykonana!";
-$_Lang['Msg_Skiped'] = "Kategoria <i>"%s"</i> została pominięta!";
+$_Lang['Msg_Skiped'] = 'La catégorie <i> "% s" </ i> a été omise!';
 
 $_Lang['Tab_Prev'] = "Poprzednie zadanie";
 $_Lang['Tab_Next'] = "Następne zadanie";
