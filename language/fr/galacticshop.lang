@@ -1,235 +1,235 @@
 <?php
 
-$_Lang ['Title'] = 'Store';
+$_Lang['Title'] = 'Store';
 
-$_Lang ['DarkEnergyStatusIs'] = "Nombre d'unités d'énergie sombre sur votre compte";
+$_Lang['DarkEnergyStatusIs'] = "Nombre d'unités d'énergie sombre sur votre compte";
 
-$_Lang ['BuyDarkEnergy'] = 'Acheter de l\'énergie noire';
-$_Lang ['BuyItems'] = "Profitez de l'énergie sombre";
-$_Lang ['FreePremiumItems'] = "Produits gratuits";
+$_Lang['BuyDarkEnergy'] = 'Acheter de l\'énergie noire';
+$_Lang['BuyItems'] = "Profitez de l'énergie sombre";
+$_Lang['FreePremiumItems'] = "Produits gratuits";
 
-$_Lang ['NoJavaScript_Warning'] = "Attention! Le système a détecté que JavaScript n'est pas activé ou si JavaScript est désactivé! <br/> L'affichage correct du fichier endommagé est activé et n'est pas bloqué (par exemple par NoScript). Prise en charge de JavaScript!";
+$_Lang['NoJavaScript_Warning'] = "Attention! Le système a détecté que JavaScript n'est pas activé ou si JavaScript est désactivé! <br/> L'affichage correct du fichier endommagé est activé et n'est pas bloqué (par exemple par NoScript). Prise en charge de JavaScript!";
 
-$_Lang ['SelectShopkeeper'] = "Allez à: <a href = ' # darkenergy \ ' title = ' Avez-vous besoin d’acheter de l’énergie sombre? Vous êtes au bon endroit! \ '> Dark Energy Trader </a> | <a href=\"#shop\" title='Vous avez une grande quantité d'énergie noire et vous ne savez pas comment l'utiliser. C'est l'endroit idéal pour vous! \ '> Les entrepôts de passeurs </a>";
+$_Lang['SelectShopkeeper'] = "Allez à: <a href = ' # darkenergy \ ' title = ' Avez-vous besoin d’acheter de l’énergie sombre? Vous êtes au bon endroit! \ '> Dark Energy Trader </a> | <a href=\"#shop\" title='Vous avez une grande quantité d'énergie noire et vous ne savez pas comment l'utiliser. C'est l'endroit idéal pour vous! \ '> Les entrepôts de passeurs </a>";
 
 // Formulaire Énergie Sombre
 
-$_Lang ['DarkEnergyMerchant'] = "Bienvenue sur mes modestes seuils! Vous avez donc besoin d'énergie sombre? <br/> Ne vous inquiétez pas, j'en ai un peu plus, je suis sûr que vous en aurez besoin.";
+$_Lang['DarkEnergyMerchant'] = "Bienvenue sur mes modestes seuils! Vous avez donc besoin d'énergie sombre? <br/> Ne vous inquiétez pas, j'en ai un peu plus, je suis sûr que vous en aurez besoin.";
 
-$_Lang ['SMS_TAB_1'] = "5 unités d’énergie sombre";
-$_Lang ['SMS_TAB_2'] = "15 unités d’énergie sombre";
-$_Lang ['SMS_TAB_3'] = "25 unités d’énergie noire";
-$_Lang ['SMS_TAB_4'] = "45 unités d’énergie noire";
+$_Lang['SMS_TAB_1'] = "5 unités d’énergie sombre";
+$_Lang['SMS_TAB_2'] = "15 unités d’énergie sombre";
+$_Lang['SMS_TAB_3'] = "25 unités d’énergie noire";
+$_Lang['SMS_TAB_4'] = "45 unités d’énergie noire";
 
-$_Lang ['SMS_TEXT_1'] = '<h3> <u> Pour acheter <b class ="red"> 5 </ b> unités d’énergie sombre </ u> </ h3> Envoyez un SMS avec <span class ="smsCode"> xxx </ span> au numéro <span class ="smsCode"> xxx </ span> <br/> Le coût brut du SMS est de xxx avec TVA';
-$_Lang ['SMS_TEXT_2'] = '<h3> <u> Pour acheter <b class = "red"> 15 </ b> Unités Dark Energy </ u> </ h3> Envoyez un SMS avec <span class = "smsCode"> xxx </ span> au numéro <span class ="smsCode"> xxx </ span> <br/> Le coût brut du SMS est de xxx avec TVA';
-$_Lang ['SMS_TEXT_3'] = '<h3> <u> Pour acheter <b class = "red"> 25 </ b> Unités Dark Energy </ u> </ h3> Envoyez un SMS avec <span class = "smsCode"> xxx </ span> au numéro <span class ="smsCode"> xxx </ span> <br/> Le coût brut du SMS est de xxx avec TVA';
-$_Lang ['SMS_TEXT_4'] = '<h3> <u> Pour acheter <b class ="red"> 45 </ b> Unités d’énergie sombre </ u> </ h3> Envoyez un SMS avec <span class ="smsCode"> xxx </ span> au numéro <span class ="smsCode"> xxx </ span> <br/> Le coût brut du SMS est de xxx avec TVA';
+$_Lang['SMS_TEXT_1'] = '<h3> <u> Pour acheter <b class ="red"> 5 </b> unités d’énergie sombre </u> </h3> Envoyez un SMS avec <span class ="smsCode"> xxx </span> au numéro <span class ="smsCode"> xxx </span> <br/> Le coût brut du SMS est de xxx avec TVA';
+$_Lang['SMS_TEXT_2'] = '<h3> <u> Pour acheter <b class = "red"> 15 </b> Unités Dark Energy </u> </h3> Envoyez un SMS avec <span class = "smsCode"> xxx </span> au numéro <span class ="smsCode"> xxx </span> <br/> Le coût brut du SMS est de xxx avec TVA';
+$_Lang['SMS_TEXT_3'] = '<h3> <u> Pour acheter <b class = "red"> 25 </b> Unités Dark Energy </u> </h3> Envoyez un SMS avec <span class = "smsCode"> xxx </span> au numéro <span class ="smsCode"> xxx </span> <br/> Le coût brut du SMS est de xxx avec TVA';
+$_Lang['SMS_TEXT_4'] = '<h3> <u> Pour acheter <b class ="red"> 45 </b> Unités d’énergie sombre </u> </h3> Envoyez un SMS avec <span class ="smsCode"> xxx </span> au numéro <span class ="smsCode"> xxx </span> <br/> Le coût brut du SMS est de xxx avec TVA';
 
-$_Lang ['SMS_InputCode'] = "<h3> <u> Entrez le code reçu </ u> <br/> pour recharger <b class = 'deForm01'> 5 unités </ b> <b class = 'deForm02'> 15 unités </ b> <b class = 'deForm03'> 25 unités </ b> <b class = 'deForm04'> 45 unités </ b> Énergie noire </ h3> ";
-$_Lang ['_ Buy5Units'] = "5 unités";
-$_Lang ['_ Buy15Units'] = "15 unités";
-$_Lang ['_ Buy25Units'] = "25 unités";
-$_Lang ['_ Buy45Units'] = "45 unités";
+$_Lang['SMS_InputCode'] = "<h3> <u> Entrez le code reçu </u> <br/> pour recharger <b class = 'deForm01'> 5 unités </b> <b class = 'deForm02'> 15 unités </b> <b class = 'deForm03'> 25 unités </b> <b class = 'deForm04'> 45 unités </b> Énergie noire </h3> ";
+$_Lang['_ Buy5Units'] = "5 unités";
+$_Lang['_ Buy15Units'] = "15 unités";
+$_Lang['_ Buy25Units'] = "25 unités";
+$_Lang['_ Buy45Units'] = "45 unités";
 
-$_Lang ['SMS_Accept'] = "Accepter!";
+$_Lang['SMS_Accept'] = "Accepter!";
 
-$_Lang ['DarkEnergySMSInfo'] = "Dans le texte de retour, vous recevrez un code à usage unique, à saisir ci-dessus.";
-$_Lang ['DarkEnergyTitle'] = 'Trader de l\'énergie noire';
+$_Lang['DarkEnergySMSInfo'] = "Dans le texte de retour, vous recevrez un code à usage unique, à saisir ci-dessus.";
+$_Lang['DarkEnergyTitle'] = 'Trader de l\'énergie noire';
 
-$_Lang ['ErrorBadOption'] = "Option sélectionnée de manière incorrecte!";
-$_Lang ['ErrorWrongCode'] = "Le code entré est incorrect ou a expiré.";
-$_Lang ['ErrorCodeShouldBe8CharsLong'] = "Veuillez noter que le code doit comporter 8 caractères!";
-$_Lang ['ErrorUnknown'] = "Une erreur est survenue:";
-$_Lang ['ErrorSQL'] = "Une erreur de requête s'est produite!";
-$_Lang ['ErrorNoCode'] = "Aucun code entré!";
-$_Lang ['AddSuccess'] = "Vous avez ajouté <i>% s </ i> Énergie noire à votre compte!";
-$_Lang ['_ Added5DEUnits'] = "5 unités";
-$_Lang ['_ Added15DEUnits'] = "15 unités";
-$_Lang ['_ Added25DEUnits'] = "25 unités";
-$_Lang ['_ Added45DEUnits'] = "45 unités";
-$_Lang ['_ Added10DEUnits'] = "10 unités";
-$_Lang ['_ Added30DEUnits'] = "30 unités";
-$_Lang ['_ Added50DEUnits'] = "50 unités";
-$_Lang ['_ Added90DEUnits'] = "90 unités";
+$_Lang['ErrorBadOption'] = "Option sélectionnée de manière incorrecte!";
+$_Lang['ErrorWrongCode'] = "Le code entré est incorrect ou a expiré.";
+$_Lang['ErrorCodeShouldBe8CharsLong'] = "Veuillez noter que le code doit comporter 8 caractères!";
+$_Lang['ErrorUnknown'] = "Une erreur est survenue:";
+$_Lang['ErrorSQL'] = "Une erreur de requête s'est produite!";
+$_Lang['ErrorNoCode'] = "Aucun code entré!";
+$_Lang['AddSuccess'] = "Vous avez ajouté <i>% s </i> Énergie noire à votre compte!";
+$_Lang['_ Added5DEUnits'] = "5 unités";
+$_Lang['_ Added15DEUnits'] = "15 unités";
+$_Lang['_ Added25DEUnits'] = "25 unités";
+$_Lang['_ Added45DEUnits'] = "45 unités";
+$_Lang['_ Added10DEUnits'] = "10 unités";
+$_Lang['_ Added30DEUnits'] = "30 unités";
+$_Lang['_ Added50DEUnits'] = "50 unités";
+$_Lang['_ Added90DEUnits'] = "90 unités";
 
-$_Lang ['ErrorNoItemIDGiven'] = "Vous n'avez pas entré l'article que vous voulez acheter!";
-$_Lang ['ErrorTooMuchItemIDGiven'] = "Vous ne pouvez acheter qu'un article à la fois!";
-$_Lang ['ErrorCurrentlyNothinkToSell'] = "Désolé, mais pour le moment, vous ne pouvez rien acheter aux contrebandiers!";
-$_Lang ['ErrorBadIDGiven'] = "Nous n'avons pas un tel article en stock!";
-$_Lang ['ErrorNotBuyable'] = "Cet article n'est pas à vendre!";
-$_Lang ['ErrorNoEnoughDE'] = "Vous n’avez pas la bonne quantité d’énergie noire!";
-$_Lang ['ErrorConfigError'] = "Une erreur système # 0001 s'est produite - veuillez en informer l'administrateur!";
-$_Lang ['ErrorNoQuery'] = "Une erreur système n ° 0002 s'est produite. Veuillez en avertir l'administration!";
-$_Lang ['ErrorNoPlanetID'] = "Le numéro d'erreur 0003 s'est produit - veuillez le signaler à l'administration!";
-$_Lang ['ErrorAddFieldsNoMoon'] = "Des champs supplémentaires ne peuvent être ajoutés qu'à des planètes! Modifiez la planète actuelle et répétez cette action!";
-$_Lang ['ErrorCanBuyOnly3Planets'] = "Vous ne pouvez acheter que 3 emplacements supplémentaires pour coloniser de nouvelles planètes!";
-$_Lang ['CannotBuyItAnymore'] = "Vous ne pouvez plus l'acheter!";
+$_Lang['ErrorNoItemIDGiven'] = "Vous n'avez pas entré l'article que vous voulez acheter!";
+$_Lang['ErrorTooMuchItemIDGiven'] = "Vous ne pouvez acheter qu'un article à la fois!";
+$_Lang['ErrorCurrentlyNothinkToSell'] = "Désolé, mais pour le moment, vous ne pouvez rien acheter aux contrebandiers!";
+$_Lang['ErrorBadIDGiven'] = "Nous n'avons pas un tel article en stock!";
+$_Lang['ErrorNotBuyable'] = "Cet article n'est pas à vendre!";
+$_Lang['ErrorNoEnoughDE'] = "Vous n’avez pas la bonne quantité d’énergie noire!";
+$_Lang['ErrorConfigError'] = "Une erreur système # 0001 s'est produite - veuillez en informer l'administrateur!";
+$_Lang['ErrorNoQuery'] = "Une erreur système n ° 0002 s'est produite. Veuillez en avertir l'administration!";
+$_Lang['ErrorNoPlanetID'] = "Le numéro d'erreur 0003 s'est produit - veuillez le signaler à l'administration!";
+$_Lang['ErrorAddFieldsNoMoon'] = "Des champs supplémentaires ne peuvent être ajoutés qu'à des planètes! Modifiez la planète actuelle et répétez cette action!";
+$_Lang['ErrorCanBuyOnly3Planets'] = "Vous ne pouvez acheter que 3 emplacements supplémentaires pour coloniser de nouvelles planètes!";
+$_Lang['CannotBuyItAnymore'] = "Vous ne pouvez plus l'acheter!";
 
-$_Lang ['ProAccountExtended'] = "Le compte Pro a été étendu!";
-$_Lang ['ProAccountAdded'] = "Félicitations, vous venez de devenir propriétaire du compte Pro!";
-$_Lang ['PlanetFieldsAdded'] = "Votre planète a été agrandie!";
-$_Lang ['SpyJamAdd'] = "Vous avez loué des systèmes d'amortissement!";
-$_Lang ['SpyJamExt'] = "Vous avez prolongé la durée de location des systèmes d'amortissement!";
-$_Lang ['GeologistAdd'] = "Vous avez embauché un géologue!";
-$_Lang ['GeologistExt'] = "Vous avez prolongé le loyer de votre géologue!";
-$_Lang ['EngineerAdd'] = "Vous avez loué des mécaniciens!";
-$_Lang ['EngineerExt'] = "Vous avez prolongé le temps de location du mécanicien!";
-$_Lang ['AdmiralAdd'] = "Vous avez embauché un amiral!";
-$_Lang ['AdmiralExt'] = 'Vous avez prolongé la durée du bail de votre amiral!';
-$_Lang ['TechnocratAdd'] = "Vous avez embauché Technocrat!";
-$_Lang ['TechnocratExt'] = "Vous avez prolongé le temps de location du technocrate!";
-$_Lang ['PlanetBought'] = 'Vous avez acheté la possibilité de coloniser une planète supplémentaire! <br/> Vous pouvez acheter plus de% s!';
-$_Lang ['PlanetBoughtLast'] = "Vous avez acheté la possibilité de coloniser une planète supplémentaire! <br/> <b style = \" color: red; \ '> Le nombre maximal d'emplacements pour coloniser des planètes supplémentaires a été acheté! </ B> ";
-$_Lang ['TraderUsesBought'] = 'Vous avez embauché un commerçant pour exécuter les transactions% s avec le commerçant!';
+$_Lang['ProAccountExtended'] = "Le compte Pro a été étendu!";
+$_Lang['ProAccountAdded'] = "Félicitations, vous venez de devenir propriétaire du compte Pro!";
+$_Lang['PlanetFieldsAdded'] = "Votre planète a été agrandie!";
+$_Lang['SpyJamAdd'] = "Vous avez loué des systèmes d'amortissement!";
+$_Lang['SpyJamExt'] = "Vous avez prolongé la duration de location des systèmes d'amortissement!";
+$_Lang['GeologistAdd'] = "Vous avez embauché un géologue!";
+$_Lang['GeologistExt'] = "Vous avez prolongé le loyer de votre géologue!";
+$_Lang['EngineerAdd'] = "Vous avez loué des mécaniciens!";
+$_Lang['EngineerExt'] = "Vous avez prolongé le temps de location du mécanicien!";
+$_Lang['AdmiralAdd'] = "Vous avez embauché un amiral!";
+$_Lang['AdmiralExt'] = 'Vous avez prolongé la duration du bail de votre amiral!';
+$_Lang['TechnocratAdd'] = "Vous avez embauché Technocrat!";
+$_Lang['TechnocratExt'] = "Vous avez prolongé le temps de location du technocrate!";
+$_Lang['PlanetBought'] = 'Vous avez acheté la possibilité de coloniser une planète supplémentaire! <br/> Vous pouvez acheter plus de% s!';
+$_Lang['PlanetBoughtLast'] = "Vous avez acheté la possibilité de coloniser une planète supplémentaire! <br/> <b style = \" color: red; \ '> Le nombre maximal d'emplacements pour coloniser des planètes supplémentaires a été acheté! </B> ";
+$_Lang['TraderUsesBought'] = 'Vous avez embauché un commerçant pour exécuter les transactions% s avec le commerçant!';
 
-$_Lang ['PlanetSlots_left'] [0] = '2 slots';
-$_Lang ['PlanetSlots_left'] [1] = '1 emplacement';
+$_Lang['PlanetSlots_left'] [0] = '2 slots';
+$_Lang['PlanetSlots_left'] [1] = '1 emplacement';
 
-$_Lang ['ShopTitle'] = "Entrepôts de contrebandiers";
-$_Lang ['ShopText'] = "Les passeurs ne sont pas des gens très amicaux. Une vie en dehors de la loi et avec quelques mandats d'arrêt serait probablement comme eux aussi. <br/> Si vous devez profiter de leur offre, mieux le faire rapidement et sans pas d'escroquerie. ";
-$_Lang ['ShopArticlesTitle'] = "Offre de passeurs";
-$_Lang ['ArticleName'] = "Nom";
-$_Lang ['ArticleDesc'] = "Description (opération)";
-$_Lang ['ArticleButtom'] = "Coût";
-$_Lang ['DEprice'] = 'j. Énergie sombre';
-$_Lang ['BuyIT'] = 'Acheter';
-$_Lang ['GoToBuyPlace'] = "Go";
-$_Lang ['AreYouSure'] = "Êtes-vous sûr?";
-$_Lang ['NoItemsOnStock'] = "Aucune offre actuellement!";
+$_Lang['ShopTitle'] = "Entrepôts de contrebandiers";
+$_Lang['ShopText'] = "Les passeurs ne sont pas des gens très amicaux. Une vie en dehors de la loi et avec quelques mandats d'arrêt serait probablement comme eux aussi. <br/> Si vous devez profiter de leur offre, mieux le faire rapidement et sans pas d'escroquerie. ";
+$_Lang['ShopArticlesTitle'] = "Offre de passeurs";
+$_Lang['ArticleName'] = "Nom";
+$_Lang['ArticleDesc'] = "Description (opération)";
+$_Lang['ArticleButtom'] = "Coût";
+$_Lang['DEprice'] = 'j. Énergie sombre';
+$_Lang['BuyIT'] = 'Acheter';
+$_Lang['GoToBuyPlace'] = "Aller";
+$_Lang['AreYouSure'] = "Êtes-vous sûr?";
+$_Lang['NoItemsOnStock'] = "Aucune offre actuellement!";
 
 // Free Stuff
-$_Lang ['FreeText'] = "Vous pouvez voir ici toutes les Marchandises gratuites qui vous ont été accordées et que vous pouvez utiliser à tout moment du jeu. <br/> N'oubliez pas qu'il n'est pas possible de cesser de les utiliser après acceptation!";
+$_Lang['FreeText'] = "Vous pouvez voir ici toutes les Marchandises gratuites qui vous ont été accordées et que vous pouvez utiliser à tout moment du jeu. <br/> N'oubliez pas qu'il n'est pas possible de cesser de les utiliser après acceptation!";
 
-$_Lang ['FreeItemName'] = 'Nom des marchandises';
-$_Lang ['FreeItemGivenBy'] = 'Reçu de';
-$_Lang ['FreeItemUse'] = "Utiliser";
-$_Lang ['FreeDuration'] = "Durée";
+$_Lang['FreeItemName'] = 'Nom des marchandises';
+$_Lang['FreeItemGivenBy'] = 'Reçu de';
+$_Lang['FreeItemUse'] = "Utiliser";
+$_Lang['FreeDuration'] = "duration";
 
-$_Lang ['Free_GivenBySys'] = "Système";
-$_Lang ['Free_NoFreeItems'] = "Pas de marchandise gratuite pour votre compte. <br/> Participez à divers concours et actions du jeu. Si vous recevez un prix, il atterrira ici";
-$_Lang ['Free_BadIDGiven'] = "Données non valides fournies!";
-$_Lang ['Free_BadItemGiven'] = "Identifiant de marchandise invalide entré!";
+$_Lang['Free_GivenBySys'] = "Système";
+$_Lang['Free_NoFreeItems'] = "Pas de marchandise gratuite pour votre compte. <br/> Participez à divers concours et actions du jeu. Si vous recevez un price, il atterrira ici";
+$_Lang['Free_BadIDGiven'] = "Données non valides fournies!";
+$_Lang['Free_BadItemGiven'] = "Identifiant de marchandise invalide entré!";
 
-$_Lang ['shop_items'] =
-    array (
-        1 => array (
-                'name' => 'Compte Pro (7 jours)',
-                'desc' => 'Souhaitez-vous des fonctionnalités supplémentaires pour améliorer le jeu? Acheter aujourd\'hui compte Pro! <br/> <b> Extension de la prime pendant 7 jours (<a href="aboutpro.php"> <u> Voir compte fonctionnalités Pro </ u> < / a>) </ b>.',
-                'prix' => 15,
-                'duration' => false,
-                'duration_days' => 7,
-             )
-        2 => array (
-                'name' => 'Compte Pro (25 jours)',
-                'desc' => 'Souhaitez-vous des fonctionnalités supplémentaires pour améliorer le jeu? Acheter aujourd\'hui compte Pro! <br/> <b> Extension de la prime pendant 25 jours <br/> (<a href="aboutpro.php"> <u> Voir compte fonctionnalités Pro </ u> < / a>) </ b>.',
-                'prix' => 45,
-                'duration' => false,
-                'duration_days' => 25,
-            )
-        3 => array (
-                'name' => 'Terraforming the planet',
-                'desc' => 'Votre planète est déjà complètement construite et le terraformeur est extrêmement cher? Utilisez nos nanites mobiles pour augmenter la surface de construction sur leur planète <br/> <b> 10 champs supplémentaires pour la planète où vous êtes - ne fonctionne pas pour les lunes </ b> ',
-                'prix' => 15,
-                'duration' => false,
-'addFields' => 10
-            )
-        4 => array (
-                'name' => 'Systèmes d\'amortissement',
-                'desc' => 'Êtes-vous fatigué d\'espionner constamment votre planète? Ce bébé sera un cadeau du ciel pour vous <br/> <b> - Lorsque vous espionner votre planète votre niveau de technologie de l\'espion est supérieure de 5 niveaux <BR/> - Durée:. 14 jours </ b> ',
-                'prix' => 15,
-                'duration' => '14 days ',
-'duration_days' => 14
-                
-            )
-        5 => array (
-                'name' => 'Embaucher un géologue',
-                'desc' => 'Le géologue est un expert minier reconnu dans toute la galaxie. Avec sa vaste connaissance des roches et des minéraux est en mesure de gérer adéquatement les travaux miniers, sur leur chemin vers les plus riches gisements de matières premières <br/> <b> - Augmentation de la production de 15% <br/> - Durée.: 14 jours </ b> ',
-                'prix' => 20,
-                'duration' => '14 days ',
-'duration_days' => 14
-            )
-        6 => array (
-                'name' => 'Hire Mechanics',
-                'desc' => 'Cet eskpert largement connu est recherché par presque tous les Imperators de l’Univers. Merci à ses idées brillantes, votre pouvoir d\'augmenter leur productivité, et les systèmes de défense ont une plus grande chance de récupération <br/> <b> -. La production d\'énergie a augmenté de 10% <br/> - Une chance de reconstruire la défense a augmenté de 20 % <br/> (Reconstitution possible de l\'ensemble de la défense) <br/> - Durée: 14 jours </ b> ',
-                'prix' => 20,
-                'duration' => '14 days ',
-'duration_days' => 14
-            )
-        7 => array (
-'name' => 'Embaucher un amiral',
-'desc' => 'As parmi les meilleurs commandants de guerre de l\'univers. Sa tactique, sa vitesse et son mode de fonctionnement sont incomparables. Chaque fois que vous l\'avez vu <br /> <b> - Le nombre maximum de flottes. <br/> 2 - vitesse de la flotte Options supplémentaires (120%, 110%, 5%, 2,5%) <br /> - Durée: 14 jours </ b> ',
-'prix' => 20,
-'duration' => '14 days ',
-'duration_days' => 14
-)
-8 => array (
-'name' => 'Louez Technocrat',
-'desc' => 'Le technocrate est l’esprit le plus remarquable de notre époque. Ses inventions ont changé le cours de nombreuses guerres. Sa présence dans le laboratoire a augmenté la productivité des scientifiques a apprécié autant que possible de ce grand penseur <br/> <b> - la durée de l\'étude -20% <br/> - Durée:. 14 jours </ b> ',
-'prix' => 20,
-'duration' => '14 days ',
-'duration_days' => 14
-)
-9 => array (
-'name' => 'Planète supplémentaire',
-'desc' => 'Gérer plusieurs planètes avec un défi de taille, même pour les grands empereurs. Dans de telles situations, avec l\'aide des colons prestigieux, allez dans le secteur Xen, you are to be a perfect planets to COLO <br/> <b> -. La capacité de coloniser la planète supplémentaire (max 3) ',
-'prix' => 0,
-'price_array' => array (20,35,50, -1),
-'duration' => false
-)
-        10 => array (
-                'name' => 'Quantum Gate',
-                'desc' => 'Cet énorme appareil vous permet de transporter instantanément la matière dans un tunnel spatial stable. <br/> La présence de deux portes quantiques vous permet de sauter immédiatement entre elles sans perdre de temps ni de deutérium (uniquement les missions Transport, Station et Stop). < Il est également possible de sauter n\'importe où dans votre galaxie (une porte suffit). Cependant, entre deux sauts de ce type, vous devez attendre 6 heures pour accumuler suffisamment d\'énergie. ',
-                'prix' => 20,
-                'action' => 'redirect',
-                'data' => array ('url' => 'buildings.php # b_id_50'),
-                'duration' => false
-            )
-        11 => array (
-                'name' => 'Compte Pro',
-                'desc' => '',
-                'prix' => 30,
-                'duration' => '10 jours',
-                'duration_days' => 10,
-                'buyable' => false,
-             )
-        12 => array (
-                'name' => 'Embaucher un géologue',
-                'desc' => '',
-                'prix' => 20,
-                'durée' => '3 jours',
-                'duration_days' => 3,
-                'buyable' => false,
-             )
-        13 => array (
-                'name' => 'Compte Pro',
-                'desc' => '',
-                'prix' => 30,
-                'durée' => '3 jours',
-                'duration_days' => 3,
-                'buyable' => false,
-             )
+$_Lang['shop_items'] = 
+    array(
+        1 => array(
+                'name' => 'Compte Pro (7 jours)',
+                'desc' => 'Souhaitez-vous des fonctionnalités supplémentaires pour améliorer le jeu? Acheter aujourd\'hui compte Pro! <br/> <b> Extension de la prime pendant 7 jours (<a href="aboutpro.php"> <u> Voir compte fonctionnalités Pro </u> </a>) </b>.',
+                'price' => 15,
+                'duration' => false,
+                'duration_days' => 7,
+             ),
+        2 => array(
+                'name' => 'Compte Pro (25 jours)',
+                'desc' => 'Souhaitez-vous des fonctionnalités supplémentaires pour améliorer le jeu? Acheter aujourd\'hui compte Pro! <br/> <b> Extension de la prime pendant 25 jours <br/> (<a href="aboutpro.php"> <u> Voir compte fonctionnalités Pro </u> </a>) </b>.',
+                'price' => 45,
+                'duration' => false,
+                'duration_days' => 25,
+            ),
+        3 => array(
+                'name' => 'Terraforming the planet',
+                'desc' => 'Votre planète est déjà complètement construite et le terraformeur est extrêmement cher? Utilisez nos nanites mobiles pour augmenter la surface de construction sur leur planète <br/> <b> 10 champs supplémentaires pour la planète où vous êtes - ne fonctionne pas pour les lunes </b>',
+                'price' => 15,
+                'duration' => false,
+                'addFields' => 10
+            ),
+        4 => array(
+                'name' => 'Systèmes d\'amortissement',
+                'desc' => 'Êtes-vous fatigué d\'espionner constamment votre planète? Ce bébé sera un cadeau du ciel pour vous <br/> <b> - Lorsque vous espionner votre planète votre niveau de technologie de l\'espion est supérieure de 5 niveaux <BR/> - Durée:. 14 jours </b>',
+                'price' => 15,
+                'duration' => '14 jours',
+                'duration_days' => 14
+                
+            ),
+        5 => array(
+                'name' => 'Embaucher un géologue',
+                'desc' => 'Le géologue est un expert minier reconnu dans toute la galaxie. Avec sa vaste connaissance des roches et des minéraux est en mesure de gérer adéquatement les travaux miniers, sur leur chemin vers les plus riches gisements de matières premières <br/> <b> - Augmentation de la production de 15% <br/> - Durée.: 14 jours </b>',
+                'price' => 20,
+                'duration' => '14 jours',
+            'duration_days' => 14
+            ),
+        6 => array(
+                'name' => 'Embaucher un mécanicien',
+                'desc' => 'Cet expert largement connu est recherché par presque tous les Imperators de l’Univers. Merci à ses idées brillantes, votre pouvoir d\'augmenter leur productivité, et les systèmes de défense ont une plus grande chance de récupération <br/> <b> -. La production d\'énergie a augmenté de 10% <br/> - Une chance de reconstruire la défense a augmenté de 20 % <br/> (Reconstitution possible de l\'ensemble de la défense) <br/> - Durée: 14 jours </b>',
+                'price' => 20,
+                'duration' => '14 jours',
+            'duration_days' => 14
+            ),
+        7 => array(
+                'name' => 'Embaucher un amiral',
+                'desc' => 'Faisant parti des meilleurs commandants de guerre de l\'univers. Sa tactique, sa vitesse et son mode de fonctionnement sont incomparables. Chaque fois que vous l\'avez vu <br /> <b> - Le nombre maximum de flottes. <br/> 2 - vitesse de la flotte Options supplémentaires (120%, 110%, 5%, 2,5%) <br /> - Durée: 14 jours </b>',
+                'price' => 20,
+                'duration' => '14 jours',
+            'duration_days' => 14
+            ),
+        8 => array(
+                'name' => 'Embaucher un Technocrat',
+                'desc' => 'Le technocrate est l’esprit le plus remarquable de notre époque. Ses inventions ont changé le cours de nombreuses guerres. Sa présence dans le laboratoire a augmenté la productivité des scientifiques a apprécié autant que possible de ce grand penseur <br/> <b> - la durée de l\'étude -20% <br/> - Durée:. 14 jours </b>',
+                'price' => 20,
+                'duration' => '14 jours',
+            'duration_days' => 14
+            ),
+        9 => array(
+                'name' => 'Planète supplémentaire',
+                'desc' => 'Gérer plusieurs planètes avec un défi de taille, même pour les grands empereurs. Dans de telles situations, avec l\'aide des colons prestigieux, allez dans le secteur Xen, you are to be a perfect planets to COLO <br/> <b> - La capacité de coloniser la planète supplémentaire (max 3)',
+                'price' => 0,
+                'price_array' => array(20,35,50, -1),
+                'duration' => false                        
+            ),
+        10 => array(
+                'name' => 'Quantum Gate',
+                'desc' => 'Cet énorme appareil vous permet de transporter instantanément la matière dans un tunnel spatial stable. <br/> La présence de deux portes quantiques vous permet de sauter immédiatement entre elles sans perdre de temps ni de deutérium (uniquement les missions Transport, Station et Stop). < Il est également possible de sauter n\'importe où dans votre galaxie (une porte suffit). Cependant, entre deux sauts de ce type, vous devez attendre 6 heures pour accumuler suffisamment d\'énergie.',
+                'price' => 20,
+                'action' => 'redirect',
+                'data' => array('url' => 'buildings.php#b_id_50'),
+                'duration' => false
+            ),
+        11 => array(
+                'name' => 'Compte Pro',
+                'desc' => '',
+                'price' => 30,
+                'duration' => '10 jours',
+                'duration_days' => 10,
+                'buyable' => false,
+             ),
+        12 => array(
+                'name' => 'Embaucher un géologue',
+                'desc' => '',
+                'price' => 20,
+                'duration' => '3 jours',
+                'duration_days' => 3,
+                'buyable' => false,
+             ),
+        13 => array(
+                'name' => 'Compte Pro',
+                'desc' => '',
+                'price' => 30,
+                'duration' => '3 jours',
+                'duration_days' => 3,
+                'buyable' => false,
+             ),
         14 => array
-        (
-        'name' => 'Embaucher un commerçant (5 transactions)',
-        'desc' => 'Le commerçant impérial est l’intermédiaire entre vous et le marchand. En échange d\'une rémunération modeste, il est prêt à représenter vos intérêts auprès du commerçant. <br/> <br/> <b> - Ajoute un paquet de 5 transactions au commerçant ',
-        'prix' => 10,
-        'montant' => 5,
-        )
+            (
+                'name' => 'Embaucher un commerçant (5 transactions)',
+                'desc' => 'Le commerçant impérial est l’intermédiaire entre vous et le marchand. En échange d\'une rémunération modeste, il est prêt à représenter vos intérêts auprès du commerçant. <br/> <br/> <b> - Ajoute un paquet de 5 transactions au commerçant ',
+                'price' => 10,
+                'amount' => 5,
+            ),
         15 => array
-        (
-        'name' => 'Embaucher un Trader (15 transactions)',
-        'desc' => 'Le commerçant impérial est l’intermédiaire entre vous et le marchand. En échange d\'une rémunération modeste, il est prêt à représenter vos intérêts auprès du commerçant. <br/> <br/> <b> - Ajoute un paquet de 15 transactions au commerçant ',
-        'prix' => 30,
-        'montant' => 15,
-        )
+            (
+                'name' => 'Embaucher un Trader (15 transactions)',
+                'desc' => 'Le commerçant impérial est l’intermédiaire entre vous et le marchand. En échange d\'une rémunération modeste, il est prêt à représenter vos intérêts auprès du commerçant. <br/> <br/> <b> - Ajoute un paquet de 15 transactions au commerçant',
+                'price' => 30,
+                'amount' => 15,
+            ),
         16 => array
-        (
-        'name' => 'Embaucher un Trader (30 transactions)',
-        'desc' => 'Le commerçant impérial est l’intermédiaire entre vous et le marchand. En échange d\'une rémunération modeste, il est prêt à représenter vos intérêts auprès du commerçant. <br/> <br/> <b> - Ajoute un paquet de 30 transactions au commerçant ',
-        'prix' => 50,
-        'montant' => 30,
-        )
+            (
+                'name' => 'Embaucher un Trader (30 transactions)',
+                'desc' => 'Le commerçant impérial est l’intermédiaire entre vous et le marchand. En échange d\'une rémunération modeste, il est prêt à représenter vos intérêts auprès du commerçant. <br/> <br/> <b> - Ajoute un paquet de 30 transactions au commerçant',
+                'price' => 50,
+                'amount' => 30,
+            ),
     );
 
 ?>

@@ -1,10 +1,10 @@
 <?php
 
-$_Lang['PageTitle']			= 'Alertes système";
+$_Lang['PageTitle']			= 'Alertes système';
 
 // Corps et en-têtes
 $_Lang ['Alerts_List'] = 'Liste des alertes système';
-$_Lang ['Alert_ID'] = 'ID';
+$_Lang ['Alert_Id'] = 'Id';
 $_Lang ['Alert_Origin'] = 'Envoyé';
 $_Lang ['Alert_Date'] = 'Données';
 $_Lang ['Alert_Sender'] = 'Origine';
@@ -29,16 +29,16 @@ $_Lang ['Senders'] = array
 1 => 'Envoi de la flotte <br/> (flotten3.php)',
 2 => 'Envoi de la flotte <br/> (galaxyfleet.php)',
 3 => 'Attaque à la roquette <br/> (sendmissiles.php)',
-4 => 'Première connexion <br/> du joueur référé <br/> (overview.php) ",
-5 => 'Première connexion <br/> par le proxy <br/> (overview.php) ",
+4 => 'Première connexion <br/> du joueur référé <br/> (overview.php) ',
+5 => 'Première connexion <br/> par le proxy <br/> (overview.php) ',
 );
 
 // types
 $_Lang ['Types'] = array
 (
 1 => 'Compte multi probable',
-2 => 'Casser les règles du jeu d'une IP',
-3 => 'Bloquer l'envoi d'une flotte de joueurs d'une adresse IP',
+2 => 'Casser les règles du jeu d\'une IP',
+3 => 'Bloquer l\'envoi d\'une flotte de joueurs d\'une adresse IP',
 4 => 'Flotte multi-comptes probable <br/> bloquée',
 5 => 'Détection push',
 );
@@ -60,17 +60,17 @@ $_Lang ['StatusList'] = array
 $_Lang ['AlertCodes'] = array
 (
 1 => '% s le joueur envoyait sa flotte (% s) au joueur% s. <br/> Statut de la flotte:% s <br/> Déclaration de plusieurs comptes:% s <hr>% s <hr> Autres joueurs associés à cette adresse IP % s:% s ',
-2 => 'Le nouveau joueur% s possède des liaisons d'adresse IP avec son référent,% s. <Hr> Tâches associées au référent: <br/>% s <hr>% s <hr> Autres joueurs associés à cet IP% s:% s'
-3 => 'Le nouveau joueur% s est connecté pour la première fois avec l'adresse IP marquée Proxy. <Hr>% s',
-4 => 'Le joueur le plus faible% sa envoyé des ressources au joueur% s. <br/> Associations de joueurs:% s <hr> Différence de points: <b class = "orange">% s </ b> (% s %%) , différence d'espace: <b class = "orange">% s </ b> <br/>% s <br/>% s <hr> Statut de la flotte:% s [#% s] <br/> Matières premières transportées: <br/>% s'
+2 => 'Le nouveau joueur% s possède des liaisons d\'adresse IP avec son référent,% s. <Hr> Tâches associées au référent: <br/>% s <hr>% s <hr> Autres joueurs associés à cet IP% s:% s'
+3 => 'Le nouveau joueur% s est connecté pour la première fois avec l\'adresse IP marquée Proxy. <Hr>% s',
+4 => 'Le joueur le plus faible% sa envoyé des ressources au joueur% s. <br/> Associations de joueurs:% s <hr> Différence de points: <b class = "orange">% s </ b> (% s %%) , différence d\'espace: <b class = "orange">% s </ b> <br/>% s <br/>% s <hr> Statut de la flotte:% s [#% s] <br/> Matières premières transportées: <br/>% s'
 );
 
 $_Lang ['AlertCodes_Texts'] = array
 (
 'DeletedUser' => '<b class = "red"> Utilisation de Gracz </ b>',
-'DeletedUserID' => '<b class = "red"> Utilisation courante [#% s] </ b>',
+'DeletedUserId' => '<b class = "red"> Utilisation courante [#% s] </ b>',
 'DeletedAlly' => '<b class = "red"> Sojusz rozwiąany </ b>',
-'DeletedAllyID' => '<b class = "red"> Sojusz rozwiąany [#% s] </ b>',
+'DeletedAllyId' => '<b class = "red"> Sojusz rozwiąany [#% s] </ b>',
 'FleetBlock_Blocked_Text' => '<b class = "lime"> Zablokowana (Multialarm) </ b>',
 'FleetBlock_NonBlocked_Text' => '<b class = "red"> Wysłana [#% s] </ b>',
 'MultiACCDeclaration_Exists_Text' => '<b class = "red"> Złożona [#% s] </ b>',
@@ -88,7 +88,7 @@ $_Lang ['AlertCodes_Texts'] = array
 'FleetInfo' => '% s',
 'NewUser_IPProxy' => '<a class="iplink skyblue" href="iplog.php?ipid=%s" target="_blank">% s [#% s] </a>% s',
 'NewUser_IPProxy_RegIP' => '<span class = "orange"> (identifiez-vous sur une adresse IP przy rejestracji) </ span>',
-'NewUser_IPProxy_NoRegIP' => '<span class = "red"> (Adressez-vous à l'adresse indiquée) </ span>',
+'NewUser_IPProxy_NoRegIP' => '<span class = "red"> (Adressez-vous à l\'adresse indiquée) </ span>',
 'NewUser_NoTasks' => '<b class = "skyblue"> Brak </ b>',
 'TaskData' => '& bull; % s [#% s] <span class = "% s"> (% s /% s) </ span> ',
 'TaskData_StatusDone' => 'rouge',
@@ -110,25 +110,25 @@ $_Lang ['AlertCodes_Texts'] = array
 )
 
 // Commandes
-$_Lang ['Cmd_Deleteall'] = 'Supprimer tout ";
-$_Lang ['CMD_Delete_Title'] = 'Alerte d’utilisation ";
-$_Lang ['CMD_Show_Users_Title'] = 'Afficher tous les joueurs associés à cette alerte ";
-$_Lang ['CMD_Show_MainUsers_Title'] = 'Afficher les principaux acteurs associés à cette alerte ";
-$_Lang ['CMD_GoToFiltersList'] = 'Afficher les filtres de fil ";
+$_Lang ['Cmd_Deleteall'] = 'Supprimer tout ';
+$_Lang ['CMD_Delete_Title'] = 'Alerte d’utilisation ';
+$_Lang ['CMD_Show_Users_Title'] = 'Afficher tous les joueurs associés à cette alerte ';
+$_Lang ['CMD_Show_MainUsers_Title'] = 'Afficher les principaux acteurs associés à cette alerte ';
+$_Lang ['CMD_GoToFiltersList'] = 'Afficher les filtres de fil ';
 
-$_Lang ['CMD_DelAll'] = 'Êtes-vous sûr ? ";
+$_Lang ['CMD_DelAll'] = 'Êtes-vous sûr ? ';
 
 // Informations
-$_Lang ['Alert_deleted'] = 'Créer une alerte! ";
-$_Lang ['Alert_no_status_given'] = 'Non renseigné sur le statut de la personne! ";
-$_Lang ['Alert_same_status'] = 'Le statut est resté inchangé! ";
-$_Lang ['Alert_status_changed'] = 'Statut Alerte sur le Web <u>% s </ u>! ";
-$_Lang ['Alert_status_noexist'] = 'Statut de Taki non disponible! ";
-$_Lang ['Alert_noexist'] = 'Alerte pour le numéro de nom de programme ni pour le nom! ";
-$_Lang ['No_id_given'] = 'L'identifiant correct n'a pas été fourni ! ";
-$_Lang ['No_Alerts'] = 'Aucune alerte ! ";
-$_Lang ['No_Alerts_ThisPage'] = 'Aucune alerte sur cette page! ";
-$_Lang ['Alert_Truncated'] = 'La table des alertes a été effacée ! ";
+$_Lang ['Alert_deleted'] = 'Créer une alerte! ';
+$_Lang ['Alert_no_status_given'] = 'Non renseigné sur le statut de la personne! ';
+$_Lang ['Alert_same_status'] = 'Le statut est resté inchangé! ';
+$_Lang ['Alert_status_changed'] = 'Statut Alerte sur le Web <u>% s </ u>! ';
+$_Lang ['Alert_status_noexist'] = 'Statut de Taki non disponible! ';
+$_Lang ['Alert_noexist'] = 'Alerte pour le numéro de nom de programme ni pour le nom! ';
+$_Lang ['No_id_given'] = 'l\'identifiant correct n\'a pas été fourni ! ';
+$_Lang ['No_Alerts'] = 'Aucune alerte ! ';
+$_Lang ['No_Alerts_ThisPage'] = 'Aucune alerte sur cette page! ';
+$_Lang ['Alert_Truncated'] = 'La table des alertes a été effacée ! ';
 $_Lang ['NotFound'] = 'Non trouvé';
 
 ?>

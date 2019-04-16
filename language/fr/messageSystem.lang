@@ -3,8 +3,8 @@
 $_Lang ['BattleReport_AttackerNormal'] = "";
 $_Lang ['BattleReport_AttackerNormal'] = "<Centre> <a href = \" # \ \"onclick = \" f ('battlereport.php? Id =%s', ''); return false; \"> <span style = \" color:%s \"> {$_Lang ['sys_mess_attack_report']} [%s:%s:%s] [%s] </ span> </a> <br/> <br/> ";
 $_Lang ['BattleReport_AttackerNormal'] = "<Span class = \" red \"> {$_Lang ['sys_perte_attaquant']}:%s </ span> <b> | </ b> <span class = \" lime \"> {$_Lang ['sys_perte_defenseur']}:%s </ span> <br/>";
-$_Lang ['BattleReport_AttackerNormal'] = "<B> [{$_Lang ['sys_gain']]] </ b> {$_Lang ['Metal']}: <b style = \" couleur: # passé; ">%s </ b> <b> | </ b> {$_Lang ['Crystal']}: <b style = \" color: # ef51ef; \">%s </ b> <b> | </ b> {$_Lang ['Deutérium']}: <b style = \"color: # f77542; \">%s </ b> <br/> ";
-$_Lang ['BattleReport_AttackerNormal'] = "<B> [{$_Lang ['sys_debris']}], </ b> {$_Lang ['Metal']}: <b style = \" couleur: # passé. ">%s </ b> <b> | </ b> {$_Lang ['Crystal']}: <b style = \" color: # ef51ef; \">%s </ b> <br/> <br/> <b class = \"skyblue \"> Link Udostępniający: </ b> <a href = \"%s \" onclick = \"f (this.href, ''); return false; \">%s </a> </ center>";
+$_Lang ['BattleReport_AttackerNormal'] = "<B> [{$_Lang ['sys_gain']}] </b> {$_Lang ['Metal']}: <b style = \" couleur: # passé; \">%s </ b> <b> | </ b> {$_Lang ['Crystal']}: <b style = \" color: # ef51ef; \">%s </ b> <b> | </ b> {$_Lang ['Deutérium']}: <b style = \"color: # f77542; \">%s </ b> <br/> ";
+$_Lang ['BattleReport_AttackerNormal'] = "<B> [{$_Lang ['sys_debris']}], </ b> {$_Lang ['Metal']}: <b style = \" couleur: # passé. \">%s </ b> <b> | </ b> {$_Lang ['Crystal']}: <b style = \" color: # ef51ef; \">%s </ b> <br/> <br/> <b class = \"skyblue \"> Link Udostępniający: </ b> <a href = \"%s \" onclick = \"f (this.href, ''); return false; \">%s </a> </ center>";
 // Rapport d'attaquant - Destroy Moon
 $_Lang ['BattleReport_AttackerDestroy'] = str_replace ($_Lang ['sys_mess_attack_report'], $_Lang ['sys_mess_destruc_report'], $_Lang ['BattleReport_AttackerNormal']);
 // Rapport Defender (Propriétaire) - Sans statistiques de reconstruction de la Défense
@@ -48,11 +48,11 @@ $_Lang['msg_const']['msgs'] = array
 '016' => 'Votre équipe d’expédition a rencontré des navires abandonnés! <br/> Les navires qui ont réussi à naviguer étaient les suivants: <br/>%s',
 '017' => 'Votre expédition est revenue sur votre planète.',
 
-'018' => 'Votre flotte de colonisation a atteint la position <b> [%s:%s:%s] </ b>, mais la colonisation n’était pas possible. Vous disposez déjà du nombre maximal de colonies (%s)! <br/> < b> N\'oubliez pas que vous pouvez acheter 3 emplacements supplémentaires pour les nouvelles colonies dans le <a href="galacticshop.php#shop" class="orange"> Store </a>! </ b> ',
-'019' => 'Votre flotte de colonisation a atteint la position <b> [%s:%s:%s] </ b>, vos émissaires commencent à s’établir sur la planète.',
+'018' => 'Votre flotte de colonisation a atteint la position <b> [%s:%s:%s] </b>, mais la colonisation n’était pas possible. Vous disposez déjà du nombre maximal de colonies (%s)! <br/> < b> N\'oubliez pas que vous pouvez acheter 3 emplacements supplémentaires pour les nouvelles colonies dans le <a href="galacticshop.php#shop" class="orange"> Store </a>! </ b> ',
+'019' => 'Votre flotte de colonisation a atteint la position <b> [%s:%s:%s] </b>, vos émissaires commencent à s’établir sur la planète.',
 
-'020' => 'Votre flotte de colonisation a atteint la position <b> [%s:%s:%s] </ b>, mais il n’existe pas de planète correcte dans cette position! <br/> La flotte retourne sur sa planète. '
-'021' => 'Votre flotte de colonisation a atteint la position <b> [%s:%s:%s] </ b>, mais il s’est avéré que cette planète est déjà habitée! <br/> La flotte retourne sur sa planète natale ' .,
+'020' => 'Votre flotte de colonisation a atteint la position <b> [%s:%s:%s] </b>, mais il n’existe pas de planète correcte dans cette position! <br/> La flotte retourne sur sa planète. ',
+'021' => 'Votre flotte de colonisation a atteint la position <b> [%s:%s:%s] </ b>, mais il s’est avéré que cette planète est déjà habitée! <br/> La flotte retourne sur sa planète natale ',
 
 '022' => '%sWitamy sur le serveur'. $_GameConfig ['game_name']. '. <br/> Si vous avez des questions sur le jeu, visitez notre forum ou chattez dans le jeu. <br/> Numéros et adresses le contact avec la gestion du jeu se trouve dans l\'onglet Contact. <br/> <br/> ',
 
@@ -80,11 +80,11 @@ $_Lang['msg_const']['msgs'] = array
 
 // Expéditions
 '042' => 'Votre expédition a rencontré des pirates hostiles et est entrée dans une bataille! <br/> <br/> Les navires suivants ont été détruits dans cette bataille: <br/>%s',
-'043' => 'Lors de l’exploration spatiale, votre expédition était proche du Black Hole. Une partie de celle-ci a été entraînée dans son champ gravitationnel extrêmement puissant! <br/> <br/> Les navires suivants ont été entraînés et écrasés par d’énormes forces gravitationnelles: < br />%s'
+'043' => 'Lors de l’exploration spatiale, votre expédition était proche du Black Hole. Une partie de celle-ci a été entraînée dans son champ gravitationnel extrêmement puissant! <br/> <br/> Les navires suivants ont été entraînés et écrasés par d’énormes forces gravitationnelles: < br />%s',
 '044' => 'Votre expédition a rencontré une flotte hostile d’un autre Empire qui a immédiatement attaqué votre flotte! <br/> <br/> Les navires suivants ont été détruits par l’agresseur: <br/>%s',
-'045' => 'Votre expédition a rencontré une flotte ennemie d’un autre Empire et s’est battue avec elle. <br/> Heureusement, la flotte extraterrestre n’était pas assez puissante pour percer les puissants boucliers et l’armure de votre flotte et se retirer du terrain. bataille ... '
+'045' => 'Votre expédition a rencontré une flotte ennemie d’un autre Empire et s’est battue avec elle. <br/> Heureusement, la flotte extraterrestre n’était pas assez puissante pour percer les puissants boucliers et l’armure de votre flotte et se retirer du terrain. bataille ... ',
 '046' => 'Lors de l’exploration spatiale, votre expédition était dans le champ des astéroïdes. <br/> Grâce aux grandes manœuvres de vos amiraux et de vos navigateurs, la flotte s’est envolée des astéroïdes ...',
-'047' => 'L’erreur de votre expédition par les navigateurs était proche du trou noir. <br/> Grâce à la réaction rapide des physiciens du groupe de recherche, ils ont pu augmenter l’efficacité des entraînements un instant, de sorte que tous les navires s’échappent du terrain gravité ... '
+'047' => 'L’erreur de votre expédition par les navigateurs était proche du trou noir. <br/> Grâce à la réaction rapide des physiciens du groupe de recherche, ils ont pu augmenter l’efficacité des entraînements un instant, de sorte que tous les navires s’échappent du terrain gravité ... ',
 '048' => 'Votre expédition à travers l’erreur des navigateurs a eu lieu dans l’horizon des événements de Black Hole. <br/> Aucun des navires n’a pu résister à l’énorme force gravitationnelle ...',
 '049' => 'Lors de l’exploration spatiale, votre expédition a découvert un étrange astéroïde émettant un champ électromagnétique faible. <br /> Les scientifiques intéressés ont décidé d’en explorer la source. Malheureusement, il s’agissait d’une embuscade tendue par des pirates. <br/> Aucun des navires n\'est sorti de cette bataille ... ',
 '050' => 'Votre expédition a rencontré une race sans précédent dans l’Univers. <br/> Lorsqu’il a tenté de prendre contact avec des inconnus, le système de communication a envoyé un message erroné, ce qui a amené les étrangers à reconnaître que la tentative de contact était une menace. <br/> Leur avantage technologique n’a pas donné aucune chance pour vos navires. Le contact avec la flotte a été interrompu ... ',
@@ -98,11 +98,11 @@ $_Lang['msg_const']['msgs'] = array
 '058' => 'Votre expédition a fouillé la planque des pirates. Il s\'est avéré qu\'ils ont laissé de très bons navires dans les hangars. <br/> Navires acquis: <br/>%s ',
 '059' => 'Votre expédition a atterri sur des navires abandonnés et légèrement détruits. <br/> Malheureusement, aucun d’entre eux n’a pu être lancé - les dégâts étaient trop importants pour pouvoir être réparés ...',
 '060' => 'Votre expédition a fouillé la planque des pirates. Ils ont laissé quelques navires dans les hangars. <br/> Malheureusement, leur état laissait beaucoup à désirer - ils ne pouvaient pas être utilisés plus tard ... ',
-'061' => 'Votre expédition n’a rien trouvé de remarquable aux extrémités de ce système planétaire. <br/> Malheureusement, une erreur dans les calculs des navigateurs a amené la flotte à emprunter le mauvais chemin pour revenir à la planète d\'origine. Le délai de retour a donc été prolongé de: < br />%s'
+'061' => 'Votre expédition n’a rien trouvé de remarquable aux extrémités de ce système planétaire. <br/> Malheureusement, une erreur dans les calculs des navigateurs a amené la flotte à emprunter le mauvais chemin pour revenir à la planète d\'origine. Le délai de retour a donc été prolongé de: < br />%s',
 
 '069' => '%s vous invite à participer à l\'attaque sur%s%s <a href="galaxy.php?mode=3&galaxy=%s&system=%s"> [%s:%s:%s] < / a> <br/> <br/> Si vous souhaitez utiliser ses suggestions, attaquez%s, sélectionnez <a class = "orange" href = "flotte.php? galaxy =%s & system =%s & planet =%s & planettype = %s & target_mission = 2 "> <b> Réclamer une attaque </ b> </a>, puis sélectionnez une relation nommée <a href="fleet.php?joinacs=%s" class="lime">"%s dans la liste. "</a> (Cliquez sur ce nom pour rejoindre directement la relation) ',
 
-'070' => 'Vous ne pouvez pas étendre le bâtiment <b>%s </ b> à%s%s car vous n’avez pas satisfait à ses <a href="techtree.php#el%s"> exigences technologiques </a>! '
+'070' => 'Vous ne pouvez pas étendre le bâtiment <b>%s </ b> à%s%s car vous n’avez pas satisfait à ses <a href="techtree.php#el%s"> exigences technologiques </a>! ',
 '071' => $_Lang ['BattleReport_AttackerNormal'],
 '072' => $_Lang ['BattleReport_AttackerDestroy'],
 '073' => $_Lang ['BattleReport_Defender_NoRebuild'],
@@ -114,7 +114,7 @@ $_Lang['msg_const']['msgs'] = array
 // Déclarations multi-comptes
 '077' => 'La déclaration du jeu d’un IP / ordinateur sur lequel se trouve votre compte a été <b class = "lime"> acceptée </ b> par l’Administration!',
 '078' => 'La déclaration du jeu d’un IP / ordinateur sur lequel se trouve votre compte a été <b class = "orange"> rejetée </ b> par l’Administration - veuillez nous contacter à ce sujet!',
-'079' => 'La déclaration du jeu d’un IP / ordinateur sur lequel se trouve votre compte a été <b class = "red"> supprimée </ b> (le dernier joueur appartenant à cette déclaration s’est retiré, a supprimé le compte ou la personne qui l’a déclarée retiré)!'
+'079' => 'La déclaration du jeu d’un IP / ordinateur sur lequel se trouve votre compte a été <b class = "red"> supprimée </ b> (le dernier joueur appartenant à cette déclaration s’est retiré, a supprimé le compte ou la personne qui l’a déclarée retiré)!',
 '080' => 'La déclaration du jeu d’un IP / ordinateur sur lequel se trouve votre compte a été <b class = "red"> supprimée </ b> par l’Administration - veuillez nous contacter à ce sujet!',
 
 	// Bâtiments / Technologie Queue Infos
@@ -125,7 +125,7 @@ $_Lang['msg_const']['msgs'] = array
 '085' => 'Il n’ya pas assez de matière première pour démarrer le test <b>%s </ b> (niveau%s) à%s%s. <br/> Ressources: <b>%s </ b> j . <b> métal </ b>, <b>%s </ b> j. <b> cristal </ b> et <b>%s </ b> j. <b> deutérium </ b>. <br/> La structure nécessite: <b class = "%s">%s </ b> j. <b> métal </ b>, <b class = "%s">%s </ b> j. <b> cristal </ b> et <b class = "%s">%s </ b> j. <b> deuteru </ b>. ',
 '086' => 'Le niveau de test maximal <b>%s </ b> a été atteint.',
 '087' => 'Vous n’avez pas assez d’énergie sombre pour commencer à tester <b>%s </ b>. <br/> Vous avez besoin de <b>%s </ b> j. Et vous avez <b> sur votre compte %s </ b> j. ',
-'088' => 'Vous ne pouvez pas démarrer <b>%s </ b> sur%s%s car vous n’avez pas satisfait à ses <a href="techtree.php#el%s"> Exigences technologiques </a>! '
+'088' => 'Vous ne pouvez pas démarrer <b>%s </ b> sur%s%s car vous n’avez pas satisfait à ses <a href="techtree.php#el%s"> Exigences technologiques </a>! ',
 '089' => 'Vous ne pouvez pas lancer l’étude <b>%s </ b> sur%s%s!',
 
 // amis invite
@@ -134,8 +134,8 @@ $_Lang['msg_const']['msgs'] = array
 '092' => 'Le joueur <a href="profile.php?uid=%s">%s </a> <b> vous a retiré de sa liste d\'amis! </ B>',
 
 // Infos retraite
-'093' => 'Votre flotte volante a été renvoyée par l’Administration. <br/> <b> Les flottes retournent à leurs coordonnées d\'origine avec un vol normal. </ B> <br/> <br/> Nombre de flottes retournées:%s /%s '
-'094' => 'Votre flotte volante a été restituée par l’Administration. <br/> <b> Les flottes ont été immédiatement restaurées à leurs coordonnées de base. </ B> <br/> <br/> Nombre de flottes recyclées:%s /%s '
+'093' => 'Votre flotte volante a été renvoyée par l’Administration. <br/> <b> Les flottes retournent à leurs coordonnées d\'origine avec un vol normal. </ B> <br/> <br/> Nombre de flottes retournées:%s /%s ',
+'094' => 'Votre flotte volante a été restituée par l’Administration. <br/> <b> Les flottes ont été immédiatement restaurées à leurs coordonnées de base. </ B> <br/> <br/> Nombre de flottes recyclées:%s /%s ',
 
 // Allié Invite
 '095' => 'Vous avez été invité à l\'alliance <a href="alliance.php?mode=ainfo&a=%s">%s [%s] </a> par le joueur <a href = "profile.php? Uid = %s ">%s </a>. <br/> Pour <b class =" lime "> accepter </ b> ou <b class =" orange "> rejeter </ b> cette invitation, accédez à < a href = "alliance.php"> Alliance </a> (l\'invitation est valable 14 jours). <br/> <u> Contenu de l\'invitation: </ u> <br/> <br/>%s ',
@@ -149,7 +149,7 @@ $_Lang['msg_const']['msgs'] = array
 '102' => 'Alliance <a href="alliance.php?mode=ainfo&amp;a=%s">%s </a> s\'est retirée du pacte avec votre alliance!',
 '103' => 'L\'Alliance <a href="alliance.php?mode=ainfo&amp;a=%s">%s </a> a retiré sa proposition de changer le type de pacte!',
 '104' => 'L\'Alliance <a href="alliance.php?mode=ainfo&amp;a=%s">%s </a> a envoyé une proposition visant à modifier le type du pacte d\'alliance. <br/> <br/> <a href = "alliance.php? mode = pactslist"> Pour vérifier cette proposition, allez à la liste des alliances dans l\'onglet "Alliance" </a> ',
-'105' => 'Alliance <a href="alliance.php?mode=ainfo&amp;a=%s">%s </a> a modifié le type du pacte d\'alliance en\' <b>%s </ b> \'!' .
+'105' => 'Alliance <a href="alliance.php?mode=ainfo&amp;a=%s">%s </a> a modifié le type du pacte d\'alliance en\' <b>%s </ b> \'!',
 );
 
 $_Lang['msg_const']['senders']['system'] = array
