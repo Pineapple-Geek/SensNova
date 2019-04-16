@@ -19,17 +19,17 @@ $_Lang ['Header_IP'] = 'Adresse IP';
 $_Lang ['Header_Users'] = 'Joueurs';
 $_Lang ['SubRow_User_NoData'] = "Aucune donnée";
 $_Lang ['SubRow_IP_NoData'] = "Lecteur supprimé";
-$_Lang ['BreakLine_Intersection'] = 'Intersection IP: <a class="orange" href="?ipid=%s">% s </a> <a class = "orange" href = "? Ipid =% s "> [#% s] </a>";
-$_Lang ['BreakLine_NormalLogs'] = '<b class = "lime"> Autres entrées </ b> ";
+$_Lang ['BreakLine_Intersection'] = 'Intersection IP: <a class="orange" href="?ipid=%s">% s </a> <a class = "orange" href = "? Ipid =% s "> [#% s] </a>';
+$_Lang ['BreakLine_NormalLogs'] = '<b class = "lime"> Autres entrées </ b>';
 
 $_Lang ['Error_Search_NoRowsFound'] = "Aucun résultat correspondant trouvé!";
 $_Lang ['Error_Search_BadType'] = "Type de recherche invalide!";
 $_Lang ['Error_Where_NoData'] = "Aucune donnée correspondante trouvée!";
 $_Lang ['Info_InsertData'] = "Entrer des données dans le moteur de recherche ...";
-$_Lang ['Info_ProxySet_OK_Set'] = 'IP a été marqué comme' Proxy '";
+$_Lang ['Info_ProxySet_OK_Set'] = 'IP a été marqué comme Proxy';
 $_Lang ['Info_ProxySet_OK_Unset'] = 'Le statut du proxy a été supprimé pour cette adresse IP';
-$_Lang ['Info_ProxySet_NoIP'] = 'Cette adresse IP n'existe pas!';
-$_Lang ['Info_ProxySet_BadID'] = 'ID IP incorrect!';
+$_Lang ['Info_ProxySet_NoIP'] = 'Cette adresse IP n\'existe pas !';
+$_Lang ['Info_ProxySet_BadID'] = 'ID IP incorrect !';
 
 $_Lang ['info_SetAsProxy'] = 'Marquer comme proxy';
 $_Lang ['info_SetAsNonProxy'] = 'Supprimer le statut du proxy';
