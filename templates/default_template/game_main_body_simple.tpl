@@ -12,17 +12,21 @@
         <script type="text/javascript" src="{AdminBack}libs/overlib/overlib.min.js"></script>
         <script type="text/javascript" src="{AdminBack}libs/jquery/jquery.min.js"></script>
         <script type="text/javascript" src="{AdminBack}dist/js/main.light.cachebuster-1545956361123.min.js"></script>
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+        <script src="{AdminBack}js/headroom.min.js"></script>
+        <script src="{AdminBack}js/jQuery.headroom.min.js"></script>
+        <script src="{AdminBack}js/template.js"></script>
 
         <link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
-        <link rel="stylesheet" href="{SkinPath}bootstrap.min.css">
-        <link rel="stylesheet" href="{SkinPath}font-awesome.min.css">
+        <link rel="stylesheet" href="{AdminBack}css/bootstrap.min.css">
+        <link rel="stylesheet" href="{AdminBack}css/font-awesome.min.css">
 
-        <!-- Custom styles for our template -->
-        <link rel="stylesheet" href="{SkinPath}bootstrap-theme.css" media="screen" >
-        <link rel="stylesheet" href="{SkinPath}main.css">
+    <!-- Custom styles for our template -->
+        <link rel="stylesheet" href="{AdminBack}css/bootstrap-theme.css" media="screen" >
+        <link rel="stylesheet" href="{AdminBack}css/main.css">
     </head>
     <body>
         {PHP_InjectAfterBody}
-        <center>{game_content_replace}</center>
+        {game_content_replace}
     </body>
 </html>

@@ -5,15 +5,15 @@
 	
 	<title>SensNova - Accueil</title>
 
-	<link rel="shortcut icon" href="<?php $url = str_replace('/index.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>/images/gt_favicon.png">
+	<link rel="shortcut icon" href="<?php $url = str_replace('index.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>images/gt_favicon.png">
 	
 	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
-	<link rel="stylesheet" href="<?php $url = str_replace('/index.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>/css/bootstrap.min.css">
-	<link rel="stylesheet" href="<?php $url = str_replace('/index.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>/css/font-awesome.min.css">
+	<link rel="stylesheet" href="<?php $url = str_replace('index.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>css/bootstrap.min.css">
+	<link rel="stylesheet" href="<?php $url = str_replace('index.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>css/font-awesome.min.css">
 
 	<!-- Custom styles for our template -->
-	<link rel="stylesheet" href="<?php $url = str_replace('/index.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>/css/bootstrap-theme.css" media="screen" >
-	<link rel="stylesheet" href="<?php $url = str_replace('/index.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>/css/main.css">
+	<link rel="stylesheet" href="<?php $url = str_replace('index.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>css/bootstrap-theme.css" media="screen" >
+	<link rel="stylesheet" href="<?php $url = str_replace('index.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>css/main.css">
 
 	<!-- php5 shim and Respond.js IE8 support of php5 elements and media queries -->
 	<!--[if lt IE 9]>
@@ -72,13 +72,13 @@
 			
 			<div class="row">
 				<div class="col-md-4 col-sm-6 highlight">
-					<img id="myImg1" src="<?php $url = str_replace('/index.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>/images/Preview1.jpg" class="img-responsive img-thumbnail" alt="">
+					<img id="myImg1" src="<?php $url = str_replace('index.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>images/Preview1.jpg" class="img-responsive img-thumbnail" alt="">
 				</div>
 				<div class="col-md-4 col-sm-6 highlight">
-					<img id="myImg2" src="<?php $url = str_replace('/index.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>/images/Preview2.jpg" class="img-responsive img-thumbnail" alt="">
+					<img id="myImg2" src="<?php $url = str_replace('index.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>images/Preview2.jpg" class="img-responsive img-thumbnail" alt="">
 				</div>
 				<div class="col-md-4 col-sm-6 highlight">
-					<img id="myImg3" src="<?php $url = str_replace('/index.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>/images/Preview3.jpg" class="img-responsive img-thumbnail" alt="">
+					<img id="myImg3" src="<?php $url = str_replace('index.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>images/Preview3.jpg" class="img-responsive img-thumbnail" alt="">
 				</div>
 			</div> <!-- /row  -->
 		
@@ -213,8 +213,8 @@ span.onclick = function() {
 	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-	<script src="<?php $url = str_replace('/index.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>/js/headroom.min.js"></script>
-	<script src="<?php $url = str_replace('/index.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>/js/jQuery.headroom.min.js"></script>
-	<script src="<?php $url = str_replace('/index.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>/js/template.js"></script>
+	<script src="<?php $url = str_replace('index.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>js/headroom.min.js"></script>
+	<script src="<?php $url = str_replace('index.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>js/jQuery.headroom.min.js"></script>
+	<script src="<?php $url = str_replace('index.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>js/template.js"></script>
 </body>
 </php>

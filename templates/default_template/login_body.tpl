@@ -12,7 +12,7 @@
                     <li class="active"><a href="#">Accueil</a></li>
                     <li><a href="rules.php">Régles du jeu</a></li>
                     <li><a href="http://www.kommunauty.fr/forum/xnova/">Forum</a></li>
-                    <li><a href="signin.php">Se Connecter</a></li>
+                    <li><a href="login.php">Se Connecter</a></li>
                 </ul>
             </div><!--/.nav-collapse -->
         </div>
@@ -63,7 +63,7 @@
 
                                 <div class="row">
                                     <div class="col-lg-12 text-center">
-                                        <a class="btn btn-default btn-xs btn-sm btn-md" role="button" href="signup.php">Créer votre compte SensNova</a>
+                                        <a class="btn btn-default btn-xs btn-sm btn-md" role="button" href="register.php">Créer votre compte SensNova</a>
                                     </div>
                                 </div>
                             </form>
@@ -124,11 +124,5 @@
         </div>
 
     </footer>   
-
-    <!-- JavaScript libs are placed at the end of the document so the pages load faster -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-    <script src="<?php $url = str_replace('/signin.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>/js/headroom.min.js"></script>
-    <script src="<?php $url = str_replace('/signin.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>/js/jQuery.headroom.min.js"></script>
-    <script src="<?php $url = str_replace('/signin.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>/js/template.js"></script>
 </body>
+</php>
