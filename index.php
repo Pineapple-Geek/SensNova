@@ -50,7 +50,7 @@
 				<div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-5 col-md-offset-3 col-lg-4 col-lg-offset-4 SensNova"> 
 					<h1 class="lead">SensNova</h1>
 					<p class="tagline">Un MMORPG gratuit en ligne de conquête spatiale</p>
-					<p><a class="btn btn-action btn-xs btn-sm btn-md" role="button" href="index.php?page=reg&lang={$lang}">JOUER MAINTENANT</a></p>
+					<p><a class="btn btn-action btn-xs btn-sm btn-md" role="button" href="reg_mainpage.php">JOUER MAINTENANT</a></p>
 				</div>
 			</div>
 		</div>
