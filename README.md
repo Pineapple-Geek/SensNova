@@ -1,11 +1,44 @@
-# UniEngine
+---------------------------------------------------------FRANCAIS ---------------------------------------------------------------------
+# SensNova
 
 [![Build Status](https://travis-ci.org/mdziekon/UniEngine.svg?branch=master)](https://travis-ci.org/mdziekon/UniEngine)
 [![Release: Stable (latest)](https://img.shields.io/github/release/mdziekon/UniEngine.svg?label=release%3Astable&logo=github&logoColor=FFFFFF)](https://github.com/mdziekon/UniEngine/releases)
 
-OGame-clone browser based game engine.
+C'est un clone d'un jeu Ogame basé sur le même moteur graphique et le même gameplay. 
 
----
+- [Pré-requis](#pre-requis)
+- [Installation](#installation)
+- [Mise à jour à partir d'anciennes versions](#MAJ-a-partir-autres-versions)
+- [Guide de développement](#guide-developpement)
+- [Remerciements](#remerciements)
+- [Licence](#licence)
+
+
+## Pré-requis
+
+- PHP
+    - ``>= 7.0 && < 7.3``
+    - ``>= 5.4`` (deprecated)
+- Composer
+    - ``>= 1.6``
+- MySQL
+    - ``>= 5``
+-Webserver (Wampserver 3.0.6)
+
+### (Additionnel) Pré-requis de développement
+
+- Node.js
+    - ``>= 11``
+
+
+---------------------------------------------------------ENGLISH----------------------------------------------------------------------
+
+# SensNova
+
+[![Build Status](https://travis-ci.org/mdziekon/UniEngine.svg?branch=master)](https://travis-ci.org/mdziekon/UniEngine)
+[![Release: Stable (latest)](https://img.shields.io/github/release/mdziekon/UniEngine.svg?label=release%3Astable&logo=github&logoColor=FFFFFF)](https://github.com/mdziekon/UniEngine/releases)
+ 
+OGame-clone browser based game engine.
 
 - [Requirements](#requirements)
 - [Installation](#installation)
