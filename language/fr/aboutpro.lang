@@ -29,8 +29,8 @@ $_Lang ['RenewPro'] = "Étendre de% s% s!";
 $_Lang ['BuyAgain'] = "Racheter à% s% s!";
 $_Lang ['FirstBuy'] = "Rachat sur% s% s!";
 
-$_Lang ['_ day'] = "jour";
-$_Lang ['_ jours'] = "jours";
+$_Lang ['_day'] = "jour";
+$_Lang ['_jours'] = "jours";
 
 $_Lang ['Cost'] = 'Coût';
 $_Lang ['CostUnits'] = 'j. Énergie sombre';

@@ -9,7 +9,7 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav pull-right">
-                    <li class="active"><a href="#">Accueil</a></li>
+                    <li class="active"><a href="index.php">Accueil</a></li>
                     <li><a href="rules.php">Régles du jeu</a></li>
                     <li><a href="http://www.kommunauty.fr/forum/xnova/">Forum</a></li>
                     <li><a href="login.php">Se Connecter</a></li>
@@ -63,7 +63,7 @@
 
                                 <div class="row">
                                     <div class="col-lg-12 text-center">
-                                        <a class="btn btn-default btn-xs btn-sm btn-md" role="button" href="register.php">Créer votre compte SensNova</a>
+                                        <a class="btn btn-default btn-xs btn-sm btn-md" role="button" href="reg_mainpage.php">Créer votre compte SensNova</a>
                                     </div>
                                 </div>
                             </form>

@@ -51,7 +51,7 @@ $_Lang ['ReCaptcha_incorrect_try_again'] = 'Réécriture incorrecte du code, ess
 
 $_Lang ['JSLang'] = array
 (
-'Info_RequestSent' => '<img src = "./ images / ajaxload.gif" style = "margin-right: 10px;" /> Créer un compte ... ',
+'Info_RequestSent' => '<img src = "./images/ajaxload.gif" style = "margin-right: 10px;" /> Création du compte ... ',
 
 'Alert_UsernameShort' => 'Le nom du joueur doit comporter plus de 3 caractères!',
 'Alert_UsernameLong' => 'Le nom du joueur ne peut pas dépasser 64 caractères!',

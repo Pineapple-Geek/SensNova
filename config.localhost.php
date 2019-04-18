@@ -6,7 +6,7 @@ $__ServerConnectionSettings = array
     'user'          => 'TPCDA',
     'pass'          => 'alienware',
     'name'          => 'sensnova',
-    'prefix'        => '_',
+    'prefix'        => 'uni1_',
     'secretword'    => 'il2lWgcZosEKraduUJ5c'
 );
 ?>

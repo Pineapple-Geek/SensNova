@@ -27,10 +27,10 @@ $_Lang['SMS_TEXT_3'] = '<h3> <u> Pour acheter <b class = "red"> 25 </b> Unités 
 $_Lang['SMS_TEXT_4'] = '<h3> <u> Pour acheter <b class ="red"> 45 </b> Unités d’énergie sombre </u> </h3> Envoyez un SMS avec <span class ="smsCode"> xxx </span> au numéro <span class ="smsCode"> xxx </span> <br/> Le coût brut du SMS est de xxx avec TVA';
 
 $_Lang['SMS_InputCode'] = "<h3> <u> Entrez le code reçu </u> <br/> pour recharger <b class = 'deForm01'> 5 unités </b> <b class = 'deForm02'> 15 unités </b> <b class = 'deForm03'> 25 unités </b> <b class = 'deForm04'> 45 unités </b> Énergie noire </h3> ";
-$_Lang['_ Buy5Units'] = "5 unités";
-$_Lang['_ Buy15Units'] = "15 unités";
-$_Lang['_ Buy25Units'] = "25 unités";
-$_Lang['_ Buy45Units'] = "45 unités";
+$_Lang['_Buy5Units'] = "5 unités";
+$_Lang['_Buy15Units'] = "15 unités";
+$_Lang['_Buy25Units'] = "25 unités";
+$_Lang['_Buy45Units'] = "45 unités";
 
 $_Lang['SMS_Accept'] = "Accepter!";
 
@@ -44,14 +44,14 @@ $_Lang['ErrorUnknown'] = "Une erreur est survenue:";
 $_Lang['ErrorSQL'] = "Une erreur de requête s'est produite!";
 $_Lang['ErrorNoCode'] = "Aucun code entré!";
 $_Lang['AddSuccess'] = "Vous avez ajouté <i>% s </i> Énergie noire à votre compte!";
-$_Lang['_ Added5DEUnits'] = "5 unités";
-$_Lang['_ Added15DEUnits'] = "15 unités";
-$_Lang['_ Added25DEUnits'] = "25 unités";
-$_Lang['_ Added45DEUnits'] = "45 unités";
-$_Lang['_ Added10DEUnits'] = "10 unités";
-$_Lang['_ Added30DEUnits'] = "30 unités";
-$_Lang['_ Added50DEUnits'] = "50 unités";
-$_Lang['_ Added90DEUnits'] = "90 unités";
+$_Lang['_Added5DEUnits'] = "5 unités";
+$_Lang['_Added15DEUnits'] = "15 unités";
+$_Lang['_Added25DEUnits'] = "25 unités";
+$_Lang['_Added45DEUnits'] = "45 unités";
+$_Lang['_Added10DEUnits'] = "10 unités";
+$_Lang['_Added30DEUnits'] = "30 unités";
+$_Lang['_Added50DEUnits'] = "50 unités";
+$_Lang['_Added90DEUnits'] = "90 unités";
 
 $_Lang['ErrorNoItemIDGiven'] = "Vous n'avez pas entré l'article que vous voulez acheter!";
 $_Lang['ErrorTooMuchItemIDGiven'] = "Vous ne pouvez acheter qu'un article à la fois!";

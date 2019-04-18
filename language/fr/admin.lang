@@ -9,13 +9,13 @@ $_Lang ['Ban_TimeLeft'] = "Gauche";
 $_Lang ['Ban_expired'] = "Le ban a expiré!";
 
 $_Lang ['il y a']] = "il y a";
-$_Lang ['_ in'] = "pour";
-$_Lang ['_ jour'] = "jour";
-$_Lang ['_ jours'] = "jours";
-$_Lang ['_ today'] = "Aujourd'hui";
-$_Lang ['_ hier'] = "Hier";
-$_Lang ['_ Since'] = "De";
-$_Lang ['_ Untill'] = "Do";
-$_Lang ['_ Duration'] = "Durée";
+$_Lang ['_in'] = "pour";
+$_Lang ['_jour'] = "jour";
+$_Lang ['_jours'] = "jours";
+$_Lang ['_today'] = "Aujourd'hui";
+$_Lang ['_hier'] = "Hier";
+$_Lang ['_Since'] = "De";
+$_Lang ['_Untill'] = "Do";
+$_Lang ['_Duration'] = "Durée";
 
 ?>

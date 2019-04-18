@@ -1,9 +1,9 @@
 <?php
 
 $_Lang ['FirstLogin_Title'] = "Bienvenue";
-$_Lang ['LoginPage_Header'] = 'Bienvenue à'. $_GameConfig ['game_name']. '! ';
+$_Lang ['LoginPage_Header'] = 'Bienvenue sur '. $_GameConfig ['game_name']. '! ';
 
-$_Lang ['LoginPage_Text'] = "<centre> <b class='orange'> Bienvenue sur l'un des serveurs '. $_GameConfig [' game_name '].'! </ B> <br/> <br/>";
+$_Lang ['LoginPage_Text'] = "<centre> <b class='orange'> Bienvenue sur l\'un des serveurs ". $_GameConfig ['game_name']."! </ B> <br/> <br/>";
 $_Lang ['LoginPage_Text'] = '<B> Ceci est votre première connexion. Par conséquent, nous aimerions présenter les paramètres de ce serveur: </ b> </ center> <br/>';
 $_Lang ['LoginPage_Text'] = '<Span style = "line-height: 18px;"> <b class="minw"> Univers: </ b> <b class="lime"> 1 </ b> <br/>';
 $_Lang ['LoginPage_Text'] = '<B class="minw"> Vitesse de jeu: </ b> <b class="lime"> {GameSpeed} x </ b> <br/> <b class=" minw "> Vitesse d’exploitation minière: </ b> <b class =" lime "> {ResSpeed} x </ b> <br/> <b class =" minw "> Vitesse de la flotte: </ b> <b class =" chaux « > {x} FleetSpeed ​​</ b> <br/> ';

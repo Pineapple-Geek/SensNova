@@ -19,7 +19,7 @@ $_Lang ['Fleet_Back_time'] = 'Retour';
 $_Lang ['No_cargo'] = "Aucun";
 $_Lang ['See_cargo'] = "Voir";
 
-$_Lang ['_ ago'] = "il y a";
+$_Lang ['_ago'] = "il y a";
 $_Lang ['None'] = 'None';
 
 $_Lang ['Planet_sign'] = 'P';
