@@ -60,7 +60,7 @@ $_Lang ['BattleConverter_title'] = 'LiteConverter - Convertisseur de rapports Un
 $_Lang ['Main_page'] = '<br /> <a href="login.php"> Accueil </a>';
 $_Lang ['Kicked_by_badIP'] = 'Vous avez été exclu à cause de la modification de votre adresse IP!'. 
 $_Lang ['Main_page']. '<br/> <span style = "color: red;""> Remarque! < / span> <br/> Si le système vous rejette constamment à cause de vos variables IP, vous pouvez écrire une demande sur le forum pour désactiver cette option pour votre compte dans cette rubrique: <br/> <a href = "redirect.php? id = 1" target ="" _ blank ""> Cliquez ici </a> ';
-$_Lang ['You_have_been_kicked'] = 'L administrateur vous a viré du jeu!'. 
+$_Lang ['You_have_been_kicked'] = 'L administrateur vous a viré du jeu!'; 
 $_Lang ['GameBlock_CookieStyle'] = 'Le jeu a été bloqué pour vous! <br /> Si vous ne connaissez pas la raison du blocage, contactez l’administrateur du jeu!';
 $_Lang ['Game_blocked_for_this_IP'] = 'Le jeu a été bloqué pour vous! <br /> Si vous ne connaissez pas la raison du blocage, contactez l’administrateur du jeu!';
 $_Lang ['Hacking_attempt'] = 'Une tentative d intrusion ou de fraude a été détectée! L administrateur a été averti!';

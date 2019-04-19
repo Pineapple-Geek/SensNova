@@ -53,8 +53,8 @@ $_Lang ['jQueryAjax_postErr_3'] = "Erreur lors de l'envoi d'un message - message
 $_Lang ['jQueryAjax_postErr_5'] = "Erreur lors de l'envoi d'un message - pas d'accès à cette salle ...";
 $_Lang ['jQueryAjax_postErr_6'] = "Erreur lors de l'envoi de messages - La pièce n'existe pas ...";
 
-$_Lang ['jQueryAjax_delErr_2'] = "Erreur lors de la suppression des messages (# {$id}) - le message n'existe pas!";
-$_Lang ['jQueryAjax_delErr_3'] = "Erreur lors de la suppression des messages (# {$id}) - Erreur de base de données!";
+$_Lang ['jQueryAjax_delErr_2'] = "Erreur lors de la suppression des messages - le message n'existe pas!";
+$_Lang ['jQueryAjax_delErr_3'] = "Erreur lors de la suppression des messages - Erreur de base de données!";
 $_Lang ['jQueryAjax_delErr_4'] = "Erreur d'action - pas de privilèges!";
 
 $_Lang ['jQueryAjax_notLogged'] = "Erreur - vous n'êtes pas connecté!";
