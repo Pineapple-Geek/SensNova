@@ -91,7 +91,7 @@ $_Lang ['Cost'] = 'Coût';
 $_Lang ['DEUnits'] = "j. Énergie sombre";
 $_Lang ['AreYouSure'] = "Êtes-vous sûr?";
 
-$_Lang ['_ day'] = "jour";
-$_Lang ['_ jours'] = "jours";
+$_Lang ['_day'] = "jour";
+$_Lang ['_jours'] = "jours";
 
 ?>

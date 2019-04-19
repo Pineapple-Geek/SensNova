@@ -20,8 +20,8 @@ $_Lang ['IPs'] = "Adresses IP";
 
 $_Lang ['mEmail'] = "Courriel actif";
 $_Lang ['xEmail'] = "Adresse email modifiée (dans le processus d'activation)";
-$_Lang ['_ même'] = "<b class = \"lime\"> Pas de changement </ b>";
-$_Lang ['_ notsame'] = "<b class = \"orange\"> Modifications en cours </ b>";
+$_Lang ['_même'] = "<b class = \"lime\"> Pas de changement </ b>";
+$_Lang ['_notsame'] = "<b class = \"orange\"> Modifications en cours </ b>";
 
 $_Lang ['Lookup'] = "Recherche";
 $_Lang ['LoopupInfo'] = "Plus d’informations sur l’IP sélectionné";
@@ -29,7 +29,7 @@ $_Lang ['LastIPLook'] = "Dernière adresse IP";
 $_Lang ['RegIPLook'] = "Enregistrement IP";
 $_Lang ['lastIP'] = "Dernière adresse IP";
 $_Lang ['regIP'] = "Adresse IP de l'enregistrement";
-$_Lang ['_ NoIP'] = "Pas d’IP";
+$_Lang ['_NoIP'] = "Pas d’IP";
 
 $_Lang ['UserOnVacation'] = "Le joueur est en vacances";
 $_Lang ['UserIsBanned'] = "Le joueur est banni jusqu \' à ";
@@ -80,10 +80,10 @@ $_Lang ['AllyInRequest'] = "Inclure les applications";
 $_Lang ['PlayerIsBanned'] = "Le joueur est banni!";
 $_Lang ['PlayerIsOnVacations'] = "Le joueur est en vacances";
 
-$_Lang ['_ Yes'] = "Oui";
+$_Lang ['_Yes'] = "Oui";
 $_Lang ['_No'] = "Non";
 $_Lang ['_Noms'] = "Noms";
-$_Lang ['_ Tags'] = "Tags";
+$_Lang ['_Tags'] = "Tags";
 
 $_Lang ['UserStats'] = "Statistiques";
 $_Lang ['ShowUserMessages'] = "Messages du joueur";

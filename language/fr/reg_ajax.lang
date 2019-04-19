@@ -23,6 +23,6 @@ $_Lang['mail_template'] .= '</head><body>';
 $_Lang['mail_template'] .= $_Lang['mail_text'];
 $_Lang['mail_template'] .= '</body></html>';
 
-$_Lang['MotherPlanet'] = "Planète mère';
+$_Lang['MotherPlanet'] = "Planète mère";
 
 ?>

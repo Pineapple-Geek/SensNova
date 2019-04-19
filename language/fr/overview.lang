@@ -33,29 +33,29 @@ $_Lang ['Box_Morale_Dropping_Neg'] = '<b class = "lime"> & uArr; </ b> Hauteur (
 $_Lang ['Box_Morale_Points'] = 'Niveau de développement Empire: <br/> <b class = "grey">%s pt. </ B>';
 
 $_Lang ['Box_youPlaySince'] = 'Vous jouez à partir de';
-$_Lang ['_ youPlaySince_1day'] = 'jour';
-$_Lang ['_ youPlaySince_2days'] = 'days';
+$_Lang ['_youPlaySince_1day'] = 'jour';
+$_Lang ['_youPlaySince_2days'] = 'days';
 $_Lang ['Box_proAccount'] = 'Compte Pro';
 $_Lang ['Box_refferedUsers'] = 'Joueurs recommandés';
 
 $_Lang ['Box_planetData'] = 'Données concernant';
-$_Lang ['_ planetData_planet'] = 'planète';
-$_Lang ['_ planetData_moon'] = 'moon';
-$_Lang ['_ overview_planet'] = 'planètes';
-$_Lang ['_ overview_moon'] = 'moon';
-$_Lang ['_ planetData_changename'] = 'Renommer';
-$_Lang ['_ planetData_leave'] = 'Abandonnez la colonie';
+$_Lang ['_planetData_planet'] = 'planète';
+$_Lang ['_planetData_moon'] = 'moon';
+$_Lang ['_overview_planet'] = 'planètes';
+$_Lang ['_overview_moon'] = 'moon';
+$_Lang ['_planetData_changename'] = 'Renommer';
+$_Lang ['_planetData_leave'] = 'Abandonnez la colonie';
 $_Lang ['Box_planetCoords'] = 'Coordonnées ';
 $_Lang ['Box_planetDiameter'] = 'Diameter';
 $_Lang ['diamètre_unité'] = 'km.';
 $_Lang ['Box_planetBuildFields'] = 'Bâtiments';
 $_Lang ['Box_planetTemps'] = 'Température';
 $_Lang ['Box_planetOrbit'] = 'Orbite';
-$_Lang ['_ emptyOrbit'] = '-';
+$_Lang ['_emptyOrbit'] = '-';
 $_Lang ['TipTip_Switch2Moon'] = 'Basculer vers la lune';
 $_Lang ['TipTip_Switch2Planet'] = 'Basculer vers la planète';
 $_Lang ['Box_planetDebris'] = 'Reste en orbite';
-$_Lang ['_ planetDebrisLink'] = 'Allez dans la galaxie';
+$_Lang ['_planetDebrisLink'] = 'Allez dans la galaxie';
 $_Lang ['NoDebris'] = 'Aucun';
 
 $_Lang ['Box_statGeneral'] = 'Général';
@@ -63,7 +63,7 @@ $_Lang ['Box_statFleet'] = 'Flotte';
 $_Lang ['Box_statDefense'] = 'Défense';
 $_Lang ['Box_statBuildings'] = 'Bâtiments';
 $_Lang ['Box_statResearch'] = 'Recherche';
-$_Lang ['_ statUnit'] = 'point';
+$_Lang ['_statUnit'] = 'point';
 
 $_Lang ['Box_battlesAll'] = 'Batailles disputées';
 $_Lang ['Box_battlesWon'] = 'Victoires';
@@ -83,7 +83,7 @@ $_Lang ['Box_buttons'] = 'TopListy';
 
 $_Lang ['Watch_lastchanges_onBlip'] = 'Suivez notre serveur sur Blip';
 
-$_Lang ['DelFirstQueue'] = 'Abort';
+$_Lang ['DelFirstQueue'] = 'Annuler';
 $_Lang ['CannotDeletePremiumBuilding_Warning'] = 'Vous ne pouvez pas arrêter de construire cette énergie sombre requise!';
 $_Lang ['completed'] = 'Terminé';
 $_Lang ['BuildJS_Complete'] = 'Terminé';

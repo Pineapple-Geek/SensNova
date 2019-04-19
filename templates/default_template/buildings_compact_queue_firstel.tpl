@@ -12,7 +12,7 @@
                 <td style="text-align: left;" valign="top">
                     <a href="infos.php?gid={ElementID}"><b>{Name}</b></a><br />
                     <b>{LevelText} {Level},</b> <b class="{ModeColor}">{ModeText}</b><br /><br />
-                    <b>{EndText}:</b> <b class="lime endDate" title="<center>{EndTitleBeg} {EndDateExpand}<br/>{EndTitleHour} {EndTimeExpand}</center>">{EndDate}</b>
+                    <b>{EndText}:</b> <b class="lime endDate" title="{EndTitleBeg} {EndDateExpand} {EndTitleHour} {EndTimeExpand}">{EndDate}</b>
                 </td>
             </tr>
         </table>

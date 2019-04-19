@@ -8,7 +8,7 @@ $_Lang ['SFB_Header_Adding'] = "Ajout d'un nouveau verrou";
 
 $_Lang ['SFB_Action_AddBlockade'] = "Ajouter un nouveau verrou";
 $_Lang ['SFB_Action_Edit'] = "Modifier";
-$_Lang ['SFB_Action_Cancel'] = "Abort";
+$_Lang ['SFB_Action_Cancel'] = "Annuler";
 
 $_Lang ['SFB_ActiveList_NoElements'] = "Pas de verrou actif";
 $_Lang ['SFB_InActiveList_NoElements'] = "Aucune entrée dans le journal";

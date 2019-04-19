@@ -13,10 +13,10 @@ define('LOGINPAGE_ALLOW_LOGINPHP'                   , true);
 // Main data - adminMail, gameURL
 define('ADMINEMAIL'                                 , 'naim.jebbour@edmond-labbe.fr');
 define('GAMEURL'                                    , 'http://'.$_SERVER['HTTP_HOST'].'/');
-define('GAMEURL_DOMAIN'                             , 'mojagra.pl');
-define('GAMEURL_STRICT'                             , 'http://mojagra.pl');
-define('GAMEURL_UNISTRICT'                          , 'http://uni1.mojagra.pl');
-define('GAMEURL_REMOTE_TESTSERVERHOST'              , 'unitest.mojagra.pl');
+define('GAMEURL_DOMAIN'                             , 'localhost/sensnova');
+define('GAMEURL_STRICT'                             , 'http://localhost/sensnova');
+define('GAMEURL_UNISTRICT'                          , 'http://localhost/sensnova');
+define('GAMEURL_REMOTE_TESTSERVERHOST'              , 'localhost/sensnova');
 
 // Am I playing or Beta? TRUE/FALSE (If TRUE - Everyone has ProAccount)
 define('BETA'                                       , FALSE);

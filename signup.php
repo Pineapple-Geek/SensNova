@@ -5,15 +5,15 @@
 	
 	<title>SensNova - Inscription</title>
 
-	<link rel="shortcut icon" href="<?php $url = str_replace('/signup.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>/images/gt_favicon.png">
+	<link rel="shortcut icon" href="<?php $url = str_replace('/reg_mainpage.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>/images/gt_favicon.png">
 	
 	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
-	<link rel="stylesheet" href="<?php $url = str_replace('/signup.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>/css/bootstrap.min.css">
-	<link rel="stylesheet" href="<?php $url = str_replace('/signup.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>/css/font-awesome.min.css">
+	<link rel="stylesheet" href="<?php $url = str_replace('/reg_mainpage.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>/css/bootstrap.min.css">
+	<link rel="stylesheet" href="<?php $url = str_replace('/reg_mainpage.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>/css/font-awesome.min.css">
 
 	<!-- Custom styles for our template -->
-	<link rel="stylesheet" href="<?php $url = str_replace('/signup.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>/css/bootstrap-theme.css" media="screen" >
-	<link rel="stylesheet" href="<?php $url = str_replace('/signup.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>/css/main.css">
+	<link rel="stylesheet" href="<?php $url = str_replace('/reg_mainpage.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>/css/bootstrap-theme.css" media="screen" >
+	<link rel="stylesheet" href="<?php $url = str_replace('/reg_mainpage.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>/css/main.css">
 
 	<!-- php5 shim and Respond.js IE8 support of php5 elements and media queries -->
 	<!--[if lt IE 9]>
@@ -29,14 +29,14 @@
 			<div class="navbar-header">
 				<!-- Button for smallest screens -->
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-				<a class="navbar-brand" href="index.php"><img src="<?php $url = str_replace('/signup.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>/images/logo.png" alt="Progressus php5 templates"></a>
+				<a class="navbar-brand" href="index.php"><img src="<?php $url = str_replace('/reg_mainpage.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>/images/logo.png" alt="Progressus php5 templates"></a>
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav pull-right">
 					<li class="active"><a href="#">Accueil</a></li>
 					<li><a href="rules.php">Régles du jeu</a></li>
 					<li><a href="http://www.kommunauty.fr/forum/xnova/">Forum</a></li>
-					<li><a href="signin.php">Se Connecter</a></li>
+					<li><a href="login.php">Se Connecter</a></li>
 				</ul>
 			</div><!--/.nav-collapse -->
 		</div>
@@ -165,8 +165,8 @@
 	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-	<script src="<?php $url = str_replace('/signup.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>/js/headroom.min.js"></script>
-	<script src="<?php $url = str_replace('/signup.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>/js/jQuery.headroom.min.js"></script>
-	<script src="<?php $url = str_replace('/signup.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>/js/template.js"></script>
+	<script src="<?php $url = str_replace('/reg_mainpage.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>/js/headroom.min.js"></script>
+	<script src="<?php $url = str_replace('/reg_mainpage.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>/js/jQuery.headroom.min.js"></script>
+	<script src="<?php $url = str_replace('/reg_mainpage.php', '', $_SERVER['REQUEST_URI']) ;  echo($url); ?>/js/template.js"></script>
 </body>
 </php>

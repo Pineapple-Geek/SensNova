@@ -15,20 +15,6 @@ includeLang('logout');
 
 setcookie($_GameConfig['COOKIE_NAME'], '', time() - 100000, '/', '', 0);
 
-if(isset($_GET['kicked']))
-{
-    $Msg = $_Lang['You_have_been_kicked'];
-}
-else if(isset($_GET['badip']))
-{
-    header('Location: login.php');
-    safeDie();
-}
-else
-{
-    $Msg = $_Lang['see_you'];
-}
-
-message($Msg, $_Lang['session_closed'], 'login.php');
+header('Location: index.php');
 
 ?>

@@ -36,7 +36,7 @@
 					<li class="active"><a href="index.php">Accueil</a></li>
 					<li><a href="about.php">Régles du jeu</a></li>
 					<li><a href="http://www.kommunauty.fr/forum/xnova/">Forum</a></li>
-					<li><a href="signin.php">Se Connecter</a></li>
+					<li><a href="login.php">Se Connecter</a></li>
 				</ul>
 			</div><!--/.nav-collapse -->
 		</div>
