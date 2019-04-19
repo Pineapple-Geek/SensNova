@@ -30,6 +30,49 @@ C'est un clone d'un jeu Ogame basé sur le même moteur graphique et le même ga
 - Node.js
     - ``>= 11``
 
+## Installation
+
+1. Installer un webserveur capable de faire tourner des scripts PHP
+    - Le fichier `` php.ini`` devrait avoir la génération de rapports `` E_NOTICE`` désactivée, par exemple:
+        - - ``error_reporting = E_ALL & ~E_NOTICE & ~E_STRICT & ~E_DEPRECATED``
+        
+    - PHP doit avoir des droits en écriture sur ces fichiers / répertoires:
+        - ``config.php``
+        - ``includes/constants.php``
+        - ``tmp/``
+            - (permanent, exemple : cache Smarty)
+            
+2. Installer un server MySQL
+    - Désactiver le mode ``STRICT_TRANS_TABLES`` .
+    
+3. Créer une base de données et un utilisateur dans la base pour le serveur du jeu    
+
+4. Déplacez les fichiers source du projet dans le répertoire de votre serveur Web.
+
+5. Installer des dépendances PHP
+    - ``composer install --no-dev``
+
+6. Exécutez l'assistant d'installation: http://votre_adresse_serveur:port/install
+
+7. Supprimer le dossier ``install/``
+
+
+## Mise à jour à partir d'anciennes versions
+
+1. Check [__Releases__ section](https://github.com/mdziekon/UniEngine/releases) to see if migration scripts have been provided between your current version and the latest version you want to upgrade to.
+    - In case of missing migration scripts, **do not try to use the auto-migrate functionality!** It may completely break your game server.
+    - In case of major breaking changes (which for some reason were not possible to auto-migrate), there should be a release note explaining why and what manual actions have to be performed to proceed with migration.
+1. Close your game server (prevent players from accessing the game).
+1. Perform a full backup of your game server's state (database, configuration, files, etc...).
+1. Make sure that your PHP server has write access to game server's files (in case if one of the migration scripts might need this).
+1. Update files to the desired version.
+1. Update PHP dependencies.
+    - ``composer install --no-dev``
+1. Run migration script from project's root directory:
+    - ``composer run-script migrate:run``
+    - For more details go to [Available scripts](#available-scripts) section.
+1. Restart PHP server.
+
 
 ---------------------------------------------------------ENGLISH-------------------------------------------------------------------
 
