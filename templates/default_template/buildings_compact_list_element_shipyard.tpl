@@ -1,4 +1,4 @@
-<div class="ssDiv" id="ssEl_{ElementID}" title="<center>{ElementName}<br/>{ElementDisableReason}</center>">
+<div class="ssDiv" id="ssEl_{ElementID}" title="{ElementName} ({ElementDisableReason})">
     <img src="{SkinPath}gebaeude/{ElementID}.gif" class="ssImg"/>
     {ElementDisabled}
     <div class="ssBg ship">&nbsp;</div>
