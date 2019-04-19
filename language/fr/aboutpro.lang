@@ -8,7 +8,7 @@ $_Lang ['aboutpro'] = 'Compte Pro';
 $_Lang ['Desc'] = 'Le compte Pro fonctionne sur le principe d’extension des capacités de votre compte actuel, vous donnant accès à des fonctionnalités bloquées pour les joueurs ordinaires qui vous permettent de gérer les planètes et la flotte de manière beaucoup plus efficace. Elles vous aideront certainement à développer plus rapidement. ';
 $_Lang ['BenefitsTitle'] = "Ce que vous obtenez avec le compte Pro";
 
-$_Lang ['Avantages'] = array
+$_Lang ['Benefits'] = array
 (
 	'File d attente de construction - extension vers <b class = "lime"> 10 éléments </ b>', 
 	'File d attente de recherche - <b class = "lime"> 5 éléments </ b> ', 
@@ -17,7 +17,7 @@ $_Lang ['Avantages'] = array
 	' Accès au <b class = "lime"> Démontage </ b> (possibilité de démanteler des navires et de se défendre sur des matières premières) ', 
 	' Nombre maximal de navires et de défenses dans la file d attente du chantier naval élevé à <b class = "lime"> 10 millions </ b> ',
 	' Accès aux <b class = "lime"> listes d attaques </ b> soumises à la règle Bash', 
-	' Une fonctionnalité qui améliore le transport des matières premières (< b class = "lime"> saisie semi-automatique </ b>) ',
+	' Une fonctionnalité qui améliore le transport des matières premières (<b class = "lime"> saisie semi-automatique </b>) ',
 );
 
 $_Lang ['ProAccStatus'] = "Statut du compte Pro";
@@ -27,10 +27,10 @@ $_Lang ['NeverHadPro'] = 'Jamais acheté';
 
 $_Lang ['RenewPro'] = "Étendre de% s% s!";
 $_Lang ['BuyAgain'] = "Racheter à% s% s!";
-$_Lang ['FirstBuy'] = "Rachat sur% s% s!";
+$_Lang ['FirstBuy'] = "Rachat sur % s% s!";
 
 $_Lang ['_day'] = "jour";
-$_Lang ['_jours'] = "jours";
+$_Lang ['_days'] = " jours";
 
 $_Lang ['Cost'] = 'Coût';
 $_Lang ['CostUnits'] = 'j. Énergie sombre';

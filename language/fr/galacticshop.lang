@@ -134,9 +134,9 @@ $_Lang['shop_items'] =
                 'duration' => false,
                 'addFields' => 10
             ),
-        4 => array(
+        4 => array(
                 'name' => 'Systèmes d\'amortissement',
-                'desc' => 'Êtes-vous fatigué d\'espionner constamment votre planète? Ce bébé sera un cadeau du ciel pour vous <br/> <b> - Lorsque vous espionner votre planète votre niveau de technologie de l\'espion est supérieure de 5 niveaux <BR/> - Durée:. 14 jours </b>',
+                'desc' => 'Êtes-vous fatigué d\'espionner constamment votre planète? Ce bébé sera un cadeau du ciel pour vous <br/> <b> - Lorsque vous espionner votre planète votre niveau de technologie de l\'espion est supérieure de 5 niveaux <br/> - Durée:. 14 jours </b>',
                 'price' => 15,
                 'duration' => '14 jours',
                 'duration_days' => 14

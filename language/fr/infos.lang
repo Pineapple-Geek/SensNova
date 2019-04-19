@@ -87,7 +87,7 @@ $_Lang ['GateJump_NotDoing'] = 'Le saut n\'est pas exécuté!';
 
 // détruire les roquettes
 $_Lang ['rocket_title'] = 'Destruction des fusées';
-$_Lang ['rocket_info'] = 'À ce stade, vous pouvez donner un ordre pour détruire toutes les fusées sur cette planète. Si vous disposez d\'un <a href="aboutpro.php" class="orange"> compte Pro </a>, vous pouvez utiliser le <a href="disassembler.php" class="orange"> station de démontage </a>, qui renvoie une partie des matières premières lors du démontage.'
+$_Lang ['rocket_info'] = 'À ce stade, vous pouvez donner un ordre pour détruire toutes les fusées sur cette planète. Si vous disposez d\'un <a href="aboutpro.php" class="orange"> compte Pro </a>, vous pouvez utiliser le <a href="disassembler.php" class="orange"> station de démontage </a>, qui renvoie une partie des matières premières lors du démontage.';
 $_Lang ['rocket_type'] = 'Type de fusée';
 $_Lang ['rocket_count'] = 'Quantité';
 $_Lang ['rocket_dest_count'] = 'Pour détruire';
@@ -107,7 +107,7 @@ $_Lang ['info'] [2] ['description'] = 'Fournisseur de la matière première prin
 $_Lang ['info'] [3] ['name'] = 'Extracteur de deutérium';
 $_Lang ['info'] [3] ['description'] = 'Séparer les atomes de deutérium (isotope de l\'hydrogène lourd) des atomes d\'hydrogène léger de l\'eau de la planète.';
 $_Lang ['info'] [4] ['name'] = 'Centrale solaire';
-$_Lang ['info'] [4] ['description'] = 'La centrale solaire tire son énergie du rayonnement solaire. Presque tous les bâtiments ont besoin d\'énergie pour les faire fonctionner. '
+$_Lang ['info'] [4] ['description'] = 'La centrale solaire tire son énergie du rayonnement solaire. Presque tous les bâtiments ont besoin d\'énergie pour les faire fonctionner. ';
 $_Lang ['info'] [12] ['name'] = 'Centrale de fusion';
 $_Lang ['info'] [12] ['description'] = 'La centrale de fusion reçoit de l\'énergie en combinant deux atomes de deutérium en un atome d\'hélium.';
 $_Lang ['info'] [14] ['name'] = 'Fabrique de robots';
@@ -135,7 +135,7 @@ $_Lang ['info'] [41] ['description'] = 'Il n’ya pas d’atmosphère sur la lun
 $_Lang ['info'] [42] ['name'] = 'Nombre de capteurs';
 $_Lang ['info'] [42] ['description'] = 'La phalange de capteurs vous permet d’observer le mouvement des flottes. Plus elle est complexe, plus son étendue est grande. ';
 $_Lang ['info'] [43] ['name'] = 'Téléporteur';
-$_Lang ['info'] [43] ['description'] = 'Un téléporteur est un énorme relais capable d’envoyer des flottes entre galaxies sans perte de temps. <br/> Avec l’agrandissement, le temps entre téléportations est raccourci. <Br / > <br/> Le <a class=\"orange\" href=\"?gid=50\"> porte Quantum </a> est une version améliorée du téléporteur.'
+$_Lang ['info'] [43] ['description'] = 'Un téléporteur est un énorme relais capable d’envoyer des flottes entre galaxies sans perte de temps. <br/> Avec l’agrandissement, le temps entre téléportations est raccourci. <Br / > <br/> Le <a class=\"orange\" href=\"?gid=50\"> porte Quantum </a> est une version améliorée du téléporteur.';
 $_Lang ['info'] [44] ['name'] = 'Silo Rocket';
 $_Lang ['info'] [44] ['description'] = 'Le silo de fusée sert de chargeur et de lanceur pour les missiles interplanétaires et les missiles.';
 $_Lang ['info'] [50] ['name'] = 'Porte quantique';

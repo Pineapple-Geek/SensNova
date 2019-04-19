@@ -9,7 +9,7 @@
 	$_Lang ['DarkEnergy'] = "Énergie noire";
 	$_Lang ['Message'] = "Messages";
 	$_Lang ['GoToShop'] = "Store";
-	$_Lang ["niveau"] = "Niveau";
+	$_Lang ['level'] = "Niveau";
 	$_Lang ['treeinfo'] = "[i]";
 	$_Lang ['comingsoon'] = "Bientôt";
 	$_Lang ['te_dt_tx_pre'] = "Prérequis pour";

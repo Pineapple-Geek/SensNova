@@ -1,8 +1,6 @@
 <?php
 
-	$_Lang['Ally_FunctionNotReady'] = "Cette fonction n'est pas encore prête!";
-
-// Informations sur les alliés
+	$_Lang['Ally_FunctionNotReady'] = 'Cette fonction n\'est pas encore prête!';
 
     $_Lang['AInfo_Title'] = 'Informations sur l\'alliance';
     
@@ -106,6 +104,6 @@ $_Lang['AMenu_Inv_MsgBadID'] = "Données incorrectes!!";
     $_Lang['AReq_Title'] = "Votre application";
     
     $_Lang['AReq_Cancel'] = "Retirer l'application";
-    $_Lang [ 'AReq_Sure'];
+    $_Lang ['AReq_Sure'];
 
 ?>
