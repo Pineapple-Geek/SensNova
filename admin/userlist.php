@@ -746,7 +746,7 @@ if(!empty($Users))
             }
             else
             {
-                $Bloc['adm_ul_data_regd'] = "{$RegisterDays} {$RegDays} {$_Lang['_ago']}";
+                $Bloc['adm_ul_data_regd'] = "{$_Lang['_ago']} {$RegisterDays} {$RegDays}";
             }
             $Bloc['RegDate_TH_Title'] = '<center>'.prettyDate('d m Y, H:i:s', $Data['register_time'], 1).'</center>';
         }

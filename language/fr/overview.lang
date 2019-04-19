@@ -83,7 +83,7 @@ $_Lang ['Box_buttons'] = 'TopListy';
 
 $_Lang ['Watch_lastchanges_onBlip'] = 'Suivez notre serveur sur Blip';
 
-$_Lang ['DelFirstQueue'] = 'Abort';
+$_Lang ['DelFirstQueue'] = 'Annuler';
 $_Lang ['CannotDeletePremiumBuilding_Warning'] = 'Vous ne pouvez pas arrêter de construire cette énergie sombre requise!';
 $_Lang ['completed'] = 'Terminé';
 $_Lang ['BuildJS_Complete'] = 'Terminé';
