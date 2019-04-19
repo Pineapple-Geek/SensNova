@@ -54,7 +54,7 @@ $_Lang['msg_const']['msgs'] = array
 '020' => 'Votre flotte de colonisation a atteint la position <b> [%s:%s:%s] </b>, mais il n’existe pas de planète correcte dans cette position! <br/> La flotte retourne sur sa planète. ',
 '021' => 'Votre flotte de colonisation a atteint la position <b> [%s:%s:%s] </ b>, mais il s’est avéré que cette planète est déjà habitée! <br/> La flotte retourne sur sa planète natale ',
 
-'022' => '%sWitamy sur le serveur'. $_GameConfig ['game_name']. '. <br/> Si vous avez des questions sur le jeu, visitez notre forum ou chattez dans le jeu. <br/> Numéros et adresses le contact avec la gestion du jeu se trouve dans l\'onglet Contact. <br/> <br/> ',
+'022' => '%s Bienvenue sur le serveur '. $_GameConfig ['game_name']. '. <br/> Si vous avez des questions sur le jeu, visitez notre forum ou chattez dans le jeu. <br/> Numéros et adresses le contact avec la gestion du jeu se trouve dans l\'onglet Contact. <br/> <br/> ',
 
 '023' => 'Alliance%s a accepté votre demande d’adhésion!',
 '024' => 'Alliance%s a rejeté votre demande d’adhésion! <br/> Raison:%s',
